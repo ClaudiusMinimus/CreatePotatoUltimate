@@ -100,5 +100,6 @@ minecraft/config/fancymenu/locals/*
 !minecraft/config/theoneprobe-client.toml
 !minecraft/config/theoneprobe-common.toml
 !minecraft/config/NoChatReports/NCR-Client.json
+!minecraft/config/vtweaks-common.toml
 !server/config/bcc-common.toml
 !server/config/carrier.json
