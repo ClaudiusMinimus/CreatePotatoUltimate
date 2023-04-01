@@ -1,0 +1,131 @@
+{
+	id: "5C3449C5F42C2A48"
+	group: ""
+	order_index: 7
+	filename: "world_hopping"
+	title: "World Hopping"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "minecraft:textures/block/nether_portal.png"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["2A8220D0E1D47056"]
+			id: "015BC3FCB168998F"
+			tasks: [{
+				id: "7E969B91EB428FB5"
+				type: "dimension"
+				title: "Visiting the Finale, The End"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "6521B7082683CC34"
+				type: "item"
+				item: "powder_power:token_strength"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["7A5F94720CCC4836"]
+			id: "4C8D1E0AFF2310A9"
+			tasks: [{
+				id: "51544E360D6B39F0"
+				type: "dimension"
+				title: "Visiting the Serene Nether"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "72B4570505C7C0E6"
+				type: "item"
+				item: "minecraft:sculk_sensor"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			shape: "diamond"
+			description: ["You only need 10 obsidian blocks to make a portal."]
+			dependencies: ["20218A4E8B57D849"]
+			size: 1.5d
+			id: "7A5F94720CCC4836"
+			tasks: [{
+				id: "529DE2DD7DEDA43E"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 10L
+			}]
+			rewards: [{
+				id: "26606352B5F6774A"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 4
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			description: [
+				"For more information regarding making or moving an End Portal:"
+				"1. Open your Create on a Potato PC guidebook."
+				"2. Go to \\\"Getting Started\\\" > \\\"Tips \\& Tricks\\\" > \\\"End Portal\\\""
+			]
+			dependencies: ["4C8D1E0AFF2310A9"]
+			id: "2A8220D0E1D47056"
+			tasks: [{
+				id: "72048D96EF736319"
+				type: "item"
+				item: "minecraft:end_portal_frame"
+				count: 12L
+			}]
+			rewards: [{
+				id: "636F1E664930F9FA"
+				type: "item"
+				item: "minecraft:ender_eye"
+				count: 6
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			dependencies: ["4C8D1E0AFF2310A9"]
+			id: "3E8A431098F5FCEA"
+			tasks: [{
+				id: "337B68E87718AC2C"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
+			rewards: [{
+				id: "661F7882379A67BD"
+				type: "item"
+				item: "powder_power:token_haste"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["4C8D1E0AFF2310A9"]
+			id: "4548349093E0BE44"
+			tasks: [{
+				id: "7368C6803D3C8AAA"
+				type: "item"
+				item: "minecraft:soul_sand"
+				count: 16L
+			}]
+			rewards: [{
+				id: "792E1FBBA5E9193E"
+				type: "item"
+				item: "minecraft:verdant_froglight"
+				count: 8
+			}]
+		}
+	]
+	quest_links: [ ]
+}

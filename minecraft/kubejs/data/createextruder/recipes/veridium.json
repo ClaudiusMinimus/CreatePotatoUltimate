@@ -1,0 +1,19 @@
+{
+    "type": "create_mechanical_extruder:extruding",
+    "ingredients": [
+        {
+            "fluid": "minecraft:lava",
+            "amount": 1000
+        },
+        {
+            "fluid": "minecraft:water",
+            "amount": 1000
+        }
+    ],
+    "catalyst": {
+        "item": "minecraft:copper_block"
+    },
+    "result": {
+        "item": "create:veridium"
+    }
+}

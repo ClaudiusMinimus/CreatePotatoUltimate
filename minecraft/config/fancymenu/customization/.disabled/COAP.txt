@@ -1,0 +1,84 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/assets/background.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 152
+  width = 336
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = ce815521-3ab1-40e8-aea5-d5b203326acc1675365033925
+  y = 126
+  height = 84
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = c870e103-f007-4ae6-81b6-62e3b50189851675365033925
+  y = -1000000
+  height = 0
+}
+
+customization {
+  custom_color_hex = F0CA78
+  orientation = top-left
+  hidden = false
+  x = 152
+  width = 336
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = 2f68d149-8bf2-4b45-9e4f-589b7961de701675365033925
+  y = 275
+  height = 10
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/assets/cm_avatar_transparent_200x200.png
+  description = I love the character artwork%n%mangomeowie created for me.%n%If you need character art,%n%including full illustrations, please%n%visit https://mangomeowie.carrd.co/
+  label = 
+  loopbackgroundanimations = true
+  x = 2
+  width = 101
+  actionid = 66ef0c63-dd73-44bd-8c88-11210072404c1675393112182
+  action = addbutton
+  y = -78
+  backgroundnormal = config/fancymenu/assets/cm_avatar_transparent_200x200.png
+  value = https://mangomeowie.carrd.co/
+  height = 99
+}
+
+customization {
+  orientation = top-right
+  shadow = false
+  x = -2
+  action = addtext
+  actionid = 58327f56-108d-41e3-8d4b-558fe89aa6961678223735859
+  y = 2
+  scale = 1.0
+  alignment = right
+  value = Create on a Potato PC - Sky Edition 1.19.2-1.5.1
+}
+

@@ -1,0 +1,11 @@
+{
+    "name": "Create Info",
+    "icon": "create:water_wheel",
+    "category": "patchouli:wikis",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The $(l:https://github.com/Creators-of-Create/Create/wiki)Create wiki$(/l) will show you about all the details and features of this mod.$(br2)If you still need help, then you can join their $(l:https://discord.gg/hmaD7Se)discord$(/l).$(br2)$(l:https://www.curseforge.com/minecraft/mc-mods/create)Curseforge page$(/l)"
+        }
+    ]
+}

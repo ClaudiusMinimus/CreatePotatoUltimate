@@ -1,0 +1,486 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/assets/background.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  baseheight = 1080
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = bottom-right
+  x = -199
+  action = movebutton
+  y = -13
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-left
+  x = 95
+  action = movebutton
+  y = -12
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 150
+  action = resizebutton
+  height = 27
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/multiplayerh.png
+  backgroundnormal = config/fancymenu/assets/multiplayer.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-left
+  x = 95
+  action = movebutton
+  y = 38
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  width = 69
+  action = resizebutton
+  height = 27
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/accessibilityh.png
+  backgroundnormal = config/fancymenu/assets/accessibility.png
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-left
+  x = 175
+  action = movebutton
+  y = 13
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 68
+  action = resizebutton
+  height = 27
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/settingsh.png
+  backgroundnormal = config/fancymenu/assets/settings.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-left
+  x = 175
+  action = movebutton
+  y = 63
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 70
+  action = resizebutton
+  height = 27
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/quith.png
+  backgroundnormal = config/fancymenu/assets/quit.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-left
+  x = 95
+  action = movebutton
+  y = 63
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 70
+  action = resizebutton
+  height = 27
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/translateh.png
+  backgroundnormal = config/fancymenu/assets/translate.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-left
+  x = 95
+  action = movebutton
+  y = -37
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 150
+  action = resizebutton
+  height = 27
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/singleplayerh.png
+  backgroundnormal = config/fancymenu/assets/singleplayer.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-left
+  x = 95
+  action = movebutton
+  y = 13
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 69
+  action = resizebutton
+  height = 27
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/assets/extensionh.png
+  backgroundnormal = config/fancymenu/assets/extension.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 0eedccfb-2bf0-4e8b-ab24-582ed67993511665491429860
+  y = 318
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 445
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = ed57cb81-edd7-45f4-b04a-d1c9c62838e31665491429860
+  y = 190
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 205
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = ece1a6e0-8228-49d0-8b66-ade0a3d704c71665491429860
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 79ed07c2-8515-4aad-9324-51fcc4c006cf1665491429861
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 208
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 0faca22b-e614-495a-a428-78b053e0dec61671068070402
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 455
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 41d16a7d-4180-4fcb-9506-333809456d531671068070402
+  y = 340
+  height = 9
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/assets/supporth.png
+  description = If you need help with a bug, please%n%use this issue tracker.%n%%n%If you need help with anything else,%n%please use our discord. The invite%n%link is at the bottom.
+  label = 
+  loopbackgroundanimations = true
+  x = 175
+  width = 70
+  actionid = 0a3f901b-541b-49e6-8dbf-771f6e5fac7e1640359689100
+  action = addbutton
+  y = 38
+  backgroundnormal = config/fancymenu/assets/support.png
+  value = https://github.com/ClaudiusMinimus/Create-Potato-SkyBlock/issues
+  height = 27
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/assets/renth.png
+  description = Need a server to play with friends?%n%%n%Use code the 'minimus' for 25% Off%n%your 1st month, and enjoy playing%n%with your friends!
+  label = 
+  loopbackgroundanimations = true
+  x = 95
+  width = 150
+  actionid = c278ad15-6287-4865-9794-06e2ea46e04d1640359750064
+  action = addbutton
+  y = 88
+  backgroundnormal = config/fancymenu/assets/rent.png
+  value = https://bisecthosting.com/minimus
+  height = 27
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/assets/buttons/tumblrh.png
+  description = Please visit CM's World on Tumblr
+  label = 
+  loopbackgroundanimations = true
+  x = 115
+  width = 7
+  actionid = ce05fac1-ae48-4b22-889f-df008f4938841640359924997
+  action = addbutton
+  y = -29
+  backgroundnormal = config/fancymenu/assets/buttons/tumblr.png
+  value = https://cms-world.tumblr.com/
+  height = 12
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/assets/buttons/cfh.png
+  description = 's Curseforge page
+  label = 
+  loopbackgroundanimations = true
+  x = 131
+  width = 21
+  actionid = ce05fac1-ae48-4b22-889f-df008f4938841640359924997
+  action = addbutton
+  y = -28
+  backgroundnormal = config/fancymenu/assets/buttons/cf.png
+  value = https://www.curseforge.com/minecraft/modpacks/create-on-a-potato-pc-skyblock
+  height = 11
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/assets/buttons/discordh.png
+  description = %playername%,%n%Please come join us on our discord server,%n%%n%We have a great community%n%and look forward to having You a be part of it!
+  label = 
+  loopbackgroundanimations = true
+  x = 161
+  width = 17
+  actionid = ce05fac1-ae48-4b22-889f-df008f4938841640359924997
+  action = addbutton
+  y = -30
+  backgroundnormal = config/fancymenu/assets/buttons/discord.png
+  value = https://discord.com/invite/jXrx4Tu
+  height = 15
+}
+
+customization {
+  orientation = top-right
+  shadow = false
+  x = -3
+  action = addtext
+  actionid = 98415145-b3f2-4453-b502-3975b82fa4481640365180519
+  y = 2
+  scale = 1.0
+  alignment = right
+  value = Create on a Potato PC - Sky Edition 1.19.2-1.5.1
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/assets/cm_avatar_transparent_200x200.png
+  description = I love the character artwork%n%mangomeowie created for me.%n%If you need character art,%n%including full illustrations, please%n%visit https://mangomeowie.carrd.co/
+  label = 
+  loopbackgroundanimations = true
+  x = 2
+  width = 101
+  actionid = 3acc7ecf-4207-4322-a6fe-8208139cffa21673895312876
+  action = addbutton
+  y = -78
+  backgroundnormal = config/fancymenu/assets/cm_avatar_transparent_200x200.png
+  value = https://mangomeowie.carrd.co/
+  height = 99
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/assets/buttons/youtubeh.png
+  label = 
+  loopbackgroundanimations = true
+  x = 210
+  width = 15
+  actionid = 05951756-306a-4be1-b15a-94e0ed4396d91675374807235
+  action = addbutton
+  y = 330
+  backgroundnormal = config/fancymenu/assets/buttons/youtube.png
+  value = https://www.youtube.com/channel/UCqt9gDYjXdLGfupq8h32oPQ
+  height = 15
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/assets/buttons/twitchh.png
+  label = 
+  loopbackgroundanimations = true
+  x = 187
+  width = 15
+  actionid = 8bc75cb1-3113-444d-ae70-a66798f1ab721675374812775
+  action = addbutton
+  y = 330
+  backgroundnormal = config/fancymenu/assets/buttons/twitch.png
+  value = https://www.twitch.tv/claudiusminimus
+  height = 15
+}
+

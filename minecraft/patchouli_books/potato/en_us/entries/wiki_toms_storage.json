@@ -1,0 +1,11 @@
+{
+    "name": "Tom's Simple Storage",
+    "icon": "toms_storage:ts.inventory_connector",
+    "category": "patchouli:wikis",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Tom's Simple Storage Mod has no wiki or discord. This is the $(l:https://www.curseforge.com/minecraft/mc-mods/toms-storage)CurseForge$(/l) page."
+        }
+    ]
+}

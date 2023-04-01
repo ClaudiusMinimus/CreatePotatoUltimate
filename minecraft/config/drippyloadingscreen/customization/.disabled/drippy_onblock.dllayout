@@ -1,0 +1,70 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = config/fancymenu/assets/background.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  action = editprogressbar
+  y = -13
+  barcolor = e0ad54
+}
+
+customization {
+  path = config/fancymenu/assets/logo.png
+  orientation = top-left
+  x = 68
+  width = 162
+  action = addtexture
+  actionid = d3614819-f967-454b-b63b-b09f571d9d1f1640372669426
+  y = 50
+  height = 41
+}
+
+customization {
+  path = config/fancymenu/assets/pc.png
+  orientation = top-left
+  x = 234
+  width = 12
+  action = addtexture
+  actionid = ca4cfd61-bc8e-481f-a26d-0eb96ff082b11640372713278
+  y = 73
+  height = 7
+}
+
+customization {
+  orientation = top-centered
+  basecolor = #F0CA78
+  shadow = true
+  rotation = -20.0
+  x = 45
+  actionid = 17e3f9a5-4d68-4577-9436-71f06df187b61670522515884
+  action = addsplash
+  y = 79
+  scale = 1.0
+  refresh = false
+  text = Ultimate
+  bouncing = true
+}
+
+customization {
+  path = config/fancymenu/assets/oneblockbutton.png
+  orientation = mid-left
+  x = 59
+  width = 300
+  action = addtexture
+  actionid = cce245a6-f5eb-4ec6-90d0-4ecfc4e2b6641671154638824
+  y = 74
+  height = 40
+}
+

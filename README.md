@@ -1,0 +1,2 @@
+# Create on a Potato PC: Ultimate 
+Create on a Potato PC: Ultimate ("CPU") is the final installment of the Create on a Potato PC series of modpacks. CPU combines the Forge Edition (original edition) and Sky Edition into one pack. CPU or Ultimate is played as either Skyblock or Normal overworld. In time, planned variations to expand on CPU's world types with possible Stone, Ocean, Nether, or other modules, but they will always be part of Ultimate.

@@ -1,0 +1,11 @@
+{
+    "name": "V-Tweaks",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:wikis",
+    "pages": [
+        {
+            "type": "text",
+            "text": "V-Tweaks is a QOL mod with a lot of nice tweaks. No content is added. The $(l:https://mods.oitsjustjose.com/V-Tweaks)V-Tweaks Wiki$(/l) will likely answer most questions. If you still need help, then you can join $(l:https://discord.oitsjustjose.com/)oitsjustjose's Mods discord$(/l) or visit their $(l:https://www.curseforge.com/minecraft/mc-mods/v-tweaks)Curseforge page$(/l)"
+        }
+    ]
+}

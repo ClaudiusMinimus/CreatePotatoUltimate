@@ -1,0 +1,31 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:string_mesh"
+    },
+    {
+      "item": "minecraft:dirt"
+    }
+  ],
+  "results": [
+    {"item": "minecraft:acacia_sapling","chance": 0.05},
+    {"item": "minecraft:bamboo", "chance": 0.03},
+    {"item": "minecraft:beetroot_seeds", "chance": 0.05},
+    {"item": "minecraft:birch_sapling", "chance": 0.05},
+    {"item": "minecraft:carrot", "chance": 0.05},
+    {"item": "minecraft:dark_oak_sapling", "chance": 0.05},
+    {"item": "minecraft:fern", "chance": 0.05},
+    {"item": "minecraft:jungle_sapling", "chance": 0.05},
+    {"item": "minecraft:mangrove_propagule", "chance": 0.02},
+    {"item": "minecraft:melon_seeds", "chance": 0.05},
+    {"item": "minecraft:oak_sapling", "chance": 0.05},
+    {"item": "minecraft:potato", "chance": 0.05},
+    {"item": "minecraft:pumpkin_seeds", "chance": 0.05},
+    {"item": "minecraft:spruce_sapling", "chance": 0.05},
+    {"item": "minecraft:sugar_cane", "chance": 0.05},
+    {"item": "minecraft:sweet_berries", "chance": 0.05}
+  ],
+  "processingTime": 500,
+  "waterlogged": false
+}

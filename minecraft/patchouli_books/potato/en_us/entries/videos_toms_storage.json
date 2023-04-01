@@ -1,0 +1,11 @@
+{
+    "name": "Tom's Storage",
+    "icon": "toms_storage:ts.wireless_terminal",
+    "category": "patchouli:videos",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Tom's Simple Storage Mod is a simple, yet powerful storage and crafting system. $(l:https://www.youtube.com/watch?v=RwRKNhZ7uec)Click Here$(/l) for a link to a mod spotlight."
+        }
+    ]
+}

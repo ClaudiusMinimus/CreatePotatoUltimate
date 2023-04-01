@@ -1,0 +1,26 @@
+type = menu
+
+customization-meta {
+  identifier = com.bisecthosting.mods.bhmenu.BHMultiplayerScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = config/fancymenu/assets/cpulogo.png
+  orientation = top-right
+  x = -110
+  width = 108
+  action = addtexture
+  actionid = 9e7db05f-8993-465c-b0c1-76664687eeed1680133725794
+  y = 3
+  height = 40
+}
+

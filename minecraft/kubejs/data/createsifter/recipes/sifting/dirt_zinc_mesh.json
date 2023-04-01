@@ -1,0 +1,31 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:zinc_mesh"
+    },
+    {
+      "item": "minecraft:dirt"
+    }
+  ],
+  "processingTime": 500,
+  "results": [
+    {"item": "minecraft:allium", "chance": 0.05},
+    {"item": "minecraft:azure_bluet", "chance": 0.05},
+    {"item": "minecraft:blue_orchid", "chance": 0.05},
+    {"item": "minecraft:cornflower", "chance": 0.05},
+    {"item": "minecraft:dandelion", "chance": 0.05},
+    {"item": "minecraft:orange_tulip", "chance": 0.02},
+    {"item": "minecraft:pink_tulip", "chance": 0.02},
+    {"item": "minecraft:poppy", "chance": 0.05},
+    {"item": "minecraft:red_tulip", "chance": 0.02},
+    {"item": "minecraft:white_tulip", "chance": 0.02},
+    {"item": "minecraft:lily_of_the_valley", "chance": 0.02},
+    {"item": "minecraft:lilac", "chance": 0.03},
+    {"item": "minecraft:peony", "chance": 0.03},
+    {"item": "minecraft:rose_bush", "chance": 0.03},
+    {"item": "minecraft:sunflower", "chance": 0.03},
+    {"item": "silentgear:fluffy_seeds", "chance": 0.05},
+    {"item": "silentgear:flax_seeds", "chance": 0.05}  
+  ]
+}

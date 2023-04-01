@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "powder_power:token_breathing",
+    "powder_power:token_exp",
+    "powder_power:token_night_vision"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Botania",
+    "icon": "botania:lexicon",
+    "category": "patchouli:wikis",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The $(l:https://botaniamod.net/index.html)Lexica Botania$(/l) has a wealth of information. However, your Lexica Botania book may be even better for in-game help.$(br2)If you still need help, then you can join their $(l:https://discord.gg/vm)discord$(/l).$(br2)$(l:https://www.curseforge.com/minecraft/mc-mods/botania)Curseforge page$(/l)"
+        }
+    ]
+}

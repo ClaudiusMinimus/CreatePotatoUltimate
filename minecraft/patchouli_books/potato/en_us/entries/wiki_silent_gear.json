@@ -1,0 +1,11 @@
+{
+    "name": "Silent Gear Info",
+    "icon": "silentgear:paxel",
+    "category": "patchouli:wikis",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Silent Gear focuses on tools, weapons, and armor (collectively called gear). Recipes are modular, down to each individual piece used in crafting. Possible combinations for each gear type are practically unlimited.$(li)$(l:https://www.curseforge.com/minecraft/mc-mods/silent-gear)CurseForge$(/l)$(li)$(l:https://github.com/SilentChaos512/Silent-Gear/wiki)Wiki$(/l)$(li)$(l:videos_silent_gear)See Videos$(/l)"
+        }
+    ]
+}

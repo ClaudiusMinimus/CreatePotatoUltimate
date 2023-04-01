@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "tag": "minecraft:wool"
+  },
+  "output": {
+    "item": "silentgear:fluffy_seeds"
+  },
+  "mana": 100
+}

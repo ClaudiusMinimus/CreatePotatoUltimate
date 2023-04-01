@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " PSP ",
+    "PYXYP",
+    "PCECP",
+    " C C "
+  ],
+  "key": {
+    "E": {
+      "item": "create_sa:copper_jetpack_chestplate"
+    },
+    "C": {
+      "item": "create:chute"
+    },
+    "X": {
+      "item": "create_sa:andesite_jetpack_chestplate"
+    },
+    "S": {
+      "item": "create_sa:brass_jetpack_chestplate"
+    },
+    "Y": {
+      "item": "create:precision_mechanism"
+    },
+    "P": {
+      "tag": "forge:plates/brass"
+    }
+  },
+  "result": {
+    "item": "create_jetpack:jetpack"
+  }
+}

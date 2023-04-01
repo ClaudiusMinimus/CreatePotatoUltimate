@@ -1,0 +1,14 @@
+{
+    "name": "CM YouTube & Twitch",
+    "icon": "potato:images/icons/cm_icon.png",
+    "category": "patchouli:videos",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Here are some links to my online videos/streams:$(li)$(l:https://www.youtube.com/@claudiusminimus4466)YouTube$(/l)$(li)$(l:https://www.twitch.tv/claudiusminimus/)Twitch$(/l)$(br2)If my health permits, I hope to make a Let's Play series of this pack. Hopefully, I'll see you online!$(br2)ClaudiusMinimus (aka: CM)"
+        },{
+            "type": "patchouli:image",
+            "images": ["potato:images/icons/cm_book.png"]
+        }
+    ]
+}

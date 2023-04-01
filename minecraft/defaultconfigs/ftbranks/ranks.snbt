@@ -1,0 +1,71 @@
+{
+	admin: {
+		name: "Admin"
+		power: 1000
+		condition: "op"
+		ftbranks.name_format: "&5Admin - {name}"
+		ftbchunks.max_claimed: 500
+		ftbchunks.max_force_loaded: 20
+	}
+	beginner: {
+		name: "Beginner"
+		power: 50
+		condition: "always_active"
+		ftbranks.name_format: "&fBeginner {name}"
+		ftbchunks.max_claimed: 9
+		ftbchunks.max_force_loaded: 0
+		ftbessentials.home.max: 1
+	}
+	experienced: {
+		name: "Experienced"
+		power: 60
+		condition: {
+			type: "playtime"
+			time: 5
+			time_unit: "hours"
+		}
+		ftbranks.name_format: "&eExperienced {name}"
+		ftbchunks.max_claimed: 16
+		ftbchunks.max_force_loaded: 1
+		ftbessentials.home.max: 2
+	}
+	advanced: {
+		name: "Advanced"
+		power: 70
+		condition: {
+			type: "playtime"
+			time: 10
+			time_unit: "hours"
+		}
+		ftbranks.name_format: "&aAdvanced {name}"
+		ftbchunks.max_claimed: 25
+		ftbchunks.max_force_loaded: 2
+		ftbessentials.home.max: 3
+	}
+	specialist: {
+		name: "Specialist"
+		power: 80
+		condition: {
+			type: "playtime"
+			time: 15
+			time_unit: "hours"
+		}
+		ftbranks.name_format: "&4Specialist {name}"
+		ftbchunks.max_claimed: 36
+		ftbchunks.max_force_loaded: 3
+		ftbessentials.home.max: 4
+	}
+	master: {
+		name: "Master"
+		power: 90
+		condition: {
+			type: "playtime"
+			time: 20
+			time_unit: "hours"
+		}
+		ftbranks.name_format: "&9Master {name}"
+		ftbchunks.max_claimed: 100
+		ftbchunks.max_force_loaded: 5
+		ftbessentials.home.max: 5
+	}
+}

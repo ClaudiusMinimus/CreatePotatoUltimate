@@ -1,0 +1,45 @@
+{
+    "name": "Early Game",
+    "icon": "minecraft:grass_block",
+    "category": "patchouli:getting_started",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Playing skyblock, Ultimate heavily relies on Create and Create Sifter for most everything. Lots of recipes have been added to help you progress. Everything you need to get started in on Potato Island. Protect your sheep, save everything, start looking for resources, and utilize JEI and your quest book! You should be able to get a $(l:tips_tricks)cobble generator$(/l) going pretty quick."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Contents",
+            "text": "$(li)$(l)$(l:the_beginning#ores)Careful with Resources$(/l)$()$(li)$(l:the_beginning#ftbquests)Quest Book$(/l) $(li)$(l:the_beginning#create)Create Mod$(/l) $(li)$(l:the_beginning#andesitealloy)Andesite Alloy$(/l)$(li)This is actually in the $(l:videos_farms)Useful Farms$(/l) chapter, but feel it is important enough to list here too. $(l:videos_farms#dripstone)Dripstone, Lava and More...$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+            "item": "ftbquests:book",
+            "anchor": "ores",
+            "title": "Careful with Resources",
+            "text": "If you are playing skyblock and are not careful, you will run out of resources. Use your iron, zinc, andesite, and diorite very carefully! If you run out, then an emergency package can be obtained in the questbook. To receive the package, open the questbook, look in the upper-right and click on the heart icon (\"Emergency Items\" - now you must wait for 5 minutes.)"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "ftbquests:book",
+            "anchor": "ftbquests",
+            "title": "Quest Book",
+            "text": "Your quest book will become your best friend on Potato Island. Assign a Hotkey to your quest book: Menu > Controls... > Key Binds... > search \"quests\".$(br2)Start with \"Just Landed\" quests, but you will want to move on to the \"Create\" quests as soon as you can. The Create quests with square icons are the most important to start."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:large_cogwheel",
+            "anchor": "create",
+            "title": "Create Mod",
+            "text": "A wonderful feature in Create is Ponder. Put your cursor over the Large Cogwheel image, then press and hold the W key to view an animation using the cogwheel. Ponder is available for many Create blocks and items."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "create:andesite_alloy",
+            "anchor": "andesitealloy",
+            "title": "Andesite Alloy",
+            "text": "Making Andesite Alloy is vital to get started in Create. There is very limited Andesite on the island, though there is Diorite which may prove invaluable for making this alloy!"
+        }
+    ]
+}

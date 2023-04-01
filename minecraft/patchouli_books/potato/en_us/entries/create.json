@@ -1,0 +1,14 @@
+{
+    "name": "Create",
+    "icon": "create:large_cogwheel",
+    "category": "patchouli:videos",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(li)I was blown away when I first saw this video! $(l:https://www.youtube.com/watch?v=rR8W-f9YhYA)This is Create$(/l)$(li)$(l:https://www.youtube.com/playlist?list=PLaURolsKD_VHKO5qJ47kc7EpxU0MvcFp1)Create Mod S2 $(/l) playlist by $(l:https://www.youtube.com/c/ZedaphPlays)ZedaphPlays$(/l)$(li)Create: Trains Made Simple! $(l:https://www.youtube.com/watch?v=V-TsTy5VgkI)Part 1$(/l) and $(l:https://www.youtube.com/watch?v=5eBk98Q3RJU)Part 2$(/l) by $(l:https://www.youtube.com/@MischiefofMice)Mischief of Mice$(/l)"
+        },{
+            "type": "text",
+            "text": "The following have wonderful YouTube videos featuring Create. Their videos are very informative and to the point and don't waste a lot of time. Their examples are easy to follow. I highly recommend.$(br2)$(l)IMPORTANT$() Many of the videos are for older versions of Create, so be sure to only watch the videos showing the correct version! You want v0.5 or newer.$(li)$(l:https://www.youtube.com/c/rockit14)Rockit14$(/l)$(li)$(l:https://www.youtube.com/c/polartt)Polartt$(/l)"
+        }
+    ]
+}

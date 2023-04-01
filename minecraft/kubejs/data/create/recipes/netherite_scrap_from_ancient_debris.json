@@ -1,0 +1,15 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "superheated",
+    "ingredients": [
+        {
+            "item": "minecraft:ancient_debris"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:netherite_scrap",
+            "count": 2
+        }
+    ]
+}

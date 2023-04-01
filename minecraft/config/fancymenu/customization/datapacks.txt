@@ -1,0 +1,26 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.packs.PackSelectionScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = config/fancymenu/assets/cpulogo.png
+  orientation = top-right
+  x = -110
+  width = 108
+  action = addtexture
+  actionid = 88f17acb-260d-4156-9fbb-a7bd3ed2b6d41680134152150
+  y = 3
+  height = 40
+}
+

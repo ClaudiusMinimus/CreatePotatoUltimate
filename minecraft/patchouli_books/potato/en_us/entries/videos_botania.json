@@ -1,0 +1,11 @@
+{
+    "name": "Botania",
+    "icon": "botania:endoflame",
+    "category": "patchouli:videos",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Here are some Botanai spotlights/tutorials to help you get started or if you are stuck. These are for older versions, but most of it is still relevant for now. $(li)$(l:https://www.youtube.com/watch?v=x_UfV8g9Rlo)Direwolf$(/l)$(li)$(l:https://www.youtube.com/watch?v=D75Aad-5QgQ)Mischief of Mice Bit-by-Bit$(/l)$(li)$(l:https://www.youtube.com/watch?v=d0fK-xL6uz8&list=PLdfO7XSwwy70tkVdJUkXhk5IX0a8k9ia9)Surviving With Botania$(/l)$(br2)Don't forget to use your in-game Lexicon!"
+        }
+    ]
+}

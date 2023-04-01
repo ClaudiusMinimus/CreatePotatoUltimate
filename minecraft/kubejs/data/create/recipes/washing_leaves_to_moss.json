@@ -1,0 +1,16 @@
+
+{
+    "type": "create:splashing",
+    "ingredients": [
+    	{
+    		"tag": "minecraft:leaves"
+    	}
+    ], 
+	"results": [
+		{
+			"item": "minecraft:moss_block",
+			"count": 1,
+			"chance": 1
+		}
+	]
+}

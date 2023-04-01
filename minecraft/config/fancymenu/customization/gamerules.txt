@@ -1,0 +1,26 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = config/fancymenu/assets/cpulogo.png
+  orientation = top-right
+  x = -110
+  width = 108
+  action = addtexture
+  actionid = 96cb58ac-7fd0-4dca-b319-bee5a17e8ca91680134115655
+  y = 3
+  height = 40
+}
+

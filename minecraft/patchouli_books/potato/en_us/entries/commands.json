@@ -1,0 +1,24 @@
+{
+    "name": "Basic In-game Commands",
+    "icon": "minecraft:command_block",
+    "category": "patchouli:getting_started",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Initiate Commands by pressing the slash key '/' from within the world. Basic commands include:$(li)'/sethome [name]' will set a waypoint for your home. Example: '/sethome CM'sHome' or '/sethome' will set the default 'Home'$(li)'/home [name]' teleports you to the home you set$(li)'/delhome [name]' delete the home specified or '/delhome' deletes the default 'Home'"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)'/tpaccept' allows you to request a teleport to another player. The player on the other end must accept your request to complete the teleport.$(li)'/tpahere <player in-game-name>' Teleport another player to your location.$(li)'/tpdeny' Rejects a teleport request from another player.$(li)'/rtp' executes a teleport to a random location. However, in a skyblock world, not the most helpful or safe!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)'/back' teleport to a previous location, but this might be dangerous too!$(li)'/setworldspawn' Sets the world spawn point - used for singleplayer and for admins on a server.$(li)'/spawn' teleports you to spawn. Always use '/setworldspawn' for new worlds; otherwise, you may not like where '/spawn' sends you!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Names in brackets '[name]' are optional. Names in '<name>' are required. Do not use quotes ', brackets '[]' or '<>' in commands."
+        }
+    ]
+}

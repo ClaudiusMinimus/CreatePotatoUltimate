@@ -1,0 +1,19 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "kubejs:quartz_mesh"
+    }
+  ],
+  "processingTime": 500,
+  "results": [
+    {"item": "minecraft:glowstone_dust","chance": 0.15},
+    {"item": "minecraft:blaze_powder","chance": 0.1},
+    {"item": "minecraft:nether_wart","chance": 0.05},
+    {"item": "minecraft:soul_sand","chance": 0.75},
+    {"item": "create:experience_nugget","chance": 0.2}
+  ]
+}

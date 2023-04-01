@@ -1,0 +1,38 @@
+{
+  // The template which will be used for spawn only
+  // Example: 
+  // {
+  //     "name": "default",
+  //     "desc": "",
+  //     "file": "default.nbt",
+  //     "spawns": "default",
+  //     "direction": "south"
+  // }
+  "spawn": null,
+  
+  "spawns": {
+    "default": [
+      // [ 6, 3, 5 ]
+      // [ 5, 1, 1 ]
+      [ 2, 11, 4 ]
+    ]
+  },
+  
+  // The list of templates being available. The first entry is the default template.
+  "templates": [
+    // {
+    //   "name": "default",
+    //   "desc": "Bundled Default Skyblock",
+    //   "file": "default.nbt",
+    //   "spawns": "default",
+    //   "direction": "south"
+    // },
+    {
+      "name": "Potato Island",
+      "desc": "ClaudiusMinimus' own Potato Island",
+      "file": "potatoisland.nbt",
+      "spawns": "default",
+      "direction": "west"
+    }
+  ]
+}

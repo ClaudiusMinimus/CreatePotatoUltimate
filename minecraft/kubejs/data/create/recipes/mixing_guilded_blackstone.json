@@ -1,0 +1,17 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "item": "minecraft:blackstone"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:gilded_blackstone"
+        }
+    ]
+}

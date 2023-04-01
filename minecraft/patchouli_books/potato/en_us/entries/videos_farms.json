@@ -1,0 +1,51 @@
+{
+    "name": "Useful Farms",
+    "icon": "minecraft:composter",
+    "category": "patchouli:videos",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Farms are one of the best ways to quickly gather resources. Here is a list of some of my favorites."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Contents",
+            "text": "$(li)$(l:videos_farms#dripstone)Dripstone, Lava and More...$(/l)$(li)$(l:videos_farms#mobs)Mob Farm$(/l)$(li)$(l:videos_farms#ironfarm)Iron Farm$(/l)$(li)$(l:videos_farms#sculk)Villager Breeder$(/l)$(li)$(l:videos_farms#sugarcane)Sugarcane Farm$(/l)$(li)$(l:videos_farms#cavespider)Cave Spider Farm$(/l)$(li)$(l:videos_farms#sculk)Sculk and XP Farm$(/l)"
+        },{
+            "title": "Dripstone & Lava",
+            "type": "patchouli:text",
+            "anchor": "dripstone",
+            "text": "In this video, $(l:https://www.youtube.com/watch?v=t_4GoQsCxcM)5 Must Have Minecraft Dripstone Machines$(/l), $(l:https://www.youtube.com/@wattlesplays)wattles$(/l) demonstrates 5 dripstone vanilla farms. Probably the most important farm is generating lava!"
+        },{
+            "title": "Mob Farm",
+            "type": "patchouli:text",
+            "anchor": "mobs",
+            "text": "$(li)$(l:https://www.youtube.com/watch?v=l5s8kkqB7-I)Mob/XP Farm$(/l) This is a very simple, expandable, and upgradable mob/xp farm. Getting down to $(l:tips_tricks#y-64)Y -64$(/l) can be a life threatening callenge.$(br2)Hopefully, I will be able to make a video showing the different stages this farm can be extend and upgrade to."
+        },{
+            "title": "Iron Farm",
+            "type": "patchouli:text",
+            "anchor": "ironfarm",
+            "text": "It is possbible to have a good iron farm up and going really fast! Here are a few links to a very easy and productive iron farms:$(li)$(l:https://www.youtube.com/watch?v=6M5TBB6NPCs)Iron Farm Without a Zombie$(/l)$(li)$(l:https://www.youtube.com/watch?v=-oYyJ6jfSPU)Iron Farm on Day 1$(/l) Might be more challenging in skyblock.$(li)$(l:https://www.youtube.com/watch?v=i-dTFB8KETk)Testing Iron Farms in Minecraft$(/l)$(br2)Which One You Should Build?"
+        },{
+            "title": "Village Breeder",
+            "type": "patchouli:text",
+            "anchor": "villagerbreeder",
+            "text": "In this video, ImpulseSV show you how to build a very simple design that you can make early game that requires no redstone and will produce almost 300 iron per hour and generate 2 baby villagers each Minecraft day infinitely. $(li)$(l:https://www.youtube.com/watch?v=O6c_qSzL_us)Easy 2-in-1 Iron Farm and Infinite Villager Breeder$(/l) "
+        },{
+            "title": "Sugarcane Farm",
+            "type": "patchouli:text",
+            "anchor": "sugarcane",
+            "text": "Dusty Dude's $(l:https://www.youtube.com/watch?v=Mo6bcbPjyRA)Flying Machine Sugarcane Farm$(/l). This farm can really kick out a lot of sugarcane. I made one three chunks long and I had TONS of sugarcane! However, you may want to consider using the Create mod to make most of your farms - think gantry?"
+        },{
+            "title": "Cave Spider Farm",
+            "type": "patchouli:text",
+            "anchor": "cavespider",
+            "text": "Even though this farm is for Cave Spiders, it works great for normal Spiders too! With this very easy to make $(l:https://www.youtube.com/watch?v=DFXppgfjI_A)Cave Spider Farm$(/l) you will have all of the string and spider eyes you will ever need! This is also a great early game XP farm."
+        },{
+            "title": "Sculk and XP Farm",
+            "type": "patchouli:text",
+            "anchor": "sculk",
+            "text": "$(l:https://www.youtube.com/watch?v=tsistTTK1YQ)Sculk and XP Farm$(/l) In this video $(l:https://www.youtube.com/@wattlesplays)wattles$(/l) showcases how to build an easy sculk xp or sculk block farm for Minecraft 1.19+! This farm will produce experience for you to harvest whenever you'd like as well as sculk, shriekers, and sculk sensors."
+        }
+    ]
+}

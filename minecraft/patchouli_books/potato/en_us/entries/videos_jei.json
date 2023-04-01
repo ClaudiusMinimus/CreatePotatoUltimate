@@ -1,0 +1,17 @@
+{
+    "name": "JEI",
+    "icon": "minecraft:crafting_table",
+    "category": "patchouli:videos",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Just Enough Items (JEI) is a block, item, and recipe viewing mod. This is an older video but what he shows is still relevant: $(l:https://www.youtube.com/watch?v=JoEWoShvIcc)$(br)JEI Showcase$(/l)$(br2)$(l)Advanced Search$()$(br)$(li)Mod: @[modname] Non-case sensitive, searching via mod, for example @create to search for items added by create."
+        },{
+            "type": "text",
+            "text": "$(li)Tooltip: #[text] Non-case sensitive, searching via tooltip, for example #protection to search for protection books.$(li)Tags: tag Non-case sensitive, searching via tags, for example $logs to search for logs.$(li)Regex: r/regex/ Case sensitive, searching via regex, for example r/(Golden )?Apple) to search for golden apples or apples.$(li)Quotes: Allowing spaces, for example \"#protection iii\" to search with spaces. Or: | Or, for example apple|$logs to search for apples or logs."
+        },{
+            "type": "text",
+            "text": "For more information visit $(l:https://www.curseforge.com/minecraft/mc-mods/jei)Just Enough Items$(/l) on CurseForge.com"
+        }
+    ]
+}

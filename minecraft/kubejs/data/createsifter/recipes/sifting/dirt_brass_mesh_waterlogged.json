@@ -1,0 +1,28 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "createsifter:brass_mesh"
+    }
+  ],
+  "results": [
+    {"item": "minecraft:sponge", "chance": 0.02},
+    {"item": "minecraft:big_dripleaf", "chance": 0.02},
+    {"item": "minecraft:brain_coral_block", "chance": 0.05},
+    {"item": "minecraft:bubble_coral_block", "chance": 0.05},
+    {"item": "minecraft:fire_coral_block", "chance": 0.05},
+    {"item": "minecraft:horn_coral_block", "chance": 0.05},
+    {"item": "minecraft:tube_coral_block", "chance": 0.05},
+    {"item": "minecraft:brain_coral_fan", "chance": 0.01},
+    {"item": "minecraft:bubble_coral_fan", "chance": 0.01},
+    {"item": "minecraft:fire_coral_fan", "chance": 0.01},
+    {"item": "minecraft:horn_coral_fan", "chance": 0.01},
+    {"item": "minecraft:tube_coral_fan", "chance": 0.01},
+    {"item": "minecraft:sea_pickle", "chance": 0.03}
+  ],
+  "processingTime": 500,
+  "waterlogged": true
+}

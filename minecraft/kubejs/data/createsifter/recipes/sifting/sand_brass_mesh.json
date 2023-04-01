@@ -1,0 +1,18 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "createsifter:brass_mesh"
+    }
+  ],
+  "processingTime": 500,
+  "results": [
+    {"item": "minecraft:redstone","chance": 0.25,"count": 2},
+    {"item": "minecraft:bone_meal","chance": 0.4},
+    {"item": "create:experience_nugget","chance": 0.2},
+    {"item": "minecraft:cocoa_beans", "chance": 0.02}
+  ]
+}

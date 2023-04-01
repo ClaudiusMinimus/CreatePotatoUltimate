@@ -1,0 +1,11 @@
+{
+    "name": "FTB Chunks",
+    "icon": "minecraft:grass_block",
+    "category": "patchouli:videos",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This is a $(l:https://www.youtube.com/watch?v=gmWd6oUmubY&t=2s)quick spotlight video$(/l) I made in 2021 for FTB Chunks using Minecraft 1.16.5. The GUI is basically the same for 1.19.x. The video shows you how to claim, un-claim, and force load chunks."
+        }
+    ]
+}

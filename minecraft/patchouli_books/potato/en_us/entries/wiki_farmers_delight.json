@@ -1,0 +1,14 @@
+{
+    "name": "Farmer's Delight",
+    "icon": "farmersdelight:cabbage",
+    "category": "patchouli:wikis",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:https://www.curseforge.com/minecraft/mc-mods/farmers-delight)Farmer's Delight$(/l) is a mod that gently expands upon farming and cooking in Minecraft.$(br2)Using a simple cooking system and a few familiar ingredients, you'll be able to prepare a wide variety of hearty meals: from sandwiches to salads and stews, from beautiful desserts to mouth-watering feasts, no ingredient will be left behind in your kitchen!"
+        },{
+            "type": "text",
+            "text": "It also introduces a rich set of utilities: a way to improve the very soil your crops grow in, a brand new kind of tool to scavenge resources with, cute decorations for your builds, and many blocks and items to help you on your adventure!$(li)$(l:https://github.com/vectorwing/FarmersDelight/wiki)Wiki$(/l)$(li)$(l:https://www.curseforge.com/minecraft/mc-mods/farmers-delight)Curseforge page$(/l)$(li)$(l:https://discord.com/invite/eFsz5SK)discord$(/l)"
+        }
+    ]
+}

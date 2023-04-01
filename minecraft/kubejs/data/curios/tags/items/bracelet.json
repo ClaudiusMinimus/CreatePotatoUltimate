@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "powder_power:token_breathing",
+    "powder_power:token_exp",
+    "powder_power:token_night_vision",
+    "powder_power:token_absorption",
+    "powder_power:token_affliction",
+    "powder_power:token_conduit_power",
+    "powder_power:token_curing",
+    "powder_power:token_dolphin",
+    "powder_power:token_fire_resistance",
+    "powder_power:token_good_omen",
+    "powder_power:token_greater_absorption",
+    "powder_power:token_greater_healing",
+    "powder_power:token_greater_resistance",
+    "powder_power:token_greater_strength",
+    "powder_power:token_haste",
+    "powder_power:token_healing",
+    "powder_power:token_health",
+    "powder_power:token_jump_boost",
+    "powder_power:token_no_fall",
+    "powder_power:token_resistance",
+    "powder_power:token_speed",
+    "powder_power:token_strength",
+    "powder_power:token_sunshine",
+    "powder_power:token_supreme_health",
+    "powder_power:token_supreme_resistance",
+    "powder_power:token_supreme_strength",
+    "powder_power:token_trash",
+    "powder_power:token_unseen"
+  ]
+}

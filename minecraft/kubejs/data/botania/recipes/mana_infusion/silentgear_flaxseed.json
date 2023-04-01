@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "silentgear:fluffy_seeds"
+  },
+  "output": {
+    "item": "silentgear:flax_seeds"
+  },
+  "mana": 100
+}

@@ -1,0 +1,112 @@
+{
+    "name": "Tips & Tricks",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:getting_started",
+    "sortnum": 20,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "In this section I will try to show some tips and tricks that may prove helpful.$(br2)If are just starting and have not looked at $(l)$(l:the_beginning#ores)Careful with Resources$(/l)$(), I would suggest you do so."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Contents",
+            "text": "$(li)$(l:tips_tricks#talloak)Tall Oak Trees$(/l)$(l)*$()$(li)$(l:tips_tricks#cobblegen)Fool Proof Cobble Generator$(/l)$(li)$(l:tips_tricks#betterwaterwheel)Better Water Wheels$(/l)$(l)*$()$(li)$(l:tips_tricks#y-64)Get to Y -64 Alive!$(/l)$(li)$(l:tips_tricks#endportal)End Portal$(/l)$(li)$(l:tips_tricks#lookupmods)Look Up Mods$(/l)$(br2)$(l)*$()Tips submitted by dk_bhn."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "title": "Tall Oaks Trees",
+            "anchor": "talloak",
+            "text": "Would you like a better chance at getting a tall oak tree? $(l)Use regular torches not redstone.$()",
+            "multiblock": {
+                "pattern": [
+                    ["CT "],
+                    ["CT0"],
+                    ["CTO"]
+                ],
+                "mapping": {
+                    "O": "minecraft:oak_sapling",
+                    "T": "minecraft:redstone_wall_torch[facing=south,lit=true]",
+                    "C": "minecraft:cobblestone"
+                },
+                "symmetrical": true,
+                "enable_visualize": false
+            }
+        },
+        {
+            "type": "patchouli:multiblock",
+            "title": "Fool Proof Cobble Gen",
+            "anchor": "cobblegen",
+            "text": "$(li)Waterlog the stair $(li)Place lava as shown $(li)Mine cobble!",
+            "multiblock": {
+                "pattern": [
+                    [ "L0S" ]
+                ],
+                "mapping": {
+                    "G": "minecraft:grass_block",
+                    "W": "minecraft:water",
+                    "L": "minecraft:lava",
+                    "S": "minecraft:cobblestone_stairs[waterlogged=true]"
+                },
+                "symmetrical": true,
+                "enable_visualize": false
+            }
+        },
+        {
+            "type": "patchouli:image",
+            "images":["potato:images/patchouli/waterwheel_tip.png"],
+            "title": "Better Waterwheels",
+            "anchor": "betterwaterwheel",
+            "text": "Want a more powerful Waterwheel? Use Soul Sand!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)The red arrow points the direction of the waterwheel.$(li)The blue arrows show water source blocks.$(li)The white arrow shows soul sand.$(br2)This tip if done right will provide 320 SU."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Get to Y -64 Alive!",
+            "anchor": "y-64",
+            "text": "Making a $(l:videos_farms#mobs)mob farm$(/l) at the bottom of the world is best if you can remain alive. Here is a simple tip:$(li)Place a bucket of lava on the side of your island and let it flow to Y -65 (the void)$(li)Have a bucket of water ready and pick up the lava and place the water$(li)The remaining lava will become a cobble pillar$(li)Pick up the water when the pillar is formed"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Place the water again, but 2 blocks away.$(li)Use the water as a ladder to desend$(li)At about Y -62 place some slabs or blocks on the side of the pillar$(li)Jump on placed blocks and don't die!"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "End Portal",
+            "anchor": "endportal",
+            "text": "To make an End Portal, stand in the middle of a 5x5 flat surface. looking in front of you skip one block then place an End Portal, then place one on the left and then on the right. Turn 90 degrees and repeat until you have place all 12 End Portals. If you make a mistake, use your Create wrench to shift-right-click on the End Portal to pick it up."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "text": "",
+            "multiblock": {
+                "pattern": [
+                    [
+                        " EEE ",
+                        "S   N",
+                        "S 0 N",
+                        "S   N",
+                        " WWW "
+                    ]
+                  ],
+                  "mapping": {
+                    "W": "minecraft:end_portal_frame[facing=west]",
+                    "N": "minecraft:end_portal_frame[facing=north]",
+                    "S": "minecraft:end_portal_frame[facing=south]",
+                    "E": "minecraft:end_portal_frame[facing=east]"
+                  },
+                "symmetrical": true,
+                "enable_visualize": false
+            }
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Look Up Mods",
+            "anchor": "lookupmods",
+            "text": "If you want to learn about a particular mod, then open the Mods menu page.$(li)From the main menu page, click on the  Mods icon. From within a world, open Game Menu page ($(o)default Esc key$()).$(li)Click on Mods.$(li)Search for the mod you are interested in.$(li)Click on the mod icon to show the details. You can find issue trackers, website links, and mod settings."
+        }
+    ]
+}

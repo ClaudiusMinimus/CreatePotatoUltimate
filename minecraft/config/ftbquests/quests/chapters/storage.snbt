@@ -1,0 +1,495 @@
+{
+	id: "22C5B5C762C6CE6B"
+	group: ""
+	order_index: 5
+	filename: "storage"
+	title: "Storage"
+	icon: "minecraft:barrel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.5d
+			y: -3.0d
+			dependencies: ["4689BFF22315E724"]
+			id: "797DA8F8F935D7AC"
+			tasks: [{
+				id: "140F8526F4532B59"
+				type: "item"
+				item: "toms_storage:ts.inventory_connector"
+			}]
+			rewards: [{
+				id: "68B3C1BF20695C6D"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			dependencies: ["4240DD5A5E1AB2A4"]
+			id: "4689BFF22315E724"
+			tasks: [{
+				id: "6BA6EDCFF1885FA3"
+				type: "item"
+				item: "toms_storage:ts.storage_terminal"
+			}]
+			rewards: [{
+				id: "3076953C94590D9D"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 4
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			dependencies: ["4689BFF22315E724"]
+			id: "2660A472837E54BE"
+			tasks: [{
+				id: "347C27DE76DEACD4"
+				type: "item"
+				item: "toms_storage:ts.crafting_terminal"
+			}]
+			rewards: [{
+				id: "720C35DAC4285CB8"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.5d
+			dependencies: ["2660A472837E54BE"]
+			id: "00B0CDC31037C246"
+			tasks: [{
+				id: "31722823CCD5E4EF"
+				type: "item"
+				item: "toms_storage:ts.wireless_terminal"
+			}]
+			rewards: [{
+				id: "35A979BDE5331C02"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -6.0d
+			dependencies: ["00B0CDC31037C246"]
+			id: "54309D5B7189163C"
+			tasks: [{
+				id: "2E7F23E0BC4C2792"
+				type: "item"
+				item: "toms_storage:ts.adv_wireless_terminal"
+			}]
+			rewards: [{
+				id: "242D1CE2241A10F1"
+				type: "item"
+				item: "minecraft:ancient_debris"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.5d
+			dependencies: ["4689BFF22315E724"]
+			id: "6EB9B4E0AF9DC643"
+			tasks: [{
+				id: "41D8672F7F12A79C"
+				type: "item"
+				item: "toms_storage:ts.inventory_cable"
+				count: 6L
+			}]
+			rewards: [{
+				id: "03290C09332099FD"
+				type: "item"
+				item: "toms_storage:ts.inventory_cable_framed"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -6.0d
+			dependencies: ["6EB9B4E0AF9DC643"]
+			id: "7740C0ED2155F768"
+			tasks: [{
+				id: "52DB6C060601CA15"
+				type: "item"
+				item: "toms_storage:ts.inventory_cable_connector"
+			}]
+			rewards: [{
+				id: "0FECAAA678334F39"
+				type: "item"
+				item: "toms_storage:ts.inventory_cable_connector_framed"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -7.5d
+			dependencies: ["7740C0ED2155F768"]
+			id: "2AD835D0EA570CFF"
+			tasks: [{
+				id: "47357EE4D508C0C8"
+				type: "item"
+				item: "toms_storage:ts.inventory_hopper_basic"
+			}]
+			rewards: [{
+				id: "390217D64E54BDA9"
+				type: "item"
+				item: "minecraft:spawner"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			shape: "diamond"
+			subtitle: "Start Here"
+			size: 1.5d
+			id: "4240DD5A5E1AB2A4"
+			tasks: [{
+				id: "420ADBAAD58BB101"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+			rewards: [{
+				id: "73CB4734EB4623E7"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 4
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			dependencies: ["4240DD5A5E1AB2A4"]
+			id: "0CDBD6F2432A0531"
+			tasks: [{
+				id: "0FF943134EE3EF12"
+				type: "item"
+				item: "minecraft:shulker_box"
+			}]
+			rewards: [{
+				id: "3718418C46097BB6"
+				type: "item"
+				item: "minecraft:shulker_shell"
+				count: 4
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			dependencies: ["4240DD5A5E1AB2A4"]
+			id: "433CE06D86617E52"
+			tasks: [{
+				id: "3538981175DAE29E"
+				type: "item"
+				item: "minecraft:ender_chest"
+			}]
+			rewards: [{
+				id: "6F99616FA6CC2204"
+				type: "item"
+				item: "create:blaze_cake"
+				count: 4
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			description: ["Vaults are a multiblock storage blocks. Using a Stockpile Switch can show you how full it is."]
+			dependencies: [
+				"00000000000007A1"
+				"0A49C262F2AEAC73"
+			]
+			id: "5C9B90AF57F6BB66"
+			tasks: [{
+				id: "78F41ACE29E00C47"
+				type: "item"
+				item: "create:item_vault"
+				count: 9L
+			}]
+			rewards: [
+				{
+					id: "424510D188193BAC"
+					type: "item"
+					item: "minecraft:wither_rose"
+				}
+				{
+					id: "74A749AF4F163953"
+					type: "item"
+					item: "create:stockpile_switch"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			dependencies: ["4240DD5A5E1AB2A4"]
+			id: "0A49C262F2AEAC73"
+			tasks: [{
+				id: "184D6D666EC328AC"
+				type: "item"
+				item: "minecraft:barrel"
+			}]
+			rewards: [
+				{
+					id: "3640979EDD49F733"
+					type: "item"
+					item: "minecraft:jungle_sapling"
+				}
+				{
+					id: "5870C7A5748C5851"
+					type: "item"
+					item: "minecraft:bundle"
+				}
+			]
+		}
+		{
+			title: "Refined Storage"
+			icon: "refinedstorage:creative_controller"
+			x: 2.5d
+			y: -1.0d
+			shape: "diamond"
+			description: ["Make sure you have some power. You will want to have started the mod, Create and then move into Create Craft \\& Additions to craft an Alternator. Be aware as your Refined Storage system grows so will your power requirements."]
+			size: 1.5d
+			id: "0000000000000482"
+			tasks: [
+				{
+					id: "0000000000000483"
+					type: "item"
+					item: "refinedstorage:controller"
+				}
+				{
+					id: "0000000000000484"
+					type: "item"
+					item: "refinedstorage:grid"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000485"
+					type: "item"
+					item: "refinedstorage:cable"
+					count: 12
+				}
+				{
+					id: "0000000000000486"
+					type: "item"
+					item: "refinedstorage:external_storage"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			dependencies: ["0000000000000482"]
+			id: "000000000000049B"
+			tasks: [{
+				id: "000000000000049C"
+				type: "item"
+				item: "refinedstorage:importer"
+			}]
+			rewards: [{
+				id: "000000000000049D"
+				type: "item"
+				item: "refinedstorage:speed_upgrade"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			dependencies: ["0000000000000482"]
+			id: "00000000000004D3"
+			tasks: [
+				{
+					id: "00000000000004D4"
+					type: "item"
+					item: "refinedstorage:security_manager"
+				}
+				{
+					id: "00000000000004D5"
+					type: "item"
+					item: "refinedstorage:security_card"
+				}
+			]
+			rewards: [{
+				id: "0000000000000565"
+				type: "item"
+				item: "powder_power:token_no_fall"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			dependencies: ["0000000000000482"]
+			id: "00000000000004BB"
+			tasks: [{
+				id: "00000000000004BC"
+				type: "item"
+				item: "refinedstorage:relay"
+			}]
+			rewards: [{
+				id: "00000000000004C1"
+				type: "item"
+				item: "create:blaze_cake"
+				count: 4
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			dependencies: ["0000000000000482"]
+			id: "00000000000004AE"
+			tasks: [{
+				id: "00000000000004AF"
+				type: "item"
+				item: "refinedstorage:crafting_grid"
+			}]
+			rewards: [{
+				id: "00000000000004B6"
+				type: "item"
+				item: "minecraft:prismarine_shard"
+				count: 8
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			dependencies: ["0000000000000482"]
+			id: "00000000000004DB"
+			tasks: [
+				{
+					id: "00000000000004DC"
+					type: "item"
+					item: "refinedstorage:wireless_grid"
+				}
+				{
+					id: "00000000000004DD"
+					type: "item"
+					item: "refinedstorage:wireless_transmitter"
+				}
+			]
+			rewards: [{
+				id: "00000000000004DE"
+				type: "item"
+				item: "refinedstorage:range_upgrade"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			dependencies: ["0000000000000482"]
+			id: "00000000000004D6"
+			tasks: [{
+				id: "00000000000004D7"
+				type: "item"
+				item: "refinedstorage:network_transmitter"
+			}]
+			rewards: [{
+				id: "00000000000004DA"
+				type: "item"
+				item: "refinedstorage:network_card"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			dependencies: ["00000000000004D6"]
+			id: "00000000000004D8"
+			tasks: [{
+				id: "00000000000004D9"
+				type: "item"
+				item: "refinedstorage:network_receiver"
+			}]
+			rewards: [{
+				id: "00000000000004DF"
+				type: "item"
+				item: "minecraft:amethyst_shard"
+				count: 8
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["00000000000004BB"]
+			id: "00000000000004BD"
+			tasks: [{
+				id: "00000000000004BE"
+				type: "item"
+				item: "refinedstorage:detector"
+			}]
+			rewards: [{
+				id: "00000000000004C2"
+				type: "item"
+				item: "minecraft:anvil"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["00000000000004AE"]
+			id: "00000000000004C5"
+			tasks: [{
+				id: "00000000000004C6"
+				type: "item"
+				item: "refinedstorage:fluid_interface"
+			}]
+			rewards: [{
+				id: "00000000000004CA"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 32
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			dependencies: ["00000000000004AE"]
+			id: "00000000000004C7"
+			tasks: [{
+				id: "00000000000004C8"
+				type: "item"
+				item: "refinedstorage:interface"
+			}]
+			rewards: [{
+				id: "00000000000004CD"
+				type: "item"
+				item: "minecraft:ender_eye"
+				count: 3
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.0d
+			id: "00000000000004A8"
+			tasks: [{
+				id: "00000000000004A9"
+				type: "item"
+				item: "refinedstorage:exporter"
+			}]
+			rewards: [{
+				id: "00000000000004AA"
+				type: "item"
+				item: "refinedstorage:stack_upgrade"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["0000000000000482"]
+			id: "755A43FE9B493CE2"
+			tasks: [{
+				id: "7B43871F5E24A2DF"
+				type: "item"
+				item: "refinedstorage:importer"
+			}]
+			rewards: [{
+				id: "5E8BBE9DCA65B94E"
+				type: "item"
+				item: "minecraft:budding_amethyst"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
