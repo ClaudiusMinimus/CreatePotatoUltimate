@@ -1,4 +1,4 @@
-# Create on a Potato PC: Sky Edition Change Log
+# Create on a Potato PC: Ultimate Change Log
 
 **IMPORTANT For those upgrading from the Forge Edition**
 Going forward, this is the only supported Create on a Potato PC pack. The Sky Edition and Forge Editions are now merged into this Ultimate Edition.
@@ -81,6 +81,8 @@ Mar. 28, 2023
   - Added Bort and Zinc to Orechid
   - Added Create S&A Copper Tools back
   - New art and new name Create on a Potato PC: Ultimate
+
+**Below is the last Sky Edition release**
 
 ## Create on a Potato PC: Sky Edition 1.19.2-1.3.5
 March 8, 2023
