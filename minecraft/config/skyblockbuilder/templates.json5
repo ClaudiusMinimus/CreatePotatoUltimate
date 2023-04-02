@@ -33,6 +33,14 @@
       "file": "potatoisland.nbt",
       "spawns": "default",
       "direction": "west"
+    },
+    {
+      "name": "Potato Stone Cave",
+      "desc": "ClaudiusMinimus' own Potato Stone Cave",
+      "file": "stoneblock.nbt",
+      "spawns": "default",
+      "direction": "west"
     }
+
   ]
 }
