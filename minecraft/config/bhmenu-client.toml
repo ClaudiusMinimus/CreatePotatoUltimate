@@ -8,8 +8,6 @@ description = "Be sure to use the promo code 'minimus' for 25% off 1st month!"
 partner_id = "2780"
 #The id of this modpack.
 #(This is BH internal pack id; Find the id here: https://www.bisecthosting.com/partners/console.php)
-# 18631 is the id for sky edition
-# pack_id = "18631"
 pack_id = "18584"
 #Set this to true to use specific language translation keys.
 #This requires a custom mod that adds resource files, such as OpenLoader.
