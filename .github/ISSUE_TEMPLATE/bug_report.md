@@ -12,7 +12,7 @@ assignees: ClaudiusMinimus
 A clear and concise description of what the bug is.
 
 **Pack version for Create on a Potato PC: Ultimate**
-Example: 1.19.2-1.5.1
+Example: 1.19.2-1.5.2
 
 **To Reproduce**
 Steps to reproduce the behavior:
