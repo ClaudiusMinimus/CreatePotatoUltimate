@@ -9,40 +9,28 @@
   //     "direction": "south",
   //     "offset": [ 0, 0 ]
   // }
-  "spawn": null,
-  
-  "spawns": {
-    "skyblock": [
-      [ 2, 11, 4 ]
-    ],
-    "stoneblock": [
-      [ 7, 1, 11 ]
-    ]
+  spawn: null,
+
+  spawns: {
+    skyblock: [[2, 11, 4]],
+    stoneblock: [[7, 1, 11]],
   },
-  
+
   // The list of templates being available. The first entry is the default template.
-  "templates": [
+  templates: [
     {
-      "name": "Potato Island",
-      "desc": "ClaudiusMinimus' own Potato Island - For use on SkyBlock",
-      "file": "potatoisland.nbt",
-      "spawns": "skyblock",
-      "direction": "west"
+      name: "Potato Island",
+      desc: "ClaudiusMinimus' own Potato Island - For use on SkyBlock",
+      file: "potatoisland.nbt",
+      spawns: "skyblock",
+      direction: "west",
     },
     {
-      "name": "Potato Stone Cave",
-<<<<<<< Updated upstream
-      "desc": "ClaudiusMinimus' own Potato Stone Cave",
-      "file": "stoneblock.nbt",
-      "spawns": "default",
-      "direction": "west"
-=======
-      "desc": "ClaudiusMinimus' own Potato Stone Cave - For use on StoneBlock",
-      "file": "stoneblock.snbt",
-      "spawns": "stoneblock",
-      "direction": "south"
->>>>>>> Stashed changes
-    }
-
-  ]
+      name: "Potato Stone Cave",
+      desc: "ClaudiusMinimus' own Potato Stone Cave - For use on StoneBlock",
+      file: "stoneblock.snbt",
+      spawns: "stoneblock",
+      direction: "south",
+    },
+  ],
 }
