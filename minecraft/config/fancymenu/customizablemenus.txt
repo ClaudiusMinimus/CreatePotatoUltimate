@@ -30,3 +30,6 @@ net.minecraft.client.gui.screens.CreateFlatWorldScreen {
 net.minecraft.client.gui.screens.TitleScreen {
 }
 
+com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHMultiplayerScreen {
+}
+

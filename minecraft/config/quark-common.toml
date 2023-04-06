@@ -441,8 +441,10 @@
 		#When enabled, Efficiency VI Diamond and Netherite pickaxes can instamine Deepslate when under Haste 2
 		"Deepslate Tweak" = true
 		"Deepslate Tweak Needs Haste2" = true
-		#Also applies a random curse along each book
+		#Applying a tome will also randomly curse your item
 		"Curse Gear" = false
+		#Allows combining tomes with normal books
+		"Combine With Books" = true
 
 	[tools.ambient_discs]
 		"Drop On Spider Kill" = true
