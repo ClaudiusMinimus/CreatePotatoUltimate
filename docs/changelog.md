@@ -11,7 +11,29 @@ Going forward, this is the only supported Create on a Potato PC pack. The Sky Ed
 
  Please look carefully over the change log for this release. While this pack is a merger of Forge and Sky, it is based mostly on Sky and therefore inherits Sky's versioning.
 
- ## Create on a Potato PC: Forge Edition 1.19.2-1.5.2
+ ## Create on a Potato PC: Ultimate 1.19.2-1.6.0
+ Apr. 06, 2023
+ - Mods Added:
+ - Mods Updated:
+  - architectury-6.5.77-forge.jar
+  - BHMenu-Forge-1.19.2-2.1.jar
+  - createaddition-1.19.2-20230404a.jar
+  - createdeco-1.3.0-1.19.2.jar
+  - drippyloadingscreen_forge_2.1.2_MC_1.19.1-1.19.2.jar
+  - fancymenu_forge_2.14.2_MC_1.19-1.19.2.jar
+  - ftb-teams-forge-1902.2.13-build.100.jar
+  - Quark-3.4-396.jar
+  - rhino-forge-1902.2.2-build.268.jar
+  - sophisticatedcore-1.19.2-0.5.47.234.jar
+  - toms_storage-1.19-1.5.4.jar
+  - VTweaks-1.19.2-4.0.6.jar (fixes Challeger Mob crash)
+  - Xaeros_Minimap_23.3.3_Forge_1.19.1.jar
+  - XaerosWorldMap_1.29.5_Forge_1.19.1.jar
+ - Mods Removed:
+ - Other Changes:
+   - Added quests for Guardian of Gaia Hunter to gain Refined Storage Creative Wireless Terminal and Creative Controller
+
+ ## Create on a Potato PC: Ultimate 1.19.2-1.5.2
  Apr. 01, 2023
  - Mods Added: n/a
  - Mods Updated: n/a
