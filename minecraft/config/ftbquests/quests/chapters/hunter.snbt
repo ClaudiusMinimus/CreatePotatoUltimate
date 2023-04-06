@@ -907,6 +907,7 @@
 			}]
 		}
 		{
+			title: "Novice Guardian of Gaia Hunter"
 			icon: "botania:gaia_head"
 			x: 0.0d
 			y: -7.0d
@@ -921,6 +922,44 @@
 				id: "0B2B25BA08CE1500"
 				type: "item"
 				item: "botania:creative_pool"
+			}]
+		}
+		{
+			title: "Apprentice Guardian of Gaia Hunter"
+			icon: "botania:gaia_head"
+			x: 0.0d
+			y: -8.5d
+			dependencies: ["7BE5142F4A70CA67"]
+			id: "35FD1CAE4062F72B"
+			tasks: [{
+				id: "5CC264EA94AF1BF9"
+				type: "kill"
+				entity: "botania:doppleganger"
+				value: 10L
+			}]
+			rewards: [{
+				id: "1F3B2BC7CB57BF9B"
+				type: "item"
+				item: "refinedstorage:creative_controller"
+			}]
+		}
+		{
+			title: "Journeyman Guardian of Gaia Hunter"
+			icon: "botania:gaia_head"
+			x: 0.0d
+			y: -10.0d
+			dependencies: ["35FD1CAE4062F72B"]
+			id: "790CC57B80727383"
+			tasks: [{
+				id: "3EDCB6C0CFFDB32C"
+				type: "kill"
+				entity: "botania:doppleganger"
+				value: 20L
+			}]
+			rewards: [{
+				id: "03395CFF1418BD43"
+				type: "item"
+				item: "refinedstorageaddons:creative_wireless_crafting_grid"
 			}]
 		}
 	]
