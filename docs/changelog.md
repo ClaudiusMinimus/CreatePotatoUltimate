@@ -11,6 +11,17 @@ Going forward, this is the only supported Create on a Potato PC pack. The Sky Ed
 
  Please look carefully over the change log for this release. While this pack is a merger of Forge and Sky, it is based mostly on Sky and therefore inherits Sky's versioning.
 
+ ## Create on a Potato PC: Forge Edition 1.19.2-1.5.2
+ Apr. 01, 2023
+ - Mods Added: n/a
+ - Mods Updated: n/a
+ - Mods Removed: n/a
+ - Other Changes:
+   - V-Tweaks
+     - Set enableChallengerMobs = false (crashes new worlds for some players)
+     - Set enableTreeChopDown = false (new players on skyblock were losing saplings)
+  - Corrected pack id and modpackProjectID in pack configuration files
+
  ## Create on a Potato PC: Ultimate 1.19.2-1.5.1
  Mar. 31, 2023
  - Mods Added:

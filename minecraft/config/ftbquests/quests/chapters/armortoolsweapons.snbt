@@ -1994,100 +1994,11 @@
 			dependencies: ["000000000000007B"]
 			dependency_requirement: "one_completed"
 			id: "00000000000005D7"
-			tasks: [
-				{
-					id: "00000000000005D8"
-					type: "item"
-					item: {
-						id: "silentgear:dagger"
-						Count: 1b
-						tag: {
-							SGear_UUID: [I;
-								542158407
-								171002268
-								-1342152848
-								294241716
-							]
-							Damage: 0
-							SGear_Data: {
-								Construction: {
-									Parts: [
-										{
-											Item: {
-												id: "silentgear:dagger_blade"
-												Count: 1b
-												tag: {
-													Damage: 0
-													Materials: [{
-														Item: {
-															id: "minecraft:cobbled_deepslate"
-															Count: 1b
-														}
-														ID: "silentgear:stone"
-													}]
-												}
-											}
-											ID: "silentgear:dagger_blade"
-										}
-										{
-											Item: {
-												id: "silentgear:rod"
-												Count: 1b
-												tag: {
-													Materials: [{
-														Item: {
-															id: "minecraft:air"
-															Count: 1b
-															tag: { }
-														}
-														ID: "silentgear:wood/rough"
-													}]
-												}
-											}
-											ID: "silentgear:rod"
-										}
-									]
-								}
-								Properties: {
-									ModVersion: "2.10.17"
-									Stats: {
-										"silentgear:enchantability": 5.0f
-										"silentgear:chargeability": 0.5f
-										"silentgear:harvest_speed": 4.0f
-										"silentgear:attack_reach": 3.0f
-										"silentgear:harvest_level": 1.0f
-										"silentgear:durability": 94.32f
-										"silentgear:melee_damage": 2.5f
-										"silentgear:magic_damage": 0.0f
-										"silentgear:rarity": 0.0f
-										"silentgear:attack_speed": -1.2f
-										"silentgear:repair_efficiency": 2.0f
-									}
-									LockStats: 0b
-									Traits: [
-										{
-											Level: 1b
-											Name: "silentgear:ancient"
-										}
-										{
-											Level: 3b
-											Name: "silentgear:crude"
-										}
-									]
-								}
-								Rendering: {
-									ModelKey: "dagger:dagger_blade{stone},rod{wood/rough},"
-								}
-							}
-						}
-					}
-				}
-				{
-					id: "633AB4E29CB57DA9"
-					type: "item"
-					item: "silentgear:rough_rod"
-				}
-			]
+			tasks: [{
+				id: "00000000000005D8"
+				type: "item"
+				item: "minecraft:flint"
+			}]
 			rewards: [{
 				id: "00000000000005DB"
 				type: "item"
