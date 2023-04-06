@@ -6,12 +6,30 @@
 	enableFluidConversionRecipes = true
 
 [item]
+	#Modifies the color of a tooltip for a food that gives no effects on consumption.
+	#Uses HEX Web Colors which you can pick from here: https://dv2ls.com/colpic
+	foodTooltipColor = "#00AA00"
 	#Show food hunger & saturation on item hover
 	#Allowed Values: NEVER, WITH_SHIFT, ALWAYS
 	foodTooltipSetting = "WITH_SHIFT"
+	#Modifies the color of a tooltip for a food that gives buffs on consumption.
+	#Uses HEX Web Colors which you can pick from here: https://dv2ls.com/colpic
+	foodTooltipPositiveColor = "#AA00AA"
 	#Show tool durability on item hover
 	#Allowed Values: NEVER, WITH_SHIFT, ALWAYS
 	durabilityTooltipSetting = "WITH_SHIFT"
+	#Modifies the number of hunger & saturation points rendered (specifically for Hunger Strike).
+	#The original hunger value is multiplied by this value, so 42x means 2 times as much hunger/saturation will render, and 0.5 means half as much hunger/saturation will render.
+	#Range: 0.0 ~ 3.4028234663852886E38
+	foodTooltipMultiplier = 1.0
+	#Modifies the color of a tooltip for a food that gives debuffs on consumption.
+	#Uses HEX Web Colors which you can pick from here: https://dv2ls.com/colpic
+	foodTooltipNegativeColor = "#AA0000"
+	#Modifies the color of the saturation tooltip.
+	#Uses HEX Web Colors which you can pick from here: https://dv2ls.com/colpic
+	foodTooltipSaturationColor = "#AA0000"
+	#If a food has a custom color, use that color instead of the defined color regardless of the buffs/debuffs the food gives
+	useOriginalFoodTooltipColor = true
 
 [world]
 	#Disables thunder storms, fixing glitched lighting from thunder and other side-effects
