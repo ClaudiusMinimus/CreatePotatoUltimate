@@ -1,0 +1,73 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - ClaudiusMinimus
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Describe what happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Modpack Version
+      description: The version is found in the top-right corner of the loading/menu screen or the file name installed from Curseforge.
+      placeholder: 1.19.2-1.2.3
+    validations:
+      required: true
+  - type: dropdown
+    id: packedition
+    attributes:
+      label: Pack Edition
+      description: What Edition of Create on a Potato PC are you running?
+      options:
+        - Please Select (Default)
+        - Fabric (Fabric)
+        - Forge (Forge)
+        - Sky (Sky)
+        - Ultimate (Ultimate)
+    validations:
+      required: true
+    type: input
+    id: crashreport
+    attributes:
+      label: Relevant Crash Report
+      description: Please paste a link to the crash report from [Crashy.net](https://crashy.net/)
+     validations:
+      required: false     
+    type: input
+    id: logs
+    attributes:
+      label: Relevant Latest.log and Debug.log
+      description: Please paste a link to the log files from a service such as [Pastebin.com](https://pastebin.com/)
+     validations:
+      required: false     
+  - type: checkboxes
+    id: additionalmods
+    attributes:
+      label: Additional Mods or Modifications
+      description: Have you added any 3rd party mods or other changes to the pack other than adding a resource pack?
+      options:
+        - label: Yes, If yes, please describe below
+        - label: No
+          required: true
+  - type: textarea
+    id: packchanges
+    attributes:
+      label: Describe Changes
+      description: Please list any additional mods or changes you made to the pack
+      placeholder: List mods/changes here
+      value: "Added Optifine"
+    validations:
+      required: false
