@@ -27,7 +27,6 @@ body:
     validations:
       required: true
 - type: dropdown
-    id: packedition
     attributes:
       label: Pack Edition
       description: What Edition of Create on a Potato PC are you running?
