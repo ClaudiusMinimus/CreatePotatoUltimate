@@ -59,8 +59,8 @@ body:
       label: Additional Mods or Modifications
       description: Have you added any 3rd party mods or other changes to the pack other than adding a resource pack?
       options:
-        - label: Yes, If yes, please describe below
-        - label: No
+        - label: "Yes, If yes, please describe below"
+        - label: "No"
           required: true
   - type: textarea
     id: packchanges
