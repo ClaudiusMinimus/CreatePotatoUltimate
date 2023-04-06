@@ -32,11 +32,11 @@ body:
       label: Pack Edition
       description: What Edition of Create on a Potato PC are you running?
       options:
-        - Please Select (Default)
-        - Fabric (Fabric)
-        - Forge (Forge)
-        - Sky (Sky)
-        - Ultimate (Ultimate)
+        - Please Select
+        - Fabric
+        - Forge
+        - Sky
+        - Ultimate
     validations:
       required: true
     type: input
