@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Issue Report
+    url: https://github.com/ClaudiusMinimus/CreatePotatoUltimate/blob/main/.github/ISSUE_TEMPLATE/issue_report.yml
+    about: Please complete the form to sumbit an issue report.
