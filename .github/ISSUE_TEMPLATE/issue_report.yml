@@ -1,9 +1,7 @@
-name: "Bug Report"
-description: "File a bug report"
-title: "[Bug]: "
-labels: ["bug"]
-assignees:
-  - claudiusminimus
+name: Bug Report
+description: Create a bug report to help us improve Create on a Potato PC: Ultimate
+labels: [ "type: bug" ]
+body:
 body:
   - type: markdown
     attributes:
