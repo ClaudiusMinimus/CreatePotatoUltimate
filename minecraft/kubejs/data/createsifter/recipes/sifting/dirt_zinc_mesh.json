@@ -24,8 +24,6 @@
     {"item": "minecraft:lilac", "chance": 0.03},
     {"item": "minecraft:peony", "chance": 0.03},
     {"item": "minecraft:rose_bush", "chance": 0.03},
-    {"item": "minecraft:sunflower", "chance": 0.03},
-    {"item": "silentgear:fluffy_seeds", "chance": 0.05},
-    {"item": "silentgear:flax_seeds", "chance": 0.05}  
+    {"item": "minecraft:sunflower", "chance": 0.03}
   ]
 }
