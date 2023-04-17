@@ -11,6 +11,8 @@ Going forward, this is the only supported Create on a Potato PC pack. The Sky Ed
 
  Please look carefully over the change log for this release. While this pack is a merger of Forge and Sky, it is based mostly on Sky and therefore inherits Sky's versioning.
 
+ If while playing the pack you notice something missing, please ping me on CM's World discord. I was just informed Farmer's Delight vegtables are missing for sky block.
+
  ## Create on a Potato PC: Ultimate 1.19.2-4.6.0
 
 When released, Potato Ultimate's version number was set to 1.x.x, but it should have been 4.x.x. Therefore, the current working version 1.6.0 is now be 4.6.0 since this is the 4th major change to Create on a Potato PC since the beginning. Sorry for the confusion. 
