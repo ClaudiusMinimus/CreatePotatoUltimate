@@ -13,7 +13,7 @@
 
   spawns: {
     skyblock: [[2, 11, 4]],
-    stoneblock: [[7, 1, 11]],
+    stoneblock: [[7, 1, 11]]
   },
 
   // The list of templates being available. The first entry is the default template.
@@ -23,14 +23,25 @@
       desc: "ClaudiusMinimus' own Potato Island - For use on SkyBlock",
       file: "potatoisland.nbt",
       spawns: "skyblock",
-      direction: "west",
-    },
-    {
-      name: "Potato Stone Cave",
-      desc: "ClaudiusMinimus' own Potato Stone Cave - For use on StoneBlock",
-      file: "stoneblock.snbt",
-      spawns: "stoneblock",
-      direction: "south",
-    },
-  ],
+      direction: "west"
+    }
+    // Use at your own risk. If you do use it, then set "surface": true, in
+    // minecraft/config/skyblockbuilder/common-config.json5
+    
+    // IMPORTANT: Be Warned. 
+    // If you do not set surface back to false before loading
+    // a sky block, you risk filling chunks with stone!
+
+    // A safe way to use stone block is to make a separate instance of the pack
+    // for stone block only!
+
+    // ,
+    // {
+    //   name: "Potato Stone Cave",
+    //   desc: "ALPHA Potato Stone Cave - For use on StoneBlock",
+    //   file: "stoneblock.snbt",
+    //   spawns: "stoneblock",
+    //   direction: "south"
+    // }
+  ]
 }
