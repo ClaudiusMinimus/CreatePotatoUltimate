@@ -20,6 +20,7 @@
     {"item": "minecraft:raw_iron", "chance": 0.35},
     {"item": "minecraft:redstone", "chance": 0.3, "count": 4},
     {"item": "minecraft:spore_blossom", "chance": 0.01},
-    {"item": "create:experience_nugget", "chance": 0.15}
+    {"item": "create:experience_nugget", "chance": 0.15},
+    {"item": "minecraft:echo_shard", "chance": 0.001}
   ]
 }
