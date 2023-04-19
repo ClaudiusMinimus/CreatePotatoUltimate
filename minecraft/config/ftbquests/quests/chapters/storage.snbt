@@ -286,7 +286,7 @@
 			tasks: [{
 				id: "000000000000049C"
 				type: "item"
-				item: "refinedstorage:importer"
+				item: "refinedstorage:exporter"
 			}]
 			rewards: [{
 				id: "000000000000049D"
@@ -354,6 +354,11 @@
 		{
 			x: 4.0d
 			y: -2.5d
+			description: [
+				"Use Tesla Coil to charge Wireless Grids."
+				""
+				"Wireless Grids are power hungry - add Alternators as needed."
+			]
 			dependencies: ["0000000000000482"]
 			id: "00000000000004DB"
 			tasks: [
@@ -402,10 +407,10 @@
 				item: "refinedstorage:network_receiver"
 			}]
 			rewards: [{
-				id: "00000000000004DF"
+				id: "7E6AF13CA00F4702"
 				type: "item"
-				item: "minecraft:amethyst_shard"
-				count: 8
+				item: "refinedstorage:processor_binding"
+				count: 16
 			}]
 		}
 		{
@@ -426,7 +431,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 3.5d
 			y: -4.5d
 			dependencies: ["00000000000004AE"]
 			id: "00000000000004C5"
@@ -460,8 +465,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 7.0d
+			x: 4.0d
+			y: 0.5d
+			dependencies: ["0000000000000482"]
 			id: "00000000000004A8"
 			tasks: [{
 				id: "00000000000004A9"
@@ -477,13 +483,39 @@
 		{
 			x: 0.5d
 			y: -1.0d
+			description: ["Nearly all blocks can be made into covers with an iron nugget."]
 			dependencies: ["0000000000000482"]
 			id: "755A43FE9B493CE2"
-			tasks: [{
-				id: "7B43871F5E24A2DF"
-				type: "item"
-				item: "refinedstorage:importer"
-			}]
+			tasks: [
+				{
+					id: "7B43871F5E24A2DF"
+					type: "item"
+					item: {
+						id: "refinedstorage:cover"
+						Count: 1b
+						tag: {
+							Item: {
+								id: "minecraft:stone_bricks"
+								Count: 1b
+							}
+						}
+					}
+				}
+				{
+					id: "189A08E5F65E3AA3"
+					type: "item"
+					item: {
+						id: "refinedstorage:hollow_cover"
+						Count: 1b
+						tag: {
+							Item: {
+								id: "minecraft:stone_bricks"
+								Count: 1b
+							}
+						}
+					}
+				}
+			]
 			rewards: [{
 				id: "5E8BBE9DCA65B94E"
 				type: "item"
