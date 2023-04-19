@@ -94,6 +94,11 @@ ServerEvents.recipes(event => {
 
 });
 
+ServerEvents.compostableRecipes( event => {
+    event.add('silentgear:fluffy_seeds', 0.3);
+    event.add('silentgear:flax_seeds', 0.3);
+})
+
 // provides a way to get a minecraft:bee_nest
 BlockEvents.rightClicked("block.right_click", (event) => {
 	const { block, hand, item, player } = event;
