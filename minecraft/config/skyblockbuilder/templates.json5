@@ -12,7 +12,7 @@
   spawn: null,
 
   spawns: {
-    skyblock: [[2, 11, 4]],
+    skyblock: [[2, 11, 7]],
     stoneblock: [[7, 1, 11]]
   },
 
@@ -21,7 +21,7 @@
     {
       name: "Potato Island",
       desc: "ClaudiusMinimus' own Potato Island - For use on SkyBlock",
-      file: "potatoisland.nbt",
+      file: "potatoisland.snbt",
       spawns: "skyblock",
       direction: "west"
     }
