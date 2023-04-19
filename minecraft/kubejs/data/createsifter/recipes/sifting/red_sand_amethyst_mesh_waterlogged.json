@@ -1,0 +1,16 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "kubejs:amethyst_mesh"
+    },
+    {
+      "item": "minecraft:red_sand"
+    }
+  ],
+  "processingTime": 500,
+  "results": [
+    {"item": "minecraft:heart_of_the_sea", "chance": 0.001}
+  ],
+  "waterlogged": true
+}
