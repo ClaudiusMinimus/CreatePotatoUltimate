@@ -449,7 +449,7 @@
 		}
 		{
 			x: 5.5d
-			y: 6.0d
+			y: 5.5d
 			description: ["The Fluid Value restricts the flow of liquids. It uses Rotational Force to open and close. Use your shift key while in your inventory or in REI to learn more how to do this."]
 			dependencies: ["00000000000007BD"]
 			id: "00000000000007C1"
@@ -473,7 +473,7 @@
 		}
 		{
 			x: 5.5d
-			y: 9.0d
+			y: 9.5d
 			description: ["The Smart Fluid Pipe is well... smart! Think of it as a way to filter what fluids are transfered."]
 			dependencies: ["00000000000007BD"]
 			id: "00000000000007C5"
@@ -490,8 +490,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 5.0d
+			x: 8.5d
+			y: 10.5d
 			description: ["The Spout is for refilling your fluid items. Can also be automated."]
 			dependencies: ["00000000000007CD"]
 			id: "00000000000007C7"
@@ -551,7 +551,7 @@
 		}
 		{
 			x: 7.0d
-			y: 6.0d
+			y: 9.0d
 			description: ["The Fluid Tank can be a single block or a multi-block structure."]
 			dependencies: ["00000000000007BD"]
 			id: "00000000000007CD"
@@ -607,7 +607,7 @@
 		}
 		{
 			x: 7.0d
-			y: 9.0d
+			y: 6.0d
 			dependencies: ["00000000000007BD"]
 			id: "0000000000000855"
 			tasks: [{
@@ -1276,7 +1276,7 @@
 		}
 		{
 			x: 3.0d
-			y: 11.0d
+			y: 11.5d
 			dependencies: ["00000000000008D1"]
 			id: "0AC25E42FE36BE47"
 			tasks: [{
@@ -1523,8 +1523,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 15.0d
+			x: 5.0d
+			y: 14.5d
 			description: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
 			dependencies: ["00000000000008D1"]
 			id: "03B81A645C9AA3F7"
@@ -1557,8 +1557,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 13.0d
+			x: 6.0d
+			y: 14.0d
 			description: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
 			dependencies: ["00000000000008D1"]
 			id: "7DC3C9C543BFAE8E"
@@ -1590,10 +1590,10 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 14.0d
+			x: 8.5d
+			y: 12.5d
 			description: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
-			dependencies: ["00000000000008D1"]
+			dependencies: ["00000000000007C7"]
 			id: "285AF2D75FD9809C"
 			tasks: [{
 				id: "571AB8723B5BA2B7"
@@ -2089,7 +2089,7 @@
 		}
 		{
 			x: 4.0d
-			y: 10.5d
+			y: 11.0d
 			dependencies: ["00000000000008D1"]
 			id: "7A25D9B9DC2082DE"
 			tasks: [{
@@ -2106,7 +2106,7 @@
 		}
 		{
 			x: 5.0d
-			y: 11.0d
+			y: 11.5d
 			subtitle: "Feel the Power!"
 			description: [
 				"You will need several of these to power your Refined Storage system. The bigger the system, the more Alternators you will need."
