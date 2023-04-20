@@ -55,10 +55,10 @@ When released, Potato Ultimate's version number was set to 1.x.x, but it should 
      - Larger tree with bee nest
      - Tree moved further from edge
      - Added dirt/grass buffer to not lose saplings
-  - Re-enabled Challenge Mobs in V-Tweaks with patched updated mod. Please notifiy if worlds crash with this enabled. If so, in `minecraft/config/vtweaks-common.toml` change `enableChallengerMobs = false`
-  - Fixed duplicate Refined Storage Importer quest
-  - Added sifting recipes for Heart of the Sea and Echo Shard. The chance to spawn is 0.001%, please notify is they too common.
-  - Can now compost Fluffy and Flax seeds
+    - Re-enabled Challenge Mobs in V-Tweaks with patched updated mod. Please notifiy if worlds crash with this enabled. If so, in `minecraft/config/vtweaks-common.toml` change `enableChallengerMobs = false`
+    - Fixed duplicate Refined Storage Importer quest
+    - Added sifting recipes for Heart of the Sea and Echo Shard. The chance to spawn is 0.001%, please notify is they too common.
+    - Can now compost Fluffy and Flax seeds
 
  ## Create on a Potato PC: Ultimate 1.19.2-1.5.2
  Apr. 01, 2023
