@@ -1,47 +1,36 @@
 # Create on a Potato PC: Ultimate Change Log
 
-**IMPORTANT For those upgrading from the Forge Edition**
-Going forward, this is the only supported Create on a Potato PC pack. The Sky Edition and Forge Editions are now merged into this Ultimate Edition.
- - Inventory is now stored using only vanilla and Create Vaults (72 slots instead of the default 20) and Create Tanks. To keep from losing your stuff, you must export everything in the following storage systems:
-    - Refined Storage Disk Storage - including fluids
-    - Better Crates
-    - Sophisticated Storage
-    - Storage Drawers
- - Automation is also removed from Refined Storage to remove bloat and use Create's automation.
+ ## Create on a Potato PC: Ultimate 1.19.2-4.6.1
 
- Please look carefully over the change log for this release. While this pack is a merger of Forge and Sky, it is based mostly on Sky and therefore inherits Sky's versioning.
+When released, Potato Ultimate's version number was set to 1.x.x, but it should have been 4.x.x. Therefore, the current working version 1.6.x is now be 4.6.x since this is the 4th major change to Create on a Potato PC since the beginning. Sorry for the confusion. 
 
- If while playing the pack you notice something missing, please ping me on CM's World discord. I was just informed Farmer's Delight vegtables are missing for sky block.
-
- ## Create on a Potato PC: Ultimate 1.19.2-4.6.0
-
-When released, Potato Ultimate's version number was set to 1.x.x, but it should have been 4.x.x. Therefore, the current working version 1.6.0 is now be 4.6.0 since this is the 4th major change to Create on a Potato PC since the beginning. Sorry for the confusion. 
-
- Apr. 19, 2023
+ Apr. 24, 2023
  - Mods Added:
  - Mods Updated:
   - architectury-6.5.77-forge.jar
   - BHMenu-Forge-1.19.2-2.2.jar
+  - comforts-forge-6.0.5+1.19.2.jar
   - CraftPresence-2.0.0-rc.2+1.19.2.jar
   - create-stuff-additions1.19.2_v2.0.2c.jar
   - createaddition-1.19.2-20230411a.jar
-  - createdeco-1.3.0-1.19.2.jar
+  - createdeco-1.3.1-1.19.2.jar
   - curios-forge-1.19.2-5.1.4.0.jar
-  - drippyloadingscreen_forge_2.1.4_MC_1.19.1-1.19.2.jar
+  - drippyloadingscreen_forge_2.2.0_MC_1.19.1-1.19.2.jar
   - extremesoundmuffler-3.37-forge-1.19.2.jar
-  - fancymenu_forge_2.14.3_MC_1.19-1.19.2.jar
-  - FastWorkbench-1.19.2-7.1.0.jar
+  - fancymenu_forge_2.14.7_MC_1.19-1.19.2.jar
+  - FastWorkbench-1.19.2-7.1.1.jar
   - ftb-chunks-forge-1902.3.21-build.266.jar
-  - ftb-library-forge-1902.3.17-build.200.jar
+  - ftb-library-forge-1902.3.18-build.208.jar
   - ftb-quests-forge-1902.4.11-build.207.jar
   - ftb-teams-forge-1902.2.13-build.100.jar
   - jei-1.19.2-forge-11.6.0.1015.jar
+  - Placebo-1.19.2-7.1.8.jar
   - polylib-forge-1900.0.2-build.73.jar
   - Quark-3.4-397.jar
-  - repurposed_structures_forge-6.3.21+1.19.2.jar
+  - repurposed_structures_forge-6.3.24+1.19.2.jar
   - rhino-forge-1902.2.2-build.268.jar
-  - sophisticatedbackpacks-1.19.2-3.18.44.815.jar
-  - sophisticatedcore-1.19.2-0.5.49.245.jar
+  - sophisticatedbackpacks-1.19.2-3.18.45.819.jar
+  - sophisticatedcore-1.19.2-0.5.51.251.jar
   - toms_storage-1.19-1.5.4.jar
   - VTweaks-1.19.2-4.0.6.jar
   - Xaeros_Minimap_23.4.0_Forge_1.19.1.jar
@@ -55,6 +44,11 @@ When released, Potato Ultimate's version number was set to 1.x.x, but it should 
      - Larger tree with bee nest
      - Tree moved further from edge
      - Added dirt/grass buffer to not lose saplings
+   - Added BETA Stoneblock template - not enabled
+     - If you want to test this BETA stoneblock, make a separate instance of the pack.
+     - Open and edit the following files in a text editor like Notepad:
+       - `minecraft/config/skyblockbuilder/templates.json5` (editing instructions for both files found on lines 40-57)
+       - `minecraft/config/skyblockbuilder/common-config.json5`
     - Re-enabled Challenge Mobs in V-Tweaks with patched updated mod. Please notifiy if worlds crash with this enabled. If so, in `minecraft/config/vtweaks-common.toml` change `enableChallengerMobs = false`
     - Fixed duplicate Refined Storage Importer quest
     - Added sifting recipes for Heart of the Sea and Echo Shard. The chance to spawn is 0.001%, please notify is they too common.
@@ -85,6 +79,19 @@ When released, Potato Ultimate's version number was set to 1.x.x, but it should 
  - Mods Removed:
  - Other Changes:
    - Added slice and dice quests
+
+**IMPORTANT For those upgrading from the Forge Edition**
+Going forward, this is the only supported Create on a Potato PC pack. The Sky Edition and Forge Editions are now merged into this Ultimate Edition.
+ - Inventory is now stored using only vanilla and Create Vaults (72 slots instead of the default 20) and Create Tanks. To keep from losing your stuff, you must export everything in the following storage systems:
+    - Refined Storage Disk Storage - including fluids
+    - Better Crates
+    - Sophisticated Storage
+    - Storage Drawers
+ - Automation is also removed from Refined Storage to remove bloat and use Create's automation.
+
+ Please look carefully over the change log for this release. While this pack is a merger of Forge and Sky, it is based mostly on Sky and therefore inherits Sky's versioning.
+
+ If while playing the pack you notice something missing, please ping me on CM's World discord. I was just informed Farmer's Delight vegtables are missing for sky block.
 
 ## Create on a Potato PC: Ultimate 1.19.2-1.4.1
 Mar. 28, 2023
