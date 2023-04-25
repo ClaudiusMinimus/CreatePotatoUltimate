@@ -7,41 +7,53 @@
   //     "file": "default.nbt",
   //     "spawns": "default",
   //     "direction": "south",
-  //     "offset": [ 0, 0 ]
+  //     "offset": [ 0, 0 ],
+  //     "offsetY": 0,
+  //     "surroundingMargin": 0,
+  //     "surroundingBlocks": "default"
   // }
-  spawn: null,
-
-  spawns: {
-    skyblock: [[2, 11, 7]],
-    stoneblock: [[7, 1, 11]]
+  "spawn": null,
+  
+  "spawns": {
+    "skyblock": [
+      [ 2, 11, 7 ]
+    ],
+    "stoneblock": [
+      [ 7, 1, 11 ]
+    ]
   },
-
+  
+  // A list of blocks which can be used to surround islands/caves.
+  "surroundingBlocks": {
+    "default": []
+  },
+  
   // The list of templates being available. The first entry is the default template.
-  templates: [
+  "templates": [
     {
-      name: "Potato Island",
-      desc: "ClaudiusMinimus' own Potato Island - For use on SkyBlock",
-      file: "potatoisland.snbt",
-      spawns: "skyblock",
-      direction: "west"
+      "name": "Potato Island",
+      "desc": "ClaudiusMinimus' own Potato Island - For use on SkyBlock",
+      "file": "potatoisland.snbt",
+      "spawns": "skyblock",
+      "direction": "west"
     }
-    // Use at your own risk. If you do use it, then set "surface": true, in
-    // minecraft/config/skyblockbuilder/common-config.json5
-    
-    // IMPORTANT: Be Warned. 
-    // If you do not set surface back to false before loading
-    // a sky block, you risk filling chunks with stone!
-
-    // A safe way to use stone block is to make a separate instance of the pack
-    // for stone block only!
-
+    // This stoneblock template works, but should be in a separate instance from 
+    // any skyblock worlds. To use, you must 
+    // 1. open ./common-config.json5 and change line 225:
+    // 
+    // from 
+    // "surface": false,
+    // to  
+    // "surface": true,
+    // 
+    // 2. Uncomment lines 50-57 by removing the two slashes //
     // ,
     // {
-    //   name: "Potato Stone Cave",
-    //   desc: "ALPHA Potato Stone Cave - For use on StoneBlock",
-    //   file: "stoneblock.snbt",
-    //   spawns: "stoneblock",
-    //   direction: "south"
+    //   "name": "Potato Stone Cave",
+    //   "desc": "ALPHA Potato Stone Cave - For use on StoneBlock",
+    //   "file": "stoneblock.snbt",
+    //   "spawns": "stoneblock",
+    //   "direction": "south"
     // }
   ]
 }
