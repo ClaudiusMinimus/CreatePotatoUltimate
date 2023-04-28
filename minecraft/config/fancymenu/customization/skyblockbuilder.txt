@@ -1,0 +1,79 @@
+type = menu
+
+customization-meta {
+  identifier = de.melanx.skyblockbuilder.client.ScreenCustomizeSkyblock
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=345972%
+  orientation = bottom-centered
+  x = -50
+  action = movebutton
+  y = -28
+}
+
+customization {
+  identifier = %id=345972%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=505972%
+  orientation = bottom-centered
+  x = 55
+  action = movebutton
+  y = -28
+}
+
+customization {
+  identifier = %id=505972%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Be sure to check the Skyblock Builder "Surface" %n%setting is set correctly for this world. %n%For Skyblock must be: "surface": false,%n%For Stoneblock must be "surface": true,%n%ALWAYS Backup your worlds.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 4
+  width = 272
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = a7405366-0640-4c2b-878e-634318e2356b1682706134660
+  y = -80
+  alignment = left
+  height = 53
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openfile;config/skyblockbuilder/common-config.json5%btnaction_splitter_fm%
+  x = -155
+  width = 100
+  action = addbutton
+  actionid = cc596668-cb43-4d34-b98d-b00d01b6d8741682706898459
+  y = -28
+  description = This button opens the Skyblock Builder config file in%n%your default text editor, like Notepad.%n%Go to the line with the "surface" setting%n%Set correctly for your new world. %n%   For Skyblock: "surface": false,%n%   For Stoneblock: "surface": true,%n%Do not edit or save in a word processor!%n%%n%You can also use the mod menu from the main%n%screen and search for Skyblock Builder. %n%Click on Config > common-config%n%Then check or uncheck Surface as needed.%n%%n%**** IMPORTANT ****%n%If you have any older world generated with Skyblock%n%Builder, you must open those worlds with "surface"%n%set for the world. Once opened, you can close it.%n%ALWAYS Restart Minecraft when changing %n%this setting!%n%ALWAYS Backup your worlds!
+  label = Open Config
+  height = 20
+}
+
