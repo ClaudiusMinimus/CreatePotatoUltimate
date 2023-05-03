@@ -119,7 +119,6 @@ ServerEvents.recipes(event => {
         "refinedstorage:cyan_security_manager",
         "refinedstorage:cyan_wireless_transmitter",
         "refinedstorage:destructor",
-        "refinedstorage:detector",
         "refinedstorage:disk_drive",
         "refinedstorage:disk_manipulator",
         "refinedstorage:fortune_1_upgrade",
