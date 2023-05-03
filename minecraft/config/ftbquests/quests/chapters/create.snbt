@@ -450,7 +450,7 @@
 		{
 			x: 5.5d
 			y: 5.5d
-			description: ["The Fluid Value restricts the flow of liquids. It uses Rotational Force to open and close. Use your shift key while in your inventory or in REI to learn more how to do this."]
+			description: ["The Fluid Value restricts the flow of liquids. It uses Rotational Force to open and close. Use your shift key while in your inventory or in JEI to learn more how to do this."]
 			dependencies: ["00000000000007BD"]
 			id: "00000000000007C1"
 			tasks: [{
