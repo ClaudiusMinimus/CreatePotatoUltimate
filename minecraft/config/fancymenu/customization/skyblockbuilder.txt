@@ -44,22 +44,22 @@ customization {
 }
 
 customization {
-  orientation = bottom-left
+  orientation = bottom-centered
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = Be sure to check the Skyblock Builder "Surface" %n%setting is set correctly for this world. %n%For Skyblock must be: "surface": false,%n%For Stoneblock must be "surface": true,%n%ALWAYS Backup your worlds.
+  source = Be sure to check the Skyblock Builder "Surface" setting is set correctly for this world. %n%For Skyblock must be: "surface": false,%n%For Stoneblock must be "surface": true,%n%ALWAYS Backup your worlds.
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = 4
-  width = 272
+  x = -234
+  width = 468
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = a7405366-0640-4c2b-878e-634318e2356b1682706134660
-  y = -80
-  alignment = left
-  height = 53
+  y = -82
+  alignment = centered
+  height = 50
 }
 
 customization {
@@ -74,6 +74,19 @@ customization {
   y = -28
   description = This button opens the Skyblock Builder config file in%n%your default text editor, like Notepad.%n%Go to the line with the "surface" setting%n%Set correctly for your new world. %n%   For Skyblock: "surface": false,%n%   For Stoneblock: "surface": true,%n%Do not edit or save in a word processor!%n%%n%You can also use the mod menu from the main%n%screen and search for Skyblock Builder. %n%Click on Config > common-config%n%Then check or uncheck Surface as needed.%n%%n%**** IMPORTANT ****%n%If you have any older world generated with Skyblock%n%Builder, you must open those worlds with "surface"%n%set for the world. Once opened, you can close it.%n%ALWAYS Restart Minecraft when changing %n%this setting!%n%ALWAYS Backup your worlds!
   label = Open Config
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  x = 282
+  width = 100
+  action = addbutton
+  actionid = cab89f19-9af6-46b9-ac62-73acdc7a09661683561959421
+  y = 197
+  label = Reload
   height = 20
 }
 
