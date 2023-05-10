@@ -1,6 +1,6 @@
 # Create on a Potato PC: Ultimate Change Log
 
-## Create on a Potato PC: Ultimate 1.19.2-4.7.0
+## Create on a Potato PC: Ultimate 1.19.2-4.7.1
 May. 10, 2023
 - Mods Added:
   - create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.5.jar
