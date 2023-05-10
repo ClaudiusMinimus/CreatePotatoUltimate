@@ -199,6 +199,13 @@
 		#.
 		#Whether harvesters should replant crops after harvesting.
 		harvesterReplants = true
+		#.
+		#[in Bytes]
+		#[0 to disable this limit]
+		#Maximum amount of data a contraption can have before it can't be synced with players.
+		#Un-synced contraptions will not be visible and will not have collision.
+		#Range: > 0
+		maxDataSize = 2000000
 
 	[kinetics.stressValues]
 
@@ -353,7 +360,7 @@
 	#.
 	#Configure which fluids can be drained infinitely.
 	#Allowed Values: ALLOW_ALL, DENY_ALL, ALLOW_BY_TAG, DENY_BY_TAG
-	bottomlessFluidMode = "ALLOW_BY_TAG"
+	bottomlessFluidMode = "ALLOW_ALL"
 	#.
 	#Whether open-ended pipes and hose pulleys should be allowed to place fluid sources.
 	placeFluidSourceBlocks = true
@@ -481,6 +488,10 @@
 	#Relative speed of a manually controlled Train compared to a Scheduled one.
 	#Range: 0.0 ~ 3.4028234663852886E38
 	manualTrainSpeedModifier = 0.75
+	#.
+	#Maximum length of track that can be placed as one batch or turn.
+	#Range: 16 ~ 128
+	maxTrackPlacementLength = 32
 
 	#.
 	#Standard Trains
