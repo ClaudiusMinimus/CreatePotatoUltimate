@@ -346,6 +346,7 @@
 				id: "4AC859C018BFBC16"
 				type: "item"
 				item: "botania:open_crate"
+				only_from_crafting: false
 			}]
 			rewards: [{
 				id: "178FFDF36A35D3B1"
