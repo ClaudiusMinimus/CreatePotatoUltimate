@@ -1,5 +1,36 @@
 # Create on a Potato PC: Ultimate Change Log
 
+## Create on a Potato PC: Ultimate 1.19.2-4.7.0
+May. 10, 2023
+- Mods Added:
+  - create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.5.jar
+- Mods Updated:
+  - architectury-6.5.82-forge.jar
+  - BHMenu-Forge-1.19.2-2.3.1.jar
+  - clienttweaks-forge-1.19.2-8.1.2.jar
+  - craftingtweaks-forge-1.19.2-15.1.7.jar
+  - CraftPresence-2.0.0-rc.3+1.19.2.jar
+  - createaddition-1.19.2-20230507a.jar
+  - createdeco-1.3.2-1.19.2.jar
+  - curios-forge-1.19.2-5.1.4.1.jar
+  - drippyloadingscreen_forge_2.2.1_MC_1.19.1-1.19.2.jar
+  - FarmersDelight-1.19-1.2.1.jar
+  - FastWorkbench-1.19.2-7.1.2.jar
+  - ftb-essentials-forge-1902.3.1-build.75.jar
+  - ftb-quests-forge-1902.4.15-build.228.jar
+  - konkrete_forge_1.6.1_MC_1.19-1.19.2.jar
+  - kotlinforforge-3.12.0-all.jar
+  - Quark-3.4-398.jar
+  - SkyblockBuilder-1.19.2-4.2.14.jar
+  - sliceanddice-forge-2.1.0-forge.jar
+  - sophisticatedcore-1.19.2-0.5.54.261.jar
+  - toms_storage-1.19-1.5.5.jar
+  - VTweaks-1.19.2-4.0.7.jar
+  - Xaeros_Minimap_23.4.1_Forge_1.19.1.jar
+  - XaerosWorldMap_1.30.1_Forge_1.19.1.jar
+- Mods Removed:
+- Other Changes:
+
  ## Create on a Potato PC: Ultimate 1.19.2-4.6.1
 
 When released, Potato Ultimate's version number was set to 1.x.x, but it should have been 4.x.x. Therefore, the current working version 1.6.x is now be 4.6.x since this is the 4th major change to Create on a Potato PC since the beginning. Sorry for the confusion. 
