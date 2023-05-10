@@ -48,7 +48,7 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = Be sure to check the Skyblock Builder "Surface" setting is set correctly for this world. %n%For Skyblock must be: "surface": false,%n%For Stoneblock must be "surface": true,%n%ALWAYS Backup your worlds.
+  source = Be sure to check the Skyblock Builder "Surface" setting is set correctly for this world. %n%To check or edit this setting, click the "Open Config" button below.%n%Skyblock worlds set: "surface": false, and Stoneblock worlds set "surface": true,%n%ALWAYS Restart Minecraft if you change this setting and before loading any worlds!%n%%n%ALWAYS Backup your worlds!
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -57,9 +57,9 @@ customization {
   width = 468
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = a7405366-0640-4c2b-878e-634318e2356b1682706134660
-  y = -82
+  y = -95
   alignment = centered
-  height = 50
+  height = 63
 }
 
 customization {
@@ -72,7 +72,7 @@ customization {
   action = addbutton
   actionid = cc596668-cb43-4d34-b98d-b00d01b6d8741682706898459
   y = -28
-  description = This button opens the Skyblock Builder config file in%n%your default text editor, like Notepad.%n%Go to the line with the "surface" setting%n%Set correctly for your new world. %n%   For Skyblock: "surface": false,%n%   For Stoneblock: "surface": true,%n%Do not edit or save in a word processor!%n%%n%You can also use the mod menu from the main%n%screen and search for Skyblock Builder. %n%Click on Config > common-config%n%Then check or uncheck Surface as needed.%n%%n%**** IMPORTANT ****%n%If you have any older world generated with Skyblock%n%Builder, you must open those worlds with "surface"%n%set for the world. Once opened, you can close it.%n%ALWAYS Restart Minecraft when changing %n%this setting!%n%ALWAYS Backup your worlds!
+  description = This button opens the Skyblock Builder config file in%n%your default text editor, like Notepad.%n%Go to line 225 with the "surface" setting%n%Set "surface" correctly for your new world. %n%   For Skyblock: "surface": false,%n%   For Stoneblock: "surface": true,%n%Do not edit or save in a word processor!%n%%n%You can also use the mod menu from the main%n%screen and search for Skyblock Builder. %n%Click on Config > common-config%n%Then check or uncheck Surface as needed.%n%%n%**** IMPORTANT ****%n%If you have any older world generated with Skyblock%n%Builder, you must open those worlds with "surface"%n%set for the world. Once opened, you can close it.%n%ALWAYS Restart Minecraft if you change this setting %n%and before loading any worlds!%n%%n%ALWAYS Backup your worlds!
   label = Open Config
   height = 20
 }
@@ -81,12 +81,14 @@ customization {
   orientation = top-left
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  x = 282
+  buttonaction = opengui;net.minecraft.client.gui.screens.TitleScreen:button_compatibility_id:forge_titlescreen_mods_button%btnaction_splitter_fm%
+  x = 250
   width = 100
   action = addbutton
-  actionid = cab89f19-9af6-46b9-ac62-73acdc7a09661683561959421
-  y = 197
-  label = Reload
+  actionid = f9f38dc0-aa15-4739-b708-ea480f4434f81683566741431
+  y = 189
+  label = Edit in GUI
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:10a7a737-0232-4c7e-879c-3face2ce5d8e1683569483858] = ["equals":"1","number":"1","compare_with":"5"]$
   height = 20
 }
 
