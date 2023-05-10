@@ -1607,6 +1607,9 @@
 				"Make a pickaxe head using three Iron Ingots and an Iron Tool Rod"
 				""
 				"Your reward is a Redstone Tip Upgrade. While hovering the tip, press the Ctrl key to see the stat changes."
+				""
+				"&4&lIMPORTANT&r"
+				"&rIn order to complete the Iron Tool Rod you must use a Tool Rod Blueprint or Tool Rod Template. If you simply craft two iron ingots to make a Iron Rod, the quest will fail."
 			]
 			dependencies: ["000000000000008F"]
 			id: "0000000000000092"
@@ -1630,6 +1633,7 @@
 							}]
 						}
 					}
+					match_nbt: true
 				}
 				{
 					id: "0000000000000632"
@@ -1649,6 +1653,8 @@
 							}]
 						}
 					}
+					match_nbt: true
+					weak_nbt_match: true
 				}
 			]
 			rewards: [
