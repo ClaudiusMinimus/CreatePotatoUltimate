@@ -32,6 +32,7 @@ May. 11, 2023
 - Other Changes:
   - Fix quest rewards that were not as good as they should be - if a reward was changed, then the old reward was deleted and the new one added, that way players who already completed the quest also benefit.
   - Do not show when mod updates are available When players update mods themselves, they risk breaking the pack. Therefore, hiding when updates are available helps keep the pack stable between pack updates.
+  - Set default Rich Presence settings for CPU
 
  ## Create on a Potato PC: Ultimate 1.19.2-4.6.1
 
