@@ -3,7 +3,6 @@
 ## Create on a Potato PC: Ultimate 1.19.2-4.7.2
 May. 11, 2023
 - Mods Added:
-  - create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.5.jar
 - Mods Updated:
   - architectury-6.5.82-forge.jar
   - BHMenu-Forge-1.19.2-2.3.1.jar
