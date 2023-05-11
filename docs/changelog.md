@@ -1,7 +1,7 @@
 # Create on a Potato PC: Ultimate Change Log
 
-## Create on a Potato PC: Ultimate 1.19.2-4.7.1
-May. 10, 2023
+## Create on a Potato PC: Ultimate 1.19.2-4.7.2
+May. 11, 2023
 - Mods Added:
   - create_central_kitchen-1.19.2-for-create-0.5.0.i-1.3.5.jar
 - Mods Updated:
@@ -30,6 +30,8 @@ May. 10, 2023
   - XaerosWorldMap_1.30.1_Forge_1.19.1.jar
 - Mods Removed:
 - Other Changes:
+  - Fix quest rewards that were not as good as they should be - if a reward was changed, then the old reward was deleted and the new one added, that way players who already completed the quest also benefit.
+  - Do not show when mod updates are available When players update mods themselves, they risk breaking the pack. Therefore, hiding when updates are available helps keep the pack stable between pack updates.
 
  ## Create on a Potato PC: Ultimate 1.19.2-4.6.1
 
