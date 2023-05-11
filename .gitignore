@@ -96,11 +96,13 @@ minecraft/config/fancymenu/locals/*
 !minecraft/config/bcc-common.toml
 !minecraft/config/bhmenu-client.toml
 !minecraft/config/defaultsettings.json
+!minecraft/config/gamemenumodoption-client.toml
 !minecraft/config/quark-common.toml
 !minecraft/config/squatgrow-common.yaml
 !minecraft/config/theoneprobe-client.toml
 !minecraft/config/theoneprobe-common.toml
 !minecraft/config/NoChatReports/NCR-Client.json
 !minecraft/config/vtweaks-common.toml
+!minecraft/config/xaeroworldmap.txt
 !server/config/bcc-common.toml
 !server/config/carrier.json
