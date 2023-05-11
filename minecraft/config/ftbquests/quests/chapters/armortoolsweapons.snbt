@@ -166,18 +166,19 @@
 				}
 			]
 			rewards: [{
-				id: "0499CD03060DCB0F"
+				id: "16E2EC1EA1032E98"
 				type: "item"
 				item: {
 					id: "minecraft:enchanted_book"
 					Count: 1b
 					tag: {
 						StoredEnchantments: [{
-							lvl: 2s
-							id: "minecraft:looting"
+							lvl: 1s
+							id: "minecraft:mending"
 						}]
 					}
 				}
+				count: 4
 			}]
 		}
 		{
@@ -196,16 +197,23 @@
 				}
 			}]
 			rewards: [{
-				id: "6FB6B8020E3BFD0B"
+				id: "5537C82187610DBA"
 				type: "item"
 				item: {
 					id: "minecraft:enchanted_book"
 					Count: 1b
 					tag: {
-						StoredEnchantments: [{
-							lvl: 2s
-							id: "minecraft:sharpness"
-						}]
+						StoredEnchantments: [
+							{
+								lvl: 3s
+								id: "minecraft:looting"
+							}
+							{
+								lvl: 5s
+								id: "minecraft:sharpness"
+							}
+						]
+						RepairCost: 1
 					}
 				}
 			}]
@@ -299,15 +307,15 @@
 				}
 			}]
 			rewards: [{
-				id: "1F3FCB8936DC7A6E"
+				id: "46BFCB115BF93041"
 				type: "item"
 				item: {
 					id: "minecraft:enchanted_book"
 					Count: 1b
 					tag: {
 						StoredEnchantments: [{
-							lvl: 2s
-							id: "minecraft:efficiency"
+							lvl: 3s
+							id: "minecraft:fortune"
 						}]
 					}
 				}
@@ -328,12 +336,28 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "5C87F49C1EE2B9CD"
-				type: "item"
-				item: "create:framed_glass"
-				count: 8
-			}]
+			rewards: [
+				{
+					id: "5C87F49C1EE2B9CD"
+					type: "item"
+					item: "create:framed_glass"
+					count: 8
+				}
+				{
+					id: "79009D21A8AE5C3E"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -350,20 +374,36 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "65DD7FEBEA668A43"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 3s
-							id: "minecraft:thorns"
-						}]
+			rewards: [
+				{
+					id: "1C0576B46BE39881"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
 					}
 				}
-			}]
+				{
+					id: "66731761F7BD83D5"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:power"
+							}]
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -380,20 +420,36 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "5D7257476D649C7B"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 3s
-							id: "minecraft:sweeping"
-						}]
+			rewards: [
+				{
+					id: "5D7257476D649C7B"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:sweeping"
+							}]
+						}
 					}
 				}
-			}]
+				{
+					id: "45A6EC9D7426C8E5"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:sharpness"
+							}]
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -487,15 +543,15 @@
 				}
 			}]
 			rewards: [{
-				id: "155E75665E3AC7C8"
+				id: "100999E157441C93"
 				type: "item"
 				item: {
 					id: "minecraft:enchanted_book"
 					Count: 1b
 					tag: {
 						StoredEnchantments: [{
-							lvl: 3s
-							id: "minecraft:efficiency"
+							lvl: 4s
+							id: "minecraft:fortune"
 						}]
 					}
 				}
@@ -517,14 +573,14 @@
 				}
 			}]
 			rewards: [{
-				id: "0449F4DCCEC09BC0"
+				id: "01DABF0B0DBC88AA"
 				type: "item"
 				item: {
 					id: "minecraft:enchanted_book"
 					Count: 1b
 					tag: {
 						StoredEnchantments: [{
-							lvl: 1s
+							lvl: 3s
 							id: "minecraft:fortune"
 						}]
 					}
@@ -546,18 +602,34 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "339DA56C74F0C982"
-				type: "item"
-				item: {
-					id: "minecraft:tipped_arrow"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:strong_harming"
+			rewards: [
+				{
+					id: "339DA56C74F0C982"
+					type: "item"
+					item: {
+						id: "minecraft:tipped_arrow"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_harming"
+						}
+					}
+					count: 32
+				}
+				{
+					id: "3820C2A3F726135E"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:power"
+							}]
+						}
 					}
 				}
-				count: 32
-			}]
+			]
 		}
 		{
 			title: "Complete one of the sets"
