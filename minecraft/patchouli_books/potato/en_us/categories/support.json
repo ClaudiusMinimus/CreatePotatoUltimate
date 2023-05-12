@@ -1,5 +1,5 @@
 {
     "name": "Support",
-    "description": "Please use the links provided to recieve support or want more information:$(li)$(l:https://discord.com/invite/jXrx4Tu)CM's World discord$(/l)$(li)$(l:https://www.curseforge.com/minecraft/modpacks/create-on-a-potato-pc-sky)Curseforge$(/l)$(li)$(l:https://github.com/ClaudiusMinimus/Create-Potato-SkyBlock/issues)Issue Tracker$(/l)",
+    "description": "Please use the links provided to recieve support or want more information:$(li)$(l:https://discord.com/invite/jXrx4Tu)CM's World discord$(/l)$(li)$(l:https://legacy.curseforge.com/minecraft/modpacks/create-on-a-potato)Curseforge$(/l)$(li)$(l:https://github.com/ClaudiusMinimus/Create-Potato-SkyBlock/issues)Issue Tracker$(/l)",
     "icon": "potato:images/icons/support.png"
 }
