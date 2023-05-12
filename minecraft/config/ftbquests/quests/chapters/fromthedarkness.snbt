@@ -310,8 +310,8 @@
 		}
 		{
 			title: "FTB Chunks"
-			x: -5.1938775510204d
-			y: -1.8163265306122405d
+			x: -6.0d
+			y: -1.5d
 			description: [
 				"I made a short YouTube video showing how to claim, un-claim, and force load chunks. You can view it by going to this address."
 				""
@@ -647,6 +647,25 @@
 				id: "344CE56B34765342"
 				type: "checkmark"
 				title: "Open Potato Guidebook"
+			}]
+		}
+		{
+			title: "The One Probe Read Me"
+			icon: "theoneprobe:probenote"
+			x: -4.5d
+			y: -1.5d
+			description: ["Check to get The One Probe Read Me"]
+			dependencies: ["3E046FB9DDB11119"]
+			can_repeat: true
+			id: "0E4D24AAB4F4DC58"
+			tasks: [{
+				id: "35148C9FDCA111B8"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7432D03495AC18F0"
+				type: "item"
+				item: "theoneprobe:probenote"
 			}]
 		}
 	]
