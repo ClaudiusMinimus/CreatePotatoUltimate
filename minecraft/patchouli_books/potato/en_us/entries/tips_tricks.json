@@ -71,7 +71,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "$(li)Place the water again, but 2 blocks away.$(li)Use the water as a ladder to desend$(li)At about Y -62 place some slabs or blocks on the side of the pillar$(li)Jump on placed blocks and don't die!"
+            "text": "$(li)Place the water again, but 2 blocks away.$(li)Use the water as a ladder to descend$(li)At about Y -62 place some slabs or blocks on the side of the pillar$(li)Jump on placed blocks and don't die!"
         },
         {
             "type": "patchouli:text",
