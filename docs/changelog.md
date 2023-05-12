@@ -32,6 +32,13 @@ May. 11, 2023
   - Fix quest rewards that were not as good as they should be - if a reward was changed, then the old reward was deleted and the new one added, that way players who already completed the quest also benefit.
   - Do not show when mod updates are available When players update mods themselves, they risk breaking the pack. Therefore, hiding when updates are available helps keep the pack stable between pack updates.
   - Set default Rich Presence settings for CPU
+  - Potato guidebook
+    - Updated with additional and correct links
+    - Fixed minor typos
+    - Updated issue tracker link
+  - Added new button to wiki on main menu and in guidebook
+  - The One Probe Read Me is not given by default. Too many players were getting this with each game restart. The One Probe Read Me can be obtained in this quest line
+  - Updated skyblockbuilder.txt (Skyblock GUI) with better instructions
 
  ## Create on a Potato PC: Ultimate 1.19.2-4.6.1
 
