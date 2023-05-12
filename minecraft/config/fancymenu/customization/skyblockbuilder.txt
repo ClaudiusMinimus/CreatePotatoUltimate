@@ -48,8 +48,8 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = Be sure to check the Skyblock Builder "Surface" setting is set correctly for this world. %n%To check or edit this setting, click the "Open Config" button below.%n%Skyblock worlds set: "surface": false, and Stoneblock worlds set "surface": true,%n%ALWAYS Restart Minecraft if you change this setting and before loading any worlds!%n%%n%ALWAYS Backup your worlds!
-  text_border = 0
+  source = **** IMPORTANT **** %n%Check the Skyblock Builder "Surface" setting BEFORE generating a new world!%n%Skyblock: "surface": false, (default)%n%Stoneblock: "surface": true,%n%ALWAYS Restart Minecraft if you change this setting and before loading any worlds!%n%ALWAYS Backup your worlds!
+  text_border = 1
   case_mode = normal
   source_mode = direct
   line_spacing = 1
@@ -57,9 +57,9 @@ customization {
   width = 468
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = a7405366-0640-4c2b-878e-634318e2356b1682706134660
-  y = -95
+  y = -100
   alignment = centered
-  height = 63
+  height = 68
 }
 
 customization {
@@ -72,7 +72,7 @@ customization {
   action = addbutton
   actionid = cc596668-cb43-4d34-b98d-b00d01b6d8741682706898459
   y = -28
-  description = This button opens the Skyblock Builder config file in%n%your default text editor, like Notepad.%n%Go to line 225 with the "surface" setting%n%Set "surface" correctly for your new world. %n%   For Skyblock: "surface": false,%n%   For Stoneblock: "surface": true,%n%Do not edit or save in a word processor!%n%%n%You can also use the mod menu from the main%n%screen and search for Skyblock Builder. %n%Click on Config > common-config%n%Then check or uncheck Surface as needed.%n%%n%**** IMPORTANT ****%n%If you have any older world generated with Skyblock%n%Builder, you must open those worlds with "surface"%n%set for the world. Once opened, you can close it.%n%ALWAYS Restart Minecraft if you change this setting %n%and before loading any worlds!%n%%n%ALWAYS Backup your worlds!
+  description = This button opens the Skyblock Builder config file in%n%your default text editor, like Notepad.%n%Do not use a word processor!%n%Go to line 225 with the "surface" setting%n%Set the "surface" correctly for your new world. %n%   For Skyblock: "surface": false,%n%   For Stoneblock: "surface": true,%n%Save your changes and restart Minecraft.%n%%n%**** IMPORTANT ****%n%If you have any older skyblock worlds from Create on a%n%Potato PC: Ultimate before version 1.19.2-4.6.1 or from the%n%Sky Edition: Please see the wiki for important information on how%n%to update those worlds. Failure to do so may  corrupt the world.%n%ALWAYS Restart Minecraft after changing this setting and before%n%loading any worlds!%n%**** ALWAYS Backup Your Worlds ****
   label = Open Config
   height = 20
 }
