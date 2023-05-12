@@ -1,5 +1,5 @@
 {
     "name": "Wikis & Info",
-    "description": "A list of wikis to help you with the various mods.",
+    "description": "A list of wikis to help you with the various mods.$(br2)The $(l:https://claudiusminimuss-organization.gitbook.io/create-on-a-potato-pc-ultimate/)Create on a Potato PC: Ultimate wiki$(/l) is a WIP, so you may want to check there as well.",
     "icon": "minecraft:writable_book"
 }
