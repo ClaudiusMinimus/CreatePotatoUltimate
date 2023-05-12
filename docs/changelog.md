@@ -1,6 +1,6 @@
 # Create on a Potato PC: Ultimate Change Log
 
-## Create on a Potato PC: Ultimate 1.19.2-4.7.2
+## Create on a Potato PC: Ultimate 1.19.2-4.7.3
 May. 11, 2023
 - Mods Added:
 - Mods Updated:
