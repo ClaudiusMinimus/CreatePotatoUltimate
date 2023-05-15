@@ -2,7 +2,7 @@
 [general]
 	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
-	"Disable Q Menu Effects" = false
+	"Disable Q Menu Effects" = true
 	#Disable this to turn off the quark system that makes features turn off when specified mods with the same content are loaded
 	"Use Anti Overlap" = true
 	#Quark replaces the Piston logic to allow for its piston features to work. If you're having troubles, try turning this off.
@@ -310,6 +310,8 @@
 		"Unstackables Only" = false
 		#Allow pulling items from one hotbar slot to another
 		"Check Hotbar" = false
+		#Any items you place in this list will be ignored by the restock feature
+		"Ignored Items" = ["botania:exchange_rod", "botania:dirt_rod", "botania:skydirt_rod", "botania:cobble_rod"]
 
 [tools]
 	Trowel = false
@@ -1549,6 +1551,13 @@
 	"Game Nerfs" = false
 	"Enchantments Begone" = false
 	"Adjustable Chat" = false
+	#This feature generates Resource Pack Item Model predicates on the items defined in 'Items to Change'
+	#for the Enchantments defined in 'Enchantments to Register'.
+	#
+	#Example: if 'minecraft:silk_touch' is added to 'Enchantments to Register', and 'minecraft:netherite_pickaxe'
+	#is added to 'Items to Change', then a predicate named 'quark_has_enchant_minecraft_silk_touch' will be available
+	#to the netherite_pickaxe.json item model, whose value will be the enchantment level.
+	"Enchantment Predicates" = false
 
 	[experimental.spawner_replacer]
 		#Mobs to be replaced with other mobs.
@@ -1583,6 +1592,10 @@
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0
 		"Vertical Shift" = 0
+
+	[experimental.enchantment_predicates]
+		"Items To Change" = []
+		"Enchantments To Register" = []
 
 [oddities]
 	"Totem Of Holding" = true
