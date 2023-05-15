@@ -1,5 +1,21 @@
 # Create on a Potato PC: Ultimate Change Log
 
+## Create on a Potato PC: Ultimate 1.19.2-4.8.0
+*See also unpublished version 1.19.2-4.7.3*
+May. 15, 2023
+- Mods Added:
+- Mods Updated:
+  - Botania-1.19.2-439-FORGE.jar
+  - Quark-3.4-399.jar
+  - toms_storage-1.19-1.5.6.jar
+  - Xaeros_Minimap_23.4.3_Forge_1.19.1.jar
+  - XaerosWorldMap_1.30.2_Forge_1.19.1.jar
+- Mods Removed:
+- Other Changes:
+  - Added missing default configs
+  - Updated quark config
+  - Added new quests for Silent Gear
+
 ## Create on a Potato PC: Ultimate 1.19.2-4.7.3
 May. 11, 2023
 - Mods Added:
