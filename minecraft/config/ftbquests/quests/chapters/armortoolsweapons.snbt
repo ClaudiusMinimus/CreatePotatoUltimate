@@ -657,7 +657,7 @@
 		{
 			title: "We Three Tools"
 			x: -1.5d
-			y: -4.0d
+			y: -5.0d
 			shape: "diamond"
 			description: [
 				"If you have not already done so, right-click on the Blueprint Package you received upon first joining the game. "
@@ -974,7 +974,7 @@
 			]
 		}
 		{
-			title: "Bow"
+			title: "Silent Gear Bow"
 			x: 0.0d
 			y: -2.5d
 			description: [
@@ -984,184 +984,146 @@
 			]
 			dependencies: ["000000000000008F"]
 			id: "0000000000000086"
-			tasks: [
-				{
-					id: "0000000000000638"
-					type: "item"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							RepairCost: 0
-							items: [
-								{
-									id: "silentgear:bow_blueprint"
-									Count: 1
-								}
-								{
-									id: "silentgear:bow_template"
-									Count: 1
-								}
-							]
-							display: {
-								Name: "{\"text\":\"Bow Blueprint/Template\"}"
-							}
-						}
-					}
-				}
-				{
-					id: "0000000000000639"
-					type: "item"
-					title: "Any #silentgear:blueprints/cord"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "silentgear:blueprints/cord"
-						}
-					}
-				}
-				{
-					id: "000000000000063A"
-					type: "item"
-					item: {
-						id: "silentgear:bow"
-						Count: 1b
-						tag: {
-							SGear_UUID: [I;
-								530718105
-								574833367
-								-1606882609
-								-388522020
-							]
-							Damage: 0
-							SGear_Data: {
-								Construction: {
-									Parts: [
-										{
-											Item: {
-												id: "silentgear:bow_limbs"
-												Count: 1
-												tag: {
-													CraftedCount: 1
-													Materials: [
-														{
-															Item: {
-																id: "minecraft:oak_planks"
-																Count: 1
-															}
-															ID: "silentgear:wood/oak"
-														}
-														{
-															Item: {
-																id: "minecraft:oak_planks"
-																Count: 1
-															}
-															ID: "silentgear:wood/oak"
-														}
-														{
-															Item: {
-																id: "minecraft:oak_planks"
-																Count: 1
-															}
-															ID: "silentgear:wood/oak"
-														}
-													]
-												}
-											}
-											ID: "silentgear:bow_limbs"
-										}
-										{
-											Item: {
-												id: "silentgear:rod"
-												Count: 1
-												tag: {
-													Materials: [{
+			tasks: [{
+				id: "000000000000063A"
+				type: "item"
+				item: {
+					id: "silentgear:bow"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							530718105
+							574833367
+							-1606882609
+							-388522020
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:bow_limbs"
+											Count: 1
+											tag: {
+												CraftedCount: 1
+												Materials: [
+													{
 														Item: {
-															id: "forbidden_arcanus:cherrywood_planks"
+															id: "minecraft:oak_planks"
 															Count: 1
 														}
-														ID: "silentgear:wood"
-													}]
-												}
+														ID: "silentgear:wood/oak"
+													}
+													{
+														Item: {
+															id: "minecraft:oak_planks"
+															Count: 1
+														}
+														ID: "silentgear:wood/oak"
+													}
+													{
+														Item: {
+															id: "minecraft:oak_planks"
+															Count: 1
+														}
+														ID: "silentgear:wood/oak"
+													}
+												]
 											}
-											ID: "silentgear:rod"
 										}
-										{
-											Item: {
-												id: "silentgear:bowstring"
-												Count: 1
-												tag: {
-													CraftedCount: 1
-													Materials: [
-														{
-															Item: {
-																id: "silentgear:sinew_fiber"
-																Count: 1
-															}
-															ID: "silentgear:sinew"
-														}
-														{
-															Item: {
-																id: "silentgear:sinew_fiber"
-																Count: 1
-															}
-															ID: "silentgear:sinew"
-														}
-														{
-															Item: {
-																id: "silentgear:sinew_fiber"
-																Count: 1
-															}
-															ID: "silentgear:sinew"
-														}
-													]
-												}
-											}
-											ID: "silentgear:bowstring"
-										}
-									]
-								}
-								Properties: {
-									ModVersion: "2.3.0+165"
-									Stats: {
-										"silentgear:harvest_speed": 2.0f
-										"silentgems:chargeability": 0.59999996f
-										"silentgear:harvest_level": 0.0f
-										"silentgear:melee_damage": 0.0f
-										"silentgear:rarity": 9.0f
-										"silentgear:attack_speed": 0.0f
-										"silentgear:repair_efficiency": 1.0f
-										"silentgear:ranged_speed": 1.0f
-										"silentgear:enchantability": 7.425f
-										"silentgear:durability": 73.75f
-										"silentgear:ranged_damage": 2.0f
-										"silentgear:magic_damage": 0.0f
+										ID: "silentgear:bow_limbs"
 									}
-									LockStats: 0
-									Traits: [
-										{
-											Level: 1
-											Name: "silentgear:flammable"
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1
+											tag: {
+												Materials: [{
+													Item: {
+														id: "forbidden_arcanus:cherrywood_planks"
+														Count: 1
+													}
+													ID: "silentgear:wood"
+												}]
+											}
 										}
-										{
-											Level: 3
-											Name: "silentgear:flexible"
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:bowstring"
+											Count: 1
+											tag: {
+												CraftedCount: 1
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:sinew_fiber"
+															Count: 1
+														}
+														ID: "silentgear:sinew"
+													}
+													{
+														Item: {
+															id: "silentgear:sinew_fiber"
+															Count: 1
+														}
+														ID: "silentgear:sinew"
+													}
+													{
+														Item: {
+															id: "silentgear:sinew_fiber"
+															Count: 1
+														}
+														ID: "silentgear:sinew"
+													}
+												]
+											}
 										}
-										{
-											Level: 1
-											Name: "silentgear:jagged"
-										}
-									]
+										ID: "silentgear:bowstring"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.3.0+165"
+								Stats: {
+									"silentgear:harvest_speed": 2.0f
+									"silentgems:chargeability": 0.59999996f
+									"silentgear:harvest_level": 0.0f
+									"silentgear:melee_damage": 0.0f
+									"silentgear:rarity": 9.0f
+									"silentgear:attack_speed": 0.0f
+									"silentgear:repair_efficiency": 1.0f
+									"silentgear:ranged_speed": 1.0f
+									"silentgear:enchantability": 7.425f
+									"silentgear:durability": 73.75f
+									"silentgear:ranged_damage": 2.0f
+									"silentgear:magic_damage": 0.0f
 								}
-								Rendering: {
-									ModelKey: "bow:bow_limbs{wood/oak,wood/oak,wood/oak},rod{wood},bowstring{sinew,sinew,sinew},"
-								}
+								LockStats: 0
+								Traits: [
+									{
+										Level: 1
+										Name: "silentgear:flammable"
+									}
+									{
+										Level: 3
+										Name: "silentgear:flexible"
+									}
+									{
+										Level: 1
+										Name: "silentgear:jagged"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "bow:bow_limbs{wood/oak,wood/oak,wood/oak},rod{wood},bowstring{sinew,sinew,sinew},"
 							}
 						}
 					}
 				}
-			]
+			}]
 			rewards: [{
 				id: "00000000000000A7"
 				type: "item"
@@ -1176,155 +1138,129 @@
 			description: ["Did someone call Thor?"]
 			dependencies: ["000000000000008F"]
 			id: "0000000000000089"
-			tasks: [
-				{
-					id: "000000000000008B"
-					type: "item"
-					item: {
-						id: "silentgear:hammer"
-						Count: 1b
-						tag: {
-							SGear_UUID: [I;
-								597635255
-								1051610730
-								-1151355612
-								491764154
-							]
-							Damage: 0
-							SGear_Data: {
-								Construction: {
-									Parts: [
-										{
-											Item: {
-												id: "silentgear:hammer_head"
-												Count: 1
-												tag: {
-													Materials: [
-														{
-															Item: {
-																id: "minecraft:cobblestone"
-																Count: 1
-															}
-															ID: "silentgear:stone"
-														}
-														{
-															Item: {
-																id: "minecraft:cobblestone"
-																Count: 1
-															}
-															ID: "silentgear:stone"
-														}
-														{
-															Item: {
-																id: "minecraft:cobblestone"
-																Count: 1
-															}
-															ID: "silentgear:stone"
-														}
-														{
-															Item: {
-																id: "minecraft:cobblestone"
-																Count: 1
-															}
-															ID: "silentgear:stone"
-														}
-														{
-															Item: {
-																id: "minecraft:cobblestone"
-																Count: 1
-															}
-															ID: "silentgear:stone"
-														}
-														{
-															Item: {
-																id: "minecraft:cobblestone"
-																Count: 1
-															}
-															ID: "silentgear:stone"
-														}
-													]
-												}
-											}
-											ID: "silentgear:hammer_head"
-										}
-										{
-											Item: {
-												id: "silentgear:rod"
-												Count: 1
-												tag: {
-													Materials: [{
+			tasks: [{
+				id: "000000000000008B"
+				type: "item"
+				item: {
+					id: "silentgear:hammer"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							597635255
+							1051610730
+							-1151355612
+							491764154
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:hammer_head"
+											Count: 1
+											tag: {
+												Materials: [
+													{
 														Item: {
-															id: "forbidden_arcanus:cherrywood_planks"
+															id: "minecraft:cobblestone"
 															Count: 1
 														}
-														ID: "silentgear:wood"
-													}]
-												}
+														ID: "silentgear:stone"
+													}
+													{
+														Item: {
+															id: "minecraft:cobblestone"
+															Count: 1
+														}
+														ID: "silentgear:stone"
+													}
+													{
+														Item: {
+															id: "minecraft:cobblestone"
+															Count: 1
+														}
+														ID: "silentgear:stone"
+													}
+													{
+														Item: {
+															id: "minecraft:cobblestone"
+															Count: 1
+														}
+														ID: "silentgear:stone"
+													}
+													{
+														Item: {
+															id: "minecraft:cobblestone"
+															Count: 1
+														}
+														ID: "silentgear:stone"
+													}
+													{
+														Item: {
+															id: "minecraft:cobblestone"
+															Count: 1
+														}
+														ID: "silentgear:stone"
+													}
+												]
 											}
-											ID: "silentgear:rod"
 										}
-									]
-								}
-								Properties: {
-									ModVersion: "2.3.0+165"
-									Stats: {
-										"silentgear:harvest_speed": 2.0f
-										"silentgems:chargeability": 0.5f
-										"silentgear:harvest_level": 1.0f
-										"silentgear:melee_damage": 5.0f
-										"silentgear:rarity": 2.757359f
-										"silentgear:attack_speed": -3.2f
-										"silentgear:repair_efficiency": 0.75f
-										"silentgear:enchantability": 2.75f
-										"silentgear:ranged_speed": -0.20000002f
-										"silentgear:durability": 262.0f
-										"silentgear:ranged_damage": 0.0f
-										"silentgear:magic_damage": 0.0f
+										ID: "silentgear:hammer_head"
 									}
-									LockStats: 0
-									Traits: [
-										{
-											Level: 1
-											Name: "silentgear:ancient"
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1
+											tag: {
+												Materials: [{
+													Item: {
+														id: "forbidden_arcanus:cherrywood_planks"
+														Count: 1
+													}
+													ID: "silentgear:wood"
+												}]
+											}
 										}
-										{
-											Level: 1
-											Name: "silentgear:flexible"
-										}
-									]
+										ID: "silentgear:rod"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.3.0+165"
+								Stats: {
+									"silentgear:harvest_speed": 2.0f
+									"silentgems:chargeability": 0.5f
+									"silentgear:harvest_level": 1.0f
+									"silentgear:melee_damage": 5.0f
+									"silentgear:rarity": 2.757359f
+									"silentgear:attack_speed": -3.2f
+									"silentgear:repair_efficiency": 0.75f
+									"silentgear:enchantability": 2.75f
+									"silentgear:ranged_speed": -0.20000002f
+									"silentgear:durability": 262.0f
+									"silentgear:ranged_damage": 0.0f
+									"silentgear:magic_damage": 0.0f
 								}
-								Rendering: {
-									ModelKey: "hammer:hammer_head{stone,stone,stone,stone,stone,stone},rod{wood},"
-								}
+								LockStats: 0
+								Traits: [
+									{
+										Level: 1
+										Name: "silentgear:ancient"
+									}
+									{
+										Level: 1
+										Name: "silentgear:flexible"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "hammer:hammer_head{stone,stone,stone,stone,stone,stone},rod{wood},"
 							}
 						}
 					}
 				}
-				{
-					id: "0000000000000630"
-					type: "item"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							RepairCost: 0
-							items: [
-								{
-									id: "silentgear:hammer_blueprint"
-									Count: 1
-								}
-								{
-									id: "silentgear:hammer_template"
-									Count: 1
-								}
-							]
-							display: {
-								Name: "{\"text\":\"Hammer Blueprint/Template\"}"
-							}
-						}
-					}
-				}
-			]
+			}]
 			rewards: [{
 				id: "00000000000000A9"
 				type: "item"
@@ -1352,148 +1288,122 @@
 			description: ["Make an Excavator blueprint and an Excavator using five cobblestones and a stick."]
 			dependencies: ["000000000000008F"]
 			id: "000000000000008C"
-			tasks: [
-				{
-					id: "000000000000008D"
-					type: "item"
-					item: {
-						id: "silentgear:excavator"
-						Count: 1b
-						tag: {
-							SGear_UUID: [I;
-								-1013719742
-								1946046446
-								-1506682074
-								-1835919318
-							]
-							Damage: 0
-							SGear_Data: {
-								Construction: {
-									Parts: [
-										{
-											Item: {
-												id: "silentgear:excavator_head"
-												Count: 1
-												tag: {
-													Materials: [
-														{
-															Item: {
-																id: "minecraft:cobblestone"
-																Count: 1
-															}
-															ID: "silentgear:stone"
-														}
-														{
-															Item: {
-																id: "minecraft:cobblestone"
-																Count: 1
-															}
-															ID: "silentgear:stone"
-														}
-														{
-															Item: {
-																id: "minecraft:cobblestone"
-																Count: 1
-															}
-															ID: "silentgear:stone"
-														}
-														{
-															Item: {
-																id: "minecraft:cobblestone"
-																Count: 1
-															}
-															ID: "silentgear:stone"
-														}
-														{
-															Item: {
-																id: "minecraft:cobblestone"
-																Count: 1
-															}
-															ID: "silentgear:stone"
-														}
-													]
-												}
-											}
-											ID: "silentgear:excavator_head"
-										}
-										{
-											Item: {
-												id: "silentgear:rod"
-												Count: 1
-												tag: {
-													Materials: [{
+			tasks: [{
+				id: "000000000000008D"
+				type: "item"
+				item: {
+					id: "silentgear:excavator"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-1013719742
+							1946046446
+							-1506682074
+							-1835919318
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:excavator_head"
+											Count: 1
+											tag: {
+												Materials: [
+													{
 														Item: {
-															id: "forbidden_arcanus:cherrywood_planks"
+															id: "minecraft:cobblestone"
 															Count: 1
 														}
-														ID: "silentgear:wood"
-													}]
-												}
+														ID: "silentgear:stone"
+													}
+													{
+														Item: {
+															id: "minecraft:cobblestone"
+															Count: 1
+														}
+														ID: "silentgear:stone"
+													}
+													{
+														Item: {
+															id: "minecraft:cobblestone"
+															Count: 1
+														}
+														ID: "silentgear:stone"
+													}
+													{
+														Item: {
+															id: "minecraft:cobblestone"
+															Count: 1
+														}
+														ID: "silentgear:stone"
+													}
+													{
+														Item: {
+															id: "minecraft:cobblestone"
+															Count: 1
+														}
+														ID: "silentgear:stone"
+													}
+												]
 											}
-											ID: "silentgear:rod"
 										}
-									]
-								}
-								Properties: {
-									ModVersion: "2.3.0+165"
-									Stats: {
-										"silentgear:harvest_speed": 2.0f
-										"silentgems:chargeability": 0.5f
-										"silentgear:harvest_level": 1.0f
-										"silentgear:melee_damage": 3.0f
-										"silentgear:rarity": 2.757359f
-										"silentgear:attack_speed": -3.0f
-										"silentgear:repair_efficiency": 1.5f
-										"silentgear:enchantability": 2.75f
-										"silentgear:ranged_speed": -0.20000002f
-										"silentgear:durability": 262.0f
-										"silentgear:ranged_damage": 0.0f
-										"silentgear:magic_damage": 0.0f
+										ID: "silentgear:excavator_head"
 									}
-									LockStats: 0
-									Traits: [
-										{
-											Level: 1
-											Name: "silentgear:ancient"
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1
+											tag: {
+												Materials: [{
+													Item: {
+														id: "forbidden_arcanus:cherrywood_planks"
+														Count: 1
+													}
+													ID: "silentgear:wood"
+												}]
+											}
 										}
-										{
-											Level: 1
-											Name: "silentgear:flexible"
-										}
-									]
+										ID: "silentgear:rod"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.3.0+165"
+								Stats: {
+									"silentgear:harvest_speed": 2.0f
+									"silentgems:chargeability": 0.5f
+									"silentgear:harvest_level": 1.0f
+									"silentgear:melee_damage": 3.0f
+									"silentgear:rarity": 2.757359f
+									"silentgear:attack_speed": -3.0f
+									"silentgear:repair_efficiency": 1.5f
+									"silentgear:enchantability": 2.75f
+									"silentgear:ranged_speed": -0.20000002f
+									"silentgear:durability": 262.0f
+									"silentgear:ranged_damage": 0.0f
+									"silentgear:magic_damage": 0.0f
 								}
-								Rendering: {
-									ModelKey: "excavator:excavator_head{stone,stone,stone,stone,stone},rod{wood},"
-								}
+								LockStats: 0
+								Traits: [
+									{
+										Level: 1
+										Name: "silentgear:ancient"
+									}
+									{
+										Level: 1
+										Name: "silentgear:flexible"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "excavator:excavator_head{stone,stone,stone,stone,stone},rod{wood},"
 							}
 						}
 					}
 				}
-				{
-					id: "000000000000008E"
-					type: "item"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							RepairCost: 0
-							items: [
-								{
-									id: "silentgear:excavator_blueprint"
-									Count: 1
-								}
-								{
-									id: "silentgear:excavator_template"
-									Count: 1
-								}
-							]
-							display: {
-								Name: "{\"text\":\"Excavator Blueprint/Template\"}"
-							}
-						}
-					}
-				}
-			]
+			}]
 			rewards: [{
 				id: "00000000000000AA"
 				type: "item"
@@ -1765,8 +1675,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: -4.0d
+			x: -3.5d
+			y: -5.0d
 			dependencies: ["000000000000007B"]
 			id: "00000000000004F9"
 			tasks: [{
@@ -1904,148 +1814,122 @@
 			description: ["This is your basic all in one tool."]
 			dependencies: ["000000000000008F"]
 			id: "0000000000000522"
-			tasks: [
-				{
-					id: "0000000000000523"
-					type: "item"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							RepairCost: 0
-							items: [
-								{
-									id: "silentgear:paxel_blueprint"
-									Count: 1
-								}
-								{
-									id: "silentgear:paxel_template"
-									Count: 1
-								}
-							]
-							display: {
-								Name: "{\"text\":\"Paxel Blueprint/Template\"}"
-							}
-						}
-					}
-				}
-				{
-					id: "0000000000000631"
-					type: "item"
-					item: {
-						id: "silentgear:paxel"
-						Count: 1b
-						tag: {
-							SGear_UUID: [I;
-								-239002615
-								-500806917
-								-1483357783
-								-2109661747
-							]
-							Damage: 0
-							SGear_Data: {
-								Construction: {
-									Parts: [
-										{
-											Item: {
-												id: "silentgear:paxel_head"
-												Count: 1
-												tag: {
-													Materials: [
-														{
-															Item: {
-																id: "minecraft:cobblestone"
-																Count: 1
-															}
-															ID: "silentgear:stone"
-														}
-														{
-															Item: {
-																id: "minecraft:cobblestone"
-																Count: 1
-															}
-															ID: "silentgear:stone"
-														}
-														{
-															Item: {
-																id: "minecraft:cobblestone"
-																Count: 1
-															}
-															ID: "silentgear:stone"
-														}
-														{
-															Item: {
-																id: "minecraft:cobblestone"
-																Count: 1
-															}
-															ID: "silentgear:stone"
-														}
-														{
-															Item: {
-																id: "minecraft:cobblestone"
-																Count: 1
-															}
-															ID: "silentgear:stone"
-														}
-													]
-												}
-											}
-											ID: "silentgear:paxel_head"
-										}
-										{
-											Item: {
-												id: "silentgear:rod"
-												Count: 1
-												tag: {
-													Materials: [{
+			tasks: [{
+				id: "0000000000000631"
+				type: "item"
+				item: {
+					id: "silentgear:paxel"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-239002615
+							-500806917
+							-1483357783
+							-2109661747
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:paxel_head"
+											Count: 1
+											tag: {
+												Materials: [
+													{
 														Item: {
-															id: "forbidden_arcanus:cherrywood_planks"
+															id: "minecraft:cobblestone"
 															Count: 1
 														}
-														ID: "silentgear:wood"
-													}]
-												}
+														ID: "silentgear:stone"
+													}
+													{
+														Item: {
+															id: "minecraft:cobblestone"
+															Count: 1
+														}
+														ID: "silentgear:stone"
+													}
+													{
+														Item: {
+															id: "minecraft:cobblestone"
+															Count: 1
+														}
+														ID: "silentgear:stone"
+													}
+													{
+														Item: {
+															id: "minecraft:cobblestone"
+															Count: 1
+														}
+														ID: "silentgear:stone"
+													}
+													{
+														Item: {
+															id: "minecraft:cobblestone"
+															Count: 1
+														}
+														ID: "silentgear:stone"
+													}
+												]
 											}
-											ID: "silentgear:rod"
 										}
-									]
-								}
-								Properties: {
-									ModVersion: "2.3.0+165"
-									Stats: {
-										"silentgear:harvest_speed": 3.2f
-										"silentgems:chargeability": 0.5f
-										"silentgear:harvest_level": 1.0f
-										"silentgear:melee_damage": 4.0f
-										"silentgear:rarity": 2.757359f
-										"silentgear:attack_speed": -3.0f
-										"silentgear:repair_efficiency": 0.9f
-										"silentgear:enchantability": 3.8500001f
-										"silentgear:ranged_speed": -0.20000002f
-										"silentgear:durability": 176.85f
-										"silentgear:ranged_damage": 0.0f
-										"silentgear:magic_damage": 0.0f
+										ID: "silentgear:paxel_head"
 									}
-									LockStats: 0
-									Traits: [
-										{
-											Level: 1
-											Name: "silentgear:ancient"
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1
+											tag: {
+												Materials: [{
+													Item: {
+														id: "forbidden_arcanus:cherrywood_planks"
+														Count: 1
+													}
+													ID: "silentgear:wood"
+												}]
+											}
 										}
-										{
-											Level: 1
-											Name: "silentgear:flexible"
-										}
-									]
+										ID: "silentgear:rod"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.3.0+165"
+								Stats: {
+									"silentgear:harvest_speed": 3.2f
+									"silentgems:chargeability": 0.5f
+									"silentgear:harvest_level": 1.0f
+									"silentgear:melee_damage": 4.0f
+									"silentgear:rarity": 2.757359f
+									"silentgear:attack_speed": -3.0f
+									"silentgear:repair_efficiency": 0.9f
+									"silentgear:enchantability": 3.8500001f
+									"silentgear:ranged_speed": -0.20000002f
+									"silentgear:durability": 176.85f
+									"silentgear:ranged_damage": 0.0f
+									"silentgear:magic_damage": 0.0f
 								}
-								Rendering: {
-									ModelKey: "paxel:paxel_head{stone,stone,stone,stone,stone},rod{wood},"
-								}
+								LockStats: 0
+								Traits: [
+									{
+										Level: 1
+										Name: "silentgear:ancient"
+									}
+									{
+										Level: 1
+										Name: "silentgear:flexible"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "paxel:paxel_head{stone,stone,stone,stone,stone},rod{wood},"
 							}
 						}
 					}
 				}
-			]
+			}]
 			rewards: [{
 				id: "000000000000053B"
 				type: "item"
@@ -2090,126 +1974,100 @@
 			description: ["Make some super simple shears. Now say that fives times real fast!"]
 			dependencies: ["000000000000008F"]
 			id: "0000000000000633"
-			tasks: [
-				{
-					id: "0000000000000634"
-					type: "item"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							RepairCost: 0
-							items: [
-								{
-									id: "silentgear:shears_blueprint"
-									Count: 1
-								}
-								{
-									id: "silentgear:shears_template"
-									Count: 1
-								}
-							]
-							display: {
-								Name: "{\"text\":\"Shears Blueprint/Template\"}"
-							}
-						}
-					}
-				}
-				{
-					id: "0000000000000636"
-					type: "item"
-					item: {
-						id: "silentgear:shears"
-						Count: 1b
-						tag: {
-							SGear_UUID: [I;
-								-773160040
-								-643545591
-								-2114396847
-								1922020571
-							]
-							Damage: 0
-							SGear_Data: {
-								Construction: {
-									Parts: [
-										{
-											Item: {
-												id: "silentgear:shears_blades"
-												Count: 1
-												tag: {
-													Materials: [
-														{
-															Item: {
-																id: "minecraft:cobblestone"
-																Count: 1
-															}
-															ID: "silentgear:stone"
-														}
-														{
-															Item: {
-																id: "minecraft:cobblestone"
-																Count: 1
-															}
-															ID: "silentgear:stone"
-														}
-													]
-												}
-											}
-											ID: "silentgear:shears_blades"
-										}
-										{
-											Item: {
-												id: "silentgear:rod"
-												Count: 1
-												tag: {
-													Materials: [{
+			tasks: [{
+				id: "0000000000000636"
+				type: "item"
+				item: {
+					id: "silentgear:shears"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-773160040
+							-643545591
+							-2114396847
+							1922020571
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:shears_blades"
+											Count: 1
+											tag: {
+												Materials: [
+													{
 														Item: {
-															id: "forbidden_arcanus:cherrywood_planks"
+															id: "minecraft:cobblestone"
 															Count: 1
 														}
-														ID: "silentgear:wood"
-													}]
-												}
+														ID: "silentgear:stone"
+													}
+													{
+														Item: {
+															id: "minecraft:cobblestone"
+															Count: 1
+														}
+														ID: "silentgear:stone"
+													}
+												]
 											}
-											ID: "silentgear:rod"
 										}
-									]
-								}
-								Properties: {
-									ModVersion: "2.3.0+165"
-									Stats: {
-										"silentgear:enchantability": 5.5f
-										"silentgear:ranged_speed": -0.2f
-										"silentgear:harvest_speed": 4.0f
-										"silentgems:chargeability": 0.5f
-										"silentgear:harvest_level": 1.0f
-										"silentgear:durability": 130.99998f
-										"silentgear:ranged_damage": 0.0f
-										"silentgear:magic_damage": 0.0f
-										"silentgear:melee_damage": 1.0f
-										"silentgear:rarity": 2.757359f
-										"silentgear:attack_speed": 0.0f
+										ID: "silentgear:shears_blades"
 									}
-									LockStats: 0
-									Traits: [
-										{
-											Level: 1
-											Name: "silentgear:ancient"
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1
+											tag: {
+												Materials: [{
+													Item: {
+														id: "forbidden_arcanus:cherrywood_planks"
+														Count: 1
+													}
+													ID: "silentgear:wood"
+												}]
+											}
 										}
-										{
-											Level: 1
-											Name: "silentgear:flexible"
-										}
-									]
+										ID: "silentgear:rod"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.3.0+165"
+								Stats: {
+									"silentgear:enchantability": 5.5f
+									"silentgear:ranged_speed": -0.2f
+									"silentgear:harvest_speed": 4.0f
+									"silentgems:chargeability": 0.5f
+									"silentgear:harvest_level": 1.0f
+									"silentgear:durability": 130.99998f
+									"silentgear:ranged_damage": 0.0f
+									"silentgear:magic_damage": 0.0f
+									"silentgear:melee_damage": 1.0f
+									"silentgear:rarity": 2.757359f
+									"silentgear:attack_speed": 0.0f
 								}
-								Rendering: {
-									ModelKey: "shears:shears_blades{stone,stone},rod{wood},"
-								}
+								LockStats: 0
+								Traits: [
+									{
+										Level: 1
+										Name: "silentgear:ancient"
+									}
+									{
+										Level: 1
+										Name: "silentgear:flexible"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "shears:shears_blades{stone,stone},rod{wood},"
 							}
 						}
 					}
 				}
-			]
+			}]
 			rewards: [{
 				id: "0000000000000637"
 				type: "item"
@@ -2289,9 +2147,9 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -5.5d
-			dependencies: ["000000000000007B"]
+			x: -2.5d
+			y: -10.0d
+			dependencies: ["27EBAAEBA54CA0BB"]
 			id: "0000000000000642"
 			tasks: [{
 				id: "0000000000000643"
@@ -2306,9 +2164,9 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -7.0d
-			dependencies: ["0000000000000642"]
+			x: 1.5d
+			y: -9.0d
+			dependencies: ["6D03E2482EF10830"]
 			id: "2D7B16A94B4813BD"
 			tasks: [
 				{
@@ -2323,16 +2181,24 @@
 					count: 4L
 				}
 			]
-			rewards: [{
-				id: "31DB2BCC13F63316"
-				type: "item"
-				item: "minecraft:netherite_ingot"
-			}]
+			rewards: [
+				{
+					id: "31DB2BCC13F63316"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+				{
+					id: "5A528DB74BA4524C"
+					type: "item"
+					item: "minecraft:netherite_scrap"
+					count: 4
+				}
+			]
 		}
 		{
-			x: -3.0d
-			y: -6.0d
-			dependencies: ["0000000000000642"]
+			x: -4.5d
+			y: -9.0d
+			dependencies: ["30C98D8E57A61E0C"]
 			id: "6E6713FD61417E7B"
 			tasks: [
 				{
@@ -2424,8 +2290,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -4.0d
+			x: 0.5d
+			y: -5.0d
 			dependencies: ["000000000000007B"]
 			id: "6B282262128F673B"
 			tasks: [{
@@ -2444,6 +2310,234 @@
 							lvl: 2s
 							id: "minecraft:sharpness"
 						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			description: [
+				"A renewable arrow, when filled, is equivalent to 256 Iron Tipped Bone Arrows."
+				""
+				"The tip is Iron"
+				"The shaft is Bone"
+				"The fletching is Feather"
+				""
+				"You will need to make Blueprint/Template for the Arrow and Fletching"
+				""
+				"Your reward. A Crude Repair Kit filled with Iron!"
+			]
+			dependencies: ["0000000000000086"]
+			id: "6838EAC969336720"
+			tasks: [{
+				id: "1F5027DB042686B5"
+				type: "item"
+				item: {
+					id: "silentgear:arrow"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							530123022
+							-1901900597
+							-1377601461
+							-1656882433
+						]
+						Damage: 192
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:arrow_heads"
+											Count: 1b
+											tag: {
+												CraftedCount: 1
+												Damage: 0
+												Materials: [{
+													Item: {
+														id: "minecraft:iron_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:iron"
+												}]
+											}
+										}
+										ID: "silentgear:arrow_heads"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "minecraft:bone_block"
+														Count: 1b
+													}
+													ID: "silentgear:bone"
+												}]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:fletching"
+											Count: 1b
+											tag: {
+												CraftedCount: 1
+												Materials: [{
+													Item: {
+														id: "minecraft:feather"
+														Count: 1b
+													}
+													ID: "silentgear:feather"
+												}]
+											}
+										}
+										ID: "silentgear:fletching"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "3.2.5"
+								Stats: {
+									"silentgear:charging_value": 0.7f
+									"silentgear:enchantment_value": 14.0f
+									"silentgear:projectile_speed": 0.9585786f
+									"silentgear:harvest_speed": 6.0f
+									"silentgear:harvest_level": 2.0f
+									"silentgear:durability": 250.0f
+									"silentgear:ranged_damage": 1.0f
+									"silentgear:projectile_accuracy": 1.1f
+									"silentgear:magic_damage": 1.0f
+									"silentgear:rarity": 20.0f
+									"silentgear:repair_efficiency": 0.75f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 3b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:magnetic"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:flexible"
+									}
+								]
+							}
+							Rendering: {
+								Model: 3
+							}
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "7B885531F55FCA5D"
+				type: "item"
+				item: {
+					id: "silentgear:crude_repair_kit"
+					Count: 1b
+					tag: {
+						Storage: {
+							iron: 16.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -10.0d
+			dependencies: ["27EBAAEBA54CA0BB"]
+			id: "4183161C2214D855"
+			tasks: [{
+				id: "511EEB3DF458E6AD"
+				type: "item"
+				item: "silentgear:starlight_charger"
+			}]
+			rewards: [{
+				id: "7EC2E59990FCECAD"
+				type: "item"
+				item: "silentgear:blaze_gold_dust"
+				count: 16
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			dependencies: ["21D01A55B8CAB4FC"]
+			id: "6D03E2482EF10830"
+			tasks: [{
+				id: "4B5E68E5DA690A58"
+				type: "item"
+				item: "silentgear:crimson_steel_ingot"
+			}]
+			rewards: [{
+				id: "295FBABE074A37FD"
+				type: "item"
+				item: "silentgear:crimson_steel_ingot"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -8.0d
+			dependencies: ["21D01A55B8CAB4FC"]
+			id: "30C98D8E57A61E0C"
+			tasks: [{
+				id: "59B5458E6421AC1A"
+				type: "item"
+				item: "silentgear:azure_electrum_ingot"
+			}]
+			rewards: [{
+				id: "5C0ACDCD8C0E3D0C"
+				type: "item"
+				item: "silentgear:azure_electrum_ingot"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -8.5d
+			dependencies: ["21D01A55B8CAB4FC"]
+			id: "27EBAAEBA54CA0BB"
+			tasks: [{
+				id: "47955F6AC1F016C3"
+				type: "item"
+				item: "silentgear:blaze_gold_ingot"
+			}]
+			rewards: [{
+				id: "7AAFA433FA6010A4"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 4
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.0d
+			description: ["Now would be a good time to check your Potato guidebook and go to the Silent Gear wiki or video pages."]
+			dependencies: ["000000000000007B"]
+			id: "21D01A55B8CAB4FC"
+			tasks: [{
+				id: "778660B5815047F6"
+				type: "checkmark"
+				title: "Advanced Metals"
+			}]
+			rewards: [{
+				id: "11266C525F093834"
+				type: "item"
+				item: {
+					id: "silentgear:blueprint_book"
+					Count: 1b
+					tag: {
+						Inventory: { }
 					}
 				}
 			}]
