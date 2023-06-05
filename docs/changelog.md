@@ -1,4 +1,38 @@
-# Create on a Potato PC: Ultimate Change Log
+ Create on a Potato PC: Ultimate Change Log
+
+## Create on a Potato PC: Ultimate 1.19.2-4.9.0
+Jun. 05, 2023
+- Mods Added:
+- Mods Updated:
+  - architectury-6.5.85-forge.jar
+  - Bookshelf-Forge-1.19.2-16.3.20.jar
+  - Botania-1.19.2-440-FORGE.jar
+  - CraftPresence-2.0.5+1.19.2.jar
+  - create_enchantment_industry-1.19.2-for-create-0.5.1.b-1.2.4.jar
+  - create_jetpack-3.1.1.jar
+  - create_mechanical_extruder-1.19.2-1.4.1.b-30.jar
+  - create-1.19.2-0.5.1.b.jar
+  - create-stuff-additions1.19.2_v2.0.3b.jar
+  - createaddition-1.19.2-20230527a.jar
+  - createdeco-1.3.3-1.19.2.jar
+  - createsifter-1.19.2-1.5.2.b-30.jar
+  - ftb-library-forge-1902.3.19-build.214.jar
+  - ftb-quests-forge-1902.4.16-build.235.jar
+  - ftbbackups2-forge-1.19.2-1.0.19.jar
+  - item-filters-forge-1902.2.9-build.51.jar
+  - Placebo-1.19.2-7.2.0.jar
+  - Quark-3.4-402.jar
+  - rubidium-0.6.2b.jar
+  - sliceanddice-forge-2.2.0.jar
+  - sophisticatedbackpacks-1.19.2-3.18.50.847.jar
+  - sophisticatedcore-1.19.2-0.5.68.306.jar
+  - toms_storage-1.19-1.5.7.jar
+  - Xaeros_Minimap_23.4.4_Forge_1.19.1.jar
+  - XaerosWorldMap_1.30.3_Forge_1.19.1.jar
+- Mods Removed:
+- Other Changes:
+  - Updated Create quest line with new items
+  - Added Create Enchantment Industry wiki and video pages to guidebook book
 
 ## Create on a Potato PC: Ultimate 1.19.2-4.8.0
 *See also unpublished version 1.19.2-4.7.3*
