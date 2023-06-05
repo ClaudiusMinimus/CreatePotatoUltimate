@@ -1,19 +1,14 @@
 {
-	id: "0000000000000623"
-	group: ""
-	order_index: 1
-	filename: "create"
-	title: "Create"
-	icon: "create:large_cogwheel"
-	subtitle: ["Build amazing things with Create!"]
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: ""
+	icon: "create:large_cogwheel"
+	id: "0000000000000623"
+	order_index: 1
+	quest_links: [ ]
 	quests: [
 		{
-			x: 0.0d
-			y: -4.0d
-			shape: "diamond"
-			subtitle: "Start Here"
 			description: [
 				"Create is your primary way to automate just about anything. You can also build just about whatever you can imagine. However, in this pack, Create is how you obtain most items and blocks."
 				""
@@ -21,351 +16,356 @@
 				""
 				"Hold the \"w\" key while hovering over a kinetic block in your inventory-or using JEI-will show detailed information. In other items, the shift key will reveal information."
 			]
-			size: 2.0d
 			id: "000000000000062C"
+			rewards: [{
+				count: 8
+				id: "000000000000078E"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Start Here"
 			tasks: [{
 				id: "000000000000062D"
-				type: "checkmark"
 				title: "Create"
+				type: "checkmark"
 			}]
-			rewards: [{
-				id: "000000000000078E"
-				type: "item"
-				item: "minecraft:cookie"
-				count: 8
-			}]
+			x: 0.0d
+			y: -4.0d
 		}
 		{
+			dependencies: ["000000000000062C"]
+			description: ["Andesite Alloy is a primary ingredient for much of Create. Don't throw out your Andesite anymore!"]
+			id: "000000000000078F"
+			rewards: [{
+				id: "000000000000086F"
+				item: "create:zinc_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "0000000000000790"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			title: "No Trashy Andesite!"
 			x: 0.0d
 			y: -1.0d
-			description: ["Andesite Alloy is a primary ingredient for much of Create. Don't throw out your Andesite anymore!"]
-			dependencies: ["000000000000062C"]
-			id: "000000000000078F"
-			tasks: [{
-				id: "0000000000000790"
-				type: "item"
-				item: "create:andesite_alloy"
-				count: 8L
-			}]
-			rewards: [{
-				id: "000000000000086F"
-				type: "item"
-				item: "create:zinc_block"
-			}]
 		}
 		{
+			dependencies: ["000000000000078F"]
+			description: ["You will need LOTS of these little guys!"]
+			id: "0000000000000791"
+			rewards: [{
+				count: 4
+				id: "000000000000085F"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "0000000000000792"
+				item: "create:cogwheel"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 0.5d
-			description: ["You will need LOTS of these little guys!"]
-			dependencies: ["000000000000078F"]
-			id: "0000000000000791"
-			tasks: [{
-				id: "0000000000000792"
-				type: "item"
-				item: "create:cogwheel"
-				count: 4L
-			}]
-			rewards: [{
-				id: "000000000000085F"
-				type: "item"
-				item: "create:cogwheel"
-				count: 4
-			}]
 		}
 		{
-			x: 4.0d
-			y: -0.5d
 			dependencies: ["0000000000000795"]
 			id: "0000000000000793"
-			tasks: [{
-				id: "0000000000000794"
-				type: "item"
-				item: "create:large_cogwheel"
-				count: 2L
-			}]
 			rewards: [{
 				id: "27BB27E8C2C9CF0B"
-				type: "item"
 				item: "create:large_cogwheel"
+				type: "item"
 			}]
+			tasks: [{
+				count: 2L
+				id: "0000000000000794"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
 		}
 		{
-			x: 2.0d
-			y: -1.0d
 			dependencies: ["000000000000078F"]
 			id: "0000000000000795"
-			tasks: [{
-				id: "0000000000000796"
-				type: "item"
-				item: "create:shaft"
-				count: 8L
-			}]
 			rewards: [{
-				id: "0000000000000871"
-				type: "item"
-				item: "create:shaft"
 				count: 8
+				id: "0000000000000871"
+				item: "create:shaft"
+				type: "item"
 			}]
+			tasks: [{
+				count: 8L
+				id: "0000000000000796"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
 		}
 		{
-			x: 0.0d
-			y: 7.5d
-			description: ["The Mechanical Press is a workhorse that you will use a lot. Drop iron, brass, copper, or gold ingot(s) under the press or place them on a depot or belt to make a sheet."]
 			dependencies: ["0000000000000799"]
+			description: ["The Mechanical Press is a workhorse that you will use a lot. Drop iron, brass, copper, or gold ingot(s) under the press or place them on a depot or belt to make a sheet."]
 			id: "0000000000000797"
+			rewards: [{
+				count: 8
+				id: "0000000000000866"
+				item: "create:raw_zinc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0000000000000798"
-				type: "item"
 				item: "create:mechanical_press"
-			}]
-			rewards: [{
-				id: "0000000000000866"
 				type: "item"
-				item: "create:raw_zinc"
-				count: 8
 			}]
+			x: 0.0d
+			y: 7.5d
 		}
 		{
-			x: 0.0d
-			y: 4.5d
 			dependencies: ["000000000000078F"]
 			id: "0000000000000799"
-			tasks: [{
-				id: "000000000000079A"
-				type: "item"
-				item: "create:andesite_casing"
-				count: 4L
-			}]
 			rewards: [{
+				count: 8
 				id: "2B5FE7896E86C918"
-				type: "item"
 				item: {
-					id: "minecraft:tipped_arrow"
 					Count: 1b
+					id: "minecraft:tipped_arrow"
 					tag: {
 						Potion: "minecraft:strong_harming"
 					}
 				}
-				count: 8
+				type: "item"
 			}]
-		}
-		{
-			x: 5.5d
-			y: 0.5d
-			dependencies: ["0000000000000793"]
-			id: "000000000000079B"
 			tasks: [{
-				id: "000000000000079C"
+				count: 4L
+				id: "000000000000079A"
+				item: "create:andesite_casing"
 				type: "item"
-				item: "create:belt_connector"
-				count: 8L
 			}]
-			rewards: [{
-				id: "7428D899C391A77A"
-				type: "item"
-				item: "create:belt_connector"
-				count: 8
-			}]
+			x: 0.0d
+			y: 4.5d
 		}
 		{
-			x: -1.0d
-			y: 10.5d
+			dependencies: ["0000000000000795"]
+			id: "000000000000079B"
+			rewards: [{
+				count: 8
+				id: "7428D899C391A77A"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "000000000000079C"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
 			dependencies: ["00000000000007A7"]
 			id: "000000000000079D"
+			rewards: [{
+				count: 8
+				id: "000000000000086C"
+				item: "minecraft:lime_dye"
+				type: "item"
+			}]
 			tasks: [{
 				id: "000000000000079E"
-				type: "item"
 				item: "create:goggles"
-			}]
-			rewards: [{
-				id: "000000000000086C"
 				type: "item"
-				item: "minecraft:lime_dye"
-				count: 8
 			}]
+			x: -1.0d
+			y: 10.5d
 		}
 		{
-			x: 1.0d
-			y: 10.5d
+			dependencies: ["00000000000007A7"]
 			description: [
 				"The wrench has several uses:"
 				"1. Rotate kinetic blocks when you right click them. If the block will not rotate, then try a different surface plane."
 				"2. Adjust many kinetic block settings when using the mouse wheel."
 				"3. Break kinetic blocks using shift + right-click."
 			]
-			dependencies: ["00000000000007A7"]
 			id: "000000000000079F"
+			rewards: [{
+				count: 16
+				id: "000000000000086A"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00000000000007A0"
-				type: "item"
 				item: "create:wrench"
-			}]
-			rewards: [{
-				id: "000000000000086A"
 				type: "item"
-				item: "minecraft:gunpowder"
-				count: 16
 			}]
+			x: 1.0d
+			y: 10.5d
 		}
 		{
+			dependencies: ["0000000000000797"]
+			description: ["Iron Sheets are another common item needed for making machines. You will need lots of these."]
+			id: "00000000000007A1"
+			rewards: [{
+				count: 4
+				id: "0000000000000865"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "00000000000007A2"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
 			x: -4.5d
 			y: 6.0d
-			description: ["Iron Sheets are another common item needed for making machines. You will need lots of these."]
-			dependencies: ["0000000000000797"]
-			id: "00000000000007A1"
-			tasks: [{
-				id: "00000000000007A2"
-				type: "item"
-				item: "create:iron_sheet"
-				count: 4L
-			}]
-			rewards: [{
-				id: "0000000000000865"
-				type: "item"
-				item: "create:iron_sheet"
-				count: 4
-			}]
 		}
 		{
-			x: 3.5d
-			y: 7.5d
 			dependencies: ["0000000000000797"]
 			id: "00000000000007A3"
+			rewards: [{
+				count: 2
+				id: "0000000000000863"
+				item: "minecraft:fermented_spider_eye"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00000000000007A4"
-				type: "item"
 				item: "create:copper_sheet"
-			}]
-			rewards: [{
-				id: "0000000000000863"
 				type: "item"
-				item: "minecraft:fermented_spider_eye"
-				count: 2
 			}]
+			x: 3.5d
+			y: 7.5d
 		}
 		{
-			x: -3.0d
-			y: 13.0d
 			dependencies: ["00000000000008DB"]
 			id: "00000000000007A5"
-			tasks: [{
-				id: "00000000000007A6"
-				type: "item"
-				item: "create:brass_sheet"
-			}]
 			rewards: [{
 				id: "000000000000085E"
-				type: "item"
 				item: "create:brass_block"
+				type: "item"
 			}]
+			tasks: [{
+				id: "00000000000007A6"
+				item: "create:brass_sheet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.0d
 		}
 		{
-			x: 0.0d
-			y: 9.5d
 			dependencies: ["0000000000000797"]
 			id: "00000000000007A7"
-			tasks: [{
-				id: "00000000000007A8"
-				type: "item"
-				item: "create:golden_sheet"
-			}]
 			rewards: [{
 				id: "724478AF6B445447"
-				type: "item"
 				item: "minecraft:heart_of_the_sea"
+				type: "item"
 			}]
+			tasks: [{
+				id: "00000000000007A8"
+				item: "create:golden_sheet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
 		}
 		{
-			x: 5.5d
-			y: -1.0d
-			shape: "square"
+			dependencies: ["0000000000000793"]
 			description: [
 				"A water wheel is great for early game Rotational Force."
 				""
 				"Your reward is a Stressometer--this useful tool shows you the kinetic stress at that point in the system. Each kinetic block adds stress to the system. Therefore, if your system stops or slows down you may need additional rotational force."
+				""
+				"&oSoulsand no longer provides a boost in stress units (SU)&r"
 			]
-			dependencies: ["0000000000000793"]
 			id: "00000000000007AB"
-			tasks: [{
-				id: "00000000000007AC"
-				type: "item"
-				item: "create:water_wheel"
-			}]
 			rewards: [{
 				id: "00000000000007AD"
+				item: "create:stressometer"
 				type: "item"
-				item: "create:water_wheel"
 			}]
+			shape: "square"
+			tasks: [{
+				id: "00000000000007AC"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
 		}
 		{
+			dependencies: ["00000000000007B2"]
+			description: ["Attach a log to a Windmill Bearing and then attach the Sails to the log to create a functional windmill."]
+			id: "00000000000007B0"
+			rewards: [{
+				count: 8
+				id: "0000000000000861"
+				item: "create:white_sail"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "00000000000007B1"
+				item: "create:white_sail"
+				type: "item"
+			}]
 			x: 1.0d
 			y: 1.5d
-			description: ["Attach a log to a Windmill Bearing and then attach the Sails to the log to create a functional windmill."]
-			dependencies: ["00000000000007B2"]
-			id: "00000000000007B0"
-			tasks: [{
-				id: "00000000000007B1"
-				type: "item"
-				item: "create:white_sail"
-				count: 8L
-			}]
-			rewards: [{
-				id: "0000000000000861"
-				type: "item"
-				item: "create:white_sail"
-				count: 8
-			}]
 		}
 		{
-			x: 1.0d
-			y: 3.0d
-			description: ["To turn on your windmill, attach either a Radial Chasis and wool blocks, or sails surrounding a log to the Windmill Bearing, then right-click on the Windmill Bearing to start the windmill rotating."]
 			dependencies: ["0000000000000799"]
+			description: ["To turn on your windmill, attach either a Radial Chasis and wool blocks, or sails surrounding a log to the Windmill Bearing, then right-click on the Windmill Bearing to start the windmill rotating."]
 			id: "00000000000007B2"
-			tasks: [{
-				id: "00000000000007B3"
-				type: "item"
-				item: "create:windmill_bearing"
-			}]
 			rewards: [{
 				id: "000000000000086B"
-				type: "item"
 				item: "minecraft:golden_apple"
+				type: "item"
 			}]
+			tasks: [{
+				id: "00000000000007B3"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
 		}
 		{
-			x: 3.0d
-			y: 3.0d
-			description: ["You need to put slime or Super Glue on at least one contact surface for connected blocks to rotate with the radial chassis. Double click the slime to attach to all four sides at once."]
 			dependencies: [
 				"00000000000008C9"
 				"00000000000007B2"
 			]
 			dependency_requirement: "one_completed"
+			description: ["You need to put slime or Super Glue on at least one contact surface for connected blocks to rotate with the radial chassis. Double click the slime to attach to all four sides at once."]
 			id: "00000000000007B4"
-			tasks: [{
-				id: "00000000000007B5"
-				type: "item"
-				item: "create:radial_chassis"
-			}]
 			rewards: [
 				{
 					id: "00000000000007B6"
-					type: "item"
 					item: "minecraft:slime_ball"
+					type: "item"
 				}
 				{
-					id: "0000000000000870"
-					type: "item"
-					item: "create:redstone_link"
 					count: 2
+					id: "0000000000000870"
+					item: "create:redstone_link"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "00000000000007B5"
+				item: "create:radial_chassis"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
 		}
 		{
-			x: -5.0d
-			y: 3.5d
+			dependencies: ["00000000000007A1"]
 			description: [
 				"Encased Fans work great for Bulk Smelting, Try setting up an automated washing system using one or more of the following: "
 				""
@@ -373,23 +373,22 @@
 				""
 				"Fans also are a great early game power source. Place a heat source underneath and activate with redstone."
 			]
-			dependencies: ["00000000000007A1"]
 			id: "00000000000007B8"
-			tasks: [{
-				id: "00000000000007B9"
-				type: "item"
-				item: "create:encased_fan"
-			}]
 			rewards: [{
 				id: "0000000000000864"
-				type: "item"
 				item: "create:honey_bucket"
+				type: "item"
 			}]
+			tasks: [{
+				id: "00000000000007B9"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
 		}
 		{
-			x: -1.5d
-			y: -2.5d
-			shape: "square"
+			dependencies: ["000000000000078F"]
 			description: [
 				"The Millstone is used for grinding all kinds of items. Be sure to check JEI for what it can do. You can even make a needed material for crafting slime balls."
 				""
@@ -397,1552 +396,1552 @@
 				""
 				"Diorite will prove very valuable, so don't waste it!"
 			]
-			dependencies: ["000000000000078F"]
 			id: "00000000000007BB"
+			rewards: [{
+				count: 32
+				id: "000000000000085D"
+				item: "minecraft:diorite"
+				type: "item"
+			}]
+			shape: "square"
 			tasks: [{
 				id: "00000000000007BC"
-				type: "item"
 				item: "create:millstone"
-			}]
-			rewards: [{
-				id: "000000000000085D"
 				type: "item"
-				item: "minecraft:diorite"
-				count: 32
 			}]
+			x: 1.5d
+			y: -2.5d
 		}
 		{
-			x: 5.5d
-			y: 7.5d
-			description: ["The Fluid Pipe for all your liquid needs. Well, not exactly, you still need a pump to actally move any fluids."]
 			dependencies: ["00000000000007A3"]
+			description: ["The Fluid Pipe for all your liquid needs. Well, not exactly, you still need a pump to actally move any fluids."]
 			id: "00000000000007BD"
-			tasks: [{
-				id: "00000000000007BE"
-				type: "item"
-				item: "create:fluid_pipe"
-				count: 8L
-			}]
 			rewards: [{
 				id: "000000000000085C"
-				type: "item"
 				item: "create:cuckoo_clock"
+				type: "item"
 			}]
+			tasks: [{
+				count: 8L
+				id: "00000000000007BE"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
 		}
 		{
-			x: 7.5d
-			y: 7.5d
-			description: ["The Mechanical Pump when connected to a fluid source and a pipe will transfer liquids. The pump is directional and requires Rotational Force to work."]
 			dependencies: ["00000000000007BD"]
+			description: ["The Mechanical Pump when connected to a fluid source and a pipe will transfer liquids. The pump is directional and requires Rotational Force to work."]
 			id: "00000000000007BF"
+			rewards: [{
+				count: 4
+				id: "000000000000085B"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00000000000007C0"
-				type: "item"
 				item: "create:mechanical_pump"
-			}]
-			rewards: [{
-				id: "000000000000085B"
 				type: "item"
-				item: "minecraft:slime_ball"
-				count: 4
 			}]
+			x: 7.5d
+			y: 7.5d
 		}
 		{
-			x: 5.5d
-			y: 5.5d
-			description: ["The Fluid Value restricts the flow of liquids. It uses Rotational Force to open and close. Use your shift key while in your inventory or in JEI to learn more how to do this."]
 			dependencies: ["00000000000007BD"]
+			description: ["The Fluid Value restricts the flow of liquids. It uses Rotational Force to open and close. Use your shift key while in your inventory or in JEI to learn more how to do this."]
 			id: "00000000000007C1"
-			tasks: [{
-				id: "00000000000007C2"
-				type: "item"
-				item: "create:fluid_valve"
-			}]
 			rewards: [
 				{
 					id: "0000000000000857"
-					type: "item"
 					item: "create:green_valve_handle"
+					type: "item"
 				}
 				{
 					id: "0000000000000858"
-					type: "item"
 					item: "create:red_valve_handle"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "00000000000007C2"
+				item: "create:fluid_valve"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
 		}
 		{
-			x: 5.5d
-			y: 9.5d
-			description: ["The Smart Fluid Pipe is well... smart! Think of it as a way to filter what fluids are transfered."]
 			dependencies: ["00000000000007BD"]
+			description: ["The Smart Fluid Pipe is well... smart! Think of it as a way to filter what fluids are transfered."]
 			id: "00000000000007C5"
+			rewards: [{
+				count: 4
+				id: "2CDB31820F79685C"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00000000000007C6"
-				type: "item"
 				item: "create:smart_fluid_pipe"
-			}]
-			rewards: [{
-				id: "2CDB31820F79685C"
 				type: "item"
-				item: "create:fluid_pipe"
-				count: 4
 			}]
+			x: 5.5d
+			y: 9.5d
 		}
 		{
-			x: 8.5d
-			y: 10.5d
-			description: ["The Spout is for refilling your fluid items. Can also be automated."]
 			dependencies: ["00000000000007CD"]
+			description: ["The Spout is for refilling your fluid items. Can also be automated."]
 			id: "00000000000007C7"
-			tasks: [{
-				id: "00000000000007C8"
-				type: "item"
-				item: "create:spout"
-			}]
 			rewards: [{
 				id: "0000000000000854"
-				type: "item"
 				item: "create:item_drain"
+				type: "item"
 			}]
+			tasks: [{
+				id: "00000000000007C8"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.5d
 		}
 		{
-			x: -6.5d
-			y: 6.0d
-			description: ["The Mechanical Saw can be used for cutting trees or for stonecutter recipes. With the Saw in hand, press the Shift key for more information."]
 			dependencies: ["00000000000007A1"]
+			description: ["The Mechanical Saw can be used for cutting trees or for stonecutter recipes. With the Saw in hand, press the Shift key for more information."]
 			id: "00000000000007C9"
-			tasks: [{
-				id: "00000000000007CA"
-				type: "item"
-				item: "create:mechanical_saw"
-			}]
 			rewards: [{
 				id: "0000000000000869"
-				type: "item"
 				item: "create:mechanical_saw"
+				type: "item"
 			}]
+			tasks: [{
+				id: "00000000000007CA"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.0d
 		}
 		{
-			x: 1.0d
-			y: 6.0d
-			shape: "square"
-			description: ["The Mechanical Drill can be used for mining, but in early game can be used as part of a stationary cobble generator"]
 			dependencies: ["0000000000000799"]
+			description: ["The Mechanical Drill can be used for mining, but in early game can be used as part of a stationary cobble generator"]
 			id: "00000000000007CB"
-			tasks: [{
-				id: "00000000000007CC"
-				type: "item"
-				item: "create:mechanical_drill"
-			}]
 			rewards: [
 				{
-					id: "0000000000000868"
-					type: "item"
-					item: "create:cogwheel"
 					count: 4
+					id: "0000000000000868"
+					item: "create:cogwheel"
+					type: "item"
 				}
 				{
 					id: "13A22EC8A3BD6F8A"
-					type: "item"
 					item: "minecraft:sheep_spawn_egg"
+					type: "item"
 				}
 			]
+			shape: "square"
+			tasks: [{
+				id: "00000000000007CC"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
 		}
 		{
+			dependencies: ["00000000000007BD"]
+			description: ["The Fluid Tank can be a single block or a multi-block structure."]
+			id: "00000000000007CD"
+			rewards: [{
+				count: 4
+				id: "0000000000000859"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "00000000000007CE"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
 			x: 7.0d
 			y: 9.0d
-			description: ["The Fluid Tank can be a single block or a multi-block structure."]
-			dependencies: ["00000000000007BD"]
-			id: "00000000000007CD"
-			tasks: [{
-				id: "00000000000007CE"
-				type: "item"
-				item: "create:fluid_tank"
-				count: 4L
-			}]
-			rewards: [{
-				id: "0000000000000859"
-				type: "item"
-				item: "create:fluid_tank"
-				count: 4
-			}]
 		}
 		{
-			x: 1.5d
-			y: 5.0d
-			description: ["The Gearbox allows for changing direction horizontally."]
 			dependencies: ["0000000000000799"]
+			description: ["The Gearbox allows for changing direction horizontally."]
 			id: "00000000000007CF"
+			rewards: [{
+				count: 4
+				id: "000000000000086D"
+				item: "create:cogwheel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00000000000007D0"
-				type: "item"
 				item: "create:gearbox"
-			}]
-			rewards: [{
-				id: "000000000000086D"
 				type: "item"
-				item: "create:cogwheel"
-				count: 4
 			}]
+			x: 1.5d
+			y: 5.0d
 		}
 		{
-			x: 3.0d
-			y: 5.5d
-			shape: "square"
-			description: ["The Vertical Gearbox allows for changing direction vertically."]
 			dependencies: ["00000000000007CF"]
+			description: ["The Vertical Gearbox allows for changing direction vertically."]
 			id: "00000000000007D1"
+			rewards: [{
+				count: 4
+				id: "000000000000086E"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			shape: "square"
 			tasks: [{
 				id: "00000000000007D2"
-				type: "item"
 				item: "create:vertical_gearbox"
-			}]
-			rewards: [{
-				id: "000000000000086E"
 				type: "item"
-				item: "create:cogwheel"
-				count: 4
 			}]
+			x: 3.0d
+			y: 5.5d
 		}
 		{
-			x: 7.0d
-			y: 6.0d
 			dependencies: ["00000000000007BD"]
 			id: "0000000000000855"
-			tasks: [{
-				id: "0000000000000856"
-				type: "item"
-				item: "create:hose_pulley"
-			}]
 			rewards: [{
 				id: "000000000000085A"
-				type: "item"
 				item: "create:hand_crank"
+				type: "item"
 			}]
+			tasks: [{
+				id: "0000000000000856"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
 		}
 		{
-			x: 1.5d
-			y: 4.0d
 			dependencies: ["0000000000000799"]
 			id: "00000000000008C9"
-			tasks: [{
-				id: "00000000000008CA"
-				type: "item"
-				item: "create:mechanical_bearing"
-			}]
 			rewards: [{
 				id: "00000000000008CD"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
-							lvl: 3s
 							id: "minecraft:projectile_protection"
+							lvl: 3s
 						}]
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "00000000000008CA"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
 		}
 		{
-			x: 5.0d
-			y: 2.5d
 			dependencies: ["00000000000007B4"]
 			id: "00000000000008CB"
-			tasks: [{
-				id: "00000000000008CC"
-				type: "item"
-				item: "create:linear_chassis"
-				count: 3L
-			}]
 			rewards: [{
 				id: "00000000000008D3"
-				type: "item"
 				item: {
-					id: "create:super_glue"
 					Count: 1b
+					id: "create:super_glue"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				count: 3L
+				id: "00000000000008CC"
+				item: "create:linear_chassis"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
 		}
 		{
-			x: -3.0d
-			y: 14.5d
 			dependencies: ["00000000000007A5"]
 			id: "00000000000008CF"
-			tasks: [{
-				id: "00000000000008D0"
-				type: "item"
-				item: "create:deployer"
-			}]
 			rewards: [{
 				id: "00000000000008D4"
-				type: "item"
 				item: "create:deployer"
+				type: "item"
 			}]
+			tasks: [{
+				id: "00000000000008D0"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 14.5d
 		}
 		{
-			x: 4.0d
-			y: 13.0d
 			dependencies: ["00000000000008DD"]
 			id: "00000000000008D1"
-			tasks: [{
-				id: "00000000000008D2"
-				type: "item"
-				item: "create:mechanical_crafter"
-				count: 18L
-			}]
 			rewards: [{
-				id: "00000000000008D5"
-				type: "item"
-				item: "create:mechanical_crafter"
 				count: 3
+				id: "00000000000008D5"
+				item: "create:mechanical_crafter"
+				type: "item"
 			}]
+			tasks: [{
+				count: 18L
+				id: "00000000000008D2"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.0d
 		}
 		{
-			x: -3.0d
-			y: 7.5d
 			dependencies: ["00000000000007A1"]
 			id: "00000000000008D6"
+			rewards: [{
+				id: "2AF9A7C77EAC853F"
+				item: "create:chocolate_bucket"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "00000000000008D7"
-					type: "item"
 					item: "create:mechanical_mixer"
+					type: "item"
 				}
 				{
 					id: "00000000000008D8"
-					type: "item"
 					item: "create:basin"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "2AF9A7C77EAC853F"
-				type: "item"
-				item: "create:chocolate_bucket"
-			}]
+			x: -3.0d
+			y: 7.5d
 		}
 		{
-			x: -2.5d
-			y: 5.0d
 			dependencies: ["00000000000007A1"]
 			id: "00000000000008D9"
-			tasks: [{
-				id: "00000000000008DA"
-				type: "item"
-				item: "create:mechanical_harvester"
-				count: 2L
-			}]
 			rewards: [{
 				id: "00000000000008F4"
-				type: "item"
 				item: "create:mechanical_harvester"
+				type: "item"
 			}]
+			tasks: [{
+				count: 2L
+				id: "00000000000008DA"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
 		}
 		{
-			x: -3.0d
-			y: 10.5d
 			dependencies: ["00000000000008D6"]
 			id: "00000000000008DB"
+			rewards: [{
+				count: 4
+				id: "2954C4FF91E930CD"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00000000000008DC"
-				type: "item"
 				item: "create:brass_ingot"
-			}]
-			rewards: [{
-				id: "2954C4FF91E930CD"
 				type: "item"
-				item: "create:brass_ingot"
-				count: 4
 			}]
+			x: -3.0d
+			y: 10.5d
 		}
 		{
-			x: 0.0d
-			y: 13.0d
 			dependencies: ["00000000000007A5"]
 			id: "00000000000008DD"
-			tasks: [{
-				id: "00000000000008DE"
-				type: "item"
-				item: "create:brass_casing"
-				count: 4L
-			}]
 			rewards: [{
-				id: "2A18446A57A19AA1"
-				type: "item"
-				item: "create:raw_zinc"
 				count: 8
+				id: "2A18446A57A19AA1"
+				item: "create:raw_zinc"
+				type: "item"
 			}]
+			tasks: [{
+				count: 4L
+				id: "00000000000008DE"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
 		}
 		{
-			x: -4.0d
-			y: 17.0d
 			dependencies: ["00000000000008E8"]
 			id: "00000000000008DF"
-			tasks: [{
-				id: "00000000000008E0"
-				type: "item"
-				item: "create:rotation_speed_controller"
-			}]
 			rewards: [{
 				id: "16DA9389063EC0FC"
-				type: "item"
 				item: "create:precision_mechanism"
+				type: "item"
 			}]
+			tasks: [{
+				id: "00000000000008E0"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 17.0d
 		}
 		{
-			x: -7.5d
-			y: 8.0d
 			dependencies: ["51FE487A5586AF80"]
 			id: "00000000000008E1"
+			rewards: [{
+				count: 4
+				id: "404C8FCB2507BAF4"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00000000000008E2"
-				type: "item"
 				item: "create:sequenced_gearshift"
-			}]
-			rewards: [{
-				id: "404C8FCB2507BAF4"
 				type: "item"
-				item: "minecraft:ancient_debris"
-				count: 4
 			}]
+			x: -7.5d
+			y: 8.0d
 		}
 		{
-			x: -2.0d
-			y: 17.0d
 			dependencies: ["00000000000008E8"]
 			id: "00000000000008E3"
+			rewards: [{
+				count: 8
+				id: "3DAC20191628DBDA"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00000000000008E4"
-				type: "item"
 				item: "create:mechanical_arm"
-			}]
-			rewards: [{
-				id: "3DAC20191628DBDA"
 				type: "item"
-				item: "minecraft:golden_apple"
-				count: 8
 			}]
+			x: -2.0d
+			y: 17.0d
 		}
 		{
-			x: -3.0d
-			y: 16.0d
 			dependencies: ["00000000000008CF"]
 			id: "00000000000008E8"
-			tasks: [{
-				id: "00000000000008E9"
-				type: "item"
-				item: "create:precision_mechanism"
-			}]
 			rewards: [{
 				id: "65E442B4AEBB7C9F"
-				type: "item"
 				item: "create:precision_mechanism"
+				type: "item"
 			}]
+			tasks: [{
+				id: "00000000000008E9"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 16.0d
 		}
 		{
-			x: -7.5d
-			y: 4.5d
 			dependencies: ["00000000000008F2"]
 			id: "00000000000008EC"
+			rewards: [{
+				count: 4
+				id: "79F6DFC54EDF34B1"
+				item: "minecraft:quartz_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00000000000008ED"
-				type: "item"
 				item: "create:portable_storage_interface"
-			}]
-			rewards: [{
-				id: "79F6DFC54EDF34B1"
 				type: "item"
-				item: "minecraft:quartz_block"
-				count: 4
 			}]
+			x: -7.5d
+			y: 4.5d
 		}
 		{
-			x: -4.5d
-			y: 10.5d
 			dependencies: [
 				"00000000000008DB"
 				"51FE487A5586AF80"
 			]
 			id: "00000000000008EE"
-			tasks: [{
-				id: "00000000000008EF"
-				type: "item"
-				item: "create:brass_funnel"
-			}]
 			rewards: [{
 				id: "73FB42BAB21F80B1"
-				type: "item"
 				item: "minecraft:totem_of_undying"
+				type: "item"
 			}]
+			tasks: [{
+				id: "00000000000008EF"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.5d
 		}
 		{
-			x: -1.5d
-			y: 5.5d
 			dependencies: ["0000000000000799"]
 			id: "00000000000008F0"
+			rewards: [{
+				count: 8
+				id: "2AD62F731427A923"
+				item: "minecraft:melon_seeds"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00000000000008F1"
-				type: "item"
 				item: "create:andesite_funnel"
-			}]
-			rewards: [{
-				id: "2AD62F731427A923"
 				type: "item"
-				item: "minecraft:melon_seeds"
-				count: 8
 			}]
+			x: -1.5d
+			y: 5.5d
 		}
 		{
-			x: -6.5d
-			y: 5.0d
-			description: ["Chutes are used to transport items to and from storage containers. Can interact with Funnels and Fans."]
 			dependencies: ["00000000000007A1"]
+			description: ["Chutes are used to transport items to and from storage containers. Can interact with Funnels and Fans."]
 			id: "00000000000008F2"
-			tasks: [{
-				id: "00000000000008F3"
-				type: "item"
-				item: "create:chute"
-				count: 4L
-			}]
 			rewards: [{
 				id: "66CBEFA36A0C1867"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
-							lvl: 3s
 							id: "minecraft:feather_falling"
+							lvl: 3s
 						}]
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				count: 4L
+				id: "00000000000008F3"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
 		}
 		{
-			x: 2.0d
-			y: 14.0d
-			description: ["Have you ever needed a reach-assist? Just place in your off-hand and your main hand will reach further. Now ain't that cool!"]
 			dependencies: ["00000000000008D1"]
+			description: ["Have you ever needed a reach-assist? Just place in your off-hand and your main hand will reach further. Now ain't that cool!"]
 			id: "1BBEEF19114688A9"
+			rewards: [{
+				id: "3073DBD47D347721"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2D698DE6C0875830"
-				type: "item"
 				item: {
-					id: "create:extendo_grip"
 					Count: 1b
+					id: "create:extendo_grip"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "3073DBD47D347721"
 				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 3s
-							id: "minecraft:unbreaking"
-						}]
-					}
-				}
 			}]
+			x: 2.0d
+			y: 14.0d
 		}
 		{
-			x: -6.0d
-			y: 7.0d
-			description: ["Place under a Basin for many recipes, but you are not quite done yet. It's off to the Nether!"]
 			dependencies: ["00000000000007A1"]
+			description: ["Place under a Basin for many recipes, but you are not quite done yet. It's off to the Nether!"]
 			id: "6B13CAC5E656A56E"
-			tasks: [{
-				id: "03CCC3CFA1545DE2"
-				type: "item"
-				item: "create:empty_blaze_burner"
-			}]
 			rewards: [{
 				id: "5FBC8C8BC08D5F0E"
-				type: "item"
 				item: "minecraft:emerald"
+				type: "item"
 			}]
+			tasks: [{
+				id: "03CCC3CFA1545DE2"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.0d
 		}
 		{
-			x: -7.5d
-			y: 7.0d
+			dependencies: [
+				"6B13CAC5E656A56E"
+				"51544E360D6B39F0"
+			]
 			description: [
 				"Did you know the Blaze Burner is kind of a specialty Blaze capturing device?"
 				""
 				"Be sure to add fuel!"
 			]
-			dependencies: [
-				"6B13CAC5E656A56E"
-				"51544E360D6B39F0"
-			]
 			id: "5AF43A02E87E4DF8"
-			tasks: [{
-				id: "0A6C5153B2E97C22"
-				type: "item"
-				item: "create:blaze_burner"
-			}]
 			rewards: [{
 				id: "76651AE2F678E6E5"
-				type: "item"
 				item: "minecraft:blaze_spawn_egg"
+				type: "item"
 			}]
+			tasks: [{
+				id: "0A6C5153B2E97C22"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.0d
 		}
 		{
-			x: -9.0d
-			y: 7.0d
 			dependencies: ["5AF43A02E87E4DF8"]
 			id: "5978B0740E745266"
-			tasks: [{
-				id: "4AD84DE3358DACD7"
-				type: "item"
-				item: "create:blaze_cake_base"
-			}]
 			rewards: [{
 				id: "5CB3FF6D019CEFEE"
-				type: "item"
 				item: "minecraft:ender_eye"
+				type: "item"
 			}]
+			tasks: [{
+				id: "4AD84DE3358DACD7"
+				item: "create:blaze_cake_base"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.0d
 		}
 		{
-			x: -10.5d
-			y: 7.0d
+			dependencies: ["5978B0740E745266"]
 			description: [
 				"Did someone say make cake?"
 				""
 				"Oh, and your reward goes BOOM! Make sure to place it in a place it won't destroy anything when you mine it!"
 			]
-			dependencies: ["5978B0740E745266"]
 			id: "70CA0859E8976BEB"
+			rewards: [{
+				count: 3
+				id: "1D6189B8DE5FD067"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4721BC2110467FBC"
-				type: "item"
 				item: "create:blaze_cake"
-			}]
-			rewards: [{
-				id: "1D6189B8DE5FD067"
 				type: "item"
-				item: "minecraft:bookshelf"
-				count: 3
 			}]
+			x: -10.5d
+			y: 7.0d
 		}
 		{
-			x: -3.0d
-			y: 17.5d
-			description: ["This can help with your OCD wanting blocks to be symmetrical!"]
 			dependencies: ["00000000000008E8"]
+			description: ["This can help with your OCD wanting blocks to be symmetrical!"]
 			id: "5C6483EDD2B8F901"
+			rewards: [{
+				count: 4
+				id: "1A13C2C27AB241A5"
+				item: "create:sweet_roll"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F01387E7F118B48"
-				type: "item"
 				item: {
-					id: "create:wand_of_symmetry"
 					Count: 1b
+					id: "create:wand_of_symmetry"
 					tag: {
+						enable: 1b
 						symmetry: {
-							type: "triple_plane"
+							direction: 0
+							enable: 1b
 							pos: [
 								-153.0f
 								4.0f
 								193.0f
 							]
-							enable: 1b
-							direction: 0
+							type: "triple_plane"
 						}
-						enable: 1b
 					}
 				}
-			}]
-			rewards: [{
-				id: "1A13C2C27AB241A5"
 				type: "item"
-				item: "create:sweet_roll"
-				count: 4
 			}]
+			x: -3.0d
+			y: 17.5d
 		}
 		{
-			x: -1.5d
-			y: 0.5d
+			dependencies: ["000000000000078F"]
 			description: [
 				"You would think the Cart Assembler was just for...well...minecarts. You could not be further from the truth. This is a very useful tool. You can not only make amazing trains, planes, and boats, but you can pick up and move many complex builds, and different storage blocks - anything you can make into a contraption. The Cart Assemblers can take a bit to learn to use, but when you have mastered this device, you will learn to love it."
 				""
 				"To use, you need to first put down a minecart rail. Then place the Cart Assembler over the rail, then whatever it is you want to assemble. Place a Minecart on the rail and a lever on the Cart Assembler, and activate it. You will notice the Cart Assembler will rise slightly and you are ready to make the magic begin. If you shift-right click with a Create Wrench on the minecart, you will pick up the assembly. To place, put down a rail and break the Minecart and you have moved your assembly. There is so much more to the Cart Assembler and I highly recommend watching some videos on how to set it up and use it."
 			]
-			dependencies: ["000000000000078F"]
 			id: "17CA4F1D56A901CC"
-			tasks: [{
-				id: "7C313E1F88C6C245"
-				type: "item"
-				item: "create:cart_assembler"
-			}]
 			rewards: [{
 				id: "42C58549C85A3D98"
-				type: "item"
 				item: "create:minecart_coupling"
+				type: "item"
 			}]
+			tasks: [{
+				id: "7C313E1F88C6C245"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
 		}
 		{
-			x: -2.5d
-			y: 6.0d
 			dependencies: ["00000000000007A1"]
 			id: "3833656251A9CA10"
-			tasks: [{
-				id: "52F509622D0FE14E"
-				type: "item"
-				item: "create:mechanical_plough"
-			}]
 			rewards: [{
 				id: "512E77E51990C4AB"
-				type: "item"
 				item: "minecraft:totem_of_undying"
+				type: "item"
 			}]
+			tasks: [{
+				id: "52F509622D0FE14E"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
 		}
 		{
-			x: -1.5d
-			y: 4.0d
 			dependencies: ["0000000000000799"]
 			id: "495A497F82554F9A"
+			rewards: [{
+				count: 5
+				id: "56DF6D92011148AB"
+				item: "minecraft:beetroot_seeds"
+				type: "item"
+			}]
 			tasks: [{
 				id: "059407E2D71AF845"
-				type: "item"
 				item: "create:andesite_tunnel"
-			}]
-			rewards: [{
-				id: "56DF6D92011148AB"
 				type: "item"
-				item: "minecraft:beetroot_seeds"
-				count: 5
 			}]
+			x: -1.5d
+			y: 4.0d
 		}
 		{
-			x: 4.0d
-			y: 15.0d
 			dependencies: ["00000000000008D1"]
 			id: "0D63EF41017B4EC9"
-			tasks: [{
-				id: "1F233D65EE02886C"
-				type: "item"
-				item: "create:crushing_wheel"
-			}]
 			rewards: [
 				{
 					id: "462C861464D608FA"
-					type: "item"
 					item: {
-						id: "minecraft:enchanted_book"
 						Count: 1b
+						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
-								lvl: 5s
 								id: "minecraft:sharpness"
+								lvl: 5s
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
-					id: "35E493FBA963AC3F"
-					type: "item"
-					item: "create:crafter_slot_cover"
 					count: 6
+					id: "35E493FBA963AC3F"
+					item: "create:crafter_slot_cover"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "1F233D65EE02886C"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.0d
 		}
 		{
-			x: -4.5d
-			y: 12.0d
-			description: ["Smart Chutes are vertical Chutes with additional controls. The animation when pressing the \"w\" key while hovering shows how to use this new block."]
 			dependencies: ["00000000000007A5"]
+			description: ["Smart Chutes are vertical Chutes with additional controls. The animation when pressing the \"w\" key while hovering shows how to use this new block."]
 			id: "415DC4075FB46595"
-			tasks: [{
-				id: "58C85FAF9D213B06"
-				type: "item"
-				item: "create:smart_chute"
-			}]
 			rewards: [{
 				id: "3EFDD0FFE080BE6C"
-				type: "item"
 				item: {
-					id: "create:red_sand_paper"
 					Count: 1b
+					id: "create:red_sand_paper"
 					tag: {
 						Damage: 0
 						Enchantments: [{
-							lvl: 1s
 							id: "forbidden_arcanus:indestructible"
+							lvl: 1s
 						}]
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "58C85FAF9D213B06"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.0d
 		}
 		{
-			x: 1.5d
-			y: -2.5d
-			description: ["Gantry Carriages can mount to and slide along a Gantry Shaft."]
 			dependencies: ["000000000000078F"]
+			description: ["Gantry Carriages can mount to and slide along a Gantry Shaft."]
 			id: "2AA453BF3617F5BF"
+			rewards: [{
+				count: 8
+				id: "4B7E7A863F46908D"
+				item: "create:honeyed_apple"
+				type: "item"
+			}]
 			tasks: [{
 				id: "08EDD9839DE89E8B"
-				type: "item"
 				item: "create:gantry_carriage"
-			}]
-			rewards: [{
-				id: "4B7E7A863F46908D"
 				type: "item"
-				item: "create:honeyed_apple"
-				count: 8
 			}]
+			x: -1.5d
+			y: -2.5d
 		}
 		{
-			x: 2.5d
-			y: -3.5d
-			description: ["Gantry Shafts form the basis of a Gantry setup. An attached Carriage will move along them."]
 			dependencies: ["2AA453BF3617F5BF"]
+			description: ["Gantry Shafts form the basis of a Gantry setup. An attached Carriage will move along them."]
 			id: "63E0177EA97D97D0"
-			tasks: [{
-				id: "4718B391148B830B"
-				type: "item"
-				item: "create:gantry_shaft"
-			}]
 			rewards: [{
 				id: "61A912E49F5BA2F6"
-				type: "item"
 				item: "minecraft:sheep_spawn_egg"
+				type: "item"
 			}]
+			tasks: [{
+				id: "4718B391148B830B"
+				item: "create:gantry_shaft"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
 		}
 		{
-			x: -3.0d
-			y: 0.5d
 			dependencies: ["000000000000078F"]
 			id: "7C2067E003760D5E"
-			tasks: [{
-				id: "376833FF4FCE10B9"
-				type: "item"
-				item: "create:sticker"
-			}]
 			rewards: [{
 				id: "40CEBF4A272C00C1"
-				type: "item"
 				item: "minecraft:slime_block"
+				type: "item"
 			}]
+			tasks: [{
+				id: "376833FF4FCE10B9"
+				item: "create:sticker"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
 		}
 		{
-			x: 1.0d
-			y: 8.5d
-			description: ["Weighted Ejectors launch items to a predetermined target."]
 			dependencies: ["00000000000007A7"]
+			description: ["Weighted Ejectors launch items to a predetermined target."]
 			id: "70CC5D09206C01E6"
+			rewards: [{
+				count: 64
+				id: "2DB6EBB755146B3E"
+				item: "minecraft:potato"
+				type: "item"
+			}]
 			tasks: [{
 				id: "76E6A417A54E29BF"
-				type: "item"
 				item: "create:weighted_ejector"
-			}]
-			rewards: [{
-				id: "2DB6EBB755146B3E"
 				type: "item"
-				item: "minecraft:potato"
-				count: 64
 			}]
+			x: 1.0d
+			y: 8.5d
 		}
 		{
-			x: 3.5d
-			y: -2.0d
 			dependencies: ["0000000000000795"]
 			id: "3B92E29596B40569"
+			rewards: [{
+				id: "11CF320A85258E0A"
+				item: "create:powered_toggle_latch"
+				type: "item"
+			}]
 			tasks: [{
 				id: "48889F50EF1F80BD"
-				type: "item"
 				item: {
-					id: "create:copper_backtank"
 					Count: 1b
+					id: "create:copper_backtank"
 					tag: {
 						Air: 900
 					}
 				}
-			}]
-			rewards: [{
-				id: "11CF320A85258E0A"
 				type: "item"
-				item: "create:powered_toggle_latch"
 			}]
+			x: 3.5d
+			y: -2.5d
 		}
 		{
-			x: 3.0d
-			y: 11.5d
 			dependencies: ["00000000000008D1"]
 			id: "0AC25E42FE36BE47"
+			rewards: [{
+				count: 32
+				id: "6E3BDEE30B6DB23E"
+				item: "minecraft:potato"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5D064F6B6E87162B"
-				type: "item"
 				item: {
-					id: "create:potato_cannon"
 					Count: 1b
+					id: "create:potato_cannon"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "6E3BDEE30B6DB23E"
 				type: "item"
-				item: "minecraft:potato"
-				count: 32
 			}]
+			x: 3.0d
+			y: 11.5d
 		}
 		{
-			x: 4.0d
-			y: -3.5d
 			dependencies: ["3B92E29596B40569"]
 			id: "5285176B7732ABCA"
-			tasks: [{
-				id: "079F067BC104BBD1"
-				type: "item"
-				item: {
-					id: "create:diving_helmet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "5E32A03469E2041E"
-				type: "item"
 				item: "create:pulse_repeater"
-			}]
-		}
-		{
-			x: 5.5d
-			y: -2.5d
-			dependencies: ["3B92E29596B40569"]
-			id: "78F656DFFE233ACB"
-			tasks: [{
-				id: "6BE211578A922381"
 				type: "item"
+			}]
+			tasks: [{
+				id: "079F067BC104BBD1"
 				item: {
-					id: "create:diving_boots"
 					Count: 1b
+					id: "create:copper_diving_helmet"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3B92E29596B40569"]
+			id: "78F656DFFE233ACB"
 			rewards: [{
 				id: "7B0073D765E75F7C"
-				type: "item"
 				item: "minecraft:observer"
+				type: "item"
 			}]
+			tasks: [{
+				id: "6BE211578A922381"
+				item: {
+					Count: 1b
+					id: "create:copper_diving_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
 		}
 		{
-			x: -1.5d
-			y: 12.0d
 			dependencies: ["00000000000007A5"]
 			id: "56481651F25FCCC9"
-			tasks: [{
-				id: "418C2E137DB9DA41"
-				type: "item"
-				item: "create:linked_controller"
-			}]
 			rewards: [{
 				id: "6CF8636C42CBDBC0"
-				type: "item"
 				item: "create:peculiar_bell"
+				type: "item"
 			}]
+			tasks: [{
+				id: "418C2E137DB9DA41"
+				item: "create:linked_controller"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.0d
 		}
 		{
-			x: -6.0d
-			y: 4.0d
-			description: ["The Rope Pulley allows you to make easy-to-craft early game elevators."]
 			dependencies: ["00000000000007A1"]
+			description: ["The Rope Pulley allows you to make easy-to-craft early game elevators."]
 			id: "28D15A9B43C825CE"
-			tasks: [{
-				id: "55FC041B690B7696"
-				type: "item"
-				item: "create:rope_pulley"
-			}]
 			rewards: [{
 				id: "56BBA7C1A97911CF"
-				type: "item"
 				item: "create:clutch"
+				type: "item"
 			}]
+			tasks: [{
+				id: "55FC041B690B7696"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
 		}
 		{
-			x: -3.0d
-			y: 4.0d
-			description: ["The Gearshift allows you to change rotational direction using a redstone signal."]
 			dependencies: ["00000000000007A1"]
+			description: ["The Gearshift allows you to change rotational direction using a redstone signal."]
 			id: "2D2DF1DE0851BE05"
+			rewards: [{
+				count: 8
+				id: "1D1D56ED06D69395"
+				item: "create:raw_zinc"
+				type: "item"
+			}]
 			tasks: [{
 				id: "255F7C7798B28C9A"
-				type: "item"
 				item: "create:gearshift"
-			}]
-			rewards: [{
-				id: "1D1D56ED06D69395"
 				type: "item"
-				item: "create:raw_zinc"
-				count: 8
 			}]
+			x: -3.0d
+			y: 4.0d
 		}
 		{
-			x: -1.0d
-			y: 8.5d
-			description: ["To learn more about the Toolbox, open your Create on a Potato PC book to Videos > Create > 0.3.2f update"]
 			dependencies: ["00000000000007A7"]
+			description: ["To learn more about the Toolbox, open your Create on a Potato PC book to Videos > Create > 0.3.2f update"]
 			id: "5489879D11B3894A"
-			tasks: [{
-				id: "1796B99CACF32B88"
-				type: "item"
-				item: "create:brown_toolbox"
-			}]
 			rewards: [{
 				id: "35502B756B837E0E"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
-							lvl: 1s
 							id: "minecraft:mending"
+							lvl: 1s
 						}]
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "1796B99CACF32B88"
+				item: "create:brown_toolbox"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
 		}
 		{
-			x: 0.0d
-			y: 11.0d
 			dependencies: ["00000000000007A7"]
 			id: "124D8B7C8B0F9120"
-			tasks: [{
-				id: "47334CC382A4D358"
-				type: "item"
-				item: "create:steam_engine"
-			}]
 			rewards: [{
 				id: "0CB3E5340421DC3C"
-				type: "item"
 				item: "create:steam_whistle"
+				type: "item"
 			}]
+			tasks: [{
+				id: "47334CC382A4D358"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
 		}
 		{
-			x: -2.0d
-			y: -1.0d
-			shape: "square"
-			description: ["This is your primary tool used for obtaining ores and other items."]
 			dependencies: ["000000000000078F"]
+			description: ["This is your primary tool used for obtaining ores and other items."]
 			id: "03108B7D1A7458B3"
-			tasks: [{
-				id: "145C96F95E54B21F"
-				type: "item"
-				item: "createsifter:sifter"
-			}]
 			rewards: [{
 				id: "565ABF8B7F05B44D"
-				type: "item"
 				item: "create:chute"
+				type: "item"
 			}]
+			shape: "square"
+			tasks: [{
+				id: "145C96F95E54B21F"
+				item: "createsifter:sifter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
 		}
 		{
-			x: -4.0d
-			y: -0.5d
 			dependencies: ["03108B7D1A7458B3"]
 			id: "00B876BDB5F0C5DA"
-			tasks: [{
-				id: "3E462268C35BA961"
-				type: "item"
-				item: {
-					id: "createsifter:andesite_mesh"
-					Count: 1b
-					tag: { }
-				}
-			}]
 			rewards: [
 				{
 					id: "784511CF6475C76A"
-					type: "item"
 					item: "create:chute"
+					type: "item"
 				}
 				{
-					id: "3A933D9EDA888D36"
-					type: "item"
-					item: "minecraft:andesite"
 					count: 16
+					id: "3A933D9EDA888D36"
+					item: "minecraft:andesite"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "3E462268C35BA961"
+				item: {
+					Count: 1b
+					id: "createsifter:andesite_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
 		}
 		{
-			x: -4.0d
-			y: -1.5d
-			shape: "square"
 			dependencies: ["03108B7D1A7458B3"]
 			id: "184DE56CE9F46B88"
-			tasks: [{
-				id: "5866E2A3FF104E08"
-				type: "item"
-				item: {
-					id: "createsifter:zinc_mesh"
-					Count: 1b
-					tag: { }
-				}
-			}]
 			rewards: [{
 				id: "15219734F7A0A92B"
-				type: "item"
 				item: "create:chute"
-			}]
-		}
-		{
-			x: -5.5d
-			y: -1.5d
-			dependencies: ["184DE56CE9F46B88"]
-			id: "03CC0E98A0C9900A"
-			tasks: [{
-				id: "7A01FF8F81D013E9"
 				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5866E2A3FF104E08"
 				item: {
-					id: "createsifter:brass_mesh"
 					Count: 1b
+					id: "createsifter:zinc_mesh"
 					tag: { }
 				}
-			}]
-			rewards: [{
-				id: "6A874ABDDFDDDBA8"
 				type: "item"
-				item: "minecraft:sand"
-				count: 32
 			}]
+			x: -4.0d
+			y: -1.5d
 		}
 		{
-			x: 5.0d
-			y: 14.5d
-			description: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
-			dependencies: ["00000000000008D1"]
-			id: "03B81A645C9AA3F7"
-			tasks: [{
-				id: "5B848E32F14497FA"
+			dependencies: ["184DE56CE9F46B88"]
+			id: "03CC0E98A0C9900A"
+			rewards: [{
+				count: 32
+				id: "6A874ABDDFDDDBA8"
+				item: "minecraft:sand"
 				type: "item"
-				item: {
-					id: "create_sa:brass_jetpack_chestplate"
-					Count: 1b
-					tag: {
-						tagWater: 500.0d
-						Damage: 0
-						tagFuel: 500.0d
-					}
-				}
 			}]
+			tasks: [{
+				id: "7A01FF8F81D013E9"
+				item: {
+					Count: 1b
+					id: "createsifter:brass_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00000000000008D1"]
+			description: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
+			id: "03B81A645C9AA3F7"
 			rewards: [{
 				id: "2CF057ECD70E61E3"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
-							lvl: 2s
 							id: "create:capacity"
+							lvl: 2s
 						}]
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "5B848E32F14497FA"
+				item: {
+					Count: 1b
+					id: "create_sa:brass_jetpack_chestplate"
+					tag: {
+						Damage: 0
+						tagFuel: 500.0d
+						tagWater: 500.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 14.5d
 		}
 		{
-			x: 6.0d
-			y: 14.0d
-			description: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
 			dependencies: ["00000000000008D1"]
+			description: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
 			id: "7DC3C9C543BFAE8E"
+			rewards: [{
+				id: "022B6D3DC955AE29"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "create:capacity"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0743AEE69F601F0B"
-				type: "item"
 				item: {
-					id: "create_sa:andesite_jetpack_chestplate"
 					Count: 1b
+					id: "create_sa:andesite_jetpack_chestplate"
 					tag: {
 						Damage: 0
 						tagFuel: 450.0d
 					}
 				}
-			}]
-			rewards: [{
-				id: "022B6D3DC955AE29"
 				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 1s
-							id: "create:capacity"
-						}]
-					}
-				}
 			}]
+			x: 6.0d
+			y: 14.0d
 		}
 		{
-			x: 8.5d
-			y: 12.5d
-			description: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
 			dependencies: ["00000000000007C7"]
+			description: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
 			id: "285AF2D75FD9809C"
-			tasks: [{
-				id: "571AB8723B5BA2B7"
-				type: "item"
-				item: {
-					id: "create_sa:copper_jetpack_chestplate"
-					Count: 1b
-					tag: {
-						tagRotate: 6.0d
-						tagWater: 489.0d
-						Damage: 0
-						tagCooldown: 3.0d
-					}
-				}
-			}]
 			rewards: [{
 				id: "06010E87AB020FE9"
-				type: "item"
 				item: {
-					id: "minecraft:enchanted_book"
 					Count: 1b
+					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
-							lvl: 1s
 							id: "create:capacity"
+							lvl: 1s
 						}]
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "571AB8723B5BA2B7"
+				item: {
+					Count: 1b
+					id: "create_sa:copper_jetpack_chestplate"
+					tag: {
+						Damage: 0
+						tagCooldown: 3.0d
+						tagRotate: 6.0d
+						tagWater: 489.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 12.5d
 		}
 		{
-			x: 8.5d
-			y: 15.5d
-			description: ["Add this upgraded jetpack to your back slot in Curios, so you can still wear chest armor, and most important provides flight over the void. You can also toggle hover mode, which makes for softer landings!"]
 			dependencies: [
 				"7DC3C9C543BFAE8E"
 				"285AF2D75FD9809C"
 				"03B81A645C9AA3F7"
 			]
+			description: ["Add this upgraded jetpack to your back slot in Curios, so you can still wear chest armor, and most important provides flight over the void. You can also toggle hover mode, which makes for softer landings!"]
 			id: "6D65B3F4C48BC8E9"
+			rewards: [{
+				id: "0F53701AE26F2036"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "create:capacity"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "13334EA51AA6A0B6"
-				type: "item"
 				item: {
-					id: "create_jetpack:jetpack"
 					Count: 1b
+					id: "create_jetpack:jetpack"
 					tag: {
 						Air: 900
 					}
 				}
-			}]
-			rewards: [{
-				id: "0F53701AE26F2036"
 				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 3s
-							id: "create:capacity"
-						}]
-					}
-				}
 			}]
+			x: 8.5d
+			y: 15.5d
 		}
 		{
-			x: -1.0d
-			y: 2.5d
-			shape: "square"
-			description: ["Instead of a cobble generator, try the Mechanical Extruder, which extrudes various stone blocks. Check JEI for all of the recipes."]
 			dependencies: ["0000000000000799"]
+			description: ["Instead of a cobble generator, try the Mechanical Extruder, which extrudes various stone blocks. Check JEI for all of the recipes."]
 			id: "4A8320F850B32E7A"
+			rewards: [{
+				count: 8
+				id: "237F6846B8244F3E"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "square"
 			tasks: [{
 				id: "111C251583217902"
-				type: "item"
 				item: "create_mechanical_extruder:mechanical_extruder"
-			}]
-			rewards: [{
-				id: "237F6846B8244F3E"
 				type: "item"
-				item: "minecraft:iron_ingot"
-				count: 8
 			}]
+			x: -1.0d
+			y: 2.5d
 		}
 		{
-			x: -3.5d
-			y: -2.5d
 			dependencies: ["03108B7D1A7458B3"]
 			id: "4BB3FCE4B9E37559"
+			rewards: [{
+				count: 32
+				id: "051B27DA7F0B5E3C"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
 			tasks: [{
 				id: "13E357ABA3B2FAC0"
-				type: "item"
 				item: {
-					id: "createsifter:string_mesh"
 					Count: 1b
+					id: "createsifter:string_mesh"
 					tag: { }
 				}
-			}]
-			rewards: [{
-				id: "051B27DA7F0B5E3C"
 				type: "item"
-				item: "minecraft:dirt"
-				count: 32
 			}]
+			x: -3.5d
+			y: -2.5d
 		}
 		{
-			x: -7.0d
-			y: -2.5d
 			dependencies: ["03CC0E98A0C9900A"]
 			id: "596465D176B0A1A3"
+			rewards: [{
+				count: 16
+				id: "1BAFF92A2D226953"
+				item: "minecraft:red_sand"
+				type: "item"
+			}]
 			tasks: [{
 				id: "121DB565D9C067DE"
-				type: "item"
 				item: {
-					id: "kubejs:amethyst_mesh"
 					Count: 1b
+					id: "kubejs:amethyst_mesh"
 					tag: { }
 				}
-			}]
-			rewards: [{
-				id: "1BAFF92A2D226953"
 				type: "item"
-				item: "minecraft:red_sand"
-				count: 16
 			}]
+			x: -7.0d
+			y: -2.5d
 		}
 		{
-			x: -7.0d
-			y: -0.5d
 			dependencies: ["03CC0E98A0C9900A"]
 			id: "3E7E0406872820C4"
+			rewards: [{
+				count: 16
+				id: "1DC9C49C5E08E29E"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7C7A03B9589DC6A6"
-				type: "item"
 				item: {
-					id: "kubejs:quartz_mesh"
 					Count: 1b
+					id: "kubejs:quartz_mesh"
 					tag: { }
 				}
-			}]
-			rewards: [{
-				id: "1DC9C49C5E08E29E"
 				type: "item"
-				item: "minecraft:soul_sand"
-				count: 16
 			}]
+			x: -7.0d
+			y: -0.5d
 		}
 		{
-			x: -3.5d
-			y: 2.0d
 			dependencies: ["21DE6418AF3C338D"]
 			id: "1BFD9E5488F243DE"
-			tasks: [{
-				id: "25A0D7C985C8E2E0"
-				type: "item"
-				item: "createaddition:barbed_wire"
-				count: 8L
-			}]
 			rewards: [{
-				id: "11D02A6DC6DDC42C"
-				type: "item"
-				item: "createaddition:zinc_sheet"
 				count: 4
+				id: "11D02A6DC6DDC42C"
+				item: "createaddition:zinc_sheet"
+				type: "item"
 			}]
+			tasks: [{
+				count: 8L
+				id: "25A0D7C985C8E2E0"
+				item: "createaddition:barbed_wire"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
 		}
 		{
-			x: -6.5d
-			y: 10.0d
-			description: ["A handy dandy way to toggle multiple lamps"]
 			dependencies: ["51FE487A5586AF80"]
+			description: ["A handy dandy way to toggle multiple lamps"]
 			id: "7055849BBEE12BB5"
-			tasks: [{
-				id: "6623313E16443005"
-				type: "item"
-				item: "create:rose_quartz_lamp"
-				count: 2L
-			}]
 			rewards: [{
 				id: "5E2CC9F49C3DA1E3"
-				type: "item"
 				item: "create:rose_quartz_lamp"
+				type: "item"
 			}]
+			tasks: [{
+				count: 2L
+				id: "6623313E16443005"
+				item: "create:rose_quartz_lamp"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 10.0d
 		}
 		{
-			x: -5.5d
-			y: 10.5d
-			subtitle: "Nixie Tubes can display a redstone signal strength and can be used for making custom signs"
 			dependencies: ["51FE487A5586AF80"]
 			id: "07D9EBE35C2DDCBE"
-			tasks: [{
-				id: "316629B525BFF054"
-				type: "item"
-				item: "create:nixie_tube"
-				count: 4L
-			}]
 			rewards: [{
 				id: "37093C354C239E8F"
-				type: "item"
 				item: "createaddition:redstone_relay"
+				type: "item"
 			}]
+			subtitle: "Nixie Tubes can display a redstone signal strength and can be used for making custom signs"
+			tasks: [{
+				count: 4L
+				id: "316629B525BFF054"
+				item: "create:nixie_tube"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 10.5d
 		}
 		{
-			x: 3.5d
-			y: 9.0d
-			subtitle: "Used with Display Boards"
 			dependencies: ["00000000000007A3"]
 			id: "5DBFF42322BE1A6C"
+			rewards: [{
+				count: 4
+				id: "2625A48853931B40"
+				item: "create:display_board"
+				type: "item"
+			}]
+			subtitle: "Used with Display Boards"
 			tasks: [{
 				id: "36C561548D15493C"
-				type: "item"
 				item: "create:display_link"
-			}]
-			rewards: [{
-				id: "2625A48853931B40"
 				type: "item"
-				item: "create:display_board"
-				count: 4
 			}]
+			x: 3.5d
+			y: 9.0d
 		}
 		{
-			x: -1.5d
-			y: 14.5d
-			subtitle: "Every piggy needs one"
-			description: ["Did you know they let pigs operate trains? I thought is was scary when I learned pigs could fly. Well, every train needs one controller."]
 			dependencies: [
 				"00000000000008E8"
 				"0D77CE91690DFD0F"
 			]
+			description: ["Did you know they let pigs operate trains? I thought is was scary when I learned pigs could fly. Well, every train needs one controller."]
 			id: "46EB239376ACBF94"
-			tasks: [{
-				id: "675F657263A13862"
-				type: "item"
-				item: "create:controls"
-			}]
 			rewards: [{
 				id: "73DB694A1ED3B5A6"
-				type: "item"
 				item: "create:black_seat"
+				type: "item"
 			}]
+			subtitle: "Every piggy needs one"
+			tasks: [{
+				id: "675F657263A13862"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 14.5d
 		}
 		{
-			x: 0.0d
-			y: 14.5d
-			subtitle: "Every train needs one"
-			description: ["After placing the Train Station, open the GUI to Assemble a train. Place this block on the blue highlight on the tracks and voila, you have started building your first train!"]
 			dependencies: ["00000000000008DD"]
+			description: ["After placing the Train Station, open the GUI to Assemble a train. Place this block on the blue highlight on the tracks and voila, you have started building your first train!"]
 			id: "0D77CE91690DFD0F"
-			tasks: [{
-				id: "03B98F8F49AFF975"
-				type: "item"
-				item: "create:railway_casing"
-			}]
 			rewards: [
 				{
 					id: "2BF6140964052B30"
-					type: "item"
 					item: "create:schedule"
+					type: "item"
 				}
 				{
 					id: "76C8D1BA55F5E074"
-					type: "item"
 					item: "create:track_station"
+					type: "item"
 				}
 			]
+			subtitle: "Every train needs one"
+			tasks: [{
+				id: "03B98F8F49AFF975"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.5d
 		}
 		{
+			dependencies: ["0D77CE91690DFD0F"]
+			description: ["If you put the Metal Girders (or any other block) in your off-hand, they will be placed under the tracks when needed. It takes practice laying rail tracks. Choo choo!"]
+			id: "50FD84433C69064C"
+			rewards: [{
+				count: 16
+				id: "5F4F23FEAB888192"
+				item: "create:metal_girder"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "2DF1D759C2B08103"
+				item: "create:track"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 16.0d
-			description: ["If you put the Metal Girders (or any other block) in your off-hand, they will be placed under the tracks when needed. It takes practice laying rail tracks. Choo choo!"]
-			dependencies: ["0D77CE91690DFD0F"]
-			id: "50FD84433C69064C"
-			tasks: [{
-				id: "2DF1D759C2B08103"
-				type: "item"
-				item: "create:track"
-				count: 64L
-			}]
-			rewards: [{
-				id: "5F4F23FEAB888192"
-				type: "item"
-				item: "create:metal_girder"
-				count: 16
-			}]
 		}
 		{
-			x: -0.5d
-			y: 6.0d
 			id: "43CADB3EE8D1312A"
 			tasks: [{
 				id: "2A9D7CDCEEE95C76"
-				type: "item"
 				item: "create:sticky_mechanical_piston"
+				type: "item"
 			}]
+			x: -0.5d
+			y: 6.0d
 		}
 		{
-			x: -7.0d
-			y: 9.0d
-			subtitle: "This is a MUST have!"
+			dependencies: ["51FE487A5586AF80"]
 			description: [
 				"The Stockpile Switch is one of the most important blocks for automation, but also for optimizing the stress units. The block emits a redstone signal that if set up properly can automatically turn off machines not in use."
 				""
 				"The benefits of this block cannot be understated! Learn about it and use often!"
 			]
-			dependencies: ["51FE487A5586AF80"]
 			id: "6920E14D5A39D522"
-			tasks: [{
-				id: "701A78D40FC72203"
-				type: "item"
-				item: "create:stockpile_switch"
-			}]
 			rewards: [{
 				id: "705FD49043A671F8"
-				type: "item"
 				item: "create:stockpile_switch"
+				type: "item"
 			}]
+			subtitle: "This is a MUST have!"
+			tasks: [{
+				id: "701A78D40FC72203"
+				item: "create:stockpile_switch"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.0d
 		}
 		{
-			x: 0.0d
-			y: -6.0d
 			dependencies: ["000000000000062C"]
 			id: "6F05C2D84C3BDCFF"
-			tasks: [{
-				id: "1754947157614C75"
-				type: "item"
-				item: "create:schematicannon"
-			}]
 			rewards: [
 				{
 					id: "25A00AE5AD9B6170"
-					type: "item"
 					item: "create:schematic_table"
+					type: "item"
 				}
 				{
 					id: "6CE617832CDA80CD"
-					type: "item"
 					item: "create:schematic_and_quill"
+					type: "item"
 				}
 				{
 					id: "1EDC7124F070BABF"
-					type: "item"
 					item: "create:empty_schematic"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "1754947157614C75"
+				item: "create:schematicannon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
 		}
 		{
-			x: -4.0d
-			y: 3.5d
-			subtitle: "Satisfying another Blaze's thirst!"
+			dependencies: ["00000000000007A1"]
 			description: [
 				"Very useful block for rolling ingots into wires, plates, rods, and straws. "
 				""
@@ -1950,204 +1949,407 @@
 				""
 				"With a straw you can pipe lava to a Blaze Burner"
 			]
-			dependencies: ["00000000000007A1"]
 			id: "21DE6418AF3C338D"
+			rewards: [{
+				count: 4
+				id: "33CF878DC3241566"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			subtitle: "Satisfying another Blaze's thirst!"
 			tasks: [{
 				id: "432AAC2C2E764C2E"
-				type: "item"
 				item: "createaddition:rolling_mill"
-			}]
-			rewards: [{
-				id: "33CF878DC3241566"
 				type: "item"
-				item: "createaddition:straw"
-				count: 4
 			}]
+			x: -4.0d
+			y: 3.5d
 		}
 		{
+			dependencies: ["00000000000007A1"]
+			description: ["As you progress, the Electron Tube is a very common component for crafting more advanced items."]
+			id: "51FE487A5586AF80"
+			rewards: [{
+				count: 8
+				id: "0E3AD8F44B7789D6"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			subtitle: "Electrifying!"
+			tasks: [{
+				count: 8L
+				id: "0E579AD0464822E0"
+				item: "create:electron_tube"
+				type: "item"
+			}]
 			x: -4.5d
 			y: 8.0d
-			subtitle: "Electrifying!"
-			description: ["As you progress, the Electron Tube is a very common component for crafting more advanced items."]
-			dependencies: ["00000000000007A1"]
-			id: "51FE487A5586AF80"
-			tasks: [{
-				id: "0E579AD0464822E0"
-				type: "item"
-				item: "create:electron_tube"
-				count: 8L
-			}]
-			rewards: [{
-				id: "0E3AD8F44B7789D6"
-				type: "item"
-				item: "create:electron_tube"
-				count: 8
-			}]
 		}
 		{
-			x: 3.0d
-			y: 14.5d
-			subtitle: "Bringing out the spidey in you!"
 			dependencies: ["00000000000008D1"]
 			id: "2F34516FAB3D00F1"
-			tasks: [{
-				id: "11CECEA970F6AF38"
-				type: "item"
-				item: {
-					id: "create_sa:grapplin_whisk"
-					Count: 1b
-					tag: { }
-				}
-			}]
 			rewards: [
 				{
 					id: "1A221C6CDCB7F4DC"
-					type: "item"
 					item: {
-						id: "create_sa:slime_helmet"
 						Count: 1b
+						id: "create_sa:slime_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "24AA5ECCDB32B204"
-					type: "item"
 					item: {
-						id: "create_sa:slime_boots"
 						Count: 1b
+						id: "create_sa:slime_boots"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: -4.5d
-			y: 15.5d
-			dependencies: ["00000000000008CF"]
-			id: "603772D5F861B713"
+			subtitle: "Bringing out the spidey in you!"
 			tasks: [{
-				id: "420BC74B53D7FE42"
-				type: "item"
+				id: "11CECEA970F6AF38"
 				item: {
-					id: "create_sa:portable_drill"
 					Count: 1b
+					id: "create_sa:grapplin_whisk"
 					tag: { }
 				}
+				type: "item"
 			}]
+			x: 3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["00000000000008CF"]
+			id: "603772D5F861B713"
 			rewards: [
 				{
 					id: "7432753E19F38297"
-					type: "item"
 					item: {
-						id: "create_sa:small_filling_tank"
 						Count: 1b
+						id: "create_sa:small_filling_tank"
 						tag: { }
 					}
+					type: "item"
 				}
 				{
 					id: "19B4E7258BCAC433"
-					type: "item"
 					item: {
-						id: "create_sa:small_fueling_tank"
 						Count: 1b
+						id: "create_sa:small_fueling_tank"
 						tag: { }
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 2.0d
-			y: 12.0d
-			subtitle: "You're Fired!"
-			description: ["Kind of self explanitory - you light things on fire and have fun doing it!"]
-			dependencies: ["00000000000008D1"]
-			id: "2613E24F95C84B21"
 			tasks: [{
-				id: "5429B753400B7CCA"
-				type: "item"
+				id: "420BC74B53D7FE42"
 				item: {
-					id: "create_sa:flamethrower"
 					Count: 1b
+					id: "create_sa:portable_drill"
 					tag: { }
 				}
+				type: "item"
 			}]
+			x: -4.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["00000000000008D1"]
+			description: ["Kind of self explanitory - you light things on fire and have fun doing it!"]
+			id: "2613E24F95C84B21"
 			rewards: [{
 				id: "467A23C3BF1B1FC2"
-				type: "item"
 				item: {
-					id: "create_sa:medium_fueling_tank"
 					Count: 1b
+					id: "create_sa:medium_fueling_tank"
 					tag: {
 						tagStock: 1600.0d
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "You're Fired!"
+			tasks: [{
+				id: "5429B753400B7CCA"
+				item: {
+					Count: 1b
+					id: "create_sa:flamethrower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
 		}
 		{
-			x: 4.0d
-			y: 11.0d
 			dependencies: ["00000000000008D1"]
 			id: "7A25D9B9DC2082DE"
+			rewards: [{
+				count: 4
+				id: "555828E14197E3CB"
+				item: "createaddition:gold_spool"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C824C831DD3F20F"
-				type: "item"
 				item: "createaddition:electric_motor"
-			}]
-			rewards: [{
-				id: "555828E14197E3CB"
 				type: "item"
-				item: "createaddition:gold_spool"
-				count: 4
 			}]
+			x: 4.0d
+			y: 11.0d
 		}
 		{
-			x: 5.0d
-			y: 11.5d
-			subtitle: "Feel the Power!"
+			dependencies: ["00000000000008D1"]
 			description: [
 				"You will need several of these to power your Refined Storage system. The bigger the system, the more Alternators you will need."
 				""
 				"We will start you out with one Accumulator. These stack to be a multiblock and can be very nice to have in emergencies!"
 			]
-			dependencies: ["00000000000008D1"]
 			id: "327A1EF2D2AD9DDD"
-			tasks: [{
-				id: "08D45A3A1B0DFAC5"
-				type: "item"
-				item: "createaddition:alternator"
-			}]
 			rewards: [{
 				id: "003B05AAEB04F9FF"
-				type: "item"
 				item: "createaddition:modular_accumulator"
+				type: "item"
 			}]
+			subtitle: "Feel the Power!"
+			tasks: [{
+				id: "08D45A3A1B0DFAC5"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.5d
 		}
 		{
-			x: 6.0d
-			y: 12.0d
-			subtitle: "All Charged Up!"
+			dependencies: ["00000000000008D1"]
 			description: [
 				"Can't figure out how to charge your wireless device? Tesla to the recue!"
 				""
 				"Remember, ponder is your friend."
 			]
-			dependencies: ["00000000000008D1"]
 			id: "2FC7139EC54C63DD"
-			tasks: [{
-				id: "388D454C2E41D10A"
-				type: "item"
-				item: "createaddition:tesla_coil"
-			}]
 			rewards: [{
 				id: "14485B145B140177"
-				type: "item"
 				item: "create:depot"
+				type: "item"
 			}]
+			subtitle: "All Charged Up!"
+			tasks: [{
+				id: "388D454C2E41D10A"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["00000000000007AB"]
+			id: "113A3EBEF62CB4E9"
+			tasks: [{
+				id: "60F107B03A24455B"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5285176B7732ABCA"]
+			description: ["Hey Ma, I can see under lava! Needs full set to not be burned toast!"]
+			id: "30BAB098393FE53E"
+			rewards: [{
+				id: "12211A4B34804148"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:aqua_affinity"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "228B92CB0730B182"
+				item: {
+					Count: 1b
+					id: "create:netherite_diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["78F656DFFE233ACB"]
+			description: ["Walk on belts and in lava, though you may want to look at the new tank and helmet too."]
+			id: "3A697184E6211B36"
+			rewards: [{
+				id: "66A9F417E0C1597D"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:soul_speed"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "082B67D874DF5A42"
+				item: {
+					Count: 1b
+					id: "create:netherite_diving_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3B92E29596B40569"]
+			description: ["Does it get any better? Breath and work in lava without being made crispy! Need full netherite set."]
+			id: "4A168E908986C7D2"
+			rewards: [{
+				id: "7DCE377D63867723"
+				item: {
+					Count: 1b
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:looting"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D6AB6C9E70CB1B6"
+				item: {
+					Count: 1b
+					id: "create:netherite_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4A168E908986C7D2"
+				"3A697184E6211B36"
+				"30BAB098393FE53E"
+			]
+			description: ["Complete all three quests and you are rewarded with a Capacity III book and a Netherite ingot!"]
+			id: "1BE33D31F95871F6"
+			rewards: [
+				{
+					id: "1D19DA9126D43FAB"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "7237FC78784E0013"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "create:capacity"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D8D0EC54AB60B5C"
+				type: "checkmark"
+			}]
+			title: "Complete all Three Reward"
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0D77CE91690DFD0F"]
+			description: ["Did you know you can now enchant using Create mechanics? Be sure to use \"W\" Ponder to help you get started and look in the Create on a Potato PC guidebook for more information."]
+			id: "3D66EBF3A215F354"
+			rewards: [{
+				id: "737DF23F3AA20171"
+				item: "powder_power:token_exp"
+				type: "item"
+			}]
+			tasks: [{
+				id: "488EC7DB015BD671"
+				item: "create_enchantment_industry:enchanting_guide"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["000000000000078F"]
+			description: ["You are now the foreman with your offical clipboard. Keep notes and copy/paste filter settings."]
+			id: "468DE93A9D225DA2"
+			rewards: [{
+				id: "5CCA6C290F2DC536"
+				item: "minecraft:birch_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3043F6C1285361E6"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "4F18E55167889716"
+			rewards: [{
+				command: "/say Hi, @p!"
+				id: "209DDF2F47F8D06D"
+				player_command: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "34D5A1C54A5376F0"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "patchouli:potato"
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.5d
 		}
 	]
-	quest_links: [ ]
+	subtitle: ["Build amazing things with Create!"]
+	title: "Create"
 }
