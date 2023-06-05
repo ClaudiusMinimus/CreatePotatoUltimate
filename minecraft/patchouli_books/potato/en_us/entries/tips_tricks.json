@@ -53,17 +53,6 @@
             }
         },
         {
-            "type": "patchouli:image",
-            "images":["potato:images/patchouli/waterwheel_tip.png"],
-            "title": "Better Waterwheels",
-            "anchor": "betterwaterwheel",
-            "text": "Want a more powerful Waterwheel? Use Soul Sand!"
-        },
-        {
-            "type": "patchouli:text",
-            "text": "$(li)The red arrow points the direction of the waterwheel.$(li)The blue arrows show water source blocks.$(li)The white arrow shows soul sand.$(br2)This tip if done right will provide 320 SU."
-        },
-        {
             "type": "patchouli:text",
             "title": "Get to Y -64 Alive!",
             "anchor": "y-64",
