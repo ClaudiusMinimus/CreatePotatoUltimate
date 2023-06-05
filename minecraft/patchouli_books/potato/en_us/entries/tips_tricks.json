@@ -11,7 +11,7 @@
         {
             "type": "patchouli:text",
             "title": "Contents",
-            "text": "$(li)$(l:tips_tricks#talloak)Tall Oak Trees$(/l)$(l)*$()$(li)$(l:tips_tricks#cobblegen)Fool Proof Cobble Generator$(/l)$(li)$(l:tips_tricks#betterwaterwheel)Better Water Wheels$(/l)$(l)*$()$(li)$(l:tips_tricks#y-64)Get to Y -64 Alive!$(/l)$(li)$(l:tips_tricks#endportal)End Portal$(/l)$(li)$(l:tips_tricks#lookupmods)Look Up Mods$(/l)$(br2)$(l)*$()Tips submitted by dk_bhn."
+            "text": "$(li)$(l:tips_tricks#talloak)Tall Oak Trees$(/l)$(l)*$()$(li)$(l:tips_tricks#cobblegen)Fool Proof Cobble Generator$(/l)$(li)$(l:tips_tricks#y-64)Get to Y -64 Alive!$(/l)$(li)$(l:tips_tricks#endportal)End Portal$(/l)$(li)$(l:tips_tricks#lookupmods)Look Up Mods$(/l)$(br2)$(l)*$()Submitted by dk_bhn."
         },
         {
             "type": "patchouli:multiblock",
