@@ -1,70 +1,69 @@
 {
-	id: "0000000000000004"
-	group: ""
-	order_index: 0
-	filename: "fromthedarkness"
-	title: "Just Landed"
-	icon: "minecraft:baked_potato"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fromthedarkness"
+	group: ""
+	icon: "minecraft:baked_potato"
+	id: "0000000000000004"
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Start Digging!"
-			x: 0.0d
-			y: 0.0d
-			description: ["There be treasures hidden underground. Dig, dig, dig!"]
 			dependencies: ["3BC70DC86FB889E6"]
 			dependency_requirement: "one_completed"
+			description: ["There be treasures hidden underground. Dig, dig, dig!"]
 			id: "0000000000000005"
-			tasks: [{
-				id: "0000000000000006"
+			rewards: [{
+				id: "45D48B489CC2CF64"
+				item: "minecraft:sugar_cane"
 				type: "item"
-				title: "Any #minecraft:dirt"
+			}]
+			tasks: [{
+				count: 10L
+				id: "0000000000000006"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:dirt"
 					}
 				}
-				count: 10L
 				only_from_crafting: false
-			}]
-			rewards: [{
-				id: "45D48B489CC2CF64"
+				title: "Any #minecraft:dirt"
 				type: "item"
-				item: "minecraft:sugar_cane"
 			}]
+			title: "Start Digging!"
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			title: "Don't Punch Trees..."
-			x: 1.5d
-			y: 0.0d
-			description: ["Yes, you're in a survival game and we all know that usually means punching trees. But come on, that doesn't feel good, right? "]
 			dependencies: ["0000000000000005"]
+			description: ["Yes, you're in a survival game and we all know that usually means punching trees. But come on, that doesn't feel good, right? "]
 			id: "000000000000000D"
-			tasks: [{
-				id: "000000000000000E"
+			rewards: [{
+				id: "000000000000000F"
+				item: "minecraft:water_bucket"
 				type: "item"
-				title: "Any minecraft:logs"
+			}]
+			tasks: [{
+				count: 16L
+				id: "000000000000000E"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:logs"
 					}
 				}
-				count: 16L
-			}]
-			rewards: [{
-				id: "000000000000000F"
+				title: "Any minecraft:logs"
 				type: "item"
-				item: "minecraft:water_bucket"
 			}]
+			title: "Don't Punch Trees..."
+			x: 1.5d
+			y: 0.0d
 		}
 		{
-			x: 3.0d
-			y: 0.0d
+			dependencies: ["000000000000000D"]
 			description: [
 				"Make your life easier by creating a Crafting Station. "
 				""
@@ -72,24 +71,23 @@
 				""
 				"Nice, right?"
 			]
-			dependencies: ["000000000000000D"]
 			id: "0000000000000010"
+			rewards: [{
+				count: 2
+				id: "09AA1C0BD63DF9E9"
+				item: "create:crafting_blueprint"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0000000000000011"
-				type: "item"
 				item: "craftingstation:crafting_station"
-			}]
-			rewards: [{
-				id: "09AA1C0BD63DF9E9"
 				type: "item"
-				item: "create:crafting_blueprint"
-				count: 2
 			}]
+			x: 3.0d
+			y: 0.0d
 		}
 		{
-			title: "Any Minecraft Bed"
-			x: 3.0d
-			y: -1.5d
+			dependencies: ["0000000000000010"]
 			description: [
 				"You won't make it far in this land without getting some proper rest from time to time. "
 				""
@@ -97,221 +95,221 @@
 				""
 				"FYI: The Attack Ward Block requires a redstone signal"
 			]
-			dependencies: ["0000000000000010"]
 			id: "0000000000000014"
+			rewards: [{
+				id: "000000000000001A"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0000000000000015"
-				type: "item"
-				title: "Any minecraft:beds"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:beds"
 					}
 				}
-			}]
-			rewards: [{
-				id: "000000000000001A"
+				title: "Any minecraft:beds"
 				type: "item"
-				item: "comforts:sleeping_bag_white"
 			}]
+			title: "Any Minecraft Bed"
+			x: 3.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["0000000000000010"]
+			description: ["Build a composter so all those extra saplings and other plant matter don't go to waste!"]
+			id: "000000000000001B"
+			rewards: [{
+				count: 64
+				id: "000000000000001D"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000000000001C"
+				item: "minecraft:composter"
+				type: "item"
+			}]
 			title: "Don't Throw it Out!"
 			x: 3.0d
 			y: 1.5d
-			description: ["Build a composter so all those extra saplings and other plant matter don't go to waste!"]
-			dependencies: ["0000000000000010"]
-			id: "000000000000001B"
-			tasks: [{
-				id: "000000000000001C"
-				type: "item"
-				item: "minecraft:composter"
-			}]
-			rewards: [{
-				id: "000000000000001D"
-				type: "item"
-				item: "minecraft:bone_meal"
-				count: 64
-			}]
 		}
 		{
-			x: 0.0d
-			y: 3.0d
-			description: ["Now you're getting started! Let's go a step further. Find and mine up 8 Iron Ore."]
 			dependencies: ["00000000000000C7"]
+			description: ["Now you're getting started! Let's go a step further. Find and mine up 8 Iron Ore."]
 			id: "000000000000001E"
-			tasks: [{
-				id: "000000000000001F"
-				type: "item"
-				item: "minecraft:raw_iron"
-				count: 8L
-			}]
 			rewards: [{
 				id: "0000000000000020"
-				type: "item"
 				item: {
-					id: "silentgear:custom_ingot"
 					Count: 1b
+					id: "silentgear:custom_ingot"
 					tag: {
 						Material: "high_carbon_steel"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				count: 8L
+				id: "000000000000001F"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
 		}
 		{
-			title: "Over an Open Fire"
-			disable_toast: true
-			x: 4.5d
-			y: 0.0d
+			dependencies: ["0000000000000010"]
 			description: [
 				"There's nothing quite like a warm meal from cooking over a campfire."
 				""
 				"Get yourself a fire going and use this meat to get started."
 			]
-			dependencies: ["0000000000000010"]
+			disable_toast: true
 			id: "0000000000000025"
-			tasks: [{
-				id: "0000000000000026"
-				type: "item"
-				item: "minecraft:campfire"
-			}]
 			rewards: [
 				{
+					count: 4
 					id: "0000000000000027"
-					type: "item"
 					item: "minecraft:beef"
-					count: 4
+					type: "item"
 				}
 				{
+					count: 4
 					id: "0000000000000028"
-					type: "item"
 					item: "minecraft:porkchop"
-					count: 4
+					type: "item"
 				}
 				{
-					id: "0000000000000514"
-					type: "item"
-					item: "minecraft:rotten_flesh"
 					count: 4
+					id: "0000000000000514"
+					item: "minecraft:rotten_flesh"
+					type: "item"
 				}
 				{
 					id: "3648006D77161781"
-					type: "item"
 					item: {
-						id: "farmersdelight:skillet"
 						Count: 1b
+						id: "farmersdelight:skillet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "0000000000000026"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			title: "Over an Open Fire"
+			x: 4.5d
+			y: 0.0d
 		}
 		{
-			x: 0.0d
-			y: -1.5d
-			description: ["The allusive bamboo. Another quest might help."]
 			dependencies: ["0000000000000005"]
+			description: ["The allusive bamboo. Another quest might help."]
 			id: "00000000000000C1"
+			rewards: [{
+				count: 64
+				id: "43007CDA75B1AA24"
+				item: "minecraft:stick"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00000000000000C2"
-				type: "item"
 				item: "minecraft:bamboo"
-			}]
-			rewards: [{
-				id: "43007CDA75B1AA24"
 				type: "item"
-				item: "minecraft:stick"
-				count: 64
 			}]
+			x: 0.0d
+			y: -1.5d
 		}
 		{
-			x: 0.0d
-			y: -3.0d
-			description: ["Scaffolding - what a wonderful invention! With it, you can scurry up on top of something. You can make a simple platform and it all comes tumbling down with a simple punch,"]
 			dependencies: ["00000000000000C1"]
+			description: ["Scaffolding - what a wonderful invention! With it, you can scurry up on top of something. You can make a simple platform and it all comes tumbling down with a simple punch,"]
 			id: "00000000000000C3"
-			tasks: [{
-				id: "00000000000000C4"
-				type: "item"
-				item: "minecraft:scaffolding"
-				count: 18L
-			}]
 			rewards: [{
 				id: "00000000000000C6"
 				type: "xp"
 				xp: 50
 			}]
+			tasks: [{
+				count: 18L
+				id: "00000000000000C4"
+				item: "minecraft:scaffolding"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
 		}
 		{
-			x: 0.0d
-			y: 1.5d
+			dependencies: ["0000000000000005"]
 			description: [
 				"Cobblestone can be much more useful than dirt."
 				""
 				"Gather 64 Cobblestone and we'll give ya your first bridge made from... well, cobblestone!"
 			]
-			dependencies: ["0000000000000005"]
 			id: "00000000000000C7"
-			tasks: [{
-				id: "00000000000000C8"
-				type: "item"
-				item: "minecraft:cobblestone"
-				count: 64L
-			}]
 			rewards: [{
 				id: "20E3342C745C866E"
-				type: "item"
 				item: {
-					id: "create_sa:copper_pickaxe"
 					Count: 1b
+					id: "create_sa:copper_pickaxe"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				count: 64L
+				id: "00000000000000C8"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
 		}
 		{
-			x: -1.5d
-			y: 2.5d
 			dependencies: ["00000000000000C7"]
 			id: "00000000000000C9"
-			tasks: [{
-				id: "00000000000000CA"
-				type: "item"
-				item: "minecraft:stone"
-				count: 64L
-			}]
 			rewards: [{
-				id: "2B70DCE0B9C472EF"
-				type: "item"
-				item: "minecraft:ochre_froglight"
 				count: 8
+				id: "2B70DCE0B9C472EF"
+				item: "minecraft:ochre_froglight"
+				type: "item"
 			}]
+			tasks: [{
+				count: 64L
+				id: "00000000000000CA"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
 		}
 		{
-			x: -3.0d
-			y: 3.5d
 			dependencies: ["00000000000000C9"]
 			id: "00000000000000CB"
-			tasks: [{
-				id: "00000000000000CC"
-				type: "item"
-				item: "minecraft:smooth_stone"
-				count: 64L
-			}]
 			rewards: [{
 				id: "07853E3157D52ABC"
-				type: "item"
 				item: "minecraft:bamboo"
+				type: "item"
 			}]
+			tasks: [{
+				count: 64L
+				id: "00000000000000CC"
+				item: "minecraft:smooth_stone"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
 		}
 		{
-			title: "FTB Chunks"
-			x: -6.0d
-			y: -1.5d
+			dependencies: ["3E046FB9DDB11119"]
 			description: [
 				"I made a short YouTube video showing how to claim, un-claim, and force load chunks. You can view it by going to this address."
 				""
@@ -319,22 +317,23 @@
 				""
 				"Sorry, links do not work in quests."
 			]
-			dependencies: ["3E046FB9DDB11119"]
 			id: "6F94CFF9E4013396"
-			tasks: [{
-				id: "6CC071658A47F899"
-				type: "checkmark"
-				title: "Xaero's World Map \\& Minimap"
-			}]
 			rewards: [{
 				id: "7694CC56CD10814B"
 				type: "xp"
 				xp: 50
 			}]
+			tasks: [{
+				id: "6CC071658A47F899"
+				title: "Xaero's World Map \\& Minimap"
+				type: "checkmark"
+			}]
+			title: "FTB Chunks"
+			x: -6.0d
+			y: -1.5d
 		}
 		{
-			x: -4.5d
-			y: 2.0d
+			dependencies: ["3E046FB9DDB11119"]
 			description: [
 				"Initiate Commands by pressing the slash key '/' from within the world. Basic commands include:"
 				"\"/sethome [name]\" will set a waypoint for your home. Example: \"/sethome CM'sHome\" or \"/sethome\" will set the default \"Home\""
@@ -349,47 +348,46 @@
 				"\"/spawn\" teleports you to spawn. Always use \"/setworldspawn\" for new worlds; otherwise, you may not like where \"/spawn\" sends you!"
 				"Names in brackets \"[name]\" are optional. Names in \"<name>\" are required. Do not use quotes \", brackets \"[]\" or \"<>\" in commands."
 			]
-			dependencies: ["3E046FB9DDB11119"]
 			id: "03F55170BAB80CD2"
-			tasks: [{
-				id: "2C6A2CB6DF046D00"
-				type: "checkmark"
-				title: "Basic Commands"
-			}]
 			rewards: [{
 				id: "271EE954A8D05977"
 				type: "xp"
 				xp: 100
 			}]
+			tasks: [{
+				id: "2C6A2CB6DF046D00"
+				title: "Basic Commands"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 2.0d
 		}
 		{
-			title: "Quest Basics - Step-by-Step"
-			x: -5.25d
-			y: 0.0d
-			shape: "diamond"
-			subtitle: "Always Start at the Diamond shaped quest"
 			description: [
 				"Unlike my other packs, following the quests will prove vital to progress. Completing quests is the only way to obtain certain critical items."
 				""
 				"**IMPORTANT:**"
 				"After you complete a quest always place the item into your inventory before progressing to the next quest. Otherwise, you might not get credit for the quest."
 			]
-			size: 1.5d
 			id: "3E046FB9DDB11119"
-			tasks: [{
-				id: "78804D04AB0C9F36"
-				type: "checkmark"
-			}]
 			rewards: [{
 				id: "1DD1FE2C8C0F4E41"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Always Start at the Diamond shaped quest"
+			tasks: [{
+				id: "78804D04AB0C9F36"
+				type: "checkmark"
+			}]
+			title: "Quest Basics - Step-by-Step"
+			x: -5.25d
+			y: 0.0d
 		}
 		{
-			title: "JEI Just Enough Items"
-			x: -6.0d
-			y: 2.0d
+			dependencies: ["3E046FB9DDB11119"]
 			description: [
 				"JEI is an item and recipe viewing mod for Minecraft."
 				"Basic Controls:"
@@ -401,126 +399,134 @@
 				"     Control + O"
 				"For more information visit curseforge.com and search mods for 'jei'"
 			]
-			dependencies: ["3E046FB9DDB11119"]
 			id: "5AF39FF6AB1C6098"
-			tasks: [{
-				id: "2822CA570EE5EF85"
-				type: "checkmark"
-				title: "Roughly Enough Items (REI)"
-			}]
 			rewards: [{
 				id: "59D3F3644923777E"
 				type: "xp"
 				xp: 100
 			}]
+			tasks: [{
+				id: "2822CA570EE5EF85"
+				title: "Roughly Enough Items (REI)"
+				type: "checkmark"
+			}]
+			title: "JEI Just Enough Items"
+			x: -6.0d
+			y: 2.0d
 		}
 		{
-			x: 1.0d
-			y: 2.5d
-			description: ["You are not going to be able to mine copper. It is time to start working on the Create quests."]
 			dependencies: ["00000000000000C7"]
+			description: ["You are not going to be able to mine copper. It is time to start working on the Create quests."]
 			id: "4C865A25446A2C87"
-			tasks: [{
-				id: "7E5D52384F38AF3D"
-				type: "item"
-				item: "minecraft:copper_ingot"
-				count: 8L
-			}]
 			rewards: [{
 				id: "7F5324F625290E85"
-				type: "item"
 				item: "minecraft:copper_block"
+				type: "item"
 			}]
+			tasks: [{
+				count: 8L
+				id: "7E5D52384F38AF3D"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
 		}
 		{
-			x: 0.0d
-			y: 4.5d
-			min_required_dependencies: 1
 			dependencies: ["000000000000001E"]
 			dependency_requirement: "all_started"
 			id: "00000000000000B6"
-			tasks: [{
-				id: "00000000000000B7"
-				type: "item"
-				item: "minecraft:string"
-				count: 4L
-			}]
+			min_required_dependencies: 1
 			rewards: [{
 				id: "22E3448388DB8729"
-				type: "item"
 				item: "minecraft:white_wool"
+				type: "item"
 			}]
+			tasks: [{
+				count: 4L
+				id: "00000000000000B7"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
 		}
 		{
-			title: "Wooly Wooly"
-			x: 0.0d
-			y: 6.0d
 			dependencies: ["00000000000000B6"]
 			id: "00000000000000B8"
-			tasks: [{
-				id: "00000000000000B9"
+			rewards: [{
+				count: 2
+				id: "0000000000000519"
+				item: "minecraft:villager_spawn_egg"
 				type: "item"
-				title: "Any #minecraft:wool"
+			}]
+			tasks: [{
+				count: 12L
+				id: "00000000000000B9"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:wool"
 					}
 				}
-				count: 12L
-			}]
-			rewards: [{
-				id: "0000000000000519"
+				title: "Any #minecraft:wool"
 				type: "item"
-				item: "minecraft:villager_spawn_egg"
-				count: 2
 			}]
+			title: "Wooly Wooly"
+			x: 0.0d
+			y: 6.0d
 		}
 		{
-			x: 1.5d
-			y: -1.5d
-			description: ["Craft a stack of torches and get a handy dandy Torch Sling!"]
 			dependencies: ["0000000000000005"]
+			description: ["Craft a stack of torches and get a handy dandy Torch Sling!"]
 			id: "29B69483965D4F12"
-			tasks: [{
-				id: "06FF08567F126EDA"
-				type: "item"
-				item: "minecraft:torch"
-				count: 16L
-			}]
 			rewards: [{
 				id: "3731F39CFA22A94C"
-				type: "item"
 				item: "minecraft:kelp"
+				type: "item"
 			}]
+			tasks: [{
+				count: 16L
+				id: "06FF08567F126EDA"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
 		}
 		{
-			x: 2.0d
-			y: 3.5d
 			dependencies: ["4C865A25446A2C87"]
 			id: "31A1F7CA6B75AE3C"
+			rewards: [{
+				id: "0773BC90C56E2467"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3CBBA3D29984B05D"
-				type: "item"
 				item: {
-					id: "silentgear:saw"
 					Count: 1b
+					id: "silentgear:saw"
 					tag: {
-						SGear_UUID: [I;
-							-400511238
-							-1284616489
-							-1916884194
-							-752035927
-						]
 						Damage: 0
 						SGear_Data: {
 							Construction: {
 								Parts: [
 									{
+										ID: "silentgear:saw_blade"
 										Item: {
-											id: "silentgear:saw_blade"
 											Count: 1b
+											id: "silentgear:saw_blade"
 											tag: {
 												Damage: 0
 												Materials: [{
@@ -528,38 +534,37 @@
 												}]
 											}
 										}
-										ID: "silentgear:saw_blade"
 									}
 									{
+										ID: "silentgear:rod"
 										Item: {
-											id: "silentgear:rod"
 											Count: 1b
+											id: "silentgear:rod"
 											tag: {
 												Materials: [{
 													ID: "silentgear:wood"
 												}]
 											}
 										}
-										ID: "silentgear:rod"
 									}
 								]
 							}
 							Properties: {
+								LockStats: 0b
 								ModVersion: "3.2.3"
 								Stats: {
-									"silentgear:charging_value": 0.7f
-									"silentgear:enchantment_value": 7.0f
-									"silentgear:harvest_speed": 1.5f
 									"silentgear:attack_reach": 3.0f
-									"silentgear:harvest_level": 2.0f
-									"silentgear:durability": 500.0f
-									"silentgear:melee_damage": 4.0f
-									"silentgear:magic_damage": 1.0f
-									"silentgear:rarity": 20.0f
 									"silentgear:attack_speed": -2.5f
+									"silentgear:charging_value": 0.7f
+									"silentgear:durability": 500.0f
+									"silentgear:enchantment_value": 7.0f
+									"silentgear:harvest_level": 2.0f
+									"silentgear:harvest_speed": 1.5f
+									"silentgear:magic_damage": 1.0f
+									"silentgear:melee_damage": 4.0f
+									"silentgear:rarity": 20.0f
 									"silentgear:repair_efficiency": 1.5f
 								}
-								LockStats: 0b
 								Traits: [
 									{
 										Level: 3b
@@ -579,95 +584,90 @@
 								Model: 3
 							}
 						}
+						SGear_UUID: [I;
+							-400511238
+							-1284616489
+							-1916884194
+							-752035927
+						]
 					}
 				}
-			}]
-			rewards: [{
-				id: "0773BC90C56E2467"
 				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 2s
-							id: "minecraft:unbreaking"
-						}]
-					}
-				}
 			}]
+			x: 2.0d
+			y: 3.5d
 		}
 		{
-			x: -1.5d
-			y: 4.0d
 			dependencies: ["000000000000001E"]
 			id: "5687DBC582721D74"
-			tasks: [{
-				id: "06127A83513CBD7C"
-				type: "item"
-				item: "minecraft:iron_ingot"
-				count: 16L
-			}]
 			rewards: [{
 				id: "2968588081B4AC2F"
-				type: "item"
 				item: "minecraft:pufferfish_bucket"
+				type: "item"
 			}]
+			tasks: [{
+				count: 16L
+				id: "06127A83513CBD7C"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
 		}
 		{
-			x: -3.0d
-			y: 5.0d
+			dependencies: ["5687DBC582721D74"]
 			description: [
 				"For more information regarding obtaining more Lava"
 				"1. Open your Potato guidebook. "
 				"2. Go to either \"Getting Started\" > \"Early Game\" or \"Videos\" > \"Useful Farms\" "
 				"3. Open the page \"Dripstone, Lava and More...\""
 			]
-			dependencies: ["5687DBC582721D74"]
 			id: "20218A4E8B57D849"
-			tasks: [{
-				id: "3AEFCDE531A6254B"
-				type: "item"
-				item: "minecraft:lava_bucket"
-			}]
 			rewards: [{
 				id: "5C6E07A7B4CE8F89"
-				type: "item"
 				item: "minecraft:cauldron"
+				type: "item"
 			}]
+			tasks: [{
+				id: "3AEFCDE531A6254B"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
 		}
 		{
-			x: -2.25d
-			y: 0.0d
-			shape: "diamond"
 			description: ["If you just check this box and not open your guidebook, do not complain if you run out of ores playing skyblock! "]
-			size: 2.0d
 			id: "3BC70DC86FB889E6"
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				id: "344CE56B34765342"
-				type: "checkmark"
 				title: "Open Potato Guidebook"
+				type: "checkmark"
 			}]
+			x: -2.25d
+			y: 0.0d
 		}
 		{
-			title: "The One Probe Read Me"
-			icon: "theoneprobe:probenote"
-			x: -4.5d
-			y: -1.5d
-			description: ["Check to get The One Probe Read Me"]
-			dependencies: ["3E046FB9DDB11119"]
 			can_repeat: true
+			dependencies: ["3E046FB9DDB11119"]
+			description: ["Check to get The One Probe Read Me"]
+			icon: "theoneprobe:probenote"
 			id: "0E4D24AAB4F4DC58"
+			rewards: [{
+				id: "7432D03495AC18F0"
+				item: "theoneprobe:probenote"
+				type: "item"
+			}]
 			tasks: [{
 				id: "35148C9FDCA111B8"
 				type: "checkmark"
 			}]
-			rewards: [{
-				id: "7432D03495AC18F0"
-				type: "item"
-				item: "theoneprobe:probenote"
-			}]
+			title: "The One Probe Read Me"
+			x: -4.5d
+			y: -1.5d
 		}
 	]
-	quest_links: [ ]
+	title: "Just Landed"
 }

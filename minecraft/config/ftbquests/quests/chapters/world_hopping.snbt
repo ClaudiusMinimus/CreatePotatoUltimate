@@ -1,131 +1,131 @@
 {
-	id: "5C3449C5F42C2A48"
-	group: ""
-	order_index: 7
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "world_hopping"
-	title: "World Hopping"
+	group: ""
 	icon: {
-		id: "ftbquests:custom_icon"
 		Count: 1b
+		id: "ftbquests:custom_icon"
 		tag: {
 			Icon: "minecraft:textures/block/nether_portal.png"
 		}
 	}
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	id: "5C3449C5F42C2A48"
+	order_index: 7
+	quest_links: [ ]
 	quests: [
 		{
-			x: 2.0d
-			y: 1.0d
 			dependencies: ["2A8220D0E1D47056"]
 			id: "015BC3FCB168998F"
-			tasks: [{
-				id: "7E969B91EB428FB5"
-				type: "dimension"
-				title: "Visiting the Finale, The End"
-				dimension: "minecraft:the_end"
-			}]
 			rewards: [{
 				id: "6521B7082683CC34"
-				type: "item"
 				item: "powder_power:token_strength"
+				type: "item"
 			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "7E969B91EB428FB5"
+				title: "Visiting the Finale, The End"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: 1.0d
 		}
 		{
-			x: -2.0d
-			y: 1.0d
 			dependencies: ["7A5F94720CCC4836"]
 			id: "4C8D1E0AFF2310A9"
-			tasks: [{
-				id: "51544E360D6B39F0"
-				type: "dimension"
-				title: "Visiting the Serene Nether"
-				dimension: "minecraft:the_nether"
-			}]
 			rewards: [{
 				id: "72B4570505C7C0E6"
-				type: "item"
 				item: "minecraft:sculk_sensor"
+				type: "item"
 			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "51544E360D6B39F0"
+				title: "Visiting the Serene Nether"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["0DED09C3096C985D"]
+			description: ["You only need 10 obsidian blocks to make a portal."]
+			id: "7A5F94720CCC4836"
+			rewards: [{
+				count: 4
+				id: "26606352B5F6774A"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				count: 10L
+				id: "529DE2DD7DEDA43E"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
 			x: -4.0d
 			y: 1.0d
-			shape: "diamond"
-			description: ["You only need 10 obsidian blocks to make a portal."]
-			dependencies: ["20218A4E8B57D849"]
-			size: 1.5d
-			id: "7A5F94720CCC4836"
-			tasks: [{
-				id: "529DE2DD7DEDA43E"
-				type: "item"
-				item: "minecraft:obsidian"
-				count: 10L
-			}]
-			rewards: [{
-				id: "26606352B5F6774A"
-				type: "item"
-				item: "minecraft:obsidian"
-				count: 4
-			}]
 		}
 		{
-			x: 0.0d
-			y: 1.0d
+			dependencies: ["4C8D1E0AFF2310A9"]
 			description: [
 				"For more information regarding making or moving an End Portal:"
 				"1. Open your Create on a Potato PC guidebook."
 				"2. Go to \\\"Getting Started\\\" > \\\"Tips \\& Tricks\\\" > \\\"End Portal\\\""
 			]
-			dependencies: ["4C8D1E0AFF2310A9"]
 			id: "2A8220D0E1D47056"
-			tasks: [{
-				id: "72048D96EF736319"
-				type: "item"
-				item: "minecraft:end_portal_frame"
-				count: 12L
-			}]
 			rewards: [{
-				id: "636F1E664930F9FA"
-				type: "item"
-				item: "minecraft:ender_eye"
 				count: 6
+				id: "636F1E664930F9FA"
+				item: "minecraft:ender_eye"
+				type: "item"
 			}]
+			tasks: [{
+				count: 12L
+				id: "72048D96EF736319"
+				item: "minecraft:end_portal_frame"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
 		}
 		{
-			x: -1.0d
-			y: -0.5d
 			dependencies: ["4C8D1E0AFF2310A9"]
 			id: "3E8A431098F5FCEA"
-			tasks: [{
-				id: "337B68E87718AC2C"
-				type: "item"
-				item: "minecraft:quartz"
-			}]
 			rewards: [{
 				id: "661F7882379A67BD"
-				type: "item"
 				item: "powder_power:token_haste"
+				type: "item"
 			}]
+			tasks: [{
+				id: "337B68E87718AC2C"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
 		}
 		{
-			x: -1.0d
-			y: 2.5d
 			dependencies: ["4C8D1E0AFF2310A9"]
 			id: "4548349093E0BE44"
-			tasks: [{
-				id: "7368C6803D3C8AAA"
-				type: "item"
-				item: "minecraft:soul_sand"
-				count: 16L
-			}]
 			rewards: [{
-				id: "792E1FBBA5E9193E"
-				type: "item"
-				item: "minecraft:verdant_froglight"
 				count: 8
+				id: "792E1FBBA5E9193E"
+				item: "minecraft:verdant_froglight"
+				type: "item"
 			}]
+			tasks: [{
+				count: 16L
+				id: "7368C6803D3C8AAA"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
 		}
 	]
-	quest_links: [ ]
+	title: "World Hopping"
 }

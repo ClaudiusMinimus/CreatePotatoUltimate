@@ -1,205 +1,204 @@
 {
-	id: "3DFD3C26419B7986"
-	group: ""
-	order_index: 2
-	filename: "botania"
-	title: "Botania"
-	icon: "botania:lexicon"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: ""
+	icon: "botania:lexicon"
+	id: "3DFD3C26419B7986"
+	order_index: 2
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Starting Botania"
-			icon: "botania:lexicon"
-			x: -6.5d
-			y: 12.5d
-			shape: "diamond"
-			subtitle: "Start Here"
 			description: [
 				"You Lexica Botania is an invaluable wealth of information - use it often!"
 				""
 				"Holding the Ctrl key when hovering the cursor over an item with an entry while the book is in the hotbar will open the item's entry. Shift right-clicking with the Lexica on a block will open the relevant page, if one exists, otherwise it will attempt to open a relevant wiki page in the user's web browser."
 			]
-			size: 2.0d
+			icon: "botania:lexicon"
 			id: "678645C952FCF8CC"
-			tasks: [{
-				id: "6229FC0F3B6B7FEB"
-				type: "checkmark"
-			}]
 			rewards: [{
 				id: "640417B41565F33D"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Start Here"
+			tasks: [{
+				id: "6229FC0F3B6B7FEB"
+				type: "checkmark"
+			}]
+			title: "Starting Botania"
+			x: -8.0d
+			y: 12.5d
 		}
 		{
-			title: "Any Botania Mystical Flowers"
-			x: -3.0d
-			y: 12.5d
-			description: ["For your first flowers, you need the following Mystical Flowers: White, Red, Brown, and Light Grey."]
 			dependencies: ["4868A27F76C700DC"]
+			description: ["For your first flowers, you need the following Mystical Flowers: White, Red, Brown, and Light Grey."]
 			id: "5AE38D7F1ACE1065"
-			tasks: [{
-				id: "2F804A4ECC3A2C43"
+			rewards: [{
+				count: 4
+				id: "503DFE79BD3EBECC"
+				item: "botania:fertilizer"
 				type: "item"
-				title: "Any Botania Mystical Flowers"
+			}]
+			tasks: [{
+				count: 8L
+				id: "2F804A4ECC3A2C43"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "botania:mystical_flowers"
 					}
 				}
-				count: 8L
-			}]
-			rewards: [{
-				id: "503DFE79BD3EBECC"
+				title: "Any Botania Mystical Flowers"
 				type: "item"
-				item: "botania:fertilizer"
-				count: 4
 			}]
-		}
-		{
+			title: "Any Botania Mystical Flowers"
 			x: -4.5d
 			y: 12.5d
-			subtitle: "Use Living Root Sparingly!"
-			description: ["Floral Fertilizer is used to spawn Botania mystical flowers."]
-			dependencies: ["678645C952FCF8CC"]
-			id: "4868A27F76C700DC"
-			tasks: [{
-				id: "75DF81BBE5C1C966"
-				type: "item"
-				item: "botania:fertilizer"
-				count: 4L
-			}]
-			rewards: [{
-				id: "4BC2DF069D6B9A21"
-				type: "item"
-				item: "botania:fertilizer"
-				count: 4
-			}]
 		}
 		{
-			x: 0.0d
-			y: 12.5d
-			description: ["The Pure Daisy is used to make Livingwood and Livingrock. You will make the Pure Daisy in your Petal Apothecary. Do not forget to use a Wood Bowl to fill your Apothecary!"]
-			dependencies: ["78FEF9A7E20E7C06"]
-			id: "55468A5FB8BA4A1F"
-			tasks: [{
-				id: "7D62D84218A87462"
+			dependencies: ["678645C952FCF8CC"]
+			description: ["Floral Fertilizer is used to spawn Botania mystical flowers."]
+			id: "4868A27F76C700DC"
+			rewards: [{
+				count: 4
+				id: "4BC2DF069D6B9A21"
+				item: "botania:fertilizer"
 				type: "item"
-				item: "botania:pure_daisy"
 			}]
+			subtitle: "Use Living Root Sparingly!"
+			tasks: [{
+				count: 4L
+				id: "75DF81BBE5C1C966"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["78FEF9A7E20E7C06"]
+			description: ["The Pure Daisy is used to make Livingwood and Livingrock. You will make the Pure Daisy in your Petal Apothecary. Do not forget to use a Wood Bowl to fill your Apothecary!"]
+			id: "55468A5FB8BA4A1F"
 			rewards: [{
 				id: "7D781F7BA9F92F83"
-				type: "item"
 				item: "botania:pure_daisy"
+				type: "item"
 			}]
-		}
-		{
+			tasks: [{
+				id: "7D62D84218A87462"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
 			x: -1.5d
 			y: 12.5d
+		}
+		{
+			dependencies: ["5AE38D7F1ACE1065"]
 			description: [
 				"The Petal Apothecary is one of the main ways of creating items/flowers for Botania. It requires water, then the petals/items for the recipe, and most recipes are completed when you drop a wheat seed into the Apothecary."
 				""
 			]
-			dependencies: ["5AE38D7F1ACE1065"]
 			id: "78FEF9A7E20E7C06"
-			tasks: [{
-				id: "69460C0E7671938B"
-				type: "item"
-				item: "botania:apothecary_default"
-			}]
 			rewards: [
 				{
-					id: "08773E400E876C5D"
-					type: "item"
-					item: "farmersdelight:stuffed_pumpkin_block"
 					count: 8
+					id: "08773E400E876C5D"
+					item: "farmersdelight:stuffed_pumpkin_block"
+					type: "item"
 				}
 				{
-					id: "079B81FC968546F6"
-					type: "item"
-					item: "minecraft:bowl"
 					count: 4
+					id: "079B81FC968546F6"
+					item: "minecraft:bowl"
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 0.0d
-			y: 11.0d
-			description: ["Important crafting ingredient for many recipes."]
-			dependencies: ["55468A5FB8BA4A1F"]
-			id: "542DD76032B66B50"
 			tasks: [{
-				id: "60223C44756C56A7"
+				id: "69460C0E7671938B"
+				item: "botania:apothecary_default"
 				type: "item"
-				item: "botania:livingwood_log"
-				count: 16L
 			}]
-			rewards: [{
-				id: "15340382B523FCE6"
-				type: "item"
-				item: "botania:livingwood"
-				count: 16
-			}]
+			x: -3.0d
+			y: 12.5d
 		}
 		{
+			dependencies: ["55468A5FB8BA4A1F"]
+			description: ["Important crafting ingredient for many recipes."]
+			id: "542DD76032B66B50"
+			rewards: [{
+				count: 16
+				id: "15340382B523FCE6"
+				item: "botania:livingwood"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "60223C44756C56A7"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["55468A5FB8BA4A1F"]
+			description: ["Important crafting ingredient for many recipes."]
+			id: "754F5D734147F8BA"
+			rewards: [{
+				count: 16
+				id: "50AEF9D866B8C370"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "31DF1E159C3C5D80"
+				item: "botania:livingrock"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 12.5d
-			description: ["Important crafting ingredient for many recipes."]
-			dependencies: ["55468A5FB8BA4A1F"]
-			id: "754F5D734147F8BA"
-			tasks: [{
-				id: "31DF1E159C3C5D80"
-				type: "item"
-				item: "botania:livingrock"
-				count: 16L
-			}]
-			rewards: [{
-				id: "50AEF9D866B8C370"
-				type: "item"
-				item: "botania:livingrock"
-				count: 16
-			}]
 		}
 		{
-			x: 0.0d
-			y: 9.5d
-			description: ["The Mana Spreader is the single most important tool a botanist needs to manipulate Mana."]
 			dependencies: ["542DD76032B66B50"]
+			description: ["The Mana Spreader is the single most important tool a botanist needs to manipulate Mana."]
 			id: "60760C5B4FB95DEA"
-			tasks: [{
-				id: "54D1339C33C0E984"
-				type: "item"
-				item: "botania:mana_spreader"
-			}]
 			rewards: [{
 				id: "1EE6F67CFF83677E"
-				type: "item"
 				item: "botania:mana_spreader"
+				type: "item"
 			}]
+			tasks: [{
+				id: "54D1339C33C0E984"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.5d
 		}
 		{
-			x: 1.5d
-			y: 14.0d
-			description: ["Used for storing mana."]
 			dependencies: ["754F5D734147F8BA"]
+			description: ["Used for storing mana."]
 			id: "2D9DC78C66027DF2"
-			tasks: [{
-				id: "62B971105574EE6F"
-				type: "item"
-				item: "botania:mana_pool"
-			}]
 			rewards: [{
 				id: "0B06029C6295F6E4"
-				type: "item"
 				item: "botania:mana_pool"
+				type: "item"
 			}]
+			tasks: [{
+				id: "62B971105574EE6F"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 14.0d
 		}
 		{
-			x: -3.0d
-			y: 16.5d
+			dependencies: ["2D9DC78C66027DF2"]
 			description: [
 				"This crafting station can be used to create each of the 16 Runes. When it is placed, 2 cubes can be seen swirling around above it."
 				""
@@ -207,406 +206,405 @@
 				""
 				""
 			]
-			dependencies: ["2D9DC78C66027DF2"]
 			id: "0027048889049815"
-			tasks: [{
-				id: "360F923B08F14B43"
-				type: "item"
-				item: "botania:runic_altar"
-			}]
 			rewards: [{
 				id: "1623F6FAC4F68BEC"
-				type: "item"
 				item: "botania:overgrowth_seed"
+				type: "item"
 			}]
+			tasks: [{
+				id: "360F923B08F14B43"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 16.5d
 		}
 		{
-			x: -1.5d
-			y: 11.0d
-			description: [" The Orechid uses Mana to synthesize ores from nearby Stone blocks. The ores it generates are random, but rarer ores seem to be created less often."]
 			dependencies: ["78FEF9A7E20E7C06"]
+			description: [" The Orechid uses Mana to synthesize ores from nearby Stone blocks. The ores it generates are random, but rarer ores seem to be created less often."]
 			id: "1EACB6765A8C7988"
+			rewards: [{
+				count: 32
+				id: "17DD66C15A68A42F"
+				item: "minecraft:stone"
+				type: "item"
+			}]
 			tasks: [{
 				id: "11F49929C3E1FC8B"
-				type: "item"
 				item: "botania:orechid"
-			}]
-			rewards: [{
-				id: "17DD66C15A68A42F"
 				type: "item"
-				item: "minecraft:stone"
-				count: 32
 			}]
+			x: -3.0d
+			y: 11.0d
 		}
 		{
-			x: -7.0d
-			y: 16.5d
-			description: [" Right-click with this rod will place Water for some mana cost."]
 			dependencies: ["0059F4044C719D7D"]
+			description: [" Right-click with this rod will place Water for some mana cost."]
 			id: "7000D800442BDB20"
-			tasks: [{
-				id: "158A7BBA4DD68B06"
-				type: "item"
-				item: "botania:water_rod"
-			}]
 			rewards: [{
 				id: "2D6294602EF56440"
-				type: "item"
 				item: "botania:open_bucket"
+				type: "item"
 			}]
+			tasks: [{
+				id: "158A7BBA4DD68B06"
+				item: "botania:water_rod"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 16.5d
 		}
 		{
-			x: 1.5d
-			y: 11.0d
-			description: ["The Mana Tablet is a portable item that can carry Mana within itself."]
 			dependencies: ["754F5D734147F8BA"]
+			description: ["The Mana Tablet is a portable item that can carry Mana within itself."]
 			id: "168B204949452C03"
-			tasks: [{
-				id: "130E0AF36EDB2466"
-				type: "item"
-				item: {
-					id: "botania:mana_tablet"
-					Count: 1b
-					tag: { }
-				}
-				consume_items: false
-			}]
 			rewards: [{
 				id: "55E3B134D15AC5D1"
-				type: "item"
 				item: {
-					id: "botania:mana_tablet"
 					Count: 1b
+					id: "botania:mana_tablet"
 					tag: {
 						mana: 500000
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				consume_items: false
+				id: "130E0AF36EDB2466"
+				item: {
+					Count: 1b
+					id: "botania:mana_tablet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.0d
 		}
 		{
-			x: -5.5d
-			y: 16.5d
-			description: ["Rune of Water is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
+			description: ["Rune of Water is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "0059F4044C719D7D"
-			tasks: [{
-				id: "17D0E0C6E1EFFB2A"
-				type: "item"
-				item: "botania:rune_water"
-			}]
 			rewards: [{
 				id: "02C7AB0156A2E058"
-				type: "item"
 				item: "minecraft:pufferfish_bucket"
 				only_one: true
+				type: "item"
 			}]
+			tasks: [{
+				id: "17D0E0C6E1EFFB2A"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 16.5d
 		}
 		{
-			x: -7.0d
-			y: 17.5d
-			description: ["Right-click with this rod will place Dirt for some mana cost."]
 			dependencies: ["6D698E9864D3C153"]
+			description: ["Right-click with this rod will place Dirt for some mana cost."]
 			id: "2AC4427434E9FBCB"
+			rewards: [{
+				count: 32
+				id: "451B9CB67EEFD338"
+				item: "minecraft:grass_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "642F203B1E817A2D"
-				type: "item"
 				item: "botania:dirt_rod"
-			}]
-			rewards: [{
-				id: "451B9CB67EEFD338"
 				type: "item"
-				item: "minecraft:grass_block"
-				count: 32
 			}]
+			x: -7.0d
+			y: 17.5d
 		}
 		{
-			x: -5.5d
-			y: 17.5d
-			description: ["Rune of Earth is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
+			description: ["Rune of Earth is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "6D698E9864D3C153"
-			tasks: [{
-				id: "366C2FCC8A9E42B3"
-				type: "item"
-				item: "botania:rune_earth"
-			}]
 			rewards: [{
 				id: "2EC2514C87BCA9E6"
-				type: "item"
 				item: "create:pulse_repeater"
+				type: "item"
 			}]
+			tasks: [{
+				id: "366C2FCC8A9E42B3"
+				item: "botania:rune_earth"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 17.5d
 		}
 		{
-			x: 0.0d
-			y: 8.0d
-			description: ["Sometimes complex devices like Droppers or Dispensers can't offer enough precision or speed. A simple solution: Make a crate, then punch a hole in its bottom. Yeah, it's that easy. The Open Crate accepts each item from a Hopper or other item outputter, and drops the item directly below it."]
 			dependencies: ["60760C5B4FB95DEA"]
+			description: ["Sometimes complex devices like Droppers or Dispensers can't offer enough precision or speed. A simple solution: Make a crate, then punch a hole in its bottom. Yeah, it's that easy. The Open Crate accepts each item from a Hopper or other item outputter, and drops the item directly below it."]
 			id: "4C1249721C8EBFBB"
-			tasks: [{
-				id: "4AC859C018BFBC16"
-				type: "item"
-				item: "botania:open_crate"
-				only_from_crafting: false
-			}]
 			rewards: [{
 				id: "178FFDF36A35D3B1"
-				type: "item"
 				item: "minecraft:hopper"
+				type: "item"
 			}]
+			tasks: [{
+				id: "4AC859C018BFBC16"
+				item: "botania:open_crate"
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
 		}
 		{
-			x: 1.5d
-			y: 15.5d
-			description: ["Mana received from Mana Bursts will be split evenly into Mana Pools placed on adjacent sides."]
 			dependencies: ["2D9DC78C66027DF2"]
+			description: ["Mana received from Mana Bursts will be split evenly into Mana Pools placed on adjacent sides."]
 			id: "11E7D116CDEC9D03"
-			tasks: [{
-				id: "65D7BD840229C6E7"
-				type: "item"
-				item: "botania:mana_distributor"
-			}]
 			rewards: [{
 				id: "54E22725F529476B"
-				type: "item"
 				item: "botania:fabulous_pool"
+				type: "item"
 			}]
+			tasks: [{
+				id: "65D7BD840229C6E7"
+				item: "botania:mana_distributor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 15.5d
 		}
 		{
-			x: -3.0d
-			y: 9.5d
-			shape: "gear"
-			description: ["Starting a tree farm may be a good idea since you will need lots of fuel to keep your Endoflames going. Think Create!"]
 			dependencies: ["03B2EDF78A084226"]
+			description: ["Starting a tree farm may be a good idea since you will need lots of fuel to keep your Endoflames going. Think Create!"]
 			id: "71476487357E662F"
+			shape: "gear"
 			tasks: [{
 				id: "1DCA88F73FDBB2C2"
-				type: "checkmark"
 				title: "Start a Tree Farm"
+				type: "checkmark"
 			}]
+			x: -4.5d
+			y: 9.5d
 		}
 		{
-			x: -3.0d
-			y: 11.0d
-			description: ["The Endoflame is a very rudimentary generating flower; it'll absorb any combustible items or blocks dropped on the nearby vicinity, one at a time, and burn through them to generate Mana."]
 			dependencies: ["5AE38D7F1ACE1065"]
+			description: ["The Endoflame is a very rudimentary generating flower; it'll absorb any combustible items or blocks dropped on the nearby vicinity, one at a time, and burn through them to generate Mana."]
 			id: "03B2EDF78A084226"
-			tasks: [{
-				id: "7A558014AE36C7A3"
-				type: "item"
-				item: "botania:endoflame"
-				count: 2L
-			}]
 			rewards: [{
-				id: "21D1BDBC64C895D3"
-				type: "item"
-				item: "botania:endoflame"
 				count: 2
+				id: "21D1BDBC64C895D3"
+				item: "botania:endoflame"
+				type: "item"
 			}]
+			tasks: [{
+				count: 2L
+				id: "7A558014AE36C7A3"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.0d
 		}
 		{
-			x: 4.5d
-			y: 14.0d
-			description: ["Manasteel, like other metals, can be shaped into tools and armor alike.Tools or armor crafted from this material will share most of their qualities with Iron, albeit with superior enchantability and durability. Additionally, all Manasteel items can heal their durabilities with Mana from their user's inventory (e.g. in a Mana Tablet)."]
 			dependencies: ["2D9DC78C66027DF2"]
+			description: ["Manasteel, like other metals, can be shaped into tools and armor alike.Tools or armor crafted from this material will share most of their qualities with Iron, albeit with superior enchantability and durability. Additionally, all Manasteel items can heal their durabilities with Mana from their user's inventory (e.g. in a Mana Tablet)."]
 			id: "4EBF5AB892CDCB14"
-			tasks: [{
-				id: "4D42BA16910114E1"
-				type: "item"
-				item: "botania:manasteel_ingot"
-			}]
 			rewards: [{
 				id: "60971AAD50350AC7"
-				type: "item"
 				item: "botania:blacker_lotus"
+				type: "item"
 			}]
+			tasks: [{
+				id: "4D42BA16910114E1"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 14.0d
 		}
 		{
-			x: 6.5d
-			y: 14.0d
-			description: ["Some Manasteel tools perform special actions when right-clicked: the Pickaxe will place a torch from the user's inventory, and the Axe will do the same with a sapling.Do note that Shears made of mana-based materials will trigger tripwires, unlike iron ones."]
 			dependencies: ["4EBF5AB892CDCB14"]
+			description: ["Some Manasteel tools perform special actions when right-clicked: the Pickaxe will place a torch from the user's inventory, and the Axe will do the same with a sapling.Do note that Shears made of mana-based materials will trigger tripwires, unlike iron ones."]
 			id: "79F82A7D2D7D1280"
+			rewards: [{
+				count: 8
+				id: "71D9562CE35FE676"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2CA9CC07CA95D6E4"
-				type: "item"
 				item: {
-					id: "botania:manasteel_pick"
 					Count: 1b
+					id: "botania:manasteel_pick"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "71D9562CE35FE676"
 				type: "item"
-				item: "farmersdelight:bacon_sandwich"
-				count: 8
 			}]
+			x: 6.5d
+			y: 14.0d
 		}
 		{
-			x: 3.0d
-			y: 11.0d
-			description: ["When the Alchemy Catalyst is placed under a Mana Pool the Mana Pool will output different recipes. Check REI for what the Alchemy Catalyst can do."]
 			dependencies: ["754F5D734147F8BA"]
+			description: ["When the Alchemy Catalyst is placed under a Mana Pool the Mana Pool will output different recipes. Check REI for what the Alchemy Catalyst can do."]
 			id: "0A865D877C969C7B"
+			rewards: [{
+				count: 32
+				id: "29A83DEA30E50888"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
 			tasks: [{
 				id: "253193C40E67D396"
-				type: "item"
 				item: "botania:alchemy_catalyst"
-			}]
-			rewards: [{
-				id: "29A83DEA30E50888"
 				type: "item"
-				item: "minecraft:quartz"
-				count: 32
 			}]
+			x: 3.0d
+			y: 11.0d
 		}
 		{
-			x: 3.0d
-			y: 15.5d
-			description: ["When equipped in the Curios Amulet slot, it shows nearby Mana bursts (even those out of the line of sight) and the functional radii of flowers to the player. "]
 			dependencies: ["4EBF5AB892CDCB14"]
+			description: ["When equipped in the Curios Amulet slot, it shows nearby Mana bursts (even those out of the line of sight) and the functional radii of flowers to the player. "]
 			id: "21FE58A9CB80B99B"
-			tasks: [{
-				id: "4D235D7907805211"
-				type: "item"
-				item: {
-					id: "botania:monocle"
-					Count: 1b
-					tag: { }
-				}
-			}]
 			rewards: [{
 				id: "409A7C2BB7D9634F"
-				type: "item"
 				item: "botania:manasteel_ingot"
-			}]
-		}
-		{
-			x: 4.5d
-			y: 12.0d
-			description: ["The Mana Lens by itself does nothing, but is used as the base for other lens."]
-			dependencies: ["4EBF5AB892CDCB14"]
-			id: "586D540A5DE160AB"
-			tasks: [{
-				id: "7CBE4E9E4EC1E74A"
 				type: "item"
+			}]
+			tasks: [{
+				id: "4D235D7907805211"
 				item: {
-					id: "botania:lens_normal"
 					Count: 1b
+					id: "botania:monocle"
 					tag: { }
 				}
+				type: "item"
 			}]
+			x: 3.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4EBF5AB892CDCB14"]
+			description: ["The Mana Lens by itself does nothing, but is used as the base for other lens."]
+			id: "586D540A5DE160AB"
 			rewards: [{
 				id: "07BDC055C530849F"
-				type: "item"
 				item: {
-					id: "farmersdelight:skillet"
 					Count: 1b
+					id: "farmersdelight:skillet"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-		}
-		{
-			x: 4.5d
-			y: 10.5d
-			description: ["The Weight Lens places a strong downward force within a Mana Burst, making any block hit by it (as long as it has space below) fall like Sand and Gravel do."]
-			dependencies: ["586D540A5DE160AB"]
-			id: "305D8F543C830B44"
-			tasks: [{
-				id: "21398F10D069890F"
 				type: "item"
+			}]
+			tasks: [{
+				id: "7CBE4E9E4EC1E74A"
 				item: {
-					id: "botania:lens_weight"
 					Count: 1b
+					id: "botania:lens_normal"
 					tag: { }
 				}
+				type: "item"
 			}]
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["586D540A5DE160AB"]
+			description: ["The Weight Lens places a strong downward force within a Mana Burst, making any block hit by it (as long as it has space below) fall like Sand and Gravel do."]
+			id: "305D8F543C830B44"
 			rewards: [{
 				id: "3B602ECA28819339"
-				type: "item"
 				item: "minecraft:jungle_sapling"
+				type: "item"
 			}]
+			tasks: [{
+				id: "21398F10D069890F"
+				item: {
+					Count: 1b
+					id: "botania:lens_weight"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.5d
 		}
 		{
-			x: -5.5d
-			y: 15.5d
-			description: ["Rune of Air is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
+			description: ["Rune of Air is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "721AD3481887982A"
-			tasks: [{
-				id: "3F379575A6F57427"
-				type: "item"
-				item: "botania:rune_air"
-			}]
 			rewards: [{
 				id: "4EA30344B5C6C79E"
-				type: "item"
 				item: "botania:white_floating_flower"
+				type: "item"
 			}]
+			tasks: [{
+				id: "3F379575A6F57427"
+				item: "botania:rune_air"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 15.5d
 		}
 		{
-			x: -7.0d
-			y: 15.5d
+			dependencies: ["721AD3481887982A"]
 			description: [
 				"A functional flower that takes item sprites dropped in the world around it and places them in an adjacent inventory. It does not require mana to do this, but supplying mana will increase the range of the flower."
 				""
 				"A delay before the pick-up can be created by placing it on podzol (short delay) or mycelium (long delay). It can be made to filter which items it picks up by applying an item frame to the adjacent inventory, shift-right clicking with the Wand of the Forest allows the player to cycle through modes for interaction with the item frame. All items can go into an inventory with no item frame attached, but inventories with item frames are given priority. It can be disabled at will by applying a redstone signal."
 			]
-			dependencies: ["721AD3481887982A"]
 			id: "714B4429C2E1CF25"
-			tasks: [{
-				id: "60C035FC00F26A45"
-				type: "item"
-				item: "botania:hopperhock"
-			}]
 			rewards: [{
 				id: "644900A46B1A3FC3"
-				type: "item"
 				item: "botania:mana_pearl"
+				type: "item"
 			}]
+			tasks: [{
+				id: "60C035FC00F26A45"
+				item: "botania:hopperhock"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 15.5d
 		}
 		{
-			x: -5.5d
-			y: 18.5d
-			description: ["Rune of Fire is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
+			description: ["Rune of Fire is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "74CD206E24B85187"
-			tasks: [{
-				id: "54ABD30AFC694209"
-				type: "item"
-				item: "botania:rune_fire"
-			}]
 			rewards: [{
 				id: "2EE98889B47245D6"
-				type: "item"
 				item: "minecraft:ghast_tear"
+				type: "item"
 			}]
+			tasks: [{
+				id: "54ABD30AFC694209"
+				item: "botania:rune_fire"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 18.5d
 		}
 		{
-			x: -7.0d
-			y: 18.5d
-			description: ["When supplied with Mana by a Mana Pool within a 10 block radius, it will quickly grow mystical flowers in a 9x9 space around it on grass and dirt blocks."]
 			dependencies: ["74CD206E24B85187"]
+			description: ["When supplied with Mana by a Mana Pool within a 10 block radius, it will quickly grow mystical flowers in a 9x9 space around it on grass and dirt blocks."]
 			id: "2C9103778A885567"
-			tasks: [{
-				id: "27BB2537D3FD1454"
-				type: "item"
-				item: "botania:jaded_amaranthus"
-			}]
 			rewards: [{
 				id: "11711FA89504036C"
-				type: "item"
 				item: "botania:yellow_floating_flower"
+				type: "item"
 			}]
+			tasks: [{
+				id: "27BB2537D3FD1454"
+				item: "botania:jaded_amaranthus"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 18.5d
 		}
 		{
-			title: "Wand of the Forest"
-			x: -1.5d
-			y: 9.5d
+			dependencies: ["542DD76032B66B50"]
 			description: [
 				"A botanist's most important tool for manipulating flowers is the Wand of the Forest. This wand, crafted from a pair of Mystical Petals strapped to a few Livingwood Twigs, is a must-have for a huge number of botanical tasks."
 				""
@@ -614,243 +612,244 @@
 				""
 				"Sneak-right clicking a block in Function Mode rotates the block around the axis of the side it was clicked on-- for example, using the wand on the top of a Chest will change the direction it faces. Most blocks with orientations can be reoriented this way."
 			]
-			dependencies: ["542DD76032B66B50"]
 			id: "077E7E557DCB9576"
+			rewards: [{
+				count: 8
+				id: "4587E0D0A2129D73"
+				item: "minecraft:dark_oak_sapling"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A15F801CF6E4DF6"
-				type: "item"
 				item: {
-					id: "botania:twig_wand"
 					Count: 1b
+					id: "botania:twig_wand"
 					tag: {
-						color1: 15
-						boundTileZ: 0
-						color2: 1
 						boundTileX: 0
 						boundTileY: -1
+						boundTileZ: 0
+						color1: 15
+						color2: 1
 					}
 				}
-			}]
-			rewards: [{
-				id: "4587E0D0A2129D73"
 				type: "item"
-				item: "minecraft:dark_oak_sapling"
-				count: 8
 			}]
+			title: "Wand of the Forest"
+			x: -3.0d
+			y: 9.5d
 		}
 		{
-			x: -5.0d
-			y: 14.5d
-			description: ["Rune of Spring is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
+			description: ["Rune of Spring is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "6181C8F6420EB67C"
-			tasks: [{
-				id: "04A29D3A7A8074DA"
-				type: "item"
-				item: "botania:rune_spring"
-			}]
 			rewards: [{
 				id: "79E2412B8666C828"
-				type: "item"
 				item: "botania:manasteel_ingot"
+				type: "item"
 			}]
+			tasks: [{
+				id: "04A29D3A7A8074DA"
+				item: "botania:rune_spring"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 14.5d
 		}
 		{
-			x: -3.0d
-			y: 14.5d
-			description: ["Rune of Autumn is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
+			description: ["Rune of Autumn is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "1D37B87AC7F4C995"
-			tasks: [{
-				id: "4EE06478A0F1193D"
-				type: "item"
-				item: "botania:rune_autumn"
-			}]
 			rewards: [{
 				id: "13CA6F5081CC9793"
-				type: "item"
 				item: {
-					id: "botania:manasteel_shears"
 					Count: 1b
+					id: "botania:manasteel_shears"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "4EE06478A0F1193D"
+				item: "botania:rune_autumn"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 14.5d
 		}
 		{
-			x: -4.0d
-			y: 14.5d
-			description: ["Rune of Summer is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
+			description: ["Rune of Summer is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "357FC93850CE6424"
+			rewards: [{
+				count: 4
+				id: "0E56B8ED96E6942E"
+				item: "botania:grass_seeds"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7B3E894792BFDC3D"
-				type: "item"
 				item: "botania:rune_summer"
-			}]
-			rewards: [{
-				id: "0E56B8ED96E6942E"
 				type: "item"
-				item: "botania:grass_seeds"
-				count: 4
 			}]
+			x: -4.0d
+			y: 14.5d
 		}
 		{
-			x: -2.0d
-			y: 14.5d
-			description: ["Rune of Winter is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
+			description: ["Rune of Winter is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "4EBDC9C39E00EE26"
+			rewards: [{
+				count: 16
+				id: "0BE824A783E78468"
+				item: "minecraft:blue_ice"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7B787B21E02E9C1E"
-				type: "item"
 				item: "botania:rune_winter"
-			}]
-			rewards: [{
-				id: "0BE824A783E78468"
 				type: "item"
-				item: "minecraft:blue_ice"
-				count: 16
 			}]
+			x: -2.0d
+			y: 14.5d
 		}
 		{
-			x: -1.0d
-			y: 14.5d
-			description: ["Rune of Lust is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
+			description: ["Rune of Lust is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "22119C9F2244D41E"
-			tasks: [{
-				id: "4F96C3F594371EB3"
-				type: "item"
-				item: "botania:rune_lust"
-			}]
 			rewards: [{
 				id: "61F1518229BCABE4"
-				type: "item"
 				item: "minecraft:diamond"
+				type: "item"
 			}]
+			tasks: [{
+				id: "4F96C3F594371EB3"
+				item: "botania:rune_lust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.5d
 		}
 		{
-			x: -0.5d
-			y: 16.5d
-			description: ["Rune of Gluttony is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
+			description: ["Rune of Gluttony is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "25E2B295763EE9C0"
-			tasks: [{
-				id: "3EE876FCD2D3E8DB"
-				type: "item"
-				item: "botania:rune_gluttony"
-			}]
 			rewards: [{
+				count: 4
 				id: "0C3793E189DFE51E"
-				type: "item"
 				item: {
-					id: "botania:brew_vial"
 					Count: 1b
+					id: "botania:brew_vial"
 					tag: {
 						brewKey: "botania:absorption"
 					}
 				}
-				count: 4
+				type: "item"
 			}]
+			tasks: [{
+				id: "3EE876FCD2D3E8DB"
+				item: "botania:rune_gluttony"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 16.5d
 		}
 		{
-			x: -0.5d
-			y: 17.5d
-			description: ["Rune of Greed is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
+			description: ["Rune of Greed is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "329580579F9DC034"
+			rewards: [{
+				count: 32
+				id: "1E01EC01F8A6628E"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B86CE745639B2BB"
-				type: "item"
 				item: "botania:rune_greed"
-			}]
-			rewards: [{
-				id: "1E01EC01F8A6628E"
 				type: "item"
-				item: "minecraft:gold_nugget"
-				count: 32
 			}]
+			x: -0.5d
+			y: 17.5d
 		}
 		{
-			x: -0.5d
-			y: 18.5d
-			description: ["Rune of Sloth is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
+			description: ["Rune of Sloth is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "2CB6399BF755E30C"
+			rewards: [{
+				count: 16
+				id: "7891EF6AFD5413AF"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
 			tasks: [{
 				id: "72E3E72FD88C27CD"
-				type: "item"
 				item: "botania:rune_sloth"
-			}]
-			rewards: [{
-				id: "7891EF6AFD5413AF"
 				type: "item"
-				item: "minecraft:soul_sand"
-				count: 16
 			}]
+			x: -0.5d
+			y: 18.5d
 		}
 		{
-			x: -1.5d
-			y: 19.0d
-			description: ["Rune of Wrath is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
+			description: ["Rune of Wrath is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "4C1D7E27D15961A5"
-			tasks: [{
-				id: "0E5E2084A1017DA4"
-				type: "item"
-				item: "botania:rune_wrath"
-			}]
 			rewards: [{
 				id: "7762409FF16928E2"
-				type: "item"
 				item: {
-					id: "minecraft:splash_potion"
 					Count: 1b
+					id: "minecraft:splash_potion"
 					tag: {
 						Potion: "minecraft:long_slow_falling"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "0E5E2084A1017DA4"
+				item: "botania:rune_wrath"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 19.0d
 		}
 		{
-			x: -3.5d
-			y: 19.0d
-			description: ["Rune of Envy is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
+			description: ["Rune of Envy is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "1F90341E0DE3FF66"
-			tasks: [{
-				id: "2A7CDC0B5DBA3263"
-				type: "item"
-				item: "botania:rune_envy"
-			}]
 			rewards: [{
 				id: "64F8A399BFE57A57"
-				type: "item"
 				item: "botania:mana_diamond"
+				type: "item"
 			}]
+			tasks: [{
+				id: "2A7CDC0B5DBA3263"
+				item: "botania:rune_envy"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 19.0d
 		}
 		{
-			x: -2.5d
-			y: 19.0d
-			description: ["Rune of Pride is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
+			description: ["Rune of Pride is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "477EDACF18125B64"
-			tasks: [{
-				id: "412D0A5AAD4E418D"
-				type: "item"
-				item: "botania:rune_pride"
-			}]
 			rewards: [{
 				id: "711356EA4892BD42"
-				type: "item"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
 			}]
+			tasks: [{
+				id: "412D0A5AAD4E418D"
+				item: "botania:rune_pride"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 19.0d
 		}
 		{
-			x: 4.5d
-			y: 15.5d
+			dependencies: ["4EBF5AB892CDCB14"]
 			description: [
 				"Lugging around a Crafting Table is a generally troublesome task. The Assembly Halo, thus, is a portable Crafting Table, as well as a quick-start crafting option. Holding the item displays a \"halo\" of recipe slots around the holder, and right-clicking the displayed Crafting Table will open a crafting interface."
 				""
@@ -858,22 +857,22 @@
 				""
 				"As long as the item is kept in-inventory, it'll remember its last recipe.Right-clicking an empty slot of the halo will save the last-used recipe to that slot, and right-clicking a slot with a recipe saved will attempt to craft it from available items. Sneak-punching a saved recipe will delete it."
 			]
-			dependencies: ["4EBF5AB892CDCB14"]
 			id: "36EDEBAB81D05AC6"
-			tasks: [{
-				id: "34BDC840FF63D290"
-				type: "item"
-				item: "botania:crafting_halo"
-			}]
 			rewards: [{
 				id: "1059C2028691838A"
-				type: "item"
 				item: "minecraft:ender_pearl"
+				type: "item"
 			}]
+			tasks: [{
+				id: "34BDC840FF63D290"
+				item: "botania:crafting_halo"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 15.5d
 		}
 		{
-			x: 4.5d
-			y: 17.0d
+			dependencies: ["36EDEBAB81D05AC6"]
 			description: [
 				"The Manufactory Halo is an upgrade of the Assembly Halo: aside from doing all that the Assembly Halo can do, the Manufactory Halo will (when not held) automatically craft all possible saved recipes."
 				""
@@ -881,297 +880,339 @@
 				""
 				"There is one aspect to be aware of: If there is a saved recipe and you acquire missing ingredients for the recipe, then it will be crafted whether you want it or not. I only put this in my inventory when I expressly want to auto-craft otherwise I use the Assembly Halo."
 			]
-			dependencies: ["36EDEBAB81D05AC6"]
 			id: "0FD4CDCFF7C99324"
-			tasks: [{
-				id: "194B4FD62B4FD263"
-				type: "item"
-				item: "botania:auto_crafting_halo"
-			}]
 			rewards: [{
 				id: "338C0750DF2AC2E1"
-				type: "item"
 				item: "minecraft:ghast_tear"
+				type: "item"
 			}]
+			tasks: [{
+				id: "194B4FD62B4FD263"
+				item: "botania:auto_crafting_halo"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 17.0d
 		}
 		{
-			x: -4.5d
-			y: 19.0d
-			description: ["Rune of Mana is an item added by the Botania mod. One of 16 Runes, this is an important component in creating complex magical devices."]
 			dependencies: ["0027048889049815"]
+			description: ["Rune of Mana is an item added by the Botania mod. One of 16 Runes, this is an important component in creating complex magical devices."]
 			id: "791E12B68D088464"
-			tasks: [{
-				id: "2208EB9A92FA5EBF"
-				type: "item"
-				item: "botania:rune_mana"
-			}]
 			rewards: [{
 				id: "4C6C803B55C4D9B7"
-				type: "item"
 				item: {
-					id: "botania:mana_bottle"
 					Count: 1b
+					id: "botania:mana_bottle"
 					tag: { }
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "2208EB9A92FA5EBF"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 19.0d
 		}
 		{
+			dependencies: ["79D64612AE5E8351"]
+			description: ["Armor, tools, and weapons made out of Terrasteel, much like its Manasteel-based counterpart, can use Mana from the inventory to heal damage.However, its durabilities are comparable more to Diamond armor than to Iron."]
+			id: "68F57454D085D85A"
+			rewards: [{
+				count: 4
+				id: "3370C307E2D153AB"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "1B966640B6A601FD"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
 			x: 7.5d
 			y: 17.0d
-			description: ["Armor, tools, and weapons made out of Terrasteel, much like its Manasteel-based counterpart, can use Mana from the inventory to heal damage.However, its durabilities are comparable more to Diamond armor than to Iron."]
-			dependencies: ["79D64612AE5E8351"]
-			id: "68F57454D085D85A"
-			tasks: [{
-				id: "1B966640B6A601FD"
-				type: "item"
-				item: "botania:terrasteel_ingot"
-				count: 8L
-			}]
-			rewards: [{
-				id: "3370C307E2D153AB"
-				type: "item"
-				item: "minecraft:ender_pearl"
-				count: 4
-			}]
 		}
 		{
-			x: 6.0d
-			y: 15.5d
-			description: ["Terrasteel is a complex and useful magical alloy, infused with ridiculous amounts of Mana. Synthesizing it proves to be no small task. For starters, its creation requires a Terrestrial Agglomeration Plate placed over a checkerboard pattern of Lapis Lazuli Blocks and Livingrock (or Shimmerrock). This block then needs to be provided with Mana, with Sparks being the most efficient mode of transfer."]
 			dependencies: ["4EBF5AB892CDCB14"]
+			description: ["Terrasteel is a complex and useful magical alloy, infused with ridiculous amounts of Mana. Synthesizing it proves to be no small task. For starters, its creation requires a Terrestrial Agglomeration Plate placed over a checkerboard pattern of Lapis Lazuli Blocks and Livingrock (or Shimmerrock). This block then needs to be provided with Mana, with Sparks being the most efficient mode of transfer."]
 			id: "79D64612AE5E8351"
+			rewards: [{
+				count: 4
+				id: "7C6D183F6A16EAC3"
+				item: "botania:blacker_lotus"
+				type: "item"
+			}]
 			tasks: [{
 				id: "120E3AA28E1BA16B"
-				type: "item"
 				item: "botania:terra_plate"
-			}]
-			rewards: [{
-				id: "7C6D183F6A16EAC3"
 				type: "item"
-				item: "botania:blacker_lotus"
-				count: 4
 			}]
+			x: 6.0d
+			y: 15.5d
 		}
 		{
-			x: 1.5d
-			y: 9.5d
-			description: ["When worn, it is able to store Mana like the Mana Tablet. "]
 			dependencies: ["168B204949452C03"]
+			description: ["When worn, it is able to store Mana like the Mana Tablet. "]
 			id: "2B13CF9D2DB9872C"
+			rewards: [{
+				count: 8
+				id: "273E887918EC925E"
+				item: "farmersdelight:roast_chicken"
+				type: "item"
+			}]
 			tasks: [{
 				id: "232E67875E801C03"
-				type: "item"
 				item: {
-					id: "botania:mana_ring"
 					Count: 1b
+					id: "botania:mana_ring"
 					tag: { }
 				}
-			}]
-			rewards: [{
-				id: "273E887918EC925E"
 				type: "item"
-				item: "farmersdelight:roast_chicken"
-				count: 8
 			}]
+			x: 1.5d
+			y: 9.5d
 		}
 		{
-			x: 7.5d
-			y: 18.5d
-			description: ["The Band of Aura is a variant Band of Mana; instead of storing Mana, it generates a slow trickle of it (when equipped) and stores it in Mana-containing items in its wearer's inventory.Plating it with an ingot of Terrasteel upgrades it to generate Mana at a significantly faster rate."]
 			dependencies: ["68F57454D085D85A"]
+			description: ["The Band of Aura is a variant Band of Mana; instead of storing Mana, it generates a slow trickle of it (when equipped) and stores it in Mana-containing items in its wearer's inventory.Plating it with an ingot of Terrasteel upgrades it to generate Mana at a significantly faster rate."]
 			id: "4B124A350DE8DA02"
-			tasks: [{
-				id: "7AE19D8B9F871E97"
-				type: "item"
-				item: {
-					id: "botania:mana_ring_greater"
-					Count: 1b
-					tag: { }
-				}
-			}]
 			rewards: [{
 				id: "25AB59BFD9C03A61"
-				type: "item"
 				item: {
-					id: "powder_power:hammer_alchemist"
 					Count: 1b
+					id: "powder_power:hammer_alchemist"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-		}
-		{
-			x: -4.5d
-			y: 20.5d
-			description: ["When worn, it slowly generates Mana and stores it in a Mana Tablet in the player's inventory. It can be upgraded into the Greater Band of Aura, which generates Mana significantly faster."]
-			dependencies: ["791E12B68D088464"]
-			id: "3E218EE721C60CC2"
-			tasks: [{
-				id: "1148BFD2B3F385E1"
 				type: "item"
+			}]
+			tasks: [{
+				id: "7AE19D8B9F871E97"
 				item: {
-					id: "botania:aura_ring"
 					Count: 1b
+					id: "botania:mana_ring_greater"
 					tag: { }
 				}
-			}]
-			rewards: [{
-				id: "08B07030A39042C4"
 				type: "item"
-				item: "farmersdelight:hamburger"
-				count: 8
 			}]
+			x: 7.5d
+			y: 18.5d
 		}
 		{
-			x: 6.0d
-			y: 12.5d
+			dependencies: ["791E12B68D088464"]
+			description: ["When worn, it slowly generates Mana and stores it in a Mana Tablet in the player's inventory. It can be upgraded into the Greater Band of Aura, which generates Mana significantly faster."]
+			id: "3E218EE721C60CC2"
+			rewards: [{
+				count: 8
+				id: "08B07030A39042C4"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1148BFD2B3F385E1"
+				item: {
+					Count: 1b
+					id: "botania:aura_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 20.5d
+		}
+		{
 			dependencies: ["4EBF5AB892CDCB14"]
 			id: "009EE7310AA40B79"
-			tasks: [{
-				id: "2054755BF64CD852"
-				type: "item"
-				item: "botania:mana_pylon"
-			}]
 			rewards: [{
 				id: "54F04531E74F913D"
-				type: "item"
 				item: "botania:mana_pylon"
+				type: "item"
 			}]
+			tasks: [{
+				id: "2054755BF64CD852"
+				item: "botania:mana_pylon"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.5d
 		}
 		{
-			x: 7.5d
-			y: 15.5d
-			description: ["The Natura Pylons are used to make the Portal to Alfheim multiblock portal structure."]
 			dependencies: ["68F57454D085D85A"]
+			description: ["The Natura Pylons are used to make the Portal to Alfheim multiblock portal structure."]
 			id: "50F8CBBF03B6EB31"
-			tasks: [{
-				id: "7B7C546B57EFC67A"
-				type: "item"
-				item: "botania:natura_pylon"
-			}]
 			rewards: [{
 				id: "1AAA99B41E3BC750"
-				type: "item"
 				item: "botania:natura_pylon"
+				type: "item"
 			}]
+			tasks: [{
+				id: "7B7C546B57EFC67A"
+				item: "botania:natura_pylon"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 15.5d
 		}
 		{
-			x: 9.0d
-			y: 16.0d
-			description: ["The Elven Gateway Core is a part of a multiblock and is used to make the Portal to Alfheim multiblock portal structure."]
 			dependencies: ["68F57454D085D85A"]
+			description: ["The Elven Gateway Core is a part of a multiblock and is used to make the Portal to Alfheim multiblock portal structure."]
 			id: "4E8B7068FF27B4E5"
+			rewards: [{
+				count: 8
+				id: "466CC6B918F42935"
+				item: "torchmaster:feral_flare_lantern"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7772874A620FF425"
-				type: "item"
 				item: "botania:alfheim_portal"
-			}]
-			rewards: [{
-				id: "466CC6B918F42935"
 				type: "item"
-				item: "torchmaster:feral_flare_lantern"
-				count: 8
 			}]
+			x: 9.0d
+			y: 16.0d
 		}
 		{
-			x: 9.0d
-			y: 14.0d
+			dependencies: [
+				"50F8CBBF03B6EB31"
+				"4E8B7068FF27B4E5"
+			]
 			description: [
 				"The Lexica Botania does not initially contain all of its information when it is first collected or crafted:"
 				""
 				"- Elven Knowledge is added to the book after throwing it into the Portal to Alfheim. These entries have green titles."
 				"- Relic Knowledge is added to the book when the player opens it when holding a relic in their inventory. The book must contain Elven Knowledge already. These entries have golden names, and all of them can be found in the Alfhomancy section."
 			]
-			dependencies: [
-				"50F8CBBF03B6EB31"
-				"4E8B7068FF27B4E5"
-			]
 			id: "7B7C9A49B9F69991"
+			rewards: [{
+				count: 8
+				id: "4BD69C28B59E227B"
+				item: "farmersdelight:dumplings"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7651F196BDCE2FA1"
-				type: "item"
 				item: {
-					id: "botania:lexicon"
 					Count: 1b
+					id: "botania:lexicon"
 					tag: {
 						"botania:elven_unlock": 1b
 					}
 				}
-			}]
-			rewards: [{
-				id: "4BD69C28B59E227B"
 				type: "item"
-				item: "farmersdelight:dumplings"
-				count: 8
 			}]
+			x: 9.0d
+			y: 14.0d
 		}
 		{
-			x: 3.0d
-			y: 13.0d
+			dependencies: ["4EBF5AB892CDCB14"]
 			description: [
 				"When worn in the Trinkets Ring slot, any items in a 13x13 area around the player will be pulled towards them if they are not sneaking. Up to 200 items can be pulled at once."
 				""
 				"Items dropped by a player wearing this ring will not be pulled towards them for 5 seconds after dropping."
 			]
-			dependencies: ["4EBF5AB892CDCB14"]
 			id: "0A6EF87E6DCD6D94"
-			tasks: [{
-				id: "5823A8B3C3A983D8"
-				type: "item"
-				item: {
-					id: "botania:magnet_ring"
-					Count: 1b
-					tag: { }
-				}
-			}]
 			rewards: [{
 				id: "0EC1AD36ADBE905A"
-				type: "item"
 				item: "botania:solegnolia"
+				type: "item"
 			}]
+			tasks: [{
+				id: "5823A8B3C3A983D8"
+				item: {
+					Count: 1b
+					id: "botania:magnet_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.0d
 		}
 		{
-			icon: "botania:enchanter"
-			x: 6.5d
-			y: 11.0d
-			description: ["Enchanting with Mana is a powerful way to enchant items without consuming the enchantment books. To learn in-depth instruction open your Lexica Botania and search on: Enchanting with Mana"]
 			dependencies: ["009EE7310AA40B79"]
+			description: ["Enchanting with Mana is a powerful way to enchant items without consuming the enchantment books. To learn in-depth instruction open your Lexica Botania and search on: Enchanting with Mana"]
+			icon: "botania:enchanter"
 			id: "6F152976BC2A0517"
-			tasks: [{
-				id: "6E6DDBCD63AC2D18"
-				type: "checkmark"
-			}]
 			rewards: [{
 				id: "2F15B4C8A7BD7AEA"
-				type: "item"
 				item: {
-					id: "botania:mana_tablet"
 					Count: 1b
+					id: "botania:mana_tablet"
 					tag: {
 						mana: 500000
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "6E6DDBCD63AC2D18"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 11.0d
 		}
 		{
-			x: 7.5d
-			y: 12.0d
-			description: ["The Ritual of Gaia is a trial often undertaken by elves. It yields Gaia Spirits, which are coveted as fragments of the power of the Goddess of Gaia herself.This ritual requires an Active Beacon with Gaia Pylons surrounding it (functioning as an altar), as well as a single Terrasteel Ingot (as a sacrifice)."]
 			dependencies: ["009EE7310AA40B79"]
+			description: ["The Ritual of Gaia is a trial often undertaken by elves. It yields Gaia Spirits, which are coveted as fragments of the power of the Goddess of Gaia herself.This ritual requires an Active Beacon with Gaia Pylons surrounding it (functioning as an altar), as well as a single Terrasteel Ingot (as a sacrifice)."]
 			id: "0E9F95234AB4F307"
-			tasks: [{
-				id: "6DE1740BCEC57AD6"
-				type: "item"
-				item: "botania:gaia_pylon"
-				count: 4L
-			}]
 			rewards: [{
 				id: "70E8D38A4109CB6E"
-				type: "item"
 				item: "minecraft:emerald_block"
+				type: "item"
 			}]
+			tasks: [{
+				count: 4L
+				id: "6DE1740BCEC57AD6"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["55468A5FB8BA4A1F"]
+			description: ["Guess what you get if you place a Fel Pumpkin on top of two Iron Bars? I'll give you a hint - It is blazing hot!"]
+			id: "4D86F0F513E5EEB8"
+			rewards: [{
+				id: "0520CBFD3C191210"
+				item: "botania:fel_pumpkin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B1ECA5874D9399D"
+				item: "botania:fel_pumpkin"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4D86F0F513E5EEB8"]
+			description: ["Place a Pure Daisy next to a Blaze Mesh and you get Obsidian, but be careful where you place it because you might not be able to move it once it transforms. Think: Nether Portal"]
+			id: "0DED09C3096C985D"
+			rewards: [{
+				id: "778BF0907B2CB04D"
+				item: {
+					Count: 1b
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "250BFE7BAC888148"
+				item: "botania:blaze_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
 		}
 	]
-	quest_links: [ ]
+	title: "Botania"
 }

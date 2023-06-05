@@ -1,258 +1,255 @@
 {
-	id: "00000000000000AF"
-	group: ""
-	order_index: 4
-	filename: "farmer"
-	title: "Farming and Cooking"
-	icon: "minecraft:carved_pumpkin"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farmer"
+	group: ""
+	icon: "minecraft:carved_pumpkin"
+	id: "00000000000000AF"
+	order_index: 4
+	quest_links: [ ]
 	quests: [
 		{
-			x: 6.0d
-			y: 4.5d
 			description: ["Breaking grass is always fun. Now get to it! Break some grass. Get some seeds. Grow some wheat!"]
 			id: "00000000000000B0"
+			rewards: [{
+				count: 32
+				id: "00000000000005E8"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00000000000000B1"
-				type: "item"
 				item: "minecraft:golden_carrot"
-			}]
-			rewards: [{
-				id: "00000000000005E8"
 				type: "item"
-				item: "minecraft:bone_meal"
-				count: 32
 			}]
+			x: 6.0d
+			y: 4.5d
 		}
 		{
-			x: 6.0d
-			y: 3.5d
 			id: "000000000000031B"
-			tasks: [{
-				id: "000000000000031C"
-				type: "item"
-				item: "minecraft:brown_mushroom"
-			}]
 			rewards: [{
 				id: "73CD633610987E51"
-				type: "item"
 				item: "minecraft:red_mushroom"
+				type: "item"
 			}]
+			tasks: [{
+				id: "000000000000031C"
+				item: "minecraft:brown_mushroom"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
 		}
 		{
-			x: 4.0d
-			y: 1.5d
 			id: "000000000000031D"
-			tasks: [{
-				id: "000000000000031E"
-				type: "item"
-				item: "minecraft:chorus_fruit"
-			}]
 			rewards: [{
 				id: "17479BCEE5C0D3AB"
-				type: "item"
 				item: "powder_power:token_no_fall"
+				type: "item"
 			}]
+			tasks: [{
+				id: "000000000000031E"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
 		}
 		{
-			x: 5.0d
-			y: 1.5d
 			id: "000000000000031F"
-			tasks: [{
-				id: "0000000000000320"
-				type: "item"
-				item: "minecraft:carrot"
-			}]
 			rewards: [
 				{
-					id: "37F238BDBE85A2D5"
-					type: "item"
-					item: "minecraft:rabbit_spawn_egg"
 					count: 2
+					id: "37F238BDBE85A2D5"
+					item: "minecraft:rabbit_spawn_egg"
+					type: "item"
 				}
 				{
 					id: "1904824B2B9CE856"
-					type: "item"
 					item: "solcarrot:food_book"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "0000000000000320"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
 		}
 		{
-			x: 5.0d
-			y: 3.5d
 			id: "0000000000000323"
+			rewards: [{
+				count: 4
+				id: "749D2308BC7402C9"
+				item: "minecraft:baked_potato"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0000000000000324"
-				type: "item"
 				item: "minecraft:potato"
-			}]
-			rewards: [{
-				id: "749D2308BC7402C9"
 				type: "item"
-				item: "minecraft:baked_potato"
-				count: 4
 			}]
+			x: 5.0d
+			y: 3.5d
 		}
 		{
-			x: 5.0d
-			y: 5.5d
 			id: "000000000000032D"
-			tasks: [{
-				id: "000000000000032E"
-				type: "item"
-				item: "minecraft:cocoa_beans"
-			}]
 			rewards: [{
 				id: "35EF612361C52236"
-				type: "item"
 				item: "minecraft:tadpole_bucket"
+				type: "item"
 			}]
+			tasks: [{
+				id: "000000000000032E"
+				item: "minecraft:cocoa_beans"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
 		}
 		{
-			x: 5.0d
-			y: 2.5d
 			id: "000000000000033F"
-			tasks: [{
-				id: "0000000000000340"
-				type: "item"
-				item: "minecraft:beetroot"
-			}]
 			rewards: [{
 				id: "5C35101DF8B8054D"
-				type: "item"
 				item: "createaddition:seed_oil_bucket"
+				type: "item"
 			}]
+			tasks: [{
+				id: "0000000000000340"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
 		}
 		{
-			x: 4.0d
-			y: 3.5d
 			id: "0000000000000341"
+			rewards: [{
+				count: 4
+				id: "39E8CF4B945B0E18"
+				item: "minecraft:pumpkin_seeds"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0000000000000342"
-				type: "item"
 				item: "minecraft:melon_slice"
-			}]
-			rewards: [{
-				id: "39E8CF4B945B0E18"
 				type: "item"
-				item: "minecraft:pumpkin_seeds"
-				count: 4
 			}]
+			x: 4.0d
+			y: 3.5d
 		}
 		{
-			x: 6.0d
-			y: 1.5d
 			id: "000000000000034D"
+			rewards: [{
+				count: 2
+				id: "18377F99891870BA"
+				item: "minecraft:glow_squid_spawn_egg"
+				type: "item"
+			}]
 			tasks: [{
 				id: "000000000000034E"
-				type: "item"
 				item: "minecraft:glow_berries"
-			}]
-			rewards: [{
-				id: "18377F99891870BA"
 				type: "item"
-				item: "minecraft:glow_squid_spawn_egg"
-				count: 2
 			}]
+			x: 6.0d
+			y: 1.5d
 		}
 		{
-			x: 4.0d
-			y: 4.5d
 			id: "0000000000000353"
-			tasks: [{
-				id: "0000000000000354"
-				type: "item"
-				item: "minecraft:sugar_cane"
-			}]
 			rewards: [{
 				id: "5B07EE0ED6E771FD"
-				type: "item"
 				item: "createaddition:bioethanol_bucket"
+				type: "item"
 			}]
+			tasks: [{
+				id: "0000000000000354"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
 		}
 		{
-			x: 5.0d
-			y: 4.5d
 			id: "0000000000000355"
+			rewards: [{
+				count: 4
+				id: "4898A1F3E56866A2"
+				item: "create:builders_tea"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0000000000000356"
-				type: "item"
 				item: "minecraft:kelp"
-			}]
-			rewards: [{
-				id: "4898A1F3E56866A2"
 				type: "item"
-				item: "create:builders_tea"
-				count: 4
 			}]
+			x: 5.0d
+			y: 4.5d
 		}
 		{
-			x: 4.0d
-			y: 2.5d
 			id: "000000000000035B"
-			tasks: [{
-				id: "000000000000035C"
-				type: "item"
-				item: "minecraft:pumpkin"
-			}]
 			rewards: [{
 				id: "105F7AA2634A7595"
-				type: "item"
 				item: "minecraft:jack_o_lantern"
+				type: "item"
 			}]
+			tasks: [{
+				id: "000000000000035C"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
 		}
 		{
-			x: 4.0d
-			y: 5.5d
 			id: "000000000000035F"
+			rewards: [{
+				count: 4
+				id: "66024CA7F62D2916"
+				item: "create:chocolate_glazed_berries"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0000000000000360"
-				type: "item"
 				item: "minecraft:sweet_berries"
-			}]
-			rewards: [{
-				id: "66024CA7F62D2916"
 				type: "item"
-				item: "create:chocolate_glazed_berries"
-				count: 4
 			}]
+			x: 4.0d
+			y: 5.5d
 		}
 		{
-			x: 6.0d
-			y: 2.5d
 			id: "0000000000000367"
+			rewards: [{
+				count: 4
+				id: "64F3F936299A3700"
+				item: "minecraft:bread"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0000000000000368"
-				type: "item"
 				item: "minecraft:wheat"
-			}]
-			rewards: [{
-				id: "64F3F936299A3700"
 				type: "item"
-				item: "minecraft:bread"
-				count: 4
 			}]
+			x: 6.0d
+			y: 2.5d
 		}
 		{
-			x: 6.0d
-			y: 5.5d
 			id: "000000000000036B"
-			tasks: [{
-				id: "000000000000036C"
-				type: "item"
-				item: "minecraft:red_mushroom"
-			}]
 			rewards: [{
 				id: "7674B07B26D4347C"
-				type: "item"
 				item: "minecraft:brown_mushroom"
+				type: "item"
 			}]
+			tasks: [{
+				id: "000000000000036C"
+				item: "minecraft:red_mushroom"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
 		}
 		{
-			x: 10.0d
-			y: 3.5d
-			shape: "hexagon"
 			dependencies: [
 				"0000000000000323"
 				"000000000000031F"
@@ -287,337 +284,340 @@
 				"655CF89B7D59F2B9"
 				"75F5A704EA52B26E"
 			]
-			size: 1.5d
 			id: "000000000000069A"
+			rewards: [{
+				count: 4
+				id: "000000000000069C"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "000000000000069D"
-				type: "checkmark"
 				title: "All Your Veggies"
+				type: "checkmark"
 			}]
-			rewards: [{
-				id: "000000000000069C"
-				type: "item"
-				item: "create:blaze_burner"
-				count: 4
-			}]
+			x: 10.0d
+			y: 3.5d
 		}
 		{
-			x: 14.0d
-			y: 4.5d
 			id: "64B1570BF4B1C93E"
-			tasks: [{
-				id: "20596815191CC678"
-				type: "item"
-				item: "farmersdelight:onion"
-				count: 8L
-			}]
 			rewards: [{
 				id: "4EE4DA3944C419B7"
-				type: "item"
 				item: "farmersdelight:onion_crate"
+				type: "item"
 			}]
+			tasks: [{
+				count: 8L
+				id: "20596815191CC678"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.5d
 		}
 		{
-			x: 14.0d
-			y: 2.5d
 			id: "18F1628D98E05794"
-			tasks: [{
-				id: "78EBB526730D0CD4"
-				type: "item"
-				item: "farmersdelight:red_mushroom_colony"
-			}]
 			rewards: [{
 				id: "783F275AA9775A57"
-				type: "item"
 				item: "farmersdelight:bone_broth"
+				type: "item"
 			}]
+			tasks: [{
+				id: "78EBB526730D0CD4"
+				item: "farmersdelight:red_mushroom_colony"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.5d
 		}
 		{
-			x: 14.0d
-			y: 1.5d
 			id: "7851D205E46AF0DC"
-			tasks: [{
-				id: "2FC270FB5836E91C"
-				type: "item"
-				item: "farmersdelight:brown_mushroom_colony"
-			}]
 			rewards: [{
 				id: "6A300E1D67FB8E87"
-				type: "item"
 				item: "minecraft:spider_eye"
+				type: "item"
 			}]
+			tasks: [{
+				id: "2FC270FB5836E91C"
+				item: "farmersdelight:brown_mushroom_colony"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
 		}
 		{
-			x: 15.0d
-			y: 1.5d
 			id: "41EDB4B80F71DAC1"
-			tasks: [{
-				id: "17B87821E4192A3E"
-				type: "item"
-				item: "farmersdelight:tomato"
-				count: 8L
-			}]
 			rewards: [{
 				id: "1625D6DF6D93AEE5"
-				type: "item"
 				item: "farmersdelight:tomato_crate"
+				type: "item"
 			}]
+			tasks: [{
+				count: 8L
+				id: "17B87821E4192A3E"
+				item: "farmersdelight:tomato"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.5d
 		}
 		{
-			x: 15.0d
-			y: 2.5d
 			id: "176FEA5C3469DD70"
-			tasks: [{
-				id: "7185804AB1E2069D"
-				type: "item"
-				item: "farmersdelight:cabbage"
-				count: 8L
-			}]
 			rewards: [{
 				id: "2D149010313077B2"
-				type: "item"
 				item: "farmersdelight:cabbage_crate"
+				type: "item"
 			}]
+			tasks: [{
+				count: 8L
+				id: "7185804AB1E2069D"
+				item: "farmersdelight:cabbage"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
 		}
 		{
+			id: "0E48F8F56322D2BB"
+			rewards: [{
+				count: 8
+				id: "20F3B9199219C99A"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "5ABC0691E805A744"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
 			x: 15.0d
 			y: 5.5d
-			id: "0E48F8F56322D2BB"
-			tasks: [{
-				id: "5ABC0691E805A744"
-				type: "item"
-				item: "farmersdelight:rich_soil"
-				count: 8L
-			}]
-			rewards: [{
-				id: "20F3B9199219C99A"
-				type: "item"
-				item: "farmersdelight:rich_soil"
-				count: 8
-			}]
 		}
 		{
+			id: "7434082FD2F75F26"
+			rewards: [{
+				count: 8
+				id: "29835FD22198FF9E"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "6245125F6CC3588D"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
 			x: 14.0d
 			y: 5.5d
-			id: "7434082FD2F75F26"
-			tasks: [{
-				id: "6245125F6CC3588D"
-				type: "item"
-				item: "farmersdelight:organic_compost"
-				count: 8L
-			}]
-			rewards: [{
-				id: "29835FD22198FF9E"
-				type: "item"
-				item: "farmersdelight:organic_compost"
-				count: 8
-			}]
 		}
 		{
-			x: 14.0d
-			y: 3.5d
 			id: "06F1D817DB31926B"
+			rewards: [{
+				count: 4
+				id: "4F9DDE35F0305C20"
+				item: "farmersdelight:dumplings"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A3ADC949FBD7FC5"
-				type: "item"
 				item: "farmersdelight:stove"
-			}]
-			rewards: [{
-				id: "4F9DDE35F0305C20"
 				type: "item"
-				item: "farmersdelight:dumplings"
-				count: 4
 			}]
+			x: 14.0d
+			y: 3.5d
 		}
 		{
-			x: 15.0d
-			y: 4.5d
 			id: "2771AF26805142AD"
-			tasks: [{
-				id: "31CF5394B6A58BCC"
-				type: "item"
-				item: "farmersdelight:cutting_board"
-			}]
 			rewards: [
 				{
 					id: "50ECBF8B4B2E5A19"
-					type: "item"
 					item: "farmersdelight:canvas"
+					type: "item"
 				}
 				{
 					id: "35B6121D4515D673"
-					type: "item"
 					item: {
-						id: "farmersdelight:flint_knife"
 						Count: 1b
+						id: "farmersdelight:flint_knife"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "31CF5394B6A58BCC"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.5d
 		}
 		{
-			x: 15.0d
-			y: 3.5d
 			id: "330BE97B4FC6ACC2"
+			rewards: [{
+				count: 4
+				id: "3F169B07DE9ADC7C"
+				item: "farmersdelight:chicken_soup"
+				type: "item"
+			}]
 			tasks: [{
 				id: "54098067570825D7"
-				type: "item"
 				item: "farmersdelight:cooking_pot"
-			}]
-			rewards: [{
-				id: "3F169B07DE9ADC7C"
 				type: "item"
-				item: "farmersdelight:chicken_soup"
-				count: 4
 			}]
+			x: 15.0d
+			y: 3.5d
 		}
 		{
-			x: 16.0d
-			y: 4.5d
 			description: ["Items you can now craft!"]
 			id: "14709ACBF461088E"
-			tasks: [{
-				id: "63AABE37ADE29A9B"
-				type: "item"
-				item: "silentgear:fluffy_puff"
-			}]
 			rewards: [
 				{
 					id: "0424DBF969963E96"
-					type: "item"
 					item: "silentgear:fluffy_feather"
+					type: "item"
 				}
 				{
 					id: "22CA2E6B9E2D5F1C"
-					type: "item"
 					item: "silentgear:fluffy_string"
+					type: "item"
 				}
 				{
 					id: "6CE26FB3BF79B6FB"
-					type: "item"
 					item: "silentgear:fluffy_fabric"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "63AABE37ADE29A9B"
+				item: "silentgear:fluffy_puff"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.5d
 		}
 		{
-			x: 16.0d
-			y: 2.5d
 			id: "7E675FAAD105C4B4"
-			tasks: [{
-				id: "0B45C849DF372032"
-				type: "item"
-				item: "silentgear:flax_fiber"
-			}]
 			rewards: [{
 				id: "65E2B13ECAB3882C"
-				type: "item"
 				item: "silentgear:flax_string"
+				type: "item"
 			}]
+			tasks: [{
+				id: "0B45C849DF372032"
+				item: "silentgear:flax_fiber"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.5d
 		}
 		{
-			x: 16.0d
-			y: 3.5d
 			id: "70837A17BCF2FFDE"
+			rewards: [{
+				id: "7A2348631A273A35"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "farmersdelight:backstabbing"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "23B12E1EDD7624DB"
-				type: "item"
 				item: {
-					id: "farmersdelight:netherite_knife"
 					Count: 1b
+					id: "farmersdelight:netherite_knife"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "7A2348631A273A35"
 				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 3s
-							id: "farmersdelight:backstabbing"
-						}]
-					}
-				}
 			}]
+			x: 16.0d
+			y: 3.5d
 		}
 		{
-			x: 16.0d
-			y: 5.5d
 			id: "54B3A3C29592C78B"
+			rewards: [{
+				count: 4
+				id: "48B4E42C5979208F"
+				item: "refinedstorage:basic_processor"
+				type: "item"
+			}]
 			tasks: [{
 				id: "48F8C7213DDC26FC"
-				type: "item"
-				title: "Any #farmersdelight:cabinets"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "farmersdelight:cabinets"
 					}
 				}
-			}]
-			rewards: [{
-				id: "48B4E42C5979208F"
+				title: "Any #farmersdelight:cabinets"
 				type: "item"
-				item: "refinedstorage:basic_processor"
-				count: 4
 			}]
+			x: 16.0d
+			y: 5.5d
 		}
 		{
-			x: 16.0d
-			y: 1.5d
 			id: "323EB0C6DA70DE9C"
-			tasks: [{
-				id: "2550C29E75131686"
-				type: "item"
-				item: "farmersdelight:rice_panicle"
-				count: 8L
-			}]
 			rewards: [{
 				id: "1974BF576908065A"
-				type: "item"
 				item: "farmersdelight:rice_bale"
+				type: "item"
 			}]
+			tasks: [{
+				count: 8L
+				id: "2550C29E75131686"
+				item: "farmersdelight:rice_panicle"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.5d
 		}
 		{
-			x: 10.5d
-			y: 5.5d
 			dependencies: ["0000000000000799"]
 			id: "75F5A704EA52B26E"
+			rewards: [{
+				count: 3
+				id: "382E7F331B821492"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
 			tasks: [{
 				id: "35C1115E51246A2F"
-				type: "item"
 				item: "sliceanddice:slicer"
-			}]
-			rewards: [{
-				id: "382E7F331B821492"
 				type: "item"
-				item: "minecraft:bookshelf"
-				count: 3
 			}]
+			x: 10.5d
+			y: 5.5d
 		}
 		{
-			x: 9.0d
-			y: 5.5d
 			dependencies: ["00000000000007BD"]
 			id: "655CF89B7D59F2B9"
-			tasks: [{
-				id: "0C07132F6EEEA612"
-				type: "item"
-				item: "sliceanddice:sprinkler"
-			}]
 			rewards: [{
 				id: "2F68CAF09C9980D7"
-				type: "item"
 				item: "sliceanddice:fertilizer_bucket"
+				type: "item"
 			}]
+			tasks: [{
+				id: "0C07132F6EEEA612"
+				item: "sliceanddice:sprinkler"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
 		}
 	]
-	quest_links: [ ]
+	title: "Farming and Cooking"
 }
