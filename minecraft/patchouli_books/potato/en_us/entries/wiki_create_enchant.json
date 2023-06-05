@@ -1,0 +1,11 @@
+{
+    "name": "Create Enchant Industry",
+    "icon": "create_enchantment_industry:enchanting_guide",
+    "category": "patchouli:wikis",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Create Enchantment Industry, a mod offering more tools and methods to handle experience & enchantment in Create. $(li)$(l:https://discord.gg/ABgu4dHnx4)discord$(/l)$(li)$(l:https://www.curseforge.com/minecraft/mc-mods/create-enchantment-industry)CurseForge$(/l) page."
+        }
+    ]
+}

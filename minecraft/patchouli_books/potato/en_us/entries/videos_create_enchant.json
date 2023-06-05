@@ -1,0 +1,11 @@
+{
+    "name": "Create Enchant Industry",
+    "icon": "create_enchantment_industry:disenchanter",
+    "category": "patchouli:videos",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Create Enchantment Industry, a mod offering more tools and methods to handle experience & enchantment in Create.$(br2)Watch polartt's $(l:https://www.youtube.com/watch?v=EcZJ-Udz-oU)FULLY AUTO enchanting with Create Enchantment Industry!$(/l) on YouTube."
+        }
+    ]
+}
