@@ -32,7 +32,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = 'Create on a Potato PC - Ultimate';
+S:customwindowtitle = 'Create on a Potato PC - Ultimate 1.19.2-4.9.0';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'true';
 
