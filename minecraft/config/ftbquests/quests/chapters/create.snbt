@@ -2327,28 +2327,6 @@
 			x: 3.0d
 			y: 0.5d
 		}
-		{
-			id: "4F18E55167889716"
-			rewards: [{
-				command: "/say Hi, @p!"
-				id: "209DDF2F47F8D06D"
-				player_command: false
-				type: "command"
-			}]
-			tasks: [{
-				id: "34D5A1C54A5376F0"
-				item: {
-					Count: 1b
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "patchouli:potato"
-					}
-				}
-				type: "item"
-			}]
-			x: 11.5d
-			y: 8.5d
-		}
 	]
 	subtitle: ["Build amazing things with Create!"]
 	title: "Create"
