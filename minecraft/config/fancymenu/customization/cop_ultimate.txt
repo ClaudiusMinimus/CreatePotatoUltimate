@@ -328,7 +328,7 @@ customization {
 customization {
   orientation = mid-left
   restartbackgroundanimations = true
-  buttonaction = openlink;https://github.com/ClaudiusMinimus/Create-Potato-SkyBlock/issues%btnaction_splitter_fm%
+  buttonaction = openlink;https://github.com/ClaudiusMinimus/CreatePotatoUltimate/issues%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/assets/menubuttons/supporth.png
   description = If you need help with a bug, please%n%use this issue tracker.%n%%n%If you need help with anything else,%n%please use our discord. The invite%n%link is at the bottom.
   label = 
@@ -379,7 +379,7 @@ customization {
 customization {
   orientation = bottom-left
   restartbackgroundanimations = true
-  buttonaction = openlink;https://www.curseforge.com/minecraft/modpacks/create-on-a-potato-pc-skyblock%btnaction_splitter_fm%
+  buttonaction = openlink;https://www.curseforge.com/minecraft/modpacks/create-on-a-potato%btnaction_splitter_fm%
   backgroundhovered = config/fancymenu/assets/buttons/cfh.png
   description = 's Curseforge page
   label = 

@@ -361,7 +361,7 @@ customization {
   action = addbutton
   y = 8
   backgroundnormal = config/fancymenu/assets/buttons/support.png
-  value = https://github.com/ClaudiusMinimus/Create-Potato-SkyBlock/issues
+  value = https://github.com/ClaudiusMinimus/CreatePotatoUltimate/issues
   height = 20
 }
 
@@ -415,7 +415,7 @@ customization {
   action = addbutton
   y = -25
   backgroundnormal = config/fancymenu/assets/buttons/cf.png
-  value = https://www.curseforge.com/minecraft/modpacks/create-on-a-potato-pc-skyblock
+  value = https://www.curseforge.com/minecraft/modpacks/create-on-a-potato
   height = 12
 }
 
