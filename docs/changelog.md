@@ -33,6 +33,7 @@ Jun. 05, 2023
 - Other Changes:
   - Updated Create quest line with new items
   - Added Create Enchantment Industry wiki and video pages to guidebook book
+  - Fixed broken support links in Potato guidebook
 
 ## Create on a Potato PC: Ultimate 1.19.2-4.8.0
 *See also unpublished version 1.19.2-4.7.3*
