@@ -1,4 +1,34 @@
- Create on a Potato PC: Ultimate Change Log
+# Create on a Potato PC: Ultimate Change Log
+
+## Create on a Potato PC: Ultimate 1.19.2-4.10.0
+Jun. 19, 2023
+- Mods Added:
+- Mods Updated:
+  - CraftPresence-2.0.7+1.19.2.jar
+  - create_enchantment_industry-1.19.2-for-create-0.5.1.b-1.2.4.c.jar
+  - drippyloadingscreen_forge_2.2.2_MC_1.19.1-1.19.2.jar
+  - FastWorkbench-1.19.2-7.1.3.jar
+  - ftb-chunks-forge-1902.3.22-build.271.jar
+  - ftb-essentials-forge-1902.3.2-build.85.jar
+  - JCPlugin-1.17.x-1.20.x-4.0.4-Forge.jar
+  - lootr-1.19-0.4.24.62.jar
+  - Quark-3.4-405.jar
+  - silent-gear-1.19.2-3.2.6.jar
+  - sophisticatedbackpacks-1.19.2-3.18.50.849.jar
+  - sophisticatedcore-1.19.2-0.5.71.319.jar
+  - tempad-forge-1.19.2-1.4.5.jar
+  - torchmaster-19.2.90.jar
+  - WitherSkeletonTweaks-1.19.2-8.0.3.jar
+- Mods Removed:
+- Other Changes:
+  - Quest changes:
+    - Added new quests for Backpacks
+    - Fixed some Create quests due to Create 0.5.1 update
+  - Recipes:
+    - New recipe for Blaze Powder to Blaze Rod
+    - Fixed broken recipes for the Brass Mesh due to Create 0.5.1 update
+  - Enabled Quark Trowel
+
 
 ## Create on a Potato PC: Ultimate 1.19.2-4.9.1
 Jun. 05, 2023

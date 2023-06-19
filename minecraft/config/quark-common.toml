@@ -324,7 +324,7 @@
 		"Ignored Items" = ["botania:exchange_rod", "botania:dirt_rod", "botania:skydirt_rod", "botania:cobble_rod"]
 
 [tools]
-	Trowel = false
+	Trowel = true
 	"Slime In A Bucket" = false
 	"Seed Pouch" = false
 	Pickarang = false
