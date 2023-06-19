@@ -3,11 +3,11 @@
 [general]
 	#The CurseForge project ID for the modpack
 	#Range: > 0
-	modpackProjectID = 0
+	modpackProjectID = 444395
 	#The name of the modpack
-	modpackName = "PLEASE_CHANGE_ME"
+	modpackName = "Create on a Potato PC: Ultimate"
 	#The version of the modpack
-	modpackVersion = "CHANGE_ME"
+	modpackVersion = "1.19.2-4.10.0"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
