@@ -429,7 +429,7 @@ customization {
   y = 2
   scale = 1.0
   alignment = right
-  value = Create on a Potato PC - Sky Edition 1.19.2-4.10.0
+  value = Create on a Potato PC - Sky Edition 1.19.2-4.11.0
 }
 
 customization {
