@@ -14,8 +14,8 @@
 StartupEvents.registry('item', event => {
 	// Register new items here
 	// event.create('example_item').displayName('Example Item')
-	event.create('amethyst_mesh','createsifter:mesh').displayName('Amethyst Mesh').parentModel("createsifter:block/meshes/custom_mesh").texture("1","kubejs:item/amethyst_mesh").texture("0","kubejs:block/coal_block");
-	event.create('quartz_mesh','createsifter:mesh').displayName('Quartz Mesh').parentModel("createsifter:block/meshes/custom_mesh").texture("1","kubejs:item/quartz_mesh").texture("0","kubejs:block/coal_block");
+	event.create('amethyst_mesh','createsifter:mesh').displayName('Amethyst Mesh').parentModel("createsifter:block/meshes/amethyst_mesh").texture("1","kubejs:item/amethyst_mesh").texture("0","minecraft:stripped_oak_log");
+	event.create('quartz_mesh','createsifter:mesh').displayName('Quartz Mesh').parentModel("createsifter:block/meshes/quartz_mesh").texture("1","kubejs:item/quartz_mesh").texture("0","minecraft:stripped_oak_log");
 })
 
 // StartupEvents.registry('block', event => {
