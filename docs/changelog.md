@@ -1,5 +1,19 @@
 # Create on a Potato PC: Ultimate Change Log
 
+## Create on a Potato PC: Ultimate 1.19.2-4.11.0
+Sep. 5, 2023
+- Mods Added:
+  - elytraslot-forge-6.1.1+1.19.2.jar
+- Mods Updated:
+  - kubejs-create-forge-1902.2.4-build.27.jar
+  - create-stuff-additions1.19.2_v2.0.4a.jar
+  - sliceanddice-forge-2.3.1.jar
+  - create_jetpack-forge-3.2.2.jar
+  - create_enchantment_industry-1.19.2-for-create-0.5.1.c-1.2.6.b
+- Mods Removed:
+- Other Changes:
+  - Fixed Broken textures for createsifter custom meshes
+
 ## Create on a Potato PC: Ultimate 1.19.2-4.10.0
 Jun. 19, 2023
 - Mods Added:
