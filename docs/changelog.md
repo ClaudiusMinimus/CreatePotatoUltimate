@@ -1,5 +1,18 @@
 # Create on a Potato PC: Ultimate Change Log
 
+## Create on a Potato PC: Ultimate 1.19.2-4.12.0
+Dec. 12, 2023
+- Mods Added:
+  - questsadditions-1.19.2-1.4.2.jar
+- Mods Updated:
+  - create and creates addons
+  - ftb mods
+  - updated all mods to most recent update as of today
+- Mods Removed:
+- Other Changes:
+  - Fixed Error with ocean monument quest
+  - Updated Forge to 43.3.5
+
 ## Create on a Potato PC: Ultimate 1.19.2-4.11.0
 Sep. 5, 2023
 - Mods Added:
