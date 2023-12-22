@@ -526,7 +526,7 @@
 		}
 		{
 			dependencies: ["0000000000000799"]
-			description: ["The Mechanical Drill can be used for mining, but in early game can be used as part of a stationary cobble generator"]
+			description: ["The Mechanical Drill can be used for mining, but in early game can be used as part of a stationary cobble generator."]
 			id: "00000000000007CB"
 			rewards: [
 				{

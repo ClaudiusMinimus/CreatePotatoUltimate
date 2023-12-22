@@ -1,6 +1,6 @@
 {
     "name": "Create on a Potato PC:",
-    "subtitle": "Ultimate v. 1.19.2-4.10.0",
+    "subtitle": "Ultimate v. 1.19.2-4.11.0",
     "version": 0,
     "landing_text": "Welcome $(playername)$(br)  You have landed on Potato Island $(o)skyblock only$(). Believe it or not, everything you need to progress to the Nether and End is here on this tiny island. Some resources are very precious-gollum, so be thoughtful and not hasty.$(br) $(l)Be extremely careful$() with all of the iron, zinc, diorite, and andesite. For more information see $(l)$(l:the_beginning)Getting Started$(/l)$()",
     "model": "patchouli:book_blue",
