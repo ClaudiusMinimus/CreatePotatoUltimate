@@ -22,10 +22,7 @@ minecraft/kubejs/exported/*
 minecraft/local/*
 minecraft/logs/*
 minecraft/moddata/*
-minecraft/mods/*
-minecraft/mods*/*
 minecraft/ModTranslations/*
-minecraft/resourcepacks/*
 minecraft/saves/*
 minecraft/schematics/*
 minecraft/screenshots/*
