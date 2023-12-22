@@ -1,14 +1,22 @@
 # Create on a Potato PC: Ultimate Change Log
 
 ## Create on a Potato PC: Ultimate 1.19.2-4.12.0
-Dec. 12, 2023
+Dec. 22, 2023
 - Mods Added:
   - questsadditions-1.19.2-1.4.2.jar
+  - cabletiers-1.19.2-0.6.jar
+  - createcompression
+  - carry on
+  - clickable advancments
+  - corpse
+  - more overlay updated
 - Mods Updated:
   - create and creates addons
   - ftb mods
   - updated all mods to most recent update as of today
 - Mods Removed:
+  - grave stones
+  - light overlay
 - Other Changes:
   - Fixed Error with ocean monument quest
   - Updated Forge to 43.3.5
