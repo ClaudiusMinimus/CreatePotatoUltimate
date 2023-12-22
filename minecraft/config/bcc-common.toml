@@ -7,7 +7,7 @@
 	#The name of the modpack
 	modpackName = "Create on a Potato PC: Ultimate"
 	#The version of the modpack
-	modpackVersion = "1.19.2-4.11.0"
+	modpackVersion = "1.19.2-4.13.0"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
