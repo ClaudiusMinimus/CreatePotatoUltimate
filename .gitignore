@@ -37,7 +37,6 @@ server/mods/*
 server/world/*
 
 # ignore these symbolic linked folders
-minecraft/resourcepacks
 server/kubejs
 server/patchouli_books
 
