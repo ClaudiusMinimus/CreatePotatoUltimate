@@ -2,7 +2,7 @@
 
 // console.info("Hello, World! (You will see this line every time client resources reload)")
 
-const REMOVED_JEI_ITEMS = ['angelring:leadstone_angel_ring','angelring:hardened_angel_ring','angelring:reinforced_angel_ring','angelring:resonant_angel_ring','angelring:energetic_angel_ring'];
+const REMOVED_JEI_ITEMS = ['wormhole:coal_generator'];
 
 // loop over REMOVED_JEI_ITEMS array
 REMOVED_JEI_ITEMS.forEach((id) => {
