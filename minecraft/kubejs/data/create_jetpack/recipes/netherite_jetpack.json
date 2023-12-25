@@ -8,7 +8,7 @@
   ],
   "key": {
     "B": {
-      "item": "create:copper_backtank"
+      "item": "create:netherite_backtank"
     },
     "G": {
       "item": "create:gearbox"
@@ -24,6 +24,6 @@
     }
   },
   "result": {
-    "item": "create_jetpack:jetpack"
+    "item": "create_jetpack:netherite_jetpack"
   }
 }
