@@ -1,6 +1,38 @@
 # Create on a Potato PC: Ultimate Change Log
 
 ## Create on a Potato PC: Ultimate 1.19.2-4.12.0
+Dec. 25, 2023
+- Mods Added:
+  - AE2WTLib-12.9.7.jar
+  - AEInfinityBooster-1.19.2-1.2.0+11.jar
+  - TheCardboardBoxMod-1.19.2-1.0.jar
+  - XaerosWorldMap_1.37.2_Forge_1.19.1.jar
+  - Xaeros_Minimap_23.9.3_Forge_1.19.1.jar
+  - appliedenergistics2-forge-12.9.8.jar
+  - cc-tweaked-1.19.2-1.101.3.jar
+  - dummmmmmy-1.19.2-1.7.1.jar
+  - jecalculation-forge-1.19.2-4.0.3.jar
+  - supermartijn642configlib-1.1.8-forge-mc1.19.jar
+  - supermartijn642corelib-1.1.16-forge-mc1.19.2.jar
+  - trashslot-forge-1.19.2-12.1.0.jar
+  - voidtotem-forge-1.19.2-2.1.0.jar
+  - wormhole-1.1.15-forge-mc1.19.jar
+  - moonlight-1.19.2-2.3.5-forge.jar
+- Mods Updated:
+  - comforts-forge-6.0.7+1.19.2.jar
+  - ftb-chunks-forge-1902.4.3-build.321.jar
+- Mods Removed:
+  - AngelRing2-1.19.2-2.1.8.jar
+  - RSInfinityBooster-1.19.2-3.0+27.jar
+  - cabletiers-1.19.2-0.6.jar
+  - journeymap-1.19.2-5.9.7-forge.jar
+  - tempad-forge-1.19.2-1.4.5.jar
+- Other Changes:
+  - Migration from refined storage to applied energistics 2 because you can auto craft with mechanical crafters
+  - Changed Recipes for ae2 to match create
+  - fixed configs for mods so now the trees dont fall and all that
+
+## Create on a Potato PC: Ultimate 1.19.2-4.12.0
 Dec. 22, 2023
 - Mods Added:
   - questsadditions-1.19.2-1.4.2.jar
