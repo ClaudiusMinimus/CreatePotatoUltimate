@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
 	// Change recipes here
 
 	// array of items to remove
-	const REMOVED_ITEMS = ['angelring:leadstone_angel_ring','angelring:hardened_angel_ring','angelring:reinforced_angel_ring','angelring:resonant_angel_ring','angelring:energetic_angel_ring'];
+	const REMOVED_ITEMS = ['wormhole:coal_generator'];
 
 	// remove items in array
 	REMOVED_ITEMS.forEach(id => event.remove({ output: id }));
