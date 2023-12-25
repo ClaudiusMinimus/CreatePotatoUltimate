@@ -1,0 +1,11 @@
+{
+    "name": "Applied Energistics 2",
+    "icon": "ae2:controller",
+    "category": "patchouli:videos",
+    "pages": [
+      {
+        "type": "patchouli:text",
+        "text": "Applied Energistics 2 Mod is a complex and powerful storage system. Watch Mondays $(l:https://www.youtube.com/watch?v=o4a-PxucCWA)Beginner's Guide$(/l) on YouTube."
+      }
+    ]
+}
