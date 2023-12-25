@@ -37,7 +37,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","quark:emote_resources","file/Slightly-Improved-Font-1.0.0.zip", "file/Createful-Plaques+v0.6+(1.19.2).zip", "file/Refined+Storage+-+ReCreated+v0.3.zip", "file/Tom's+Better+Create+Storage+1.1.zip", "file/Create+Simple+Storage+2.1.zip"]
+resourcePacks:["vanilla","mod_resources","quark:emote_resources","file/Slightly-Improved-Font-1.0.0.zip", "file/Createful-Plaques+v0.6+(1.19.2).zip", "file/Tom's+Better+Create+Storage+1.1.zip", "file/Create+Simple+Storage+2.1.zip"]
 incompatibleResourcePacks:["quark:emote_resources","file/Slightly-Improved-Font-1.0.0.zip"]
 lastServer:
 lang:en_us
