@@ -1,0 +1,74 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tips_and_tricks"
+	group: ""
+	id: "394307726599DAF0"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "28FFDB5148D382BD"
+			tasks: [{
+				id: "14ED3DE448E9D579"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			id: "0E74F04C1A0AD62E"
+			tasks: [{
+				id: "05D5DE09311CCE60"
+				item: "voidtotem:totem_of_void_undying"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			id: "2B83B635B9B40F9D"
+			tasks: [
+				{
+					id: "10A50C52B95F0CEC"
+					item: "wormhole:portal_frame"
+					type: "item"
+				}
+				{
+					id: "1819AD9EFE50926C"
+					item: {
+						Count: 1b
+						id: "wormhole:portal_stabilizer"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Wormhole Portals"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			id: "7B5304E68F814FEC"
+			tasks: [{
+				id: "4B65AB148F3D69E1"
+				item: "cardboardbox:crate"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			id: "7D8DE8F888570C41"
+			tasks: [{
+				id: "46F97DDC9B810959"
+				item: "jecalculation:item_calculator_craft"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+	]
+	title: "Tips and Tricks"
+}

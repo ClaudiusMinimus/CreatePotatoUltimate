@@ -5,7 +5,7 @@
 	group: ""
 	icon: "minecraft:carved_pumpkin"
 	id: "00000000000000AF"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -599,7 +599,7 @@
 				item: "sliceanddice:slicer"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.0d
 			y: 5.5d
 		}
 		{

@@ -5,7 +5,7 @@
 	group: ""
 	icon: "minecraft:barrel"
 	id: "22C5B5C762C6CE6B"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -241,286 +241,6 @@
 			}]
 			x: -4.5d
 			y: 1.0d
-		}
-		{
-			description: ["Make sure you have some power. You will want to have started the mod, Create and then move into Create Craft \\& Additions to craft an Alternator. Be aware as your Refined Storage system grows so will your power requirements."]
-			icon: "refinedstorage:creative_controller"
-			id: "0000000000000482"
-			rewards: [
-				{
-					count: 12
-					id: "0000000000000485"
-					item: "refinedstorage:cable"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "0000000000000486"
-					item: "refinedstorage:external_storage"
-					type: "item"
-				}
-			]
-			shape: "diamond"
-			size: 1.5d
-			tasks: [
-				{
-					id: "0000000000000483"
-					item: "refinedstorage:controller"
-					type: "item"
-				}
-				{
-					id: "0000000000000484"
-					item: "refinedstorage:grid"
-					type: "item"
-				}
-			]
-			title: "Refined Storage"
-			x: 2.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["0000000000000482"]
-			id: "000000000000049B"
-			rewards: [{
-				id: "000000000000049D"
-				item: "refinedstorage:speed_upgrade"
-				type: "item"
-			}]
-			tasks: [{
-				id: "000000000000049C"
-				item: "refinedstorage:exporter"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["0000000000000482"]
-			id: "00000000000004D3"
-			rewards: [{
-				id: "0000000000000565"
-				item: "powder_power:token_no_fall"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "00000000000004D4"
-					item: "refinedstorage:security_manager"
-					type: "item"
-				}
-				{
-					id: "00000000000004D5"
-					item: "refinedstorage:security_card"
-					type: "item"
-				}
-			]
-			x: 2.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0000000000000482"]
-			id: "00000000000004BB"
-			rewards: [{
-				count: 4
-				id: "00000000000004C1"
-				item: "create:blaze_cake"
-				type: "item"
-			}]
-			tasks: [{
-				id: "00000000000004BC"
-				item: "refinedstorage:relay"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["0000000000000482"]
-			id: "00000000000004AE"
-			rewards: [{
-				count: 8
-				id: "00000000000004B6"
-				item: "minecraft:prismarine_shard"
-				type: "item"
-			}]
-			tasks: [{
-				id: "00000000000004AF"
-				item: "refinedstorage:crafting_grid"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0000000000000482"]
-			description: [
-				"Use Tesla Coil to charge Wireless Grids."
-				""
-				"Wireless Grids are power hungry - add Alternators as needed."
-			]
-			id: "00000000000004DB"
-			rewards: [{
-				count: 2
-				id: "00000000000004DE"
-				item: "refinedstorage:range_upgrade"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "00000000000004DC"
-					item: "refinedstorage:wireless_grid"
-					type: "item"
-				}
-				{
-					id: "00000000000004DD"
-					item: "refinedstorage:wireless_transmitter"
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["0000000000000482"]
-			id: "00000000000004D6"
-			rewards: [{
-				id: "00000000000004DA"
-				item: "refinedstorage:network_card"
-				type: "item"
-			}]
-			tasks: [{
-				id: "00000000000004D7"
-				item: "refinedstorage:network_transmitter"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["00000000000004D6"]
-			id: "00000000000004D8"
-			rewards: [{
-				count: 16
-				id: "7E6AF13CA00F4702"
-				item: "refinedstorage:processor_binding"
-				type: "item"
-			}]
-			tasks: [{
-				id: "00000000000004D9"
-				item: "refinedstorage:network_receiver"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["00000000000004BB"]
-			id: "00000000000004BD"
-			rewards: [{
-				count: 2
-				id: "00000000000004C2"
-				item: "minecraft:anvil"
-				type: "item"
-			}]
-			tasks: [{
-				id: "00000000000004BE"
-				item: "refinedstorage:detector"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["00000000000004AE"]
-			id: "00000000000004C5"
-			rewards: [{
-				count: 32
-				id: "00000000000004CA"
-				item: "minecraft:quartz"
-				type: "item"
-			}]
-			tasks: [{
-				id: "00000000000004C6"
-				item: "refinedstorage:fluid_interface"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["00000000000004AE"]
-			id: "00000000000004C7"
-			rewards: [{
-				count: 3
-				id: "00000000000004CD"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
-			tasks: [{
-				id: "00000000000004C8"
-				item: "refinedstorage:interface"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["0000000000000482"]
-			id: "00000000000004A8"
-			rewards: [{
-				id: "00000000000004AA"
-				item: "refinedstorage:stack_upgrade"
-				type: "item"
-			}]
-			tasks: [{
-				id: "00000000000004A9"
-				item: "refinedstorage:exporter"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["0000000000000482"]
-			description: ["Nearly all blocks can be made into covers with an iron nugget."]
-			id: "755A43FE9B493CE2"
-			rewards: [{
-				id: "5E8BBE9DCA65B94E"
-				item: "minecraft:budding_amethyst"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "7B43871F5E24A2DF"
-					item: {
-						Count: 1b
-						id: "refinedstorage:cover"
-						tag: {
-							Item: {
-								Count: 1b
-								id: "minecraft:stone_bricks"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "189A08E5F65E3AA3"
-					item: {
-						Count: 1b
-						id: "refinedstorage:hollow_cover"
-						tag: {
-							Item: {
-								Count: 1b
-								id: "minecraft:stone_bricks"
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: -1.0d
 		}
 		{
 			dependencies: ["4240DD5A5E1AB2A4"]
@@ -868,6 +588,302 @@
 			}]
 			x: -9.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["5640B43472C50C49"]
+			description: ["To Craft a Controller you must first find Certus Quartz"]
+			id: "50D197995B75DC37"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "5214A1C1FD30BBAC"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "Applied Energistics 2"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["50D197995B75DC37"]
+			id: "71B41112D99BBBEA"
+			tasks: [
+				{
+					id: "3F24D0BA2203076D"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+				{
+					id: "2FC83BBF1060FD2C"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+			]
+			title: "Importing and Exporting"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F3D5A89B2CB711B"]
+			id: "00A3FF7F69B54079"
+			tasks: [{
+				id: "4C8FCD32BF4B7DCD"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["00A3FF7F69B54079"]
+			id: "0EC02D82EDC8EE53"
+			tasks: [{
+				id: "11C3791DB80087EF"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0EC02D82EDC8EE53"]
+			id: "115111AA698532FE"
+			tasks: [{
+				id: "79D5832EF0460BC5"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0F3D5A89B2CB711B"]
+			id: "07B33F1CFC353CF0"
+			tasks: [{
+				id: "6C50B6DCA9E52440"
+				item: "ae2:wireless_terminal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["50D197995B75DC37"]
+			description: [
+				"This is a multiblock that can transmit your network wirelessly to another location like network transmitors and receivers from Refined Storage."
+				""
+				"To link your Applied Energistic network you must use &bQuantum Link chambers&r with &bQuantum Entangled Singulartiys&r to link them."
+			]
+			id: "3DF8FB9595975AC5"
+			tasks: [
+				{
+					count: 8L
+					id: "5DA62E2E9398BA3C"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					id: "43D4F9C5FA0A6E75"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+			]
+			title: "Quantum Linking"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["50D197995B75DC37"]
+			id: "0F3D5A89B2CB711B"
+			tasks: [{
+				id: "353427A19F21CBEB"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["50D197995B75DC37"]
+			description: ["To transmit your network wirelessly for you to access with wireless terminals"]
+			id: "0671E105BC30A4CB"
+			tasks: [{
+				id: "63C8B25C96614659"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["648EAE5230054E1A"]
+			id: "7D81B1AD68653167"
+			tasks: [{
+				id: "303C4B46CE77AFB1"
+				item: "aeinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0671E105BC30A4CB"]
+			id: "648EAE5230054E1A"
+			tasks: [{
+				id: "7808B91A9EFC8337"
+				item: "ae2:wireless_booster"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["50D197995B75DC37"]
+			description: ["Used to pass channels, items, redstone, fluids, power, etc through yout nework to another P2P Tunnel without storage"]
+			id: "7737B3C6EACC04A9"
+			tasks: [{
+				id: "31C666B4EDE28127"
+				item: "ae2:me_p2p_tunnel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7737B3C6EACC04A9"]
+			description: ["Used to link your P2P tunnels"]
+			id: "185E6E390C6AC8E3"
+			tasks: [{
+				id: "21E14635675AE11D"
+				item: {
+					Count: 1b
+					id: "ae2:memory_card"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0F3D5A89B2CB711B"]
+			id: "4C12DBD5D90AF73F"
+			tasks: [{
+				id: "4FCCA05C8273BCE2"
+				item: "ae2:pattern_access_terminal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"00A3FF7F69B54079"
+				"0257FC727EE517AE"
+				"0EC02D82EDC8EE53"
+				"07B33F1CFC353CF0"
+			]
+			id: "0A0728AAD3BAC70E"
+			tasks: [{
+				id: "143343B129C19971"
+				item: "ae2wtlib:wireless_universal_terminal"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["00A3FF7F69B54079"]
+			id: "164F808D1E73F02A"
+			tasks: [{
+				id: "2778FFA2FD007961"
+				item: "ae2:wireless_crafting_terminal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0EC02D82EDC8EE53"]
+			id: "09AC21835560151F"
+			tasks: [{
+				id: "5FEBB2BBDCDA2F09"
+				item: "ae2wtlib:wireless_pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4C12DBD5D90AF73F"]
+			id: "0257FC727EE517AE"
+			tasks: [{
+				id: "6C9095492B7571ED"
+				item: "ae2wtlib:wireless_pattern_access_terminal"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["46EFEFBA779BEA88"]
+			id: "5640B43472C50C49"
+			tasks: [{
+				id: "093F9E27BA6EFBD6"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			id: "6DF17A363B80C12B"
+			optional: true
+			tasks: [{
+				id: "76FB938DC96AA411"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			icon: "ae2:mysterious_cube"
+			id: "46EFEFBA779BEA88"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "4A70D9D36AAE4D91"
+				structure: "ae2:meteorite"
+				type: "structure"
+			}]
+			title: "Find a Meteorite"
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D81B1AD68653167"]
+			id: "1FE52269B738E0CA"
+			tasks: [{
+				id: "4004D8B0B411C61B"
+				item: "aeinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["50D197995B75DC37"]
+			description: ["This will be your main source of storage access because applied energistics storage capacity has been disabled. Instead hook up storage blocks such as &bItem Vaults&r and &bChests&r"]
+			id: "1F77777D1FB387F1"
+			tasks: [{
+				id: "22E0C1B05D80907F"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			title: "External Storage"
+			x: 5.0d
+			y: 1.0d
 		}
 	]
 	title: "Storage"
