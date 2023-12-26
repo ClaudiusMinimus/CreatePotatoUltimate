@@ -1,6 +1,18 @@
 # Create on a Potato PC: Ultimate Change Log
 
-## Create on a Potato PC: Ultimate 1.19.2-4.12.0
+## Create on a Potato PC: Ultimate 1.19.2-4.14.0
+Dec. 25, 2023
+- Mods Added:
+  - C:\Users\theoj\CreatePotatoUltimateModpack\minecraft\mods\constructionwand-1.19.2-2.10.jar
+- Mods Updated:
+  - C:\Users\theoj\CreatePotatoUltimateModpack\minecraft\mods\CreateCompression-1.19.2-1.3.0.jar
+- Mods Removed:
+  - 
+- Other Changes:
+  - Added Ae2 quests and tips and tricks
+  - Fixed vtweaks config so no more falling trees
+
+## Create on a Potato PC: Ultimate 1.19.2-4.13.0
 Dec. 25, 2023
 - Mods Added:
   - AE2WTLib-12.9.7.jar
@@ -30,7 +42,6 @@ Dec. 25, 2023
 - Other Changes:
   - Migration from refined storage to applied energistics 2 because you can auto craft with mechanical crafters
   - Changed Recipes for ae2 to match create
-  - fixed configs for mods so now the trees dont fall and all that
 
 ## Create on a Potato PC: Ultimate 1.19.2-4.12.0
 Dec. 22, 2023
