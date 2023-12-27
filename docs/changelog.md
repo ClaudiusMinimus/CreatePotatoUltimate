@@ -1,11 +1,27 @@
 # Create on a Potato PC: Ultimate Change Log
 
 ## Create on a Potato PC: Ultimate 1.19.2-4.14.0
+Dec. 27, 2023
+- Mods Added:
+  - tempad-forge-1.19.2-1.4.5.jar
+  - YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar
+  - YungsBetterOceanMonuments-1.19.2-Forge-2.1.1.jar
+  - YungsApi-1.19.2-Forge-3.8.10.jar
+- Mods Removed:
+  - wormhole-1.1.15-forge-mc1.19.jar
+  - refinedstorage-1.11.7.jar
+  - refinedstorageaddons-0.9.0.jar
+- Other Changes:
+  - Removed Refined Storage
+  - Added Quests and rewards
+  - Added Ocean Monument and Stronghold to the world Generation
+  
+## Create on a Potato PC: Ultimate 1.19.2-4.14.0
 Dec. 25, 2023
 - Mods Added:
-  - C:\Users\theoj\CreatePotatoUltimateModpack\minecraft\mods\constructionwand-1.19.2-2.10.jar
+  - constructionwand-1.19.2-2.10.jar
 - Mods Updated:
-  - C:\Users\theoj\CreatePotatoUltimateModpack\minecraft\mods\CreateCompression-1.19.2-1.3.0.jar
+  - CreateCompression-1.19.2-1.3.0.jar
 - Mods Removed:
   - 
 - Other Changes:
