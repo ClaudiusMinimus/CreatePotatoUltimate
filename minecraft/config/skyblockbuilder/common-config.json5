@@ -125,7 +125,9 @@
       "allow_list": true,
       "elements": [
         "minecraft:fortress",
-	"ae2:meteorite"
+	"ae2:meteorite",
+	"betterstrongholds:stronghold",
+	"betteroceanmonuments:ocean_monument"
       ]
     }
   },
@@ -190,9 +192,7 @@
     "biomes": {
       "minecraft:overworld": {
         "allow_list": false,
-        "elements": [
-          "minecraft:*ocean*"
-        ]
+        "elements": []
       },
       "minecraft:the_nether": {
         "allow_list": false,
