@@ -15,7 +15,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2A8220D0E1D47056"]
+			dependencies: ["6D632AEDF9E98BAE"]
 			id: "015BC3FCB168998F"
 			rewards: [{
 				id: "6521B7082683CC34"
@@ -71,29 +71,6 @@
 		}
 		{
 			dependencies: ["4C8D1E0AFF2310A9"]
-			description: [
-				"For more information regarding making or moving an End Portal:"
-				"1. Open your Create on a Potato PC guidebook."
-				"2. Go to \\\"Getting Started\\\" > \\\"Tips \\& Tricks\\\" > \\\"End Portal\\\""
-			]
-			id: "2A8220D0E1D47056"
-			rewards: [{
-				count: 6
-				id: "636F1E664930F9FA"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
-			tasks: [{
-				count: 12L
-				id: "72048D96EF736319"
-				item: "minecraft:end_portal_frame"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["4C8D1E0AFF2310A9"]
 			id: "3E8A431098F5FCEA"
 			rewards: [{
 				id: "661F7882379A67BD"
@@ -125,6 +102,25 @@
 			}]
 			x: -1.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["4C8D1E0AFF2310A9"]
+			icon: "minecraft:end_portal_frame"
+			id: "6D632AEDF9E98BAE"
+			rewards: [{
+				count: 3
+				id: "1F4AF090C1EF7959"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3403FDACF06DC43B"
+				structure: "betterstrongholds:stronghold"
+				type: "structure"
+			}]
+			title: "Find the Stronghold"
+			x: 0.0d
+			y: 1.0d
 		}
 	]
 	title: "World Hopping"

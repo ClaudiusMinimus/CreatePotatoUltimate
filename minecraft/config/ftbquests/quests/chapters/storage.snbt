@@ -593,6 +593,12 @@
 			dependencies: ["5640B43472C50C49"]
 			description: ["To Craft a Controller you must first find Certus Quartz"]
 			id: "50D197995B75DC37"
+			rewards: [{
+				count: 8
+				id: "6CC9B97AD0FDAD90"
+				item: "ae2:printed_silicon"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [{
@@ -607,6 +613,11 @@
 		{
 			dependencies: ["50D197995B75DC37"]
 			id: "71B41112D99BBBEA"
+			rewards: [{
+				id: "381C4F2090B4BA73"
+				item: "minecraft:chest"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3F24D0BA2203076D"
@@ -626,6 +637,12 @@
 		{
 			dependencies: ["0F3D5A89B2CB711B"]
 			id: "00A3FF7F69B54079"
+			rewards: [{
+				count: 2
+				id: "3896166728A4B929"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C8FCD32BF4B7DCD"
 				item: "ae2:crafting_terminal"
@@ -637,6 +654,12 @@
 		{
 			dependencies: ["00A3FF7F69B54079"]
 			id: "0EC02D82EDC8EE53"
+			rewards: [{
+				count: 4
+				id: "5D8716A2ACDDAADF"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
 			tasks: [{
 				id: "11C3791DB80087EF"
 				item: "ae2:pattern_encoding_terminal"
@@ -648,7 +671,14 @@
 		{
 			dependencies: ["0EC02D82EDC8EE53"]
 			id: "115111AA698532FE"
+			rewards: [{
+				count: 4
+				id: "713FC38F59E6C194"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
 			tasks: [{
+				count: 2L
 				id: "79D5832EF0460BC5"
 				item: "ae2:blank_pattern"
 				type: "item"
@@ -659,6 +689,12 @@
 		{
 			dependencies: ["0F3D5A89B2CB711B"]
 			id: "07B33F1CFC353CF0"
+			rewards: [{
+				count: 16
+				id: "2573AA07696B0359"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C50B6DCA9E52440"
 				item: "ae2:wireless_terminal"
@@ -675,6 +711,11 @@
 				"To link your Applied Energistic network you must use &bQuantum Link chambers&r with &bQuantum Entangled Singulartiys&r to link them."
 			]
 			id: "3DF8FB9595975AC5"
+			rewards: [{
+				id: "35B16584B13EF215"
+				item: "ae2:condenser"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 8L
@@ -695,6 +736,12 @@
 		{
 			dependencies: ["50D197995B75DC37"]
 			id: "0F3D5A89B2CB711B"
+			rewards: [{
+				count: 2
+				id: "50D1B5D465D65320"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
 			tasks: [{
 				id: "353427A19F21CBEB"
 				item: "ae2:terminal"
@@ -707,6 +754,11 @@
 			dependencies: ["50D197995B75DC37"]
 			description: ["To transmit your network wirelessly for you to access with wireless terminals"]
 			id: "0671E105BC30A4CB"
+			rewards: [{
+				id: "3AA54D5956B4DAFA"
+				item: "ae2:wireless_receiver"
+				type: "item"
+			}]
 			tasks: [{
 				id: "63C8B25C96614659"
 				item: "ae2:wireless_access_point"
@@ -718,6 +770,12 @@
 		{
 			dependencies: ["648EAE5230054E1A"]
 			id: "7D81B1AD68653167"
+			rewards: [{
+				count: 3
+				id: "26E160C72DBB0B42"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "303C4B46CE77AFB1"
 				item: "aeinfinitybooster:infinity_card"
@@ -729,6 +787,12 @@
 		{
 			dependencies: ["0671E105BC30A4CB"]
 			id: "648EAE5230054E1A"
+			rewards: [{
+				count: 8
+				id: "028C52447AE06C3B"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7808B91A9EFC8337"
 				item: "ae2:wireless_booster"
@@ -741,6 +805,12 @@
 			dependencies: ["50D197995B75DC37"]
 			description: ["Used to pass channels, items, redstone, fluids, power, etc through yout nework to another P2P Tunnel without storage"]
 			id: "7737B3C6EACC04A9"
+			rewards: [{
+				count: 8
+				id: "6DE21418C66814FA"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
 			tasks: [{
 				id: "31C666B4EDE28127"
 				item: "ae2:me_p2p_tunnel"
@@ -753,6 +823,12 @@
 			dependencies: ["7737B3C6EACC04A9"]
 			description: ["Used to link your P2P tunnels"]
 			id: "185E6E390C6AC8E3"
+			rewards: [{
+				count: 4
+				id: "22258596D26C5F0C"
+				item: "ae2:me_p2p_tunnel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "21E14635675AE11D"
 				item: {
@@ -768,6 +844,11 @@
 		{
 			dependencies: ["0F3D5A89B2CB711B"]
 			id: "4C12DBD5D90AF73F"
+			rewards: [{
+				id: "0DB886577B50851D"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4FCCA05C8273BCE2"
 				item: "ae2:pattern_access_terminal"
@@ -784,6 +865,12 @@
 				"07B33F1CFC353CF0"
 			]
 			id: "0A0728AAD3BAC70E"
+			rewards: [{
+				count: 2
+				id: "387216FF86C792A3"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "143343B129C19971"
 				item: "ae2wtlib:wireless_universal_terminal"
@@ -795,6 +882,11 @@
 		{
 			dependencies: ["00A3FF7F69B54079"]
 			id: "164F808D1E73F02A"
+			rewards: [{
+				id: "0FF0F8BF996E82B9"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2778FFA2FD007961"
 				item: "ae2:wireless_crafting_terminal"
@@ -806,6 +898,11 @@
 		{
 			dependencies: ["0EC02D82EDC8EE53"]
 			id: "09AC21835560151F"
+			rewards: [{
+				id: "1D969E057471AC3E"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5FEBB2BBDCDA2F09"
 				item: "ae2wtlib:wireless_pattern_encoding_terminal"
@@ -817,6 +914,11 @@
 		{
 			dependencies: ["4C12DBD5D90AF73F"]
 			id: "0257FC727EE517AE"
+			rewards: [{
+				id: "02A2143A47AF0D8D"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6C9095492B7571ED"
 				item: "ae2wtlib:wireless_pattern_access_terminal"
@@ -828,7 +930,14 @@
 		{
 			dependencies: ["46EFEFBA779BEA88"]
 			id: "5640B43472C50C49"
+			rewards: [{
+				count: 2
+				id: "05E28D31433A9014"
+				item: "ae2:quartz_block"
+				type: "item"
+			}]
 			tasks: [{
+				count: 4L
 				id: "093F9E27BA6EFBD6"
 				item: "ae2:certus_quartz_crystal"
 				type: "item"
@@ -850,6 +959,12 @@
 		{
 			icon: "ae2:mysterious_cube"
 			id: "46EFEFBA779BEA88"
+			rewards: [{
+				count: 16
+				id: "6D930086A09FE6F9"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -864,6 +979,12 @@
 		{
 			dependencies: ["7D81B1AD68653167"]
 			id: "1FE52269B738E0CA"
+			rewards: [{
+				count: 2
+				id: "3C92F1F0641DB890"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4004D8B0B411C61B"
 				item: "aeinfinitybooster:dimension_card"
@@ -876,6 +997,12 @@
 			dependencies: ["50D197995B75DC37"]
 			description: ["This will be your main source of storage access because applied energistics storage capacity has been disabled. Instead hook up storage blocks such as &bItem Vaults&r and &bChests&r"]
 			id: "1F77777D1FB387F1"
+			rewards: [{
+				count: 4
+				id: "4FB79DF0E0B25982"
+				item: "create:item_vault"
+				type: "item"
+			}]
 			tasks: [{
 				id: "22E0C1B05D80907F"
 				item: "ae2:storage_bus"
@@ -884,6 +1011,17 @@
 			title: "External Storage"
 			x: 5.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["115111AA698532FE"]
+			id: "55B6B9BE3DED4707"
+			tasks: [{
+				id: "32E07DBB798081E0"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
 		}
 	]
 	title: "Storage"

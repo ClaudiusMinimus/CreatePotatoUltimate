@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "tips_and_tricks"
 	group: ""
+	icon: "dummmmmmy:target_dummy"
 	id: "394307726599DAF0"
 	order_index: 1
 	quest_links: [ ]
@@ -28,28 +29,6 @@
 			y: -5.0d
 		}
 		{
-			id: "2B83B635B9B40F9D"
-			tasks: [
-				{
-					id: "10A50C52B95F0CEC"
-					item: "wormhole:portal_frame"
-					type: "item"
-				}
-				{
-					id: "1819AD9EFE50926C"
-					item: {
-						Count: 1b
-						id: "wormhole:portal_stabilizer"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			title: "Wormhole Portals"
-			x: -3.0d
-			y: -3.5d
-		}
-		{
 			id: "7B5304E68F814FEC"
 			tasks: [{
 				id: "4B65AB148F3D69E1"
@@ -68,6 +47,87 @@
 			}]
 			x: -5.0d
 			y: -2.0d
+		}
+		{
+			description: ["Great way to save locations to teleport to"]
+			id: "6F946B0BBD3702B7"
+			tasks: [{
+				id: "2436C1B5D2B49148"
+				item: "tempad:tempad"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			id: "621A194C80FC673F"
+			tasks: [
+				{
+					id: "49CD0D827258D35C"
+					item: {
+						Count: 1b
+						id: "constructionwand:stone_wand"
+						tag: {
+							Damage: 0
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6649174D226056BC"
+					item: {
+						Count: 1b
+						id: "constructionwand:iron_wand"
+						tag: {
+							Damage: 0
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BBC56ADB42F832D"
+					item: {
+						Count: 1b
+						id: "constructionwand:diamond_wand"
+						tag: {
+							Damage: 0
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "205C88A68F23A014"
+					item: {
+						Count: 1b
+						id: "constructionwand:infinity_wand"
+						tag: {
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Contruction Wands"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			description: ["Used to find biomes, useful to find ocean monuments"]
+			id: "4BE94F32FFD14892"
+			tasks: [{
+				id: "05B9B9090ED69678"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
 		}
 	]
 	title: "Tips and Tricks"
