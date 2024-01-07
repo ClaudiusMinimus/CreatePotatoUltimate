@@ -1,0 +1,16 @@
+{
+    "type": "create_mechanical_extruder:extruding",
+    "ingredients": [
+        {
+            "fluid": "minecraft:lava",
+            "amount": 1000
+        },
+        {
+            "fluid": "create:chocolate",
+            "amount": 1000
+        }
+    ],
+    "result": {
+        "item": "create:scoria"
+    }
+}
