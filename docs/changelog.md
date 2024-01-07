@@ -1,6 +1,23 @@
+# Happy New Years Everyone
 # Create on a Potato PC: Ultimate Change Log
 
-## Create on a Potato PC: Ultimate 1.19.2-4.14.0
+## Create on a Potato PC: Ultimate 1.19.2-4.16.0
+Jan. 07, 2024
+- Mods Added:
+  - merequester-forge-1.19.2-1.1.4.jar
+  - invhud.forge.1.19-3.4.7.jar
+  - cardboardboxes-1.19-0.0.6.jar
+  - NaturesCompass-1.19.2-1.10.0-forge.jar
+- Mods Removed:
+  - TheCardboardBoxMod-1.19.2-1.0.jar
+- Mods Updated:
+  - CreateCompression-1.19.2-1.4.0.jar
+- Other Changes:
+  - Increase Spawn rate of meteorites from ae2
+  - added scoria recipe for the mechanical extruder
+  - updated limestone recipe for the mechanical extruder
+
+## Create on a Potato PC: Ultimate 1.19.2-4.15.0
 Dec. 27, 2023
 - Mods Added:
   - tempad-forge-1.19.2-1.4.5.jar
