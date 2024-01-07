@@ -6,13 +6,10 @@
             "amount": 1000
         },
         {
-            "fluid": "minecraft:water",
+            "fluid": "create:honey",
             "amount": 1000
         }
     ],
-    "catalyst": {
-        "item": "minecraft:tuff"
-    },
     "result": {
         "item": "create:limestone"
     }
