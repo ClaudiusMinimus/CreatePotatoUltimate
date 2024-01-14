@@ -41,7 +41,7 @@ resourcePacks:["vanilla","mod_resources","quark:emote_resources","file/Create Si
 incompatibleResourcePacks:["quark:emote_resources","file/Tom\u0027s Better Create Storage 1.1.zip"]
 lastServer:
 lang:en_us
-soundDevice:"TU104 HD Audio Controller Digital Stereo (HDMI 2)"
+soundDevice:""
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0
