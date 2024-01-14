@@ -1,0 +1,5 @@
+
+Must Change Version in files below
+CreatePotatoUltimateModpack\minecraft\config\fancymenu\customization\cop_ultimate_splash.txt
+
+CreatePotatoUltimateModpack\minecraft\config\fancymenu\customization\cop_ultimate.txta
