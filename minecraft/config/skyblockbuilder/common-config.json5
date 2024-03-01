@@ -124,7 +124,10 @@
     "generationStructures": {
       "allow_list": true,
       "elements": [
-        "minecraft:fortress"
+        "minecraft:fortress",
+	"ae2:meteorite",
+	"betterstrongholds:stronghold",
+	"betteroceanmonuments:ocean_monument"
       ]
     }
   },
@@ -133,6 +136,11 @@
   
     // Should players be able to create their own team? [default: false]
     "createOwnTeam": true,
+    
+    // Force the check if the world is skyblock
+    // This enables the commands in worlds without any skyblock dimension
+    // USE AT YOUR OWN RISK, NO SUPPORT FOR DEFAULT WORLDS WITH THIS ENABLED
+    "forceSkyblockCheck": false,
     
     // Should players be able to leave their team or invite others? [default: true]
     "selfManage": true,
@@ -184,9 +192,7 @@
     "biomes": {
       "minecraft:overworld": {
         "allow_list": false,
-        "elements": [
-          "minecraft:*ocean*"
-        ]
+        "elements": []
       },
       "minecraft:the_nether": {
         "allow_list": false,

@@ -1,4 +1,115 @@
+# Happy New Years Everyone
 # Create on a Potato PC: Ultimate Change Log
+
+## Create on a Potato PC: Ultimate 1.19.2-4.16.0
+Jan. 07, 2024
+- Mods Added:
+  - merequester-forge-1.19.2-1.1.4.jar
+  - invhud.forge.1.19-3.4.7.jar
+  - cardboardboxes-1.19-0.0.6.jar
+  - NaturesCompass-1.19.2-1.10.0-forge.jar
+- Mods Removed:
+  - TheCardboardBoxMod-1.19.2-1.0.jar
+- Mods Updated:
+  - CreateCompression-1.19.2-1.4.0.jar
+- Other Changes:
+  - Increase Spawn rate of meteorites from ae2
+  - added scoria recipe for the mechanical extruder
+  - updated limestone recipe for the mechanical extruder
+
+## Create on a Potato PC: Ultimate 1.19.2-4.15.0
+Dec. 27, 2023
+- Mods Added:
+  - tempad-forge-1.19.2-1.4.5.jar
+  - YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar
+  - YungsBetterOceanMonuments-1.19.2-Forge-2.1.1.jar
+  - YungsApi-1.19.2-Forge-3.8.10.jar
+- Mods Removed:
+  - wormhole-1.1.15-forge-mc1.19.jar
+  - refinedstorage-1.11.7.jar
+  - refinedstorageaddons-0.9.0.jar
+- Other Changes:
+  - Removed Refined Storage
+  - Added Quests and rewards
+  - Added Ocean Monument and Stronghold to the world Generation
+  
+## Create on a Potato PC: Ultimate 1.19.2-4.14.0
+Dec. 25, 2023
+- Mods Added:
+  - constructionwand-1.19.2-2.10.jar
+- Mods Updated:
+  - CreateCompression-1.19.2-1.3.0.jar
+- Mods Removed:
+  - 
+- Other Changes:
+  - Added Ae2 quests and tips and tricks
+  - Fixed vtweaks config so no more falling trees
+
+## Create on a Potato PC: Ultimate 1.19.2-4.13.0
+Dec. 25, 2023
+- Mods Added:
+  - AE2WTLib-12.9.7.jar
+  - AEInfinityBooster-1.19.2-1.2.0+11.jar
+  - TheCardboardBoxMod-1.19.2-1.0.jar
+  - XaerosWorldMap_1.37.2_Forge_1.19.1.jar
+  - Xaeros_Minimap_23.9.3_Forge_1.19.1.jar
+  - appliedenergistics2-forge-12.9.8.jar
+  - cc-tweaked-1.19.2-1.101.3.jar
+  - dummmmmmy-1.19.2-1.7.1.jar
+  - jecalculation-forge-1.19.2-4.0.3.jar
+  - supermartijn642configlib-1.1.8-forge-mc1.19.jar
+  - supermartijn642corelib-1.1.16-forge-mc1.19.2.jar
+  - trashslot-forge-1.19.2-12.1.0.jar
+  - voidtotem-forge-1.19.2-2.1.0.jar
+  - wormhole-1.1.15-forge-mc1.19.jar
+  - moonlight-1.19.2-2.3.5-forge.jar
+- Mods Updated:
+  - comforts-forge-6.0.7+1.19.2.jar
+  - ftb-chunks-forge-1902.4.3-build.321.jar
+- Mods Removed:
+  - AngelRing2-1.19.2-2.1.8.jar
+  - RSInfinityBooster-1.19.2-3.0+27.jar
+  - cabletiers-1.19.2-0.6.jar
+  - journeymap-1.19.2-5.9.7-forge.jar
+  - tempad-forge-1.19.2-1.4.5.jar
+- Other Changes:
+  - Migration from refined storage to applied energistics 2 because you can auto craft with mechanical crafters
+  - Changed Recipes for ae2 to match create
+
+## Create on a Potato PC: Ultimate 1.19.2-4.12.0
+Dec. 22, 2023
+- Mods Added:
+  - questsadditions-1.19.2-1.4.2.jar
+  - cabletiers-1.19.2-0.6.jar
+  - createcompression
+  - carry on
+  - clickable advancments
+  - corpse
+  - more overlay updated
+- Mods Updated:
+  - create and creates addons
+  - ftb mods
+  - updated all mods to most recent update as of today
+- Mods Removed:
+  - grave stones
+  - light overlay
+- Other Changes:
+  - Fixed Error with ocean monument quest
+  - Updated Forge to 43.3.5
+
+## Create on a Potato PC: Ultimate 1.19.2-4.11.0
+Sep. 5, 2023
+- Mods Added:
+  - elytraslot-forge-6.1.1+1.19.2.jar
+- Mods Updated:
+  - kubejs-create-forge-1902.2.4-build.27.jar
+  - create-stuff-additions1.19.2_v2.0.4a.jar
+  - sliceanddice-forge-2.3.1.jar
+  - create_jetpack-forge-3.2.2.jar
+  - create_enchantment_industry-1.19.2-for-create-0.5.1.c-1.2.6.b
+- Mods Removed:
+- Other Changes:
+  - Fixed Broken textures for createsifter custom meshes
 
 ## Create on a Potato PC: Ultimate 1.19.2-4.10.0
 Jun. 19, 2023

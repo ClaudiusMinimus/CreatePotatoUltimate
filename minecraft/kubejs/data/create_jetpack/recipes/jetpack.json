@@ -1,23 +1,20 @@
 {
   "type": "create:mechanical_crafting",
   "pattern": [
-    " PSP ",
-    "PYXYP",
-    "PCECP",
+    " PPP ",
+    "PYBYP",
+    "PCGCP",
     " C C "
   ],
   "key": {
-    "E": {
-      "item": "create_sa:copper_jetpack_chestplate"
+    "B": {
+      "item": "create:copper_backtank"
+    },
+    "G": {
+      "item": "create:gearbox"
     },
     "C": {
       "item": "create:chute"
-    },
-    "X": {
-      "item": "create_sa:andesite_jetpack_chestplate"
-    },
-    "S": {
-      "item": "create_sa:brass_jetpack_chestplate"
     },
     "Y": {
       "item": "create:precision_mechanism"

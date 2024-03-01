@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
 	// Change recipes here
 
 	// array of items to remove
-	const REMOVED_ITEMS = ['angelring:leadstone_angel_ring','angelring:hardened_angel_ring','angelring:reinforced_angel_ring','angelring:resonant_angel_ring','angelring:energetic_angel_ring'];
+	const REMOVED_ITEMS = ['wormhole:coal_generator'];
 
 	// remove items in array
 	REMOVED_ITEMS.forEach(id => event.remove({ output: id }));
@@ -18,14 +18,14 @@ console.info("Remove reciped");
 ServerEvents.recipes(event => {
 
 	// Craft shaped end portal frame	
-	event.shaped('minecraft:end_portal_frame', [
-		'SSS',
-		'SES',
-		'SSS'
-	], {
-		S: 'minecraft:end_stone',
-		E: 'minecraft:ender_eye'
-	})
+	//event.shaped('minecraft:end_portal_frame', [
+	//	'SSS',
+	//	'SES',
+	//	'SSS'
+	//], {
+	//	S: 'minecraft:end_stone',
+	//	E: 'minecraft:ender_eye'
+	//})
 
 	// craft deepslate
 	event.shaped('4x minecraft:deepslate', [
@@ -115,32 +115,32 @@ BlockEvents.rightClicked("block.right_click", (event) => {
 
 
 // allow player to pick up an end portal frame
-BlockEvents.rightClicked("block.right_click", (event) => {
-	const { block, hand, item, world, player } = event;
-	if (hand.name() != "MAIN_HAND") return;
-
-	if (item == "create:wrench" && player.isCrouching()) {
-		if (block.equals("minecraft:end_portal_frame")) {
-			const hasEnderEye = block.properties.eye;
-			block.set("minecraft:air");
-			player.give("minecraft:end_portal_frame");
-			if (hasEnderEye == "true") {
-				player.give("minecraft:ender_eye");
-			}
-		}
-	}
-
-});
-
-// allow player to break an end portal
-BlockEvents.rightClicked("block.right_click", (event) => {
-	const { block, hand, item, world, player } = event;
-	if (hand.name() != "MAIN_HAND") return;
-
-	if (item == "create:wrench" && player.isCrouching()) {
-		if (block.equals("minecraft:end_portal")) {
-			block.set("minecraft:air");
-		}
-	}
-
-});
+//BlockEvents.rightClicked("block.right_click", (event) => {
+//	const { block, hand, item, world, player } = event;
+//	if (hand.name() != "MAIN_HAND") return;
+//
+//	if (item == "create:wrench" && player.isCrouching()) {
+//		if (block.equals("minecraft:end_portal_frame")) {
+//			const hasEnderEye = block.properties.eye;
+//			block.set("minecraft:air");
+//			player.give("minecraft:end_portal_frame");
+//			if (hasEnderEye == "true") {
+//				player.give("minecraft:ender_eye");
+//			}
+//		}
+//	}
+//
+//});
+//
+//// allow player to break an end portal
+//BlockEvents.rightClicked("block.right_click", (event) => {
+//	const { block, hand, item, world, player } = event;
+//	if (hand.name() != "MAIN_HAND") return;
+//
+//	if (item == "create:wrench" && player.isCrouching()) {
+//		if (block.equals("minecraft:end_portal")) {
+//			block.set("minecraft:air");
+//		}
+//	}
+//
+//});

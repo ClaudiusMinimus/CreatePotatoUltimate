@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"1": "createsifter:item/quartz_mesh",
-		"3": "createsifter:block/coal_block"
+		"3": "block/stripped_oak_log"
 	},
 	"elements": [
 		{

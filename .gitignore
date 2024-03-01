@@ -10,7 +10,6 @@ minecraft/.bobby/*
 minecraft/.fabric/*
 minecraft/.mixin.out/*
 minecraft/backup/*
-minecraft/config/*
 minecraft/coremods/*
 minecraft/craftpresence/*
 minecraft/crash-reports/*
@@ -22,10 +21,7 @@ minecraft/kubejs/exported/*
 minecraft/local/*
 minecraft/logs/*
 minecraft/moddata/*
-minecraft/mods/*
-minecraft/mods*/*
 minecraft/ModTranslations/*
-minecraft/resourcepacks/*
 minecraft/saves/*
 minecraft/schematics/*
 minecraft/screenshots/*
@@ -40,7 +36,6 @@ server/mods/*
 server/world/*
 
 # ignore these symbolic linked folders
-minecraft/resourcepacks
 server/kubejs
 server/patchouli_books
 

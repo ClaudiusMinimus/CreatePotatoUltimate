@@ -11,7 +11,7 @@
 		}
 	}
 	id: "000000000000003C"
-	order_index: 6
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -903,8 +903,8 @@
 				}
 			]
 			title: "Guardians of the Sea"
-			x: 0.0d
-			y: -5.5d
+			x: -1.5d
+			y: -10.0d
 		}
 		{
 			icon: "botania:gaia_head"
@@ -929,8 +929,8 @@
 			icon: "botania:gaia_head"
 			id: "35FD1CAE4062F72B"
 			rewards: [{
-				id: "1F3B2BC7CB57BF9B"
-				item: "refinedstorage:creative_controller"
+				id: "2EAF37489CB176E5"
+				item: "ae2wtlib:wireless_universal_terminal"
 				type: "item"
 			}]
 			tasks: [{
@@ -948,8 +948,9 @@
 			icon: "botania:gaia_head"
 			id: "790CC57B80727383"
 			rewards: [{
-				id: "03395CFF1418BD43"
-				item: "refinedstorageaddons:creative_wireless_crafting_grid"
+				count: 2
+				id: "5A5D25C8BB8830CE"
+				item: "ae2:quantum_entangled_singularity"
 				type: "item"
 			}]
 			tasks: [{

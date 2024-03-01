@@ -1,7 +1,7 @@
 name: Bug Report
 description: Create a bug report to help us improve Create on a Potato PC Ultimate
 labels: [ "type: bug" ]
-assignees: "claudiusminimus"
+assignees: "TheosCreation"
 body:
     -   type: textarea
         attributes:
