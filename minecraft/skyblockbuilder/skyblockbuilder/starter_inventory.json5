@@ -1,0 +1,21 @@
+{
+  "items": [
+    {
+      "Slot": "mainhand",
+      "Item": {
+        "id": "minecraft:wooden_pickaxe",
+        "count": 1,
+        "components": {
+          "minecraft:enchantments": {
+            "levels": {
+              "minecraft:efficiency": 2
+            }
+          },
+          "minecraft:unbreakable": {},
+          "minecraft:custom_name": "\"Infinite Pickaxe\""
+        }
+      }
+    }
+  ],
+  "curios_items": []
+}

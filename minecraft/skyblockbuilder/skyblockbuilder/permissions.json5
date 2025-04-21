@@ -1,0 +1,13 @@
+{
+  "permissions": [
+    "team_create",
+    "team_handle_invites",
+    "team_handle_join_requests",
+    "team_leave",
+    "edit_spawns",
+    "teleport_to_spawn",
+    "teleport_to_visiting_island",
+    "teleport_home",
+    "teleport_across_dimensions"
+  ]
+}
