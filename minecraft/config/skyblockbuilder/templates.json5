@@ -1,4 +1,9 @@
 {
+  // The default offset from 0, 0 to generate the islands
+  // Can be used to generate them in the middle of .mca files
+  // This applies on top of the "offset" defined in each template
+  "defaultOffset": 0,
+  
   // The template which will be used for spawn only
   // Example: 
   // {
@@ -6,54 +11,82 @@
   //     "desc": "",
   //     "file": "default.nbt",
   //     "spawns": "default",
-  //     "direction": "south",
-  //     "offset": [ 0, 0 ],
-  //     "offsetY": 0,
-  //     "surroundingMargin": 0,
+  //     "offset": [ 0, 0, 0 ],
   //     "surroundingBlocks": "default"
   // }
-  "spawn": null,
+  "mainSpawnIsland": null,
   
-  "spawns": {
-    "skyblock": [
-      [ 2, 11, 7 ]
-    ],
-    "stoneblock": [
-      [ 7, 1, 11 ]
-    ]
+  // A list of possible spawn points.
+  // You may also directly use these in the template config, or use a reference created here.
+  "spawnPointReferences": {
+    "Potato Island": {
+      "south": [],
+      "west": [
+        [ 2, 12, 8 ]
+      ],
+      "north": [],
+      "east": []
+    },
+    "Potato Cave": {
+      "south": [
+        [ 7, 2, 11 ]
+      ],
+      "west": [],
+      "north": [],
+      "east": []
+    }
   },
   
-  // A list of blocks which can be used to surround islands/caves.
-  "surroundingBlocks": {
+  // A list of file names for templates which should spread around an island
+  // You may also directly use these in the template config, or use a reference created here.
+  // Instead of "min" and "max" with same values, you could also just use a single array.
+  // "origin" defines from where the offset will be used. Possible values are "zero" and "center", where "center" is default.
+  // Example: 
+  // {
+  //     "file": "default.nbt",
+  //     "offset": {
+  //         "min": [ -6, 3, 5 ],
+  //         "max": [ 4, 10, 3 ]
+  //     },
+  //     "origin": "center"
+  // }
+  "spreadReferences": {
     "default": []
   },
   
-  // The list of templates being available. The first entry is the default template.
-  "templates": [
-    {
-      "name": "Potato Island",
-      "desc": "ClaudiusMinimus' own Potato Island - For use on SkyBlock",
-      "file": "potatoisland.snbt",
-      "spawns": "skyblock",
-      "direction": "west"
+  // A list of blocks which can be used to surround islands/caves.
+  // You may also directly use these in the template config, or use a reference created here.
+  "surroundingBlockReferences": {
+    "default": {
+      "margin": 1
     }
-    // This stoneblock template works, but should be in a separate instance from 
-    // any skyblock worlds. To use, you must 
-    // 1. open ./common-config.json5 and change line 225:
-    // 
-    // from 
-    // "surface": false, // This setting will break stoneblock worlds
-    // to  
-    // "surface": true, // This setting will break skyblock worlds
-    // 
-    // 2. Uncomment lines 50-57 below by removing the two slashes //
-    ,
+  },
+  
+  // The list of templates being available. The first entry is the default template.
+  "templateList": [
     {
-      "name": "Potato Stone Cave",
-      "desc": "Potato Stone Cave - For use on StoneBlock",
-      "file": "stoneblock.snbt",
-      "spawns": "stoneblock",
-      "direction": "south"
+      "name": "potato island",
+      "file": "potato island.snbt",
+      "spawns": {
+        "south": [],
+        "west": [
+          [ 2, 12, 8 ]
+        ],
+        "north": [],
+        "east": []
+      }
+    },
+    {
+      "name": "potato cave",
+      "file": "potato cave.snbt",
+      "spawns": {
+        "south": [
+          [ 7, 2, 11 ]
+        ],
+        "west": [],
+        "north": [],
+        "east": []
+      }
     }
   ]
 }

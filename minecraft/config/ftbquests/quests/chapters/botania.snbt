@@ -3,18 +3,11 @@
 	default_quest_shape: ""
 	filename: "botania"
 	group: ""
-	icon: "botania:lexicon"
 	id: "3DFD3C26419B7986"
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"You Lexica Botania is an invaluable wealth of information - use it often!"
-				""
-				"Holding the Ctrl key when hovering the cursor over an item with an entry while the book is in the hotbar will open the item's entry. Shift right-clicking with the Lexica on a block will open the relevant page, if one exists, otherwise it will attempt to open a relevant wiki page in the user's web browser."
-			]
-			icon: "botania:lexicon"
 			id: "678645C952FCF8CC"
 			rewards: [{
 				id: "640417B41565F33D"
@@ -23,57 +16,56 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Start Here"
 			tasks: [{
 				id: "6229FC0F3B6B7FEB"
 				type: "checkmark"
 			}]
-			title: "Starting Botania"
 			x: -8.0d
 			y: 12.5d
 		}
 		{
 			dependencies: ["4868A27F76C700DC"]
-			description: ["For your first flowers, you need the following Mystical Flowers: White, Red, Brown, and Light Grey."]
 			id: "5AE38D7F1ACE1065"
 			rewards: [{
 				count: 4
 				id: "503DFE79BD3EBECC"
-				item: "botania:fertilizer"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:fertilizer"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 8L
 				id: "2F804A4ECC3A2C43"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "botania:mystical_flowers"
-					}
-				}
-				title: "Any Botania Mystical Flowers"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			title: "Any Botania Mystical Flowers"
 			x: -4.5d
 			y: 12.5d
 		}
 		{
 			dependencies: ["678645C952FCF8CC"]
-			description: ["Floral Fertilizer is used to spawn Botania mystical flowers."]
 			id: "4868A27F76C700DC"
 			rewards: [{
 				count: 4
 				id: "4BC2DF069D6B9A21"
-				item: "botania:fertilizer"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:fertilizer"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
-			subtitle: "Use Living Root Sparingly!"
 			tasks: [{
 				count: 4L
 				id: "75DF81BBE5C1C966"
-				item: "botania:fertilizer"
+				item: { components: { "ftbquests:missing_item": "botania:fertilizer" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -81,16 +73,21 @@
 		}
 		{
 			dependencies: ["78FEF9A7E20E7C06"]
-			description: ["The Pure Daisy is used to make Livingwood and Livingrock. You will make the Pure Daisy in your Petal Apothecary. Do not forget to use a Wood Bowl to fill your Apothecary!"]
 			id: "55468A5FB8BA4A1F"
 			rewards: [{
 				id: "7D781F7BA9F92F83"
-				item: "botania:pure_daisy"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:pure_daisy"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7D62D84218A87462"
-				item: "botania:pure_daisy"
+				item: { components: { "ftbquests:missing_item": "botania:pure_daisy" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -1.5d
@@ -98,28 +95,30 @@
 		}
 		{
 			dependencies: ["5AE38D7F1ACE1065"]
-			description: [
-				"The Petal Apothecary is one of the main ways of creating items/flowers for Botania. It requires water, then the petals/items for the recipe, and most recipes are completed when you drop a wheat seed into the Apothecary."
-				""
-			]
 			id: "78FEF9A7E20E7C06"
 			rewards: [
 				{
 					count: 8
 					id: "08773E400E876C5D"
-					item: "farmersdelight:stuffed_pumpkin_block"
+					item: {
+						count: 1
+						id: "farmersdelight:stuffed_pumpkin_block"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "079B81FC968546F6"
-					item: "minecraft:bowl"
+					item: {
+						count: 1
+						id: "minecraft:bowl"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "69460C0E7671938B"
-				item: "botania:apothecary_default"
+				item: { components: { "ftbquests:missing_item": "botania:apothecary_default" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -127,18 +126,23 @@
 		}
 		{
 			dependencies: ["55468A5FB8BA4A1F"]
-			description: ["Important crafting ingredient for many recipes."]
 			id: "542DD76032B66B50"
 			rewards: [{
 				count: 16
 				id: "15340382B523FCE6"
-				item: "botania:livingwood"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:livingwood"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 16L
 				id: "60223C44756C56A7"
-				item: "botania:livingwood_log"
+				item: { components: { "ftbquests:missing_item": "botania:livingwood_log" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -1.5d
@@ -146,18 +150,23 @@
 		}
 		{
 			dependencies: ["55468A5FB8BA4A1F"]
-			description: ["Important crafting ingredient for many recipes."]
 			id: "754F5D734147F8BA"
 			rewards: [{
 				count: 16
 				id: "50AEF9D866B8C370"
-				item: "botania:livingrock"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:livingrock"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 16L
 				id: "31DF1E159C3C5D80"
-				item: "botania:livingrock"
+				item: { components: { "ftbquests:missing_item": "botania:livingrock" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -165,16 +174,21 @@
 		}
 		{
 			dependencies: ["542DD76032B66B50"]
-			description: ["The Mana Spreader is the single most important tool a botanist needs to manipulate Mana."]
 			id: "60760C5B4FB95DEA"
 			rewards: [{
 				id: "1EE6F67CFF83677E"
-				item: "botania:mana_spreader"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:mana_spreader"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "54D1339C33C0E984"
-				item: "botania:mana_spreader"
+				item: { components: { "ftbquests:missing_item": "botania:mana_spreader" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -1.5d
@@ -182,16 +196,21 @@
 		}
 		{
 			dependencies: ["754F5D734147F8BA"]
-			description: ["Used for storing mana."]
 			id: "2D9DC78C66027DF2"
 			rewards: [{
 				id: "0B06029C6295F6E4"
-				item: "botania:mana_pool"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:mana_pool"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "62B971105574EE6F"
-				item: "botania:mana_pool"
+				item: { components: { "ftbquests:missing_item": "botania:mana_pool" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -199,22 +218,21 @@
 		}
 		{
 			dependencies: ["2D9DC78C66027DF2"]
-			description: [
-				"This crafting station can be used to create each of the 16 Runes. When it is placed, 2 cubes can be seen swirling around above it."
-				""
-				"To use the Altar first add the items needed by Right-clicking it with each item or dropping each item on top. If the recipe is correct, the infusion will start automatically as soon as all ingredients are added and draw from a Mana Spreader to start creating the item desired. When the infusion begins there will be a thunderclap and a pie chart-shaped progress bar will appear (only visible when holding the Wand of the Forest). Once enough Mana has been drawn in, blue lightning will start arcing. At this point, throw a Livingrock onto the Altar and use the Wand on the Altar to finish the transmutation."
-				""
-				""
-			]
 			id: "0027048889049815"
 			rewards: [{
 				id: "1623F6FAC4F68BEC"
-				item: "botania:overgrowth_seed"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:overgrowth_seed"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "360F923B08F14B43"
-				item: "botania:runic_altar"
+				item: { components: { "ftbquests:missing_item": "botania:runic_altar" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -222,17 +240,19 @@
 		}
 		{
 			dependencies: ["78FEF9A7E20E7C06"]
-			description: [" The Orechid uses Mana to synthesize ores from nearby Stone blocks. The ores it generates are random, but rarer ores seem to be created less often."]
 			id: "1EACB6765A8C7988"
 			rewards: [{
 				count: 32
 				id: "17DD66C15A68A42F"
-				item: "minecraft:stone"
+				item: {
+					count: 1
+					id: "minecraft:stone"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "11F49929C3E1FC8B"
-				item: "botania:orechid"
+				item: { components: { "ftbquests:missing_item": "botania:orechid" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -240,16 +260,21 @@
 		}
 		{
 			dependencies: ["0059F4044C719D7D"]
-			description: [" Right-click with this rod will place Water for some mana cost."]
 			id: "7000D800442BDB20"
 			rewards: [{
 				id: "2D6294602EF56440"
-				item: "botania:open_bucket"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:open_bucket"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "158A7BBA4DD68B06"
-				item: "botania:water_rod"
+				item: { components: { "ftbquests:missing_item": "botania:water_rod" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -257,27 +282,22 @@
 		}
 		{
 			dependencies: ["754F5D734147F8BA"]
-			description: ["The Mana Tablet is a portable item that can carry Mana within itself."]
 			id: "168B204949452C03"
 			rewards: [{
 				id: "55E3B134D15AC5D1"
 				item: {
-					Count: 1b
-					id: "botania:mana_tablet"
-					tag: {
-						mana: 500000
+					components: {
+						"ftbquests:missing_item": "botania:mana_tablet"
 					}
+					count: 1
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: false
 				id: "130E0AF36EDB2466"
-				item: {
-					Count: 1b
-					id: "botania:mana_tablet"
-					tag: { }
-				}
+				item: { components: { "ftbquests:missing_item": "botania:mana_tablet" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -285,17 +305,19 @@
 		}
 		{
 			dependencies: ["0027048889049815"]
-			description: ["Rune of Water is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "0059F4044C719D7D"
 			rewards: [{
 				id: "02C7AB0156A2E058"
-				item: "minecraft:pufferfish_bucket"
+				item: {
+					count: 1
+					id: "minecraft:pufferfish_bucket"
+				}
 				only_one: true
 				type: "item"
 			}]
 			tasks: [{
 				id: "17D0E0C6E1EFFB2A"
-				item: "botania:rune_water"
+				item: { components: { "ftbquests:missing_item": "botania:rune_water" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -303,17 +325,19 @@
 		}
 		{
 			dependencies: ["6D698E9864D3C153"]
-			description: ["Right-click with this rod will place Dirt for some mana cost."]
 			id: "2AC4427434E9FBCB"
 			rewards: [{
 				count: 32
 				id: "451B9CB67EEFD338"
-				item: "minecraft:grass_block"
+				item: {
+					count: 1
+					id: "minecraft:grass_block"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "642F203B1E817A2D"
-				item: "botania:dirt_rod"
+				item: { components: { "ftbquests:missing_item": "botania:dirt_rod" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -321,16 +345,18 @@
 		}
 		{
 			dependencies: ["0027048889049815"]
-			description: ["Rune of Earth is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "6D698E9864D3C153"
 			rewards: [{
 				id: "2EC2514C87BCA9E6"
-				item: "create:pulse_repeater"
+				item: {
+					count: 1
+					id: "create:pulse_repeater"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "366C2FCC8A9E42B3"
-				item: "botania:rune_earth"
+				item: { components: { "ftbquests:missing_item": "botania:rune_earth" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -338,16 +364,18 @@
 		}
 		{
 			dependencies: ["60760C5B4FB95DEA"]
-			description: ["Sometimes complex devices like Droppers or Dispensers can't offer enough precision or speed. A simple solution: Make a crate, then punch a hole in its bottom. Yeah, it's that easy. The Open Crate accepts each item from a Hopper or other item outputter, and drops the item directly below it."]
 			id: "4C1249721C8EBFBB"
 			rewards: [{
 				id: "178FFDF36A35D3B1"
-				item: "minecraft:hopper"
+				item: {
+					count: 1
+					id: "minecraft:hopper"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "4AC859C018BFBC16"
-				item: "botania:open_crate"
+				item: { components: { "ftbquests:missing_item": "botania:open_crate" }, count: 1, id: "ftbquests:missing_item" }
 				only_from_crafting: false
 				type: "item"
 			}]
@@ -356,16 +384,21 @@
 		}
 		{
 			dependencies: ["2D9DC78C66027DF2"]
-			description: ["Mana received from Mana Bursts will be split evenly into Mana Pools placed on adjacent sides."]
 			id: "11E7D116CDEC9D03"
 			rewards: [{
 				id: "54E22725F529476B"
-				item: "botania:fabulous_pool"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:fabulous_pool"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "65D7BD840229C6E7"
-				item: "botania:mana_distributor"
+				item: { components: { "ftbquests:missing_item": "botania:mana_distributor" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -373,12 +406,10 @@
 		}
 		{
 			dependencies: ["03B2EDF78A084226"]
-			description: ["Starting a tree farm may be a good idea since you will need lots of fuel to keep your Endoflames going. Think Create!"]
 			id: "71476487357E662F"
 			shape: "gear"
 			tasks: [{
 				id: "1DCA88F73FDBB2C2"
-				title: "Start a Tree Farm"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -386,18 +417,23 @@
 		}
 		{
 			dependencies: ["5AE38D7F1ACE1065"]
-			description: ["The Endoflame is a very rudimentary generating flower; it'll absorb any combustible items or blocks dropped on the nearby vicinity, one at a time, and burn through them to generate Mana."]
 			id: "03B2EDF78A084226"
 			rewards: [{
 				count: 2
 				id: "21D1BDBC64C895D3"
-				item: "botania:endoflame"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:endoflame"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 2L
 				id: "7A558014AE36C7A3"
-				item: "botania:endoflame"
+				item: { components: { "ftbquests:missing_item": "botania:endoflame" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -4.5d
@@ -405,16 +441,21 @@
 		}
 		{
 			dependencies: ["2D9DC78C66027DF2"]
-			description: ["Manasteel, like other metals, can be shaped into tools and armor alike.Tools or armor crafted from this material will share most of their qualities with Iron, albeit with superior enchantability and durability. Additionally, all Manasteel items can heal their durabilities with Mana from their user's inventory (e.g. in a Mana Tablet)."]
 			id: "4EBF5AB892CDCB14"
 			rewards: [{
 				id: "60971AAD50350AC7"
-				item: "botania:blacker_lotus"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:blacker_lotus"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "4D42BA16910114E1"
-				item: "botania:manasteel_ingot"
+				item: { components: { "ftbquests:missing_item": "botania:manasteel_ingot" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -422,23 +463,19 @@
 		}
 		{
 			dependencies: ["4EBF5AB892CDCB14"]
-			description: ["Some Manasteel tools perform special actions when right-clicked: the Pickaxe will place a torch from the user's inventory, and the Axe will do the same with a sapling.Do note that Shears made of mana-based materials will trigger tripwires, unlike iron ones."]
 			id: "79F82A7D2D7D1280"
 			rewards: [{
 				count: 8
 				id: "71D9562CE35FE676"
-				item: "farmersdelight:bacon_sandwich"
+				item: {
+					count: 1
+					id: "farmersdelight:bacon_sandwich"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "2CA9CC07CA95D6E4"
-				item: {
-					Count: 1b
-					id: "botania:manasteel_pick"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "botania:manasteel_pick" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.5d
@@ -446,17 +483,19 @@
 		}
 		{
 			dependencies: ["754F5D734147F8BA"]
-			description: ["When the Alchemy Catalyst is placed under a Mana Pool the Mana Pool will output different recipes. Check REI for what the Alchemy Catalyst can do."]
 			id: "0A865D877C969C7B"
 			rewards: [{
 				count: 32
 				id: "29A83DEA30E50888"
-				item: "minecraft:quartz"
+				item: {
+					count: 1
+					id: "minecraft:quartz"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "253193C40E67D396"
-				item: "botania:alchemy_catalyst"
+				item: { components: { "ftbquests:missing_item": "botania:alchemy_catalyst" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -464,20 +503,21 @@
 		}
 		{
 			dependencies: ["4EBF5AB892CDCB14"]
-			description: ["When equipped in the Curios Amulet slot, it shows nearby Mana bursts (even those out of the line of sight) and the functional radii of flowers to the player. "]
 			id: "21FE58A9CB80B99B"
 			rewards: [{
 				id: "409A7C2BB7D9634F"
-				item: "botania:manasteel_ingot"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:manasteel_ingot"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "4D235D7907805211"
-				item: {
-					Count: 1b
-					id: "botania:monocle"
-					tag: { }
-				}
+				item: { components: { "ftbquests:missing_item": "botania:monocle" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -485,26 +525,18 @@
 		}
 		{
 			dependencies: ["4EBF5AB892CDCB14"]
-			description: ["The Mana Lens by itself does nothing, but is used as the base for other lens."]
 			id: "586D540A5DE160AB"
 			rewards: [{
 				id: "07BDC055C530849F"
 				item: {
-					Count: 1b
+					count: 1
 					id: "farmersdelight:skillet"
-					tag: {
-						Damage: 0
-					}
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7CBE4E9E4EC1E74A"
-				item: {
-					Count: 1b
-					id: "botania:lens_normal"
-					tag: { }
-				}
+				item: { components: { "ftbquests:missing_item": "botania:lens_normal" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -512,20 +544,18 @@
 		}
 		{
 			dependencies: ["586D540A5DE160AB"]
-			description: ["The Weight Lens places a strong downward force within a Mana Burst, making any block hit by it (as long as it has space below) fall like Sand and Gravel do."]
 			id: "305D8F543C830B44"
 			rewards: [{
 				id: "3B602ECA28819339"
-				item: "minecraft:jungle_sapling"
+				item: {
+					count: 1
+					id: "minecraft:jungle_sapling"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "21398F10D069890F"
-				item: {
-					Count: 1b
-					id: "botania:lens_weight"
-					tag: { }
-				}
+				item: { components: { "ftbquests:missing_item": "botania:lens_weight" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -533,16 +563,21 @@
 		}
 		{
 			dependencies: ["0027048889049815"]
-			description: ["Rune of Air is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "721AD3481887982A"
 			rewards: [{
 				id: "4EA30344B5C6C79E"
-				item: "botania:white_floating_flower"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:white_floating_flower"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3F379575A6F57427"
-				item: "botania:rune_air"
+				item: { components: { "ftbquests:missing_item": "botania:rune_air" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -550,20 +585,21 @@
 		}
 		{
 			dependencies: ["721AD3481887982A"]
-			description: [
-				"A functional flower that takes item sprites dropped in the world around it and places them in an adjacent inventory. It does not require mana to do this, but supplying mana will increase the range of the flower."
-				""
-				"A delay before the pick-up can be created by placing it on podzol (short delay) or mycelium (long delay). It can be made to filter which items it picks up by applying an item frame to the adjacent inventory, shift-right clicking with the Wand of the Forest allows the player to cycle through modes for interaction with the item frame. All items can go into an inventory with no item frame attached, but inventories with item frames are given priority. It can be disabled at will by applying a redstone signal."
-			]
 			id: "714B4429C2E1CF25"
 			rewards: [{
 				id: "644900A46B1A3FC3"
-				item: "botania:mana_pearl"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:mana_pearl"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "60C035FC00F26A45"
-				item: "botania:hopperhock"
+				item: { components: { "ftbquests:missing_item": "botania:hopperhock" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -571,16 +607,18 @@
 		}
 		{
 			dependencies: ["0027048889049815"]
-			description: ["Rune of Fire is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "74CD206E24B85187"
 			rewards: [{
 				id: "2EE98889B47245D6"
-				item: "minecraft:ghast_tear"
+				item: {
+					count: 1
+					id: "minecraft:ghast_tear"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "54ABD30AFC694209"
-				item: "botania:rune_fire"
+				item: { components: { "ftbquests:missing_item": "botania:rune_fire" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -588,16 +626,21 @@
 		}
 		{
 			dependencies: ["74CD206E24B85187"]
-			description: ["When supplied with Mana by a Mana Pool within a 10 block radius, it will quickly grow mystical flowers in a 9x9 space around it on grass and dirt blocks."]
 			id: "2C9103778A885567"
 			rewards: [{
 				id: "11711FA89504036C"
-				item: "botania:yellow_floating_flower"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:yellow_floating_flower"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "27BB2537D3FD1454"
-				item: "botania:jaded_amaranthus"
+				item: { components: { "ftbquests:missing_item": "botania:jaded_amaranthus" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -605,51 +648,41 @@
 		}
 		{
 			dependencies: ["542DD76032B66B50"]
-			description: [
-				"A botanist's most important tool for manipulating flowers is the Wand of the Forest. This wand, crafted from a pair of Mystical Petals strapped to a few Livingwood Twigs, is a must-have for a huge number of botanical tasks."
-				""
-				"The wand has two modes, Bind Mode and Function Mode. In Bind Mode, sneak-right click it on a compatible block to select it, then sneak-right click elsewhere to bind the two blocks. In Function Mode it simply doesn't perform this function, freeing the sneak-right click action up for other tasks. The two modes can be switched between by sneak-right clicking the wand in the air."
-				""
-				"Sneak-right clicking a block in Function Mode rotates the block around the axis of the side it was clicked on-- for example, using the wand on the top of a Chest will change the direction it faces. Most blocks with orientations can be reoriented this way."
-			]
 			id: "077E7E557DCB9576"
 			rewards: [{
 				count: 8
 				id: "4587E0D0A2129D73"
-				item: "minecraft:dark_oak_sapling"
+				item: {
+					count: 1
+					id: "minecraft:dark_oak_sapling"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3A15F801CF6E4DF6"
-				item: {
-					Count: 1b
-					id: "botania:twig_wand"
-					tag: {
-						boundTileX: 0
-						boundTileY: -1
-						boundTileZ: 0
-						color1: 15
-						color2: 1
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "botania:twig_wand" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			title: "Wand of the Forest"
 			x: -3.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["0027048889049815"]
-			description: ["Rune of Spring is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "6181C8F6420EB67C"
 			rewards: [{
 				id: "79E2412B8666C828"
-				item: "botania:manasteel_ingot"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:manasteel_ingot"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "04A29D3A7A8074DA"
-				item: "botania:rune_spring"
+				item: { components: { "ftbquests:missing_item": "botania:rune_spring" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -657,22 +690,21 @@
 		}
 		{
 			dependencies: ["0027048889049815"]
-			description: ["Rune of Autumn is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "1D37B87AC7F4C995"
 			rewards: [{
 				id: "13CA6F5081CC9793"
 				item: {
-					Count: 1b
-					id: "botania:manasteel_shears"
-					tag: {
-						Damage: 0
+					components: {
+						"ftbquests:missing_item": "botania:manasteel_shears"
 					}
+					count: 1
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "4EE06478A0F1193D"
-				item: "botania:rune_autumn"
+				item: { components: { "ftbquests:missing_item": "botania:rune_autumn" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -680,17 +712,22 @@
 		}
 		{
 			dependencies: ["0027048889049815"]
-			description: ["Rune of Summer is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "357FC93850CE6424"
 			rewards: [{
 				count: 4
 				id: "0E56B8ED96E6942E"
-				item: "botania:grass_seeds"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:grass_seeds"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7B3E894792BFDC3D"
-				item: "botania:rune_summer"
+				item: { components: { "ftbquests:missing_item": "botania:rune_summer" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -698,17 +735,19 @@
 		}
 		{
 			dependencies: ["0027048889049815"]
-			description: ["Rune of Winter is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "4EBDC9C39E00EE26"
 			rewards: [{
 				count: 16
 				id: "0BE824A783E78468"
-				item: "minecraft:blue_ice"
+				item: {
+					count: 1
+					id: "minecraft:blue_ice"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7B787B21E02E9C1E"
-				item: "botania:rune_winter"
+				item: { components: { "ftbquests:missing_item": "botania:rune_winter" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -716,16 +755,18 @@
 		}
 		{
 			dependencies: ["0027048889049815"]
-			description: ["Rune of Lust is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "22119C9F2244D41E"
 			rewards: [{
 				id: "61F1518229BCABE4"
-				item: "minecraft:diamond"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "4F96C3F594371EB3"
-				item: "botania:rune_lust"
+				item: { components: { "ftbquests:missing_item": "botania:rune_lust" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -733,23 +774,22 @@
 		}
 		{
 			dependencies: ["0027048889049815"]
-			description: ["Rune of Gluttony is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "25E2B295763EE9C0"
 			rewards: [{
 				count: 4
 				id: "0C3793E189DFE51E"
 				item: {
-					Count: 1b
-					id: "botania:brew_vial"
-					tag: {
-						brewKey: "botania:absorption"
+					components: {
+						"ftbquests:missing_item": "botania:brew_vial"
 					}
+					count: 1
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3EE876FCD2D3E8DB"
-				item: "botania:rune_gluttony"
+				item: { components: { "ftbquests:missing_item": "botania:rune_gluttony" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -757,17 +797,19 @@
 		}
 		{
 			dependencies: ["0027048889049815"]
-			description: ["Rune of Greed is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "329580579F9DC034"
 			rewards: [{
 				count: 32
 				id: "1E01EC01F8A6628E"
-				item: "minecraft:gold_nugget"
+				item: {
+					count: 1
+					id: "minecraft:gold_nugget"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "1B86CE745639B2BB"
-				item: "botania:rune_greed"
+				item: { components: { "ftbquests:missing_item": "botania:rune_greed" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -775,17 +817,19 @@
 		}
 		{
 			dependencies: ["0027048889049815"]
-			description: ["Rune of Sloth is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "2CB6399BF755E30C"
 			rewards: [{
 				count: 16
 				id: "7891EF6AFD5413AF"
-				item: "minecraft:soul_sand"
+				item: {
+					count: 1
+					id: "minecraft:soul_sand"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "72E3E72FD88C27CD"
-				item: "botania:rune_sloth"
+				item: { components: { "ftbquests:missing_item": "botania:rune_sloth" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -793,22 +837,18 @@
 		}
 		{
 			dependencies: ["0027048889049815"]
-			description: ["Rune of Wrath is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "4C1D7E27D15961A5"
 			rewards: [{
 				id: "7762409FF16928E2"
 				item: {
-					Count: 1b
+					count: 1
 					id: "minecraft:splash_potion"
-					tag: {
-						Potion: "minecraft:long_slow_falling"
-					}
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0E5E2084A1017DA4"
-				item: "botania:rune_wrath"
+				item: { components: { "ftbquests:missing_item": "botania:rune_wrath" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -1.5d
@@ -816,16 +856,21 @@
 		}
 		{
 			dependencies: ["0027048889049815"]
-			description: ["Rune of Envy is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "1F90341E0DE3FF66"
 			rewards: [{
 				id: "64F8A399BFE57A57"
-				item: "botania:mana_diamond"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:mana_diamond"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "2A7CDC0B5DBA3263"
-				item: "botania:rune_envy"
+				item: { components: { "ftbquests:missing_item": "botania:rune_envy" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -833,16 +878,18 @@
 		}
 		{
 			dependencies: ["0027048889049815"]
-			description: ["Rune of Pride is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 			id: "477EDACF18125B64"
 			rewards: [{
 				id: "711356EA4892BD42"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "412D0A5AAD4E418D"
-				item: "botania:rune_pride"
+				item: { components: { "ftbquests:missing_item": "botania:rune_pride" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -850,22 +897,18 @@
 		}
 		{
 			dependencies: ["4EBF5AB892CDCB14"]
-			description: [
-				"Lugging around a Crafting Table is a generally troublesome task. The Assembly Halo, thus, is a portable Crafting Table, as well as a quick-start crafting option. Holding the item displays a \"halo\" of recipe slots around the holder, and right-clicking the displayed Crafting Table will open a crafting interface."
-				""
-				"As long as the item is kept in-inventory, it'll remember its last recipe."
-				""
-				"As long as the item is kept in-inventory, it'll remember its last recipe.Right-clicking an empty slot of the halo will save the last-used recipe to that slot, and right-clicking a slot with a recipe saved will attempt to craft it from available items. Sneak-punching a saved recipe will delete it."
-			]
 			id: "36EDEBAB81D05AC6"
 			rewards: [{
 				id: "1059C2028691838A"
-				item: "minecraft:ender_pearl"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "34BDC840FF63D290"
-				item: "botania:crafting_halo"
+				item: { components: { "ftbquests:missing_item": "botania:crafting_halo" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -873,22 +916,18 @@
 		}
 		{
 			dependencies: ["36EDEBAB81D05AC6"]
-			description: [
-				"The Manufactory Halo is an upgrade of the Assembly Halo: aside from doing all that the Assembly Halo can do, the Manufactory Halo will (when not held) automatically craft all possible saved recipes."
-				""
-				"Automatic compression of ores while mining is just one of many applications this upgrade has."
-				""
-				"There is one aspect to be aware of: If there is a saved recipe and you acquire missing ingredients for the recipe, then it will be crafted whether you want it or not. I only put this in my inventory when I expressly want to auto-craft otherwise I use the Assembly Halo."
-			]
 			id: "0FD4CDCFF7C99324"
 			rewards: [{
 				id: "338C0750DF2AC2E1"
-				item: "minecraft:ghast_tear"
+				item: {
+					count: 1
+					id: "minecraft:ghast_tear"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "194B4FD62B4FD263"
-				item: "botania:auto_crafting_halo"
+				item: { components: { "ftbquests:missing_item": "botania:auto_crafting_halo" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -896,20 +935,21 @@
 		}
 		{
 			dependencies: ["0027048889049815"]
-			description: ["Rune of Mana is an item added by the Botania mod. One of 16 Runes, this is an important component in creating complex magical devices."]
 			id: "791E12B68D088464"
 			rewards: [{
 				id: "4C6C803B55C4D9B7"
 				item: {
-					Count: 1b
-					id: "botania:mana_bottle"
-					tag: { }
+					components: {
+						"ftbquests:missing_item": "botania:mana_bottle"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "2208EB9A92FA5EBF"
-				item: "botania:rune_mana"
+				item: { components: { "ftbquests:missing_item": "botania:rune_mana" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -4.5d
@@ -917,18 +957,20 @@
 		}
 		{
 			dependencies: ["79D64612AE5E8351"]
-			description: ["Armor, tools, and weapons made out of Terrasteel, much like its Manasteel-based counterpart, can use Mana from the inventory to heal damage.However, its durabilities are comparable more to Diamond armor than to Iron."]
 			id: "68F57454D085D85A"
 			rewards: [{
 				count: 4
 				id: "3370C307E2D153AB"
-				item: "minecraft:ender_pearl"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 8L
 				id: "1B966640B6A601FD"
-				item: "botania:terrasteel_ingot"
+				item: { components: { "ftbquests:missing_item": "botania:terrasteel_ingot" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 7.5d
@@ -936,17 +978,22 @@
 		}
 		{
 			dependencies: ["4EBF5AB892CDCB14"]
-			description: ["Terrasteel is a complex and useful magical alloy, infused with ridiculous amounts of Mana. Synthesizing it proves to be no small task. For starters, its creation requires a Terrestrial Agglomeration Plate placed over a checkerboard pattern of Lapis Lazuli Blocks and Livingrock (or Shimmerrock). This block then needs to be provided with Mana, with Sparks being the most efficient mode of transfer."]
 			id: "79D64612AE5E8351"
 			rewards: [{
 				count: 4
 				id: "7C6D183F6A16EAC3"
-				item: "botania:blacker_lotus"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:blacker_lotus"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "120E3AA28E1BA16B"
-				item: "botania:terra_plate"
+				item: { components: { "ftbquests:missing_item": "botania:terra_plate" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -954,21 +1001,19 @@
 		}
 		{
 			dependencies: ["168B204949452C03"]
-			description: ["When worn, it is able to store Mana like the Mana Tablet. "]
 			id: "2B13CF9D2DB9872C"
 			rewards: [{
 				count: 8
 				id: "273E887918EC925E"
-				item: "farmersdelight:roast_chicken"
+				item: {
+					count: 1
+					id: "farmersdelight:roast_chicken"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "232E67875E801C03"
-				item: {
-					Count: 1b
-					id: "botania:mana_ring"
-					tag: { }
-				}
+				item: { components: { "ftbquests:missing_item": "botania:mana_ring" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -976,26 +1021,18 @@
 		}
 		{
 			dependencies: ["68F57454D085D85A"]
-			description: ["The Band of Aura is a variant Band of Mana; instead of storing Mana, it generates a slow trickle of it (when equipped) and stores it in Mana-containing items in its wearer's inventory.Plating it with an ingot of Terrasteel upgrades it to generate Mana at a significantly faster rate."]
 			id: "4B124A350DE8DA02"
 			rewards: [{
 				id: "25AB59BFD9C03A61"
 				item: {
-					Count: 1b
+					count: 1
 					id: "powder_power:hammer_alchemist"
-					tag: {
-						Damage: 0
-					}
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7AE19D8B9F871E97"
-				item: {
-					Count: 1b
-					id: "botania:mana_ring_greater"
-					tag: { }
-				}
+				item: { components: { "ftbquests:missing_item": "botania:mana_ring_greater" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 7.5d
@@ -1003,21 +1040,19 @@
 		}
 		{
 			dependencies: ["791E12B68D088464"]
-			description: ["When worn, it slowly generates Mana and stores it in a Mana Tablet in the player's inventory. It can be upgraded into the Greater Band of Aura, which generates Mana significantly faster."]
 			id: "3E218EE721C60CC2"
 			rewards: [{
 				count: 8
 				id: "08B07030A39042C4"
-				item: "farmersdelight:hamburger"
+				item: {
+					count: 1
+					id: "farmersdelight:hamburger"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "1148BFD2B3F385E1"
-				item: {
-					Count: 1b
-					id: "botania:aura_ring"
-					tag: { }
-				}
+				item: { components: { "ftbquests:missing_item": "botania:aura_ring" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -4.5d
@@ -1028,12 +1063,18 @@
 			id: "009EE7310AA40B79"
 			rewards: [{
 				id: "54F04531E74F913D"
-				item: "botania:mana_pylon"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:mana_pylon"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "2054755BF64CD852"
-				item: "botania:mana_pylon"
+				item: { components: { "ftbquests:missing_item": "botania:mana_pylon" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -1041,16 +1082,21 @@
 		}
 		{
 			dependencies: ["68F57454D085D85A"]
-			description: ["The Natura Pylons are used to make the Portal to Alfheim multiblock portal structure."]
 			id: "50F8CBBF03B6EB31"
 			rewards: [{
 				id: "1AAA99B41E3BC750"
-				item: "botania:natura_pylon"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:natura_pylon"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7B7C546B57EFC67A"
-				item: "botania:natura_pylon"
+				item: { components: { "ftbquests:missing_item": "botania:natura_pylon" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 7.5d
@@ -1058,17 +1104,19 @@
 		}
 		{
 			dependencies: ["68F57454D085D85A"]
-			description: ["The Elven Gateway Core is a part of a multiblock and is used to make the Portal to Alfheim multiblock portal structure."]
 			id: "4E8B7068FF27B4E5"
 			rewards: [{
 				count: 8
 				id: "466CC6B918F42935"
-				item: "torchmaster:feral_flare_lantern"
+				item: {
+					count: 1
+					id: "torchmaster:feral_flare_lantern"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7772874A620FF425"
-				item: "botania:alfheim_portal"
+				item: { components: { "ftbquests:missing_item": "botania:alfheim_portal" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -1079,28 +1127,19 @@
 				"50F8CBBF03B6EB31"
 				"4E8B7068FF27B4E5"
 			]
-			description: [
-				"The Lexica Botania does not initially contain all of its information when it is first collected or crafted:"
-				""
-				"- Elven Knowledge is added to the book after throwing it into the Portal to Alfheim. These entries have green titles."
-				"- Relic Knowledge is added to the book when the player opens it when holding a relic in their inventory. The book must contain Elven Knowledge already. These entries have golden names, and all of them can be found in the Alfhomancy section."
-			]
 			id: "7B7C9A49B9F69991"
 			rewards: [{
 				count: 8
 				id: "4BD69C28B59E227B"
-				item: "farmersdelight:dumplings"
+				item: {
+					count: 1
+					id: "farmersdelight:dumplings"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7651F196BDCE2FA1"
-				item: {
-					Count: 1b
-					id: "botania:lexicon"
-					tag: {
-						"botania:elven_unlock": 1b
-					}
-				}
+				item: { components: { "ftbquests:missing_item": "botania:lexicon" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 9.0d
@@ -1108,24 +1147,21 @@
 		}
 		{
 			dependencies: ["4EBF5AB892CDCB14"]
-			description: [
-				"When worn in the Trinkets Ring slot, any items in a 13x13 area around the player will be pulled towards them if they are not sneaking. Up to 200 items can be pulled at once."
-				""
-				"Items dropped by a player wearing this ring will not be pulled towards them for 5 seconds after dropping."
-			]
 			id: "0A6EF87E6DCD6D94"
 			rewards: [{
 				id: "0EC1AD36ADBE905A"
-				item: "botania:solegnolia"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:solegnolia"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "5823A8B3C3A983D8"
-				item: {
-					Count: 1b
-					id: "botania:magnet_ring"
-					tag: { }
-				}
+				item: { components: { "ftbquests:missing_item": "botania:magnet_ring" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -1133,17 +1169,15 @@
 		}
 		{
 			dependencies: ["009EE7310AA40B79"]
-			description: ["Enchanting with Mana is a powerful way to enchant items without consuming the enchantment books. To learn in-depth instruction open your Lexica Botania and search on: Enchanting with Mana"]
-			icon: "botania:enchanter"
 			id: "6F152976BC2A0517"
 			rewards: [{
 				id: "2F15B4C8A7BD7AEA"
 				item: {
-					Count: 1b
-					id: "botania:mana_tablet"
-					tag: {
-						mana: 500000
+					components: {
+						"ftbquests:missing_item": "botania:mana_tablet"
 					}
+					count: 1
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
@@ -1156,17 +1190,19 @@
 		}
 		{
 			dependencies: ["009EE7310AA40B79"]
-			description: ["The Ritual of Gaia is a trial often undertaken by elves. It yields Gaia Spirits, which are coveted as fragments of the power of the Goddess of Gaia herself.This ritual requires an Active Beacon with Gaia Pylons surrounding it (functioning as an altar), as well as a single Terrasteel Ingot (as a sacrifice)."]
 			id: "0E9F95234AB4F307"
 			rewards: [{
 				id: "70E8D38A4109CB6E"
-				item: "minecraft:emerald_block"
+				item: {
+					count: 1
+					id: "minecraft:emerald_block"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 4L
 				id: "6DE1740BCEC57AD6"
-				item: "botania:gaia_pylon"
+				item: { components: { "ftbquests:missing_item": "botania:gaia_pylon" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 7.5d
@@ -1174,16 +1210,21 @@
 		}
 		{
 			dependencies: ["55468A5FB8BA4A1F"]
-			description: ["Guess what you get if you place a Fel Pumpkin on top of two Iron Bars? I'll give you a hint - It is blazing hot!"]
 			id: "4D86F0F513E5EEB8"
 			rewards: [{
 				id: "0520CBFD3C191210"
-				item: "botania:fel_pumpkin"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:fel_pumpkin"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3B1ECA5874D9399D"
-				item: "botania:fel_pumpkin"
+				item: { components: { "ftbquests:missing_item": "botania:fel_pumpkin" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -1191,28 +1232,23 @@
 		}
 		{
 			dependencies: ["4D86F0F513E5EEB8"]
-			description: ["Place a Pure Daisy next to a Blaze Mesh and you get Obsidian, but be careful where you place it because you might not be able to move it once it transforms. Think: Nether Portal"]
 			id: "0DED09C3096C985D"
 			rewards: [{
 				id: "778BF0907B2CB04D"
 				item: {
-					Count: 1b
+					count: 1
 					id: "minecraft:flint_and_steel"
-					tag: {
-						Damage: 0
-					}
 				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 10L
 				id: "250BFE7BAC888148"
-				item: "botania:blaze_block"
+				item: { components: { "ftbquests:missing_item": "botania:blaze_block" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
 			y: 9.5d
 		}
 	]
-	title: "Botania"
 }

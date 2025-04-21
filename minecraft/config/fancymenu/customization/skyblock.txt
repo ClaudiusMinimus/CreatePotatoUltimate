@@ -1,26 +1,59 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
+layout-meta {
   identifier = de.melanx.skyblockbuilder.client.ScreenCustomizeSkyblock
-  randomgroup = 1
-  renderorder = foreground
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1736385269112
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:416262ad-6a81-4272-87cb-cf6bec6d3c43-1736385269112] = [groups:][instances:]
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  path = config/fancymenu/assets/cpulogo.png
-  orientation = top-right
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  source = [source:local]config/fancymenu/assets/cpulogo.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 75f48b68-2b19-4e2b-8638-bb89f53c28641680134321339
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = top-right
   x = -110
-  width = 108
-  action = addtexture
-  actionid = 75f48b68-2b19-4e2b-8638-bb89f53c28641680134321339
   y = 3
+  width = 108
   height = 40
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 819bac9f-9ec2-4d2b-8a73-879fbbe243c5-1736385269112
+  [loading_requirement_container_meta:819bac9f-9ec2-4d2b-8a73-879fbbe243c5-1736385269112] = [groups:][instances:]
 }
 

@@ -1,84 +1,158 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
-  randomgroup = 1
-  renderorder = foreground
+layout-meta {
+  identifier = drippy_loading_overlay
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1736385269110
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:35bb233e-3ad6-4c93-b293-f1dc1d16feed-1736385269110] = [groups:][instances:]
+}
+
+menu_background {
+  image_path = [source:local]config/fancymenu/assets/background.png
+  slide = false
+  repeat_texture = false
+  background_type = image
 }
 
 customization {
-  path = config/fancymenu/assets/background.png
-  action = texturizebackground
-}
-
-customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  orientation = top-left
-  hidden = true
-  x = 152
-  width = 336
-  action = deep_customization_element:drippy_overlay_logo
-  actionid = ce815521-3ab1-40e8-aea5-d5b203326acc1675365033925
-  y = 126
-  height = 84
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
 }
 
-customization {
-  orientation = top-left
-  hidden = false
-  x = -1000000
-  width = 0
-  action = deep_customization_element:drippy_overlay_background
-  actionid = c870e103-f007-4ae6-81b6-62e3b50189851675365033925
-  y = -1000000
-  height = 0
-}
-
-customization {
-  custom_color_hex = F0CA78
-  orientation = top-left
-  hidden = false
-  x = 152
-  width = 336
-  action = deep_customization_element:drippy_overlay_progress_bar
-  actionid = 2f68d149-8bf2-4b45-9e4f-589b7961de701675365033925
-  y = 275
-  height = 10
-}
-
-customization {
-  orientation = top-right
-  shadow = false
-  x = -2
-  action = addtext
-  actionid = 3fbcef42-6692-4f28-97a8-a59aaff2bc791680114528872
-  y = 2
-  scale = 1.0
-  alignment = right
-  value = Create on a Potato PC - Ultimate 1.19.2-4.17.0
-}
-
-customization {
-  orientation = bottom-left
+element {
+  button_element_executable_block_identifier = 92718f04-6871-4866-a55f-11b4d426a263-1736385269110
+  [executable_action_instance:7bd8a6c4-e076-4df3-b62c-13a419e23e77-1736385269110][action_type:openlink] = https://mangomeowie.carrd.co/
+  [executable_block:92718f04-6871-4866-a55f-11b4d426a263-1736385269110][type:generic] = [executables:7bd8a6c4-e076-4df3-b62c-13a419e23e77-1736385269110;]
+  backgroundnormal = [source:local]config/fancymenu/assets/cm.png
+  backgroundhovered = [source:local]config/fancymenu/assets/cm.png
   restartbackgroundanimations = true
-  buttonaction = openlink
-  backgroundhovered = config/fancymenu/assets/cm.png
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
   description = I love the character artwork%n%mangomeowie created for me.%n%If you need character art,%n%including full illustrations, please%n%visit https://mangomeowie.carrd.co/
   label = 
-  loopbackgroundanimations = true
+  navigatable = true
+  widget_active_state_requirement_container_identifier = f20d1520-4a84-46c8-8338-9729b81ae88f-1736385269110
+  [loading_requirement_container_meta:f20d1520-4a84-46c8-8338-9729b81ae88f-1736385269110] = [groups:][instances:]
+  element_type = custom_button
+  instance_identifier = d0668fdd-d1b9-4c30-9525-c208d38c51ba1680114632592
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = bottom-left
   x = 11
-  width = 80
-  actionid = d0668fdd-d1b9-4c30-9525-c208d38c51ba1680114632592
-  action = addbutton
   y = -80
-  backgroundnormal = config/fancymenu/assets/cm.png
-  value = https://mangomeowie.carrd.co/
+  width = 80
   height = 80
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 8270304e-6e67-4f68-a011-4afa120a348f-1736385269110
+  [loading_requirement_container_meta:8270304e-6e67-4f68-a011-4afa120a348f-1736385269110] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = df37f2a0-b5c3-4265-a648-b7b738995220-1736385269110
+  [executable_block:df37f2a0-b5c3-4265-a648-b7b738995220-1736385269110][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  widget_active_state_requirement_container_identifier = b1a52ecb-af3b-4f34-bc2c-15e522365878-1736385269110
+  [loading_requirement_container_meta:b1a52ecb-af3b-4f34-bc2c-15e522365878-1736385269110] = [groups:][instances:]
+  element_type = vanilla_button
+  instance_identifier = mojang_logo
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 0af95bf6-4e98-43b3-b414-74d713bf0004-1736385269110
+  [loading_requirement_container_meta:0af95bf6-4e98-43b3-b414-74d713bf0004-1736385269110] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 62b11caa-c596-4832-9be5-7507ba7554d0-1736385269110
+  [executable_block:62b11caa-c596-4832-9be5-7507ba7554d0-1736385269110][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 95ca5bee-579c-4158-b0e2-e418a12bb8d6-1736385269110
+  [loading_requirement_container_meta:95ca5bee-579c-4158-b0e2-e418a12bb8d6-1736385269110] = [groups:][instances:]
+  element_type = vanilla_button
+  instance_identifier = progress_bar
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 07ece8c0-c546-4954-95fa-3c3c29055542-1736385269110
+  [loading_requirement_container_meta:07ece8c0-c546-4954-95fa-3c3c29055542-1736385269110] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
 }
 

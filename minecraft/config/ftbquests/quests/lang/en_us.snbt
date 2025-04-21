@@ -1,0 +1,497 @@
+{
+	chapter.0000000000000004.title: "Just Landed"
+	chapter.0000000000000035.title: "Armor, Tools and Weapons"
+	chapter.000000000000003C.title: "Hunter"
+	chapter.00000000000000AF.title: "Farming and Cooking"
+	chapter.0000000000000623.chapter_subtitle: ["Build amazing things with Create!"]
+	chapter.0000000000000623.title: "Create"
+	chapter.22C5B5C762C6CE6B.title: "Storage"
+	chapter.394307726599DAF0.title: "Tips and Tricks"
+	chapter.3DFD3C26419B7986.title: "Botania"
+	chapter.5C3449C5F42C2A48.title: "World Hopping"
+	quest.0000000000000005.quest_desc: ["There be treasures hidden underground. Dig, dig, dig!"]
+	quest.0000000000000005.title: "Start Digging!"
+	quest.000000000000000D.quest_desc: ["Yes, you're in a survival game and we all know that usually means punching trees. But come on, that doesn't feel good, right? "]
+	quest.000000000000000D.title: "Don't Punch Trees..."
+	quest.0000000000000010.quest_desc: [
+		"Make your life easier by creating a Crafting Station. "
+		""
+		"Craft with it just like you would with the Crafting Table, but it'll also hold your recipe/ingredients in place."
+		""
+		"Nice, right?"
+	]
+	quest.0000000000000014.quest_desc: [
+		"You won't make it far in this land without getting some proper rest from time to time. "
+		""
+		"Build any Minecraft bed to come home to after a day of adventuring."
+		""
+		"FYI: The Attack Ward Block requires a redstone signal"
+	]
+	quest.0000000000000014.title: "Any Minecraft Bed"
+	quest.000000000000001B.quest_desc: ["Build a composter so all those extra saplings and other plant matter don't go to waste!"]
+	quest.000000000000001B.title: "Don't Throw it Out!"
+	quest.000000000000001E.quest_desc: ["Now you're getting started! Let's go a step further. Find and mine up 8 Iron Ore."]
+	quest.0000000000000025.quest_desc: [
+		"There's nothing quite like a warm meal from cooking over a campfire."
+		""
+		"Get yourself a fire going and use this meat to get started."
+	]
+	quest.0000000000000025.title: "Over an Open Fire"
+	quest.000000000000004B.title: "Novice Zombie Hunter"
+	quest.000000000000004D.title: "Apprentice Zombie Hunter"
+	quest.000000000000007B.quest_desc: [
+		"If you have not already done so, right-click on the Blueprint Package you received upon first joining the game. "
+		""
+		"Now place one of the blueprints in your crafting grid with the required pieces of cobblestone and a single stick to craft a pickaxe (3 x cobble), an axe (3 x cobble), and a shovel (1 x cobble)."
+	]
+	quest.000000000000007B.title: "We Three Tools"
+	quest.0000000000000086.quest_desc: [
+		"First, make a Bow blueprint/template and a Cord blueprint/template. Then using the blueprint/template, craft a Bow using any three materials (check JEI), a Tool Rod, and a Cord. "
+		""
+		"Your reward will be a stack of arrows."
+	]
+	quest.0000000000000086.title: "Silent Gear Bow"
+	quest.0000000000000089.quest_desc: ["Did someone call Thor?"]
+	quest.0000000000000089.title: "Hammer! Hammer!"
+	quest.000000000000008C.quest_desc: ["Make an Excavator blueprint and an Excavator using five cobblestones and a stick."]
+	quest.000000000000008C.title: "The Mighty"
+	quest.000000000000008F.quest_desc: [
+		"A mattock is a great all around tool. It is both an axe and a satisfactory shovel. "
+		""
+		"Make a wooden Mattock pattern and then a stone mattock with a stick tool rod"
+		""
+		"Wooden patterns are a one-time use item."
+	]
+	quest.000000000000008F.title: "My My Mattock"
+	quest.0000000000000092.quest_desc: [
+		"Make a pickaxe head using three Iron Ingots and an Iron Tool Rod"
+		""
+		"Your reward is a Redstone Tip Upgrade. While hovering the tip, press the Ctrl key to see the stat changes."
+		""
+		"&4&lIMPORTANT&r"
+		"&rIn order to complete the Iron Tool Rod you must use a Tool Rod Blueprint or Tool Rod Template. If you simply craft two iron ingots to make a Iron Rod, the quest will fail."
+	]
+	quest.00000000000000B0.quest_desc: ["Breaking grass is always fun. Now get to it! Break some grass. Get some seeds. Grow some wheat!"]
+	quest.00000000000000B6.title: "String"
+	quest.00000000000000B8.title: "Wooly Wooly"
+	quest.00000000000000C1.quest_desc: ["The allusive bamboo. Another quest might help."]
+	quest.00000000000000C3.quest_desc: ["Scaffolding - what a wonderful invention! With it, you can scurry up on top of something. You can make a simple platform and it all comes tumbling down with a simple punch,"]
+	quest.00000000000000C7.quest_desc: [
+		"Cobblestone can be much more useful than dirt."
+		""
+		"Gather 64 Cobblestone and we'll give ya your first bridge made from... well, cobblestone!"
+	]
+	quest.0000000000000522.quest_desc: ["This is your basic all in one tool."]
+	quest.00000000000005D7.quest_desc: [
+		"Using these blueprint/template craft a Dagger Blade and a Rough Rod and place them in a crafting grid to make a Crude Dagger. Then craft a Stone Anvil."
+		""
+		"The Dagger and Stone Anvil will let you craft Template Boards, which will allow you to craft one time use tool templates."
+	]
+	quest.00000000000005D7.title: "Dagger \\& Stone Anvil"
+	quest.000000000000062C.quest_desc: [
+		"Create is your primary way to automate just about anything. You can also build just about whatever you can imagine. However, in this pack, Create is how you obtain most items and blocks."
+		""
+		"Work on the square quests first! If you are careful, all of the materials needed are on the island."
+		""
+		"Hold the \"w\" key while hovering over a kinetic block in your inventory-or using JEI-will show detailed information. In other items, the shift key will reveal information."
+	]
+	quest.000000000000062C.quest_subtitle: "Start Here"
+	quest.0000000000000633.quest_desc: ["Make some super simple shears. Now say that fives times real fast!"]
+	quest.000000000000078F.quest_desc: ["Andesite Alloy is a primary ingredient for much of Create. Don't throw out your Andesite anymore!"]
+	quest.000000000000078F.title: "No Trashy Andesite!"
+	quest.0000000000000791.quest_desc: ["You will need LOTS of these little guys!"]
+	quest.0000000000000797.quest_desc: ["The Mechanical Press is a workhorse that you will use a lot. Drop iron, brass, copper, or gold ingot(s) under the press or place them on a depot or belt to make a sheet."]
+	quest.0000000000000799.quest_desc: ["Casings are a primary building block for most things Create."]
+	quest.000000000000079F.quest_desc: [
+		"The wrench has several uses:"
+		"1. Rotate kinetic blocks when you right click them. If the block will not rotate, then try a different surface plane."
+		"2. Adjust many kinetic block settings when using the mouse wheel."
+		"3. Break kinetic blocks using shift + right-click."
+	]
+	quest.00000000000007A1.quest_desc: ["Iron Sheets are another common item needed for making machines. You will need lots of these."]
+	quest.00000000000007AB.quest_desc: [
+		"A water wheel is great for early game Rotational Force."
+		""
+		"Your reward is a Stressometer--this useful tool shows you the kinetic stress at that point in the system. Each kinetic block adds stress to the system. Therefore, if your system stops or slows down you may need additional rotational force."
+		""
+		"&oSoulsand no longer provides a boost in stress units (SU)&r"
+	]
+	quest.00000000000007B0.quest_desc: ["Attach a log to a Windmill Bearing and then attach the Sails to the log to create a functional windmill."]
+	quest.00000000000007B2.quest_desc: ["To turn on your windmill, attach either a Radial Chasis and wool blocks, or sails surrounding a log to the Windmill Bearing, then right-click on the Windmill Bearing to start the windmill rotating."]
+	quest.00000000000007B4.quest_desc: ["You need to put slime or Super Glue on at least one contact surface for connected blocks to rotate with the radial chassis. Double click the slime to attach to all four sides at once."]
+	quest.00000000000007B8.quest_desc: [
+		"Encased Fans work great for Bulk Smelting, Try setting up an automated washing system using one or more of the following: "
+		""
+		"Gravel, Sand, Soul Sand, any Crushed ore, or anything listed in REI under Bulk Smelting, Smoking, or Washing. "
+		""
+		"Fans also are a great early game power source. Place a heat source underneath and activate with redstone."
+	]
+	quest.00000000000007BB.quest_desc: [
+		"The Millstone is used for grinding all kinds of items. Be sure to check JEI for what it can do. You can even make a needed material for crafting slime balls."
+		""
+		"Making gravel as early as possible with speed your progress."
+		""
+		"Diorite will prove very valuable, so don't waste it!"
+	]
+	quest.00000000000007BD.quest_desc: ["The Fluid Pipe for all your liquid needs. Well, not exactly, you still need a pump to actally move any fluids."]
+	quest.00000000000007BF.quest_desc: ["The Mechanical Pump when connected to a fluid source and a pipe will transfer liquids. The pump is directional and requires Rotational Force to work."]
+	quest.00000000000007C1.quest_desc: ["The Fluid Value restricts the flow of liquids. It uses Rotational Force to open and close. Use your shift key while in your inventory or in JEI to learn more how to do this."]
+	quest.00000000000007C5.quest_desc: ["The Smart Fluid Pipe is well... smart! Think of it as a way to filter what fluids are transfered."]
+	quest.00000000000007C7.quest_desc: ["The Spout is for refilling your fluid items. Can also be automated."]
+	quest.00000000000007C9.quest_desc: ["The Mechanical Saw can be used for cutting trees or for stonecutter recipes. With the Saw in hand, press the Shift key for more information."]
+	quest.00000000000007CB.quest_desc: ["The Mechanical Drill can be used for mining, but in early game can be used as part of a stationary cobble generator."]
+	quest.00000000000007CD.quest_desc: ["The Fluid Tank can be a single block or a multi-block structure."]
+	quest.00000000000007CF.quest_desc: ["The Gearbox allows for changing direction horizontally."]
+	quest.00000000000007D1.quest_desc: ["The Vertical Gearbox allows for changing direction vertically."]
+	quest.00000000000008F2.quest_desc: ["Chutes are used to transport items to and from storage containers. Can interact with Funnels and Fans."]
+	quest.0027048889049815.quest_desc: [
+		"This crafting station can be used to create each of the 16 Runes. When it is placed, 2 cubes can be seen swirling around above it."
+		""
+		"To use the Altar first add the items needed by Right-clicking it with each item or dropping each item on top. If the recipe is correct, the infusion will start automatically as soon as all ingredients are added and draw from a Mana Spreader to start creating the item desired. When the infusion begins there will be a thunderclap and a pie chart-shaped progress bar will appear (only visible when holding the Wand of the Forest). Once enough Mana has been drawn in, blue lightning will start arcing. At this point, throw a Livingrock onto the Altar and use the Wand on the Altar to finish the transmutation."
+		""
+		""
+	]
+	quest.0059F4044C719D7D.quest_desc: ["Rune of Water is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
+	quest.00B8AD2DF27E33A5.title: "Complete one of the sets"
+	quest.03108B7D1A7458B3.quest_desc: ["This is your primary tool used for obtaining ores and other items."]
+	quest.03B2EDF78A084226.quest_desc: ["The Endoflame is a very rudimentary generating flower; it'll absorb any combustible items or blocks dropped on the nearby vicinity, one at a time, and burn through them to generate Mana."]
+	quest.03B81A645C9AA3F7.quest_desc: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
+	quest.03F55170BAB80CD2.quest_desc: [
+		"Initiate Commands by pressing the slash key '/' from within the world. Basic commands include:"
+		"\"/sethome [name]\" will set a waypoint for your home. Example: \"/sethome CM'sHome\" or \"/sethome\" will set the default \"Home\""
+		"\"/home [name]\" teleports you to the home you set"
+		"\"/delhome [name]\" delete the home specified or \"/delhome\" deletes the default \"Home\""
+		"\"/tpaccept\" allows you to request a teleport to another player. The player on the other end must accept your request to complete the teleport."
+		"\"/tpahere <player in-game-name>\" Teleport another player to your location."
+		"\"/tpdeny\" Rejects a teleport request from another player."
+		"\"/rtp\" executes a teleport to a random location. However, in a skyblock world, not the most helpful or safe!"
+		"\"/back\" teleport to a previous location, but this might be dangerous too!"
+		"\"/setworldspawn\" Sets the world spawn point - used for singleplayer and for admins on a server."
+		"\"/spawn\" teleports you to spawn. Always use \"/setworldspawn\" for new worlds; otherwise, you may not like where \"/spawn\" sends you!"
+		"Names in brackets \"[name]\" are optional. Names in \"<name>\" are required. Do not use quotes \", brackets \"[]\" or \"<>\" in commands."
+	]
+	quest.0671E105BC30A4CB.quest_desc: ["To transmit your network wirelessly for you to access with wireless terminals"]
+	quest.077E7E557DCB9576.quest_desc: [
+		"A botanist's most important tool for manipulating flowers is the Wand of the Forest. This wand, crafted from a pair of Mystical Petals strapped to a few Livingwood Twigs, is a must-have for a huge number of botanical tasks."
+		""
+		"The wand has two modes, Bind Mode and Function Mode. In Bind Mode, sneak-right click it on a compatible block to select it, then sneak-right click elsewhere to bind the two blocks. In Function Mode it simply doesn't perform this function, freeing the sneak-right click action up for other tasks. The two modes can be switched between by sneak-right clicking the wand in the air."
+		""
+		"Sneak-right clicking a block in Function Mode rotates the block around the axis of the side it was clicked on-- for example, using the wand on the top of a Chest will change the direction it faces. Most blocks with orientations can be reoriented this way."
+	]
+	quest.077E7E557DCB9576.title: "Wand of the Forest"
+	quest.07D9EBE35C2DDCBE.quest_subtitle: "Nixie Tubes can display a redstone signal strength and can be used for making custom signs"
+	quest.09FD66439056FDB3.quest_desc: ["Using Coatings to change the stats of a tool, weapon, or armor"]
+	quest.09FD66439056FDB3.title: "Coating Blueprint/Template"
+	quest.0A6EF87E6DCD6D94.quest_desc: [
+		"When worn in the Trinkets Ring slot, any items in a 13x13 area around the player will be pulled towards them if they are not sneaking. Up to 200 items can be pulled at once."
+		""
+		"Items dropped by a player wearing this ring will not be pulled towards them for 5 seconds after dropping."
+	]
+	quest.0A865D877C969C7B.quest_desc: ["When the Alchemy Catalyst is placed under a Mana Pool the Mana Pool will output different recipes. Check REI for what the Alchemy Catalyst can do."]
+	quest.0D77CE91690DFD0F.quest_desc: ["After placing the Train Station, open the GUI to Assemble a train. Place this block on the blue highlight on the tracks and voila, you have started building your first train!"]
+	quest.0D77CE91690DFD0F.quest_subtitle: "Every train needs one"
+	quest.0DED09C3096C985D.quest_desc: ["Place a Pure Daisy next to a Blaze Mesh and you get Obsidian, but be careful where you place it because you might not be able to move it once it transforms. Think: Nether Portal"]
+	quest.0E4D24AAB4F4DC58.quest_desc: ["Check to get The One Probe Read Me"]
+	quest.0E4D24AAB4F4DC58.title: "The One Probe Read Me"
+	quest.0E9F95234AB4F307.quest_desc: ["The Ritual of Gaia is a trial often undertaken by elves. It yields Gaia Spirits, which are coveted as fragments of the power of the Goddess of Gaia herself.This ritual requires an Active Beacon with Gaia Pylons surrounding it (functioning as an altar), as well as a single Terrasteel Ingot (as a sacrifice)."]
+	quest.0F212D61E278C98E.title: "Apprentice Witch Hunter"
+	quest.0FD4CDCFF7C99324.quest_desc: [
+		"The Manufactory Halo is an upgrade of the Assembly Halo: aside from doing all that the Assembly Halo can do, the Manufactory Halo will (when not held) automatically craft all possible saved recipes."
+		""
+		"Automatic compression of ores while mining is just one of many applications this upgrade has."
+		""
+		"There is one aspect to be aware of: If there is a saved recipe and you acquire missing ingredients for the recipe, then it will be crafted whether you want it or not. I only put this in my inventory when I expressly want to auto-craft otherwise I use the Assembly Halo."
+	]
+	quest.10135F5D1769BAD8.quest_desc: ["Equip your Backpack using the Curios slot - can also be accessed with a hotkey"]
+	quest.113A3EBEF62CB4E9.quest_desc: ["Can you feel the POWER!!! Half the speed but lots more stress units"]
+	quest.11E7D116CDEC9D03.quest_desc: ["Mana received from Mana Bursts will be split evenly into Mana Pools placed on adjacent sides."]
+	quest.14709ACBF461088E.quest_desc: ["Items you can now craft!"]
+	quest.14A6727FC3F98588.title: "Gemium Armor"
+	quest.168B204949452C03.quest_desc: ["The Mana Tablet is a portable item that can carry Mana within itself."]
+	quest.17CA4F1D56A901CC.quest_desc: [
+		"You would think the Cart Assembler was just for...well...minecarts. You could not be further from the truth. This is a very useful tool. You can not only make amazing trains, planes, and boats, but you can pick up and move many complex builds, and different storage blocks - anything you can make into a contraption. The Cart Assemblers can take a bit to learn to use, but when you have mastered this device, you will learn to love it."
+		""
+		"To use, you need to first put down a minecart rail. Then place the Cart Assembler over the rail, then whatever it is you want to assemble. Place a Minecart on the rail and a lever on the Cart Assembler, and activate it. You will notice the Cart Assembler will rise slightly and you are ready to make the magic begin. If you shift-right click with a Create Wrench on the minecart, you will pick up the assembly. To place, put down a rail and break the Minecart and you have moved your assembly. There is so much more to the Cart Assembler and I highly recommend watching some videos on how to set it up and use it."
+	]
+	quest.185E6E390C6AC8E3.quest_desc: ["Used to link your P2P tunnels"]
+	quest.18B860855F5B7616.quest_desc: ["I can't stop to refill... I have to keep going .... Well today it your lucky day, because we can provide you with an upgrade that will pull from your backpack."]
+	quest.1AB29695173FFFA1.quest_desc: ["These powerful pellets can smelt a half stack of items."]
+	quest.1BBEEF19114688A9.quest_desc: ["Have you ever needed a reach-assist? Just place in your off-hand and your main hand will reach further. Now ain't that cool!"]
+	quest.1BE33D31F95871F6.quest_desc: ["Complete all three quests and you are rewarded with a Capacity III book and a Netherite ingot!"]
+	quest.1BE33D31F95871F6.title: "Complete all Three Reward"
+	quest.1D37B87AC7F4C995.quest_desc: ["Rune of Autumn is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
+	quest.1DD7212A8131CC9F.quest_desc: ["Have you ever made a mob farm and it seems it is all going to bats? Bats dread the Dread Lamp, because they and other passive mobs cannot spawn!"]
+	quest.1DD7212A8131CC9F.quest_subtitle: "Are you going batty?"
+	quest.1EACB6765A8C7988.quest_desc: [" The Orechid uses Mana to synthesize ores from nearby Stone blocks. The ores it generates are random, but rarer ores seem to be created less often."]
+	quest.1F77777D1FB387F1.quest_desc: ["This will be your main source of storage access because applied energistics storage capacity has been disabled. Instead hook up storage blocks such as &bItem Vaults&r and &bChests&r"]
+	quest.1F77777D1FB387F1.title: "External Storage"
+	quest.1F90341E0DE3FF66.quest_desc: ["Rune of Envy is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
+	quest.20218A4E8B57D849.quest_desc: [
+		"For more information regarding obtaining more Lava"
+		"1. Open your Potato guidebook. "
+		"2. Go to either \"Getting Started\" > \"Early Game\" or \"Videos\" > \"Useful Farms\" "
+		"3. Open the page \"Dripstone, Lava and More...\""
+	]
+	quest.21D01A55B8CAB4FC.quest_desc: ["Now would be a good time to check your Potato guidebook and go to the Silent Gear wiki or video pages."]
+	quest.21DE6418AF3C338D.quest_desc: [
+		"Very useful block for rolling ingots into wires, plates, rods, and straws. "
+		""
+		"Straws? "
+		""
+		"With a straw you can pipe lava to a Blaze Burner"
+	]
+	quest.21DE6418AF3C338D.quest_subtitle: "Satisfying another Blaze's thirst!"
+	quest.21FE58A9CB80B99B.quest_desc: ["When equipped in the Curios Amulet slot, it shows nearby Mana bursts (even those out of the line of sight) and the functional radii of flowers to the player. "]
+	quest.22119C9F2244D41E.quest_desc: ["Rune of Lust is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
+	quest.22DC6FB53C9268C6.quest_desc: ["Bioethenol superheats Blaze Burners. However, you must upgrade your Blaze Burner first with a Straw - can also be piped in."]
+	quest.22E3CA39FF24696F.title: "Guardians of the Sea"
+	quest.254ECE4E2FC2BA12.quest_desc: ["Did you know you can stack the Stack Upgrades (one per upgrade slot)"]
+	quest.25E2B295763EE9C0.quest_desc: ["Rune of Gluttony is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
+	quest.2613E24F95C84B21.quest_desc: ["Kind of self explanitory - you light things on fire and have fun doing it!"]
+	quest.2613E24F95C84B21.quest_subtitle: "You're Fired!"
+	quest.285AF2D75FD9809C.quest_desc: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
+	quest.28D15A9B43C825CE.quest_desc: ["The Rope Pulley allows you to make easy-to-craft early game elevators."]
+	quest.29B69483965D4F12.quest_desc: ["Craft a stack of torches and get a handy dandy Torch Sling!"]
+	quest.2AA453BF3617F5BF.quest_desc: ["Gantry Carriages can mount to and slide along a Gantry Shaft."]
+	quest.2AC4427434E9FBCB.quest_desc: ["Right-click with this rod will place Dirt for some mana cost."]
+	quest.2B13CF9D2DB9872C.quest_desc: ["When worn, it is able to store Mana like the Mana Tablet. "]
+	quest.2C9103778A885567.quest_desc: ["When supplied with Mana by a Mana Pool within a 10 block radius, it will quickly grow mystical flowers in a 9x9 space around it on grass and dirt blocks."]
+	quest.2CB6399BF755E30C.quest_desc: ["Rune of Sloth is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
+	quest.2D2DF1DE0851BE05.quest_desc: ["The Gearshift allows you to change rotational direction using a redstone signal."]
+	quest.2D9DC78C66027DF2.quest_desc: ["Used for storing mana."]
+	quest.2F34516FAB3D00F1.quest_subtitle: "Bringing out the spidey in you!"
+	quest.2FC7139EC54C63DD.quest_desc: [
+		"Can't figure out how to charge your wireless device? Tesla to the recue!"
+		""
+		"Remember, ponder is your friend."
+	]
+	quest.2FC7139EC54C63DD.quest_subtitle: "All Charged Up!"
+	quest.305D8F543C830B44.quest_desc: ["The Weight Lens places a strong downward force within a Mana Burst, making any block hit by it (as long as it has space below) fall like Sand and Gravel do."]
+	quest.30BAB098393FE53E.quest_desc: ["Hey Ma, I can see under lava! Needs full set to not be burned toast!"]
+	quest.327A1EF2D2AD9DDD.quest_desc: [
+		"You will need several of these to power your Refined Storage system. The bigger the system, the more Alternators you will need."
+		""
+		"We will start you out with one Accumulator. These stack to be a multiblock and can be very nice to have in emergencies!"
+	]
+	quest.327A1EF2D2AD9DDD.quest_subtitle: "Feel the Power!"
+	quest.329580579F9DC034.quest_desc: ["Rune of Greed is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
+	quest.357FC93850CE6424.quest_desc: ["Rune of Summer is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
+	quest.35FD1CAE4062F72B.title: "Apprentice Guardian of Gaia Hunter"
+	quest.36D5BE714A278495.quest_desc: ["The Diamond Backpack has 108 slots plus 5 upgrade slots!"]
+	quest.36EDEBAB81D05AC6.quest_desc: [
+		"Lugging around a Crafting Table is a generally troublesome task. The Assembly Halo, thus, is a portable Crafting Table, as well as a quick-start crafting option. Holding the item displays a \"halo\" of recipe slots around the holder, and right-clicking the displayed Crafting Table will open a crafting interface."
+		""
+		"As long as the item is kept in-inventory, it'll remember its last recipe."
+		""
+		"As long as the item is kept in-inventory, it'll remember its last recipe.Right-clicking an empty slot of the halo will save the last-used recipe to that slot, and right-clicking a slot with a recipe saved will attempt to craft it from available items. Sneak-punching a saved recipe will delete it."
+	]
+	quest.3A697184E6211B36.quest_desc: ["Walk on belts and in lava, though you may want to look at the new tank and helmet too."]
+	quest.3AD935C9BF2A1CC2.quest_desc: ["The Iron Backback not only gains substanial extra storage, but you also get an additional upgrade slot."]
+	quest.3BC70DC86FB889E6.quest_desc: ["If you just check this box and not open your guidebook, do not complain if you run out of ores playing skyblock! "]
+	quest.3D66EBF3A215F354.quest_desc: ["Did you know you can now enchant using Create mechanics? Be sure to use \"W\" Ponder to help you get started and look in the Create on a Potato PC guidebook for more information."]
+	quest.3DF8FB9595975AC5.quest_desc: [
+		"This is a multiblock that can transmit your network wirelessly to another location like network transmitors and receivers from Refined Storage."
+		""
+		"To link your Applied Energistic network you must use &bQuantum Link chambers&r with &bQuantum Entangled Singulartiys&r to link them."
+	]
+	quest.3DF8FB9595975AC5.title: "Quantum Linking"
+	quest.3E046FB9DDB11119.quest_desc: [
+		"Unlike my other packs, following the quests will prove vital to progress. Completing quests is the only way to obtain certain critical items."
+		""
+		"**IMPORTANT:**"
+		"After you complete a quest always place the item into your inventory before progressing to the next quest. Otherwise, you might not get credit for the quest."
+	]
+	quest.3E046FB9DDB11119.quest_subtitle: "Always Start at the Diamond shaped quest"
+	quest.3E046FB9DDB11119.title: "Quest Basics - Step-by-Step"
+	quest.3E218EE721C60CC2.quest_desc: ["When worn, it slowly generates Mana and stores it in a Mana Tablet in the player's inventory. It can be upgraded into the Greater Band of Aura, which generates Mana significantly faster."]
+	quest.415DC4075FB46595.quest_desc: ["Smart Chutes are vertical Chutes with additional controls. The animation when pressing the \"w\" key while hovering shows how to use this new block."]
+	quest.4240DD5A5E1AB2A4.quest_subtitle: "Start Here"
+	quest.468DE93A9D225DA2.quest_desc: ["You are now the foreman with your offical clipboard. Keep notes and copy/paste filter settings."]
+	quest.46EB239376ACBF94.quest_desc: ["Did you know they let pigs operate trains? I thought is was scary when I learned pigs could fly. Well, every train needs one controller."]
+	quest.46EB239376ACBF94.quest_subtitle: "Every piggy needs one"
+	quest.46EFEFBA779BEA88.title: "Find a Meteorite"
+	quest.477EDACF18125B64.quest_desc: ["Rune of Pride is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
+	quest.485280315689B86E.quest_desc: ["I am a huge fan of recycling and Biomass is a great way to gain a useful crafting resource. Check in JEI for all of the many things that can be recycled, from sticks, saplings, seeds, and so many other things you might throw away."]
+	quest.4868A27F76C700DC.quest_desc: ["Floral Fertilizer is used to spawn Botania mystical flowers."]
+	quest.4868A27F76C700DC.quest_subtitle: "Use Living Root Sparingly!"
+	quest.4A168E908986C7D2.quest_desc: ["Does it get any better? Breath and work in lava without being made crispy! Need full netherite set."]
+	quest.4A8320F850B32E7A.quest_desc: ["Instead of a cobble generator, try the Mechanical Extruder, which extrudes various stone blocks. Check JEI for all of the recipes."]
+	quest.4B124A350DE8DA02.quest_desc: ["The Band of Aura is a variant Band of Mana; instead of storing Mana, it generates a slow trickle of it (when equipped) and stores it in Mana-containing items in its wearer's inventory.Plating it with an ingot of Terrasteel upgrades it to generate Mana at a significantly faster rate."]
+	quest.4BE94F32FFD14892.quest_desc: ["Used to find biomes, useful to find ocean monuments"]
+	quest.4BF7170970EEBB5F.quest_desc: ["Do you need to cram more stuff into your Backpack? This upgrade will compact 2x2 recipes. You may want to upgrade it further so you can use 3x3 compacting recipes"]
+	quest.4C1249721C8EBFBB.quest_desc: ["Sometimes complex devices like Droppers or Dispensers can't offer enough precision or speed. A simple solution: Make a crate, then punch a hole in its bottom. Yeah, it's that easy. The Open Crate accepts each item from a Hopper or other item outputter, and drops the item directly below it."]
+	quest.4C1D7E27D15961A5.quest_desc: ["Rune of Wrath is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
+	quest.4C865A25446A2C87.quest_desc: ["You are not going to be able to mine copper. It is time to start working on the Create quests."]
+	quest.4D2B419D0946089C.title: "Quadrilium Armor"
+	quest.4D60A6408E055989.quest_desc: [
+		"FEED ME! FEED ME! I am the hungry thing!"
+		""
+		"Have you ever wanted to eat on the go? If so, this upgrade is for you!"
+	]
+	quest.4D86F0F513E5EEB8.quest_desc: ["Guess what you get if you place a Fel Pumpkin on top of two Iron Bars? I'll give you a hint - It is blazing hot!"]
+	quest.4E8B7068FF27B4E5.quest_desc: ["The Elven Gateway Core is a part of a multiblock and is used to make the Portal to Alfheim multiblock portal structure."]
+	quest.4EBDC9C39E00EE26.quest_desc: ["Rune of Winter is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
+	quest.4EBF5AB892CDCB14.quest_desc: ["Manasteel, like other metals, can be shaped into tools and armor alike.Tools or armor crafted from this material will share most of their qualities with Iron, albeit with superior enchantability and durability. Additionally, all Manasteel items can heal their durabilities with Mana from their user's inventory (e.g. in a Mana Tablet)."]
+	quest.4F0263313F0F1775.quest_desc: ["Are you in a hurry and don't have time to unload all of your stuff? This upgrade is very handy and also has an advanced upgrade option - check in JEI"]
+	quest.507E6FC07C05B784.title: "Novice Witch Hunter"
+	quest.50D197995B75DC37.quest_desc: ["To Craft a Controller you must first find Certus Quartz"]
+	quest.50D197995B75DC37.title: "Applied Energistics 2"
+	quest.50F8CBBF03B6EB31.quest_desc: ["The Natura Pylons are used to make the Portal to Alfheim multiblock portal structure."]
+	quest.50FD84433C69064C.quest_desc: ["If you put the Metal Girders (or any other block) in your off-hand, they will be placed under the tracks when needed. It takes practice laying rail tracks. Choo choo!"]
+	quest.51FE487A5586AF80.quest_desc: ["As you progress, the Electron Tube is a very common component for crafting more advanced items."]
+	quest.51FE487A5586AF80.quest_subtitle: "Electrifying!"
+	quest.540E05434C2B259C.title: "Journeyman Witch Hunter"
+	quest.542DD76032B66B50.quest_desc: ["Important crafting ingredient for many recipes."]
+	quest.5489879D11B3894A.quest_desc: ["To learn more about the Toolbox, open your Create on a Potato PC book to Videos > Create > 0.3.2f update"]
+	quest.55468A5FB8BA4A1F.quest_desc: ["The Pure Daisy is used to make Livingwood and Livingrock. You will make the Pure Daisy in your Petal Apothecary. Do not forget to use a Wood Bowl to fill your Apothecary!"]
+	quest.55D0F4726A76ACFC.quest_desc: ["The base for all upgrade slot items."]
+	quest.586D540A5DE160AB.quest_desc: ["The Mana Lens by itself does nothing, but is used as the base for other lens."]
+	quest.5AE38D7F1ACE1065.quest_desc: ["For your first flowers, you need the following Mystical Flowers: White, Red, Brown, and Light Grey."]
+	quest.5AE38D7F1ACE1065.title: "Any Botania Mystical Flowers"
+	quest.5AF39FF6AB1C6098.quest_desc: [
+		"JEI is an item and recipe viewing mod for Minecraft."
+		"Basic Controls:"
+		"- Inventory:"
+		"  - (Minecraft Options -> Controls)"
+		"  - Show Recipes: Hover over item + R"
+		"  - Show Uses: Hover over item + U"
+		"  - Toggle Item List Overlay:"
+		"     Control + O"
+		"For more information visit curseforge.com and search mods for 'jei'"
+	]
+	quest.5AF39FF6AB1C6098.title: "JEI Just Enough Items"
+	quest.5AF43A02E87E4DF8.quest_desc: [
+		"Did you know the Blaze Burner is kind of a specialty Blaze capturing device?"
+		""
+		"Be sure to add fuel!"
+	]
+	quest.5C6483EDD2B8F901.quest_desc: ["This can help with your OCD wanting blocks to be symmetrical!"]
+	quest.5C9B90AF57F6BB66.quest_desc: ["Vaults are a multiblock storage blocks. Using a Stockpile Switch can show you how full it is."]
+	quest.5DB1980018B7A26A.quest_desc: ["Have you ever broken a block for it to fall into the void or lava? This upgrade can end those woes. However, you may want to look at the Botania magnet as it has some very nice features"]
+	quest.5DBFF42322BE1A6C.quest_subtitle: "Used with Display Boards"
+	quest.60760C5B4FB95DEA.quest_desc: ["The Mana Spreader is the single most important tool a botanist needs to manipulate Mana."]
+	quest.6181C8F6420EB67C.quest_desc: ["Rune of Spring is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
+	quest.621A194C80FC673F.title: "Contruction Wands"
+	quest.63E0177EA97D97D0.quest_desc: ["Gantry Shafts form the basis of a Gantry setup. An attached Carriage will move along them."]
+	quest.66EF9A948397E447.quest_desc: ["Using Linings to add traits to your armor"]
+	quest.66EF9A948397E447.title: "Lining Blueprint/Template"
+	quest.678645C952FCF8CC.quest_desc: [
+		"You Lexica Botania is an invaluable wealth of information - use it often!"
+		""
+		"Holding the Ctrl key when hovering the cursor over an item with an entry while the book is in the hotbar will open the item's entry. Shift right-clicking with the Lexica on a block will open the relevant page, if one exists, otherwise it will attempt to open a relevant wiki page in the user's web browser."
+	]
+	quest.678645C952FCF8CC.quest_subtitle: "Start Here"
+	quest.678645C952FCF8CC.title: "Starting Botania"
+	quest.6838EAC969336720.quest_desc: [
+		"A renewable arrow, when filled, is equivalent to 256 Iron Tipped Bone Arrows."
+		""
+		"The tip is Iron"
+		"The shaft is Bone"
+		"The fletching is Feather"
+		""
+		"You will need to make Blueprint/Template for the Arrow and Fletching"
+		""
+		"Your reward. A Crude Repair Kit filled with Iron!"
+	]
+	quest.68F57454D085D85A.quest_desc: ["Armor, tools, and weapons made out of Terrasteel, much like its Manasteel-based counterpart, can use Mana from the inventory to heal damage.However, its durabilities are comparable more to Diamond armor than to Iron."]
+	quest.6920E14D5A39D522.quest_desc: [
+		"The Stockpile Switch is one of the most important blocks for automation, but also for optimizing the stress units. The block emits a redstone signal that if set up properly can automatically turn off machines not in use."
+		""
+		"The benefits of this block cannot be understated! Learn about it and use often!"
+	]
+	quest.6920E14D5A39D522.quest_subtitle: "This is a MUST have!"
+	quest.6B13CAC5E656A56E.quest_desc: ["Place under a Basin for many recipes, but you are not quite done yet. It's off to the Nether!"]
+	quest.6D632AEDF9E98BAE.title: "Find the Stronghold"
+	quest.6D65B3F4C48BC8E9.quest_desc: ["Add this upgraded jetpack to your back slot in Curios, so you can still wear chest armor, and most important provides flight over the void. You can also toggle hover mode, which makes for softer landings!"]
+	quest.6D698E9864D3C153.quest_desc: ["Rune of Earth is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
+	quest.6F152976BC2A0517.quest_desc: ["Enchanting with Mana is a powerful way to enchant items without consuming the enchantment books. To learn in-depth instruction open your Lexica Botania and search on: Enchanting with Mana"]
+	quest.6F946B0BBD3702B7.quest_desc: ["Great way to save locations to teleport to"]
+	quest.6F94CFF9E4013396.quest_desc: [
+		"I made a short YouTube video showing how to claim, un-claim, and force load chunks. You can view it by going to this address."
+		""
+		"tinyurl.com/ftbchunk or you can open your Potato book go to Videos > FTB Chunks and click on the link."
+		""
+		"Sorry, links do not work in quests."
+	]
+	quest.6F94CFF9E4013396.title: "FTB Chunks"
+	quest.7000D800442BDB20.quest_desc: [" Right-click with this rod will place Water for some mana cost."]
+	quest.70266AAAE1383F09.quest_desc: ["Make a Stonecutter Upgrade and become a portable masonary shop!"]
+	quest.7055849BBEE12BB5.quest_desc: ["A handy dandy way to toggle multiple lamps"]
+	quest.70CA0859E8976BEB.quest_desc: [
+		"Did someone say make cake?"
+		""
+		"Oh, and your reward goes BOOM! Make sure to place it in a place it won't destroy anything when you mine it!"
+	]
+	quest.70CC5D09206C01E6.quest_desc: ["Weighted Ejectors launch items to a predetermined target."]
+	quest.71476487357E662F.quest_desc: ["Starting a tree farm may be a good idea since you will need lots of fuel to keep your Endoflames going. Think Create!"]
+	quest.714B4429C2E1CF25.quest_desc: [
+		"A functional flower that takes item sprites dropped in the world around it and places them in an adjacent inventory. It does not require mana to do this, but supplying mana will increase the range of the flower."
+		""
+		"A delay before the pick-up can be created by placing it on podzol (short delay) or mycelium (long delay). It can be made to filter which items it picks up by applying an item frame to the adjacent inventory, shift-right clicking with the Wand of the Forest allows the player to cycle through modes for interaction with the item frame. All items can go into an inventory with no item frame attached, but inventories with item frames are given priority. It can be disabled at will by applying a redstone signal."
+	]
+	quest.71B41112D99BBBEA.title: "Importing and Exporting"
+	quest.721199A4A9C1CA0A.quest_desc: ["This upgrade is kind of expensive, but worth it! Due to the great kindness of my heart, I will refund some of the cost."]
+	quest.721AD3481887982A.quest_desc: ["Rune of Air is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
+	quest.74CD206E24B85187.quest_desc: ["Rune of Fire is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
+	quest.754F5D734147F8BA.quest_desc: ["Important crafting ingredient for many recipes."]
+	quest.7737B3C6EACC04A9.quest_desc: ["Used to pass channels, items, redstone, fluids, power, etc through yout nework to another P2P Tunnel without storage"]
+	quest.78FEF9A7E20E7C06.quest_desc: [
+		"The Petal Apothecary is one of the main ways of creating items/flowers for Botania. It requires water, then the petals/items for the recipe, and most recipes are completed when you drop a wheat seed into the Apothecary."
+		""
+	]
+	quest.790CC57B80727383.title: "Journeyman Guardian of Gaia Hunter"
+	quest.791E12B68D088464.quest_desc: ["Rune of Mana is an item added by the Botania mod. One of 16 Runes, this is an important component in creating complex magical devices."]
+	quest.79D64612AE5E8351.quest_desc: ["Terrasteel is a complex and useful magical alloy, infused with ridiculous amounts of Mana. Synthesizing it proves to be no small task. For starters, its creation requires a Terrestrial Agglomeration Plate placed over a checkerboard pattern of Lapis Lazuli Blocks and Livingrock (or Shimmerrock). This block then needs to be provided with Mana, with Sparks being the most efficient mode of transfer."]
+	quest.79F82A7D2D7D1280.quest_desc: ["Some Manasteel tools perform special actions when right-clicked: the Pickaxe will place a torch from the user's inventory, and the Axe will do the same with a sapling.Do note that Shears made of mana-based materials will trigger tripwires, unlike iron ones."]
+	quest.7A5F94720CCC4836.quest_desc: ["You only need 10 obsidian blocks to make a portal."]
+	quest.7B7C9A49B9F69991.quest_desc: [
+		"The Lexica Botania does not initially contain all of its information when it is first collected or crafted:"
+		""
+		"- Elven Knowledge is added to the book after throwing it into the Portal to Alfheim. These entries have green titles."
+		"- Relic Knowledge is added to the book when the player opens it when holding a relic in their inventory. The book must contain Elven Knowledge already. These entries have golden names, and all of them can be found in the Alfhomancy section."
+	]
+	quest.7BE5142F4A70CA67.title: "Novice Guardian of Gaia Hunter"
+	quest.7DC3C9C543BFAE8E.quest_desc: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
+	task.0000000000000006.title: "Any #minecraft:dirt"
+	task.000000000000000E.title: "Any Logs"
+	task.0000000000000015.title: "Any minecraft:beds"
+	task.000000000000003E.title: "Novice Skeleton Hunter"
+	task.0000000000000040.title: "Apprentice Skeleton Hunter"
+	task.0000000000000042.title: "Journeyman Skeleton Hunter"
+	task.0000000000000050.title: "Journeyman Zombie Hunter"
+	task.0000000000000058.title: "Novice Spider Hunter"
+	task.000000000000005A.title: "Apprentice Spider Hunter"
+	task.000000000000005C.title: "Journeyman Spider Hunter"
+	task.0000000000000062.title: "Novice Creeper Hunter"
+	task.0000000000000064.title: "Apprentice Creeper Hunter"
+	task.0000000000000066.title: "Journeyman Creeper Hunter"
+	task.000000000000006C.title: "Novice Wither Skeleton Hunter"
+	task.000000000000006E.title: "Apprentice Wither Skeleton Hunter"
+	task.0000000000000070.title: "Journeyman Wither Skeleton Hunter"
+	task.0000000000000076.title: "Novice Ghast Hunter"
+	task.00000000000000B7.title: "Any #c:strings"
+	task.00000000000000B9.title: "Wool"
+	task.00000000000003DF.title: "Novice Enderman Hunter"
+	task.00000000000003E1.title: "Apprentice Ghast Hunter"
+	task.00000000000003E3.title: "Journeyman Ghast Hunter"
+	task.00000000000003E7.title: "Apprentice Enderman Hunter"
+	task.00000000000003E9.title: "Journeyman Enderman Hunter"
+	task.000000000000045F.title: "Wither Slayer"
+	task.0000000000000461.title: "Dragon Slayer"
+	task.000000000000062D.title: "Create"
+	task.000000000000069D.title: "All Your Veggies"
+	task.06FF08567F126EDA.title: "Torch"
+	task.1DCA88F73FDBB2C2.title: "Start a Tree Farm"
+	task.2822CA570EE5EF85.title: "Roughly Enough Items (REI)"
+	task.2C4532E49AD19C6D.title: "Any #silentgear:blueprints/coating"
+	task.2C6A2CB6DF046D00.title: "Basic Commands"
+	task.2F804A4ECC3A2C43.title: "Any Botania Mystical Flowers"
+	task.344CE56B34765342.title: "Open Potato Guidebook"
+	task.3CBBA3D29984B05D.title: "Any #c:tools/saw"
+	task.48F8C7213DDC26FC.title: "Any #farmersdelight:cabinets"
+	task.51544E360D6B39F0.title: "Visiting the Serene Nether"
+	task.6CC071658A47F899.title: "Xaero's World Map \\& Minimap"
+	task.778660B5815047F6.title: "Advanced Metals"
+	task.7E5D52384F38AF3D.title: "Copper Ingots"
+	task.7E969B91EB428FB5.title: "Visiting the Finale, The End"
+}

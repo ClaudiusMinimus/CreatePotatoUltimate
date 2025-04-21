@@ -1,20 +1,19 @@
 {
-  "_README": "https://gitlab.com/CDAGaming/CraftPresence/-/wikis/home",
-  "_schemaVersion": 3,
-  "_lastMCVersionId": 760,
+  "_schemaVersion": 6,
+  "_lastMCVersionId": 767,
   "generalSettings": {
     "detectATLauncherInstance": true,
     "detectCurseManifest": true,
     "detectMultiMCManifest": true,
     "detectMCUpdaterInstance": true,
     "detectTechnicPack": true,
+    "detectModrinthPack": true,
     "detectBiomeData": true,
     "detectDimensionData": true,
     "detectWorldData": true,
     "clientId": "1106266551633576006",
     "defaultIcon": "largeimagekey",
     "enableJoinRequests": false,
-    "partyPrivacyLevel": 1,
     "preferredClientLevel": 3,
     "resetTimeOnInit": false,
     "autoRegister": false
@@ -27,6 +26,9 @@
         "data": {
           "enabled": true,
           "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
           "details": "",
           "gameState": "",
           "largeImageKey": "",
@@ -53,6 +55,9 @@
         "data": {
           "enabled": true,
           "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
           "details": "",
           "gameState": "",
           "largeImageKey": "",
@@ -81,6 +86,9 @@
         "data": {
           "enabled": true,
           "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
           "details": "",
           "gameState": "",
           "largeImageKey": "",
@@ -97,7 +105,9 @@
           }
         }
       }
-    }
+    },
+    "pingRateInterval": 5,
+    "pingRateUnit": "minutes"
   },
   "statusMessages": {
     "mainMenuData": {
@@ -105,6 +115,9 @@
       "data": {
         "enabled": true,
         "useAsMain": false,
+        "isInstance": false,
+        "activityType": 0,
+        "partyPrivacy": 1,
         "details": "",
         "gameState": "",
         "largeImageKey": "",
@@ -126,6 +139,9 @@
       "data": {
         "enabled": true,
         "useAsMain": false,
+        "isInstance": false,
+        "activityType": 0,
+        "partyPrivacy": 1,
         "details": "",
         "gameState": "",
         "largeImageKey": "",
@@ -147,6 +163,9 @@
       "data": {
         "enabled": true,
         "useAsMain": false,
+        "isInstance": false,
+        "activityType": 0,
+        "partyPrivacy": 1,
         "details": "",
         "gameState": "",
         "largeImageKey": "",
@@ -168,6 +187,9 @@
       "data": {
         "enabled": true,
         "useAsMain": false,
+        "isInstance": false,
+        "activityType": 0,
+        "partyPrivacy": 1,
         "details": "",
         "gameState": "",
         "largeImageKey": "",
@@ -183,19 +205,19 @@
           }
         }
       }
+    },
+    "realmData": {
+      "textOverride": "Playing on {server.motd.raw}"
     }
   },
   "advancedSettings": {
     "enablePerGui": false,
     "enablePerItem": false,
     "enablePerEntity": false,
-    "renderTooltips": true,
     "formatWords": true,
     "debugMode": false,
     "verboseMode": false,
     "refreshRate": 2,
-    "roundSize": 3,
-    "includeExtraGuiClasses": false,
     "allowPlaceholderPreviews": false,
     "guiSettings": {
       "fallbackGuiIcon": "unknown",
@@ -205,6 +227,9 @@
           "data": {
             "enabled": true,
             "useAsMain": false,
+            "isInstance": false,
+            "activityType": 0,
+            "partyPrivacy": 1,
             "details": "",
             "gameState": "",
             "largeImageKey": "",
@@ -234,6 +259,9 @@
           "data": {
             "enabled": true,
             "useAsMain": false,
+            "isInstance": false,
+            "activityType": 0,
+            "partyPrivacy": 1,
             "details": "",
             "gameState": "",
             "largeImageKey": "",
@@ -257,6 +285,9 @@
           "data": {
             "enabled": true,
             "useAsMain": false,
+            "isInstance": false,
+            "activityType": 0,
+            "partyPrivacy": 1,
             "details": "",
             "gameState": "",
             "largeImageKey": "",
@@ -277,17 +308,16 @@
     },
     "allowEndpointIcons": true,
     "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
-    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}"
+    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
+    "allowDuplicatePackets": false,
+    "maxConnectionAttempts": 10,
+    "enableClassGraph": false,
+    "useClassLoader": false
   },
   "accessibilitySettings": {
-    "tooltipBackgroundColor": "0xF0100010",
-    "tooltipBorderColor": "0x505000FF",
-    "guiBackgroundColor": "minecraft:textures/gui/options_background.png",
-    "buttonBackgroundColor": "minecraft:textures/gui/widgets.png",
     "languageId": "en_us",
-    "showBackgroundAsDark": true,
     "stripTranslationColors": false,
-    "showLoggingInChat": false,
+    "stripTranslationFormatting": false,
     "stripExtraGuiElements": false,
     "configKeyCode": 96
   },
@@ -295,6 +325,9 @@
     "presenceData": {
       "enabled": true,
       "useAsMain": false,
+      "isInstance": false,
+      "activityType": 0,
+      "partyPrivacy": 1,
       "details": "{getOrDefault(server.message)} {getFirst(menu.message, dimension.message)}",
       "gameState": "Normal, Skyblock, or Stoneblock?",
       "largeImageKey": "{getFirst(general.icon, menu.icon, dimension.icon)}",

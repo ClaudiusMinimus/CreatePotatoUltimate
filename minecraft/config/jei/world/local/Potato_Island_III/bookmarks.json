@@ -1,0 +1,14 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecraft:composter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"create:crafting/kinetics/mechanical_drill","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"create:large_water_wheel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"createsifter:crafting/sifter","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"create_mechanical_extruder:crafting/mechanical_extruder","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"createsifter:zinc_mesh"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:coal_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:infested_cracked_stone_bricks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:enchanted_book","components":{"minecraft:stored_enchantments":{"levels":{"minecraft:looting":3}}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:mechanical_harvester"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:water_bucket"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

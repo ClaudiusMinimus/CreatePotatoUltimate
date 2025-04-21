@@ -1,0 +1,73 @@
+{
+  // Force the check if the world is skyblock
+  // This enables the commands in worlds without any skyblock dimension
+  "forceSkyblockCheck": false,
+  
+  // The minimum permission level to bypass the not-allowed permissions
+  // Range: 0 - 4
+  "minimumPermissionLevelToBypass": 2,
+  
+  // The minimum permission level to bypass limitations like cooldowns
+  // Range: 0 - 4
+  "minimumPermissionLevelToBypassLimitations": 3,
+  
+  // The minimum permission level to execute operator commands
+  // Range: 0 - 4
+  "minimumPermissionLevelToExecuteCommands": 4,
+  
+  // Available permissions:
+  //    team_create
+  //    team_handle_invites
+  //    team_handle_join_requests
+  //    team_leave
+  //    edit_spawns
+  //    teleport_to_spawn
+  //    teleport_to_visiting_island
+  //    teleport_home
+  //    teleport_across_dimensions
+  "permissions": [
+    "team_create",
+    "team_handle_invites",
+    "team_handle_join_requests",
+    "team_leave",
+    "edit_spawns",
+    "teleport_to_spawn",
+    "teleport_to_visiting_island",
+    "teleport_home",
+    "teleport_across_dimensions"
+  ],
+  
+  "Spawns": {
+  
+    // The range from island center for possible spawns to add. [default: 50]
+    "range": 50
+  },
+  
+  "Teleports": {
+  
+    // Should teleporting be prevented while falling? [default: false]
+    "disallowTeleportationDuringFalling": false,
+    
+    // Should fall damage be removed when teleporting? [default: false]
+    "negateFallDamage": false,
+    
+    // Dimensions in this list are not allowed for executing teleportation commands. Inverted behaviour if you set "allow_list" to true.
+    // This is a resource list. See https://moddingx.org/libx/org/moddingx/libx/util/data/ResourceList.html#use_resource_lists_in_configs
+    "teleportationDimensions": {
+      "allow_list": false,
+      "elements": []
+    },
+    
+    "Cooldowns": {
+    
+      // Cooldown in ticks for teleporting back home. [default: 3600 = 3min]
+      "homeCooldown": 3600,
+      
+      // Cooldown in ticks for teleporting to spawn. [default: 3600 = 3min]
+      "spawnCooldown": 3600,
+      
+      // Cooldown in ticks for visiting other islands. [default: 3600 = 3min]
+      "visitCooldown": 3600
+    }
+  }
+}

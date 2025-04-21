@@ -1,0 +1,5 @@
+
+[client]
+	#Show Item/Block tags in tooltips.
+	tooltip_tags = true
+

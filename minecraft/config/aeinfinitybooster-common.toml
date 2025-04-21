@@ -1,0 +1,10 @@
+[general]
+	#General settings for AEInfinityBooster
+	#The amount of power the Dimension Card drains per tick
+	# Default: 100
+	# Range: > 0
+	dimensionCardDrain = 100
+	#The amount of power the Infinity Card drains per tick
+	# Default: 50
+	# Range: > 0
+	infinityCardDrain = 50

@@ -1,0 +1,225 @@
+{
+	/* 
+	   
+	   ***********************
+	   Prismarine Tool Settings
+	   ***********************
+	*/
+	"prismarineToolsDurability": 725,
+	"prismarineToolsMiningSpeed": 3.0,
+	"prismarineToolsAttackDamage": 1.0,
+	"prismarineToolsEnchantability": 8,
+	/* 
+	   
+	   ***********************
+	   Obsidian Tool Settings
+	   ***********************
+	*/
+	"obsidianToolsDurability": 825,
+	"obsidianToolsMiningSpeed": 3.0,
+	"obsidianToolsAttackDamage": 1.0,
+	"obsidianToolsEnchantability": 8,
+	/* 
+	   
+	   ***********************
+	   Redium Tool Settings
+	   ***********************
+	*/
+	"rediumToolsDurability": 1800,
+	"rediumToolsMiningSpeed": 8.0,
+	"rediumToolsAttackDamage": 1.0,
+	"rediumToolsEnchantability": 15,
+	/* 
+	   
+	   ***********************
+	   Lapium Tool Settings
+	   ***********************
+	*/
+	"lapiumToolsDurability": 1800,
+	"lapiumToolsMiningSpeed": 8.0,
+	"lapiumToolsAttackDamage": 1.0,
+	"lapiumToolsEnchantability": 15,
+	/* 
+	   
+	   ***********************
+	   Gemium Tool Settings
+	   ***********************
+	*/
+	"gemiumToolsDurability": 2200,
+	"gemiumToolsMiningSpeed": 9.0,
+	"gemiumToolsAttackDamage": 1.0,
+	"gemiumToolsEnchantability": 20,
+	/* 
+	   
+	   ***********************
+	   Trilium Tool Settings
+	   ***********************
+	*/
+	"triliumToolsDurability": 3600,
+	"triliumToolsMiningSpeed": 9.0,
+	"triliumToolsAttackDamage": 1.0,
+	"triliumToolsEnchantability": 20,
+	/* 
+	   
+	   ***********************
+	   Quadrilium Tool Settings
+	   ***********************
+	*/
+	"quadriliumToolsDurability": 4200,
+	"quadriliumToolsMiningSpeed": 9.0,
+	"quadriliumToolsAttackDamage": 1.0,
+	"quadriliumToolsEnchantability": 25,
+	/* 
+	   
+	   ***********************
+	   Tool Full Damage
+	   - affects hammers/excavators
+	   ***********************
+	*/
+	"enableFullDamage": false,
+	/* 
+	   
+	   ***********************
+	   Bow Settings
+	   ***********************
+	*/
+	"bowZoom": 0.44999998807907104,
+	"bowSpeed": 4.0,
+	"bowDivergence": 0.0,
+	"bowAlwaysCriticalHit": false,
+	"bowDropDistance": 30,
+	/* 
+	   
+	   ***********************
+	   Token Settings
+	   ***********************
+	*/
+	"expTokenMiningValue": 7,
+	"expTokenKillingValue": 4,
+	/* 
+	   
+	   ***********************
+	   Redium Armor Settings
+	   ***********************
+	*/
+	"rediumArmorDurabilityMultiplier": 38,
+	"rediumArmorEnchantability": 15,
+	"rediumToughness": 2.0,
+	"rediumKnockbackResistance": 0.0,
+	"rediumArmorHelmetProtection": 3,
+	"rediumArmorChestplateProtection": 8,
+	"rediumArmorLeggingsProtection": 6,
+	"rediumArmorBootsProtection": 3,
+	/* 
+	   
+	   ***********************
+	   Lapium Armor Settings
+	   ***********************
+	*/
+	"lapiumArmorDurabilityMultiplier": 38,
+	"lapiumArmorEnchantability": 15,
+	"lapiumToughness": 2.0,
+	"lapiumKnockbackResistance": 0.0,
+	"lapiumArmorHelmetProtection": 3,
+	"lapiumArmorChestplateProtection": 8,
+	"lapiumArmorLeggingsProtection": 6,
+	"lapiumArmorBootsProtection": 3,
+	/* 
+	   
+	   ***********************
+	   Gemium Armor Settings
+	   ***********************
+	*/
+	"gemiumArmorDurabilityMultiplier": 47,
+	"gemiumArmorEnchantability": 20,
+	"gemiumToughness": 2.25,
+	"gemiumKnockbackResistance": 0.0,
+	"gemiumArmorHelmetProtection": 4,
+	"gemiumArmorChestplateProtection": 9,
+	"gemiumArmorLeggingsProtection": 7,
+	"gemiumArmorBootsProtection": 4,
+	/* 
+	   
+	   ***********************
+	   Trilium Armor Settings
+	   ***********************
+	*/
+	"triliumArmorDurabilityMultiplier": 56,
+	"triliumArmorEnchantability": 25,
+	"triliumToughness": 3.0,
+	"triliumKnockbackResistance": 0.10000000149011612,
+	"triliumArmorHelmetProtection": 5,
+	"triliumArmorChestplateProtection": 10,
+	"triliumArmorLeggingsProtection": 8,
+	"triliumArmorBootsProtection": 5,
+	/* 
+	   
+	   ***********************
+	   Quadrilium Armor Settings
+	   ***********************
+	*/
+	"quadriliumArmorDurabilityMultiplier": 64,
+	"quadriliumArmorEnchantability": 30,
+	"quadriliumToughness": 4.0,
+	"quadriliumKnockbackResistance": 0.20000000298023224,
+	"quadriliumArmorHelmetProtection": 6,
+	"quadriliumArmorChestplateProtection": 11,
+	"quadriliumArmorLeggingsProtection": 9,
+	"quadriliumArmorBootsProtection": 6,
+	/* 
+	   
+	   ***********************
+	   Redium Armor Perks Settings
+	   ***********************
+	*/
+	"enableRediumArmorFireProtection": true,
+	"enableRediumArmorWitherProtection": false,
+	"enableRediumArmorHealthRegen": false,
+	/* 
+	   
+	   ***********************
+	   Lapium Armor Perks Settings
+	   ***********************
+	*/
+	"enableLapiumArmorWaterBreathing": true,
+	"enableLapiumArmorPoisonProtection": false,
+	"enableLapiumArmorHealthRegen": false,
+	/* 
+	   
+	   ***********************
+	   Gemium Armor Perks Settings
+	   ***********************
+	*/
+	"enableGemiumArmorFireProtection": true,
+	"enableGemiumArmorWaterBreathing": true,
+	"enableGemiumArmorPoisonProtection": false,
+	"enableGemiumArmorWitherProtection": false,
+	"enableGemiumArmorHealthRegen": false,
+	"enableGemiumArmorNoFallDamage": false,
+	/* 
+	   
+	   ***********************
+	   Trilium Armor Perks Settings
+	   ***********************
+	*/
+	"enableTriliumArmorFireProtection": true,
+	"enableTriliumArmorWaterBreathing": true,
+	"enableTriliumArmorPoisonProtection": false,
+	"enableTriliumArmorWitherProtection": false,
+	"enableTriliumArmorHealthRegen": false,
+	"enableTriliumArmorNoFallDamage": true,
+	"enableTriliumArmorDolphin": false,
+	/* 
+	   
+	   ***********************
+	   Quadrilium Armor Perks Settings
+	   ***********************
+	*/
+	"enableQuadriliumArmorFireProtection": true,
+	"enableQuadriliumArmorWaterBreathing": true,
+	"enableQuadriliumArmorPoisonProtection": false,
+	"enableQuadriliumArmorWitherProtection": false,
+	"enableQuadriliumArmorHealthRegen": false,
+	"enableQuadriliumArmorNoFallDamage": true,
+	"enableQuadriliumArmorDolphin": true
+}

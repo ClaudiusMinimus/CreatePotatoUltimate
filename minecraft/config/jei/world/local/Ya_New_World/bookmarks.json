@@ -1,0 +1,17 @@
+[
+  {"version":2},
+  {"recipe":"silentgear:saw_template","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"silentgear:paxel_template","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"silentgear:very_crude_repair_kit","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"silentgear:guide_book","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"minecraft:composter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:mushroom_rice"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:dog_food"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:fried_rice"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:stuffed_pumpkin_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:cooked_rice"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:cooking_pot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:bucket"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:stove"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:copper_block"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

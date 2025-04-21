@@ -1,9 +1,11 @@
 #General configuration
 #How much time (ms) to wait before reporting an exception again
-#Range: 1 ~ 10000000
+# Default: 20000
+# Range: 1 ~ 10000000
 loggingThrowableTimeout = 20000
 #Is the probe needed to show the tooltip? 0 = no, 1 = yes, 2 = yes and clients cannot override, 3 = probe needed for extended info only
-#Range: 0 ~ 3
+# Default: 3
+# Range: 0 ~ 3
 needsProbe = 0
 #If true the probe will automatically show extended information if it is in your main hand (so not required to sneak)
 extendedInMain = false
@@ -14,10 +16,12 @@ spawnNote = false
 #If true show the color of the collar of a wolf
 showCollarColor = true
 #How to display RF: 0 = do not show, 1 = show in a bar, 2 = show as text
-#Range: 0 ~ 2
+# Default: 1
+# Range: 0 ~ 2
 showRF = 1
 #How to display tank contents: 0 = do not show, 1 = show in fluid bar, 2 = show in a bar, 3 = show as text
-#Range: 0 ~ 3
+# Default: 1
+# Range: 0 ~ 3
 showTank = 1
 #Format for displaying RF
 rfFormat = "COMPACT"
@@ -40,10 +44,12 @@ tankbarAlternateFilledColor = "ff000043"
 #Color for the tank bar border
 tankbarBorderColor = "ff555555"
 #If the number of items in an inventory is lower or equal then this number then more info is shown
-#Range: 0 ~ 20
+# Default: 4
+# Range: 0 ~ 20
 showItemDetailThresshold = 4
 #The maximum amount of slots (empty or not) to show without sneaking
-#Range: 0 ~ 1000
+# Default: 0
+# Range: 0 ~ 1000
 showSmallChestContentsWithoutSneaking = 0
 #A list of blocks for which we automatically show chest contents even if not sneaking
 showContentsWithoutSneaking = ["storagedrawers:basicdrawers", "storagedrawersextra:extra_drawers"]
@@ -57,4 +63,5 @@ blacklistEntities = []
 tooltypeTags = ["minecraft:mineable/axe=Axe", "minecraft:mineable/pickaxe=Pickaxe", "minecraft:mineable/shovel=Shovel", "minecraft:mineable/hoe=Hoe"]
 #A list of <tag>=<name> containing all harvestability tags with their associated name to display
 harvestabilityTags = ["forge:needs_wood_tool=Wood", "forge:needs_gold_tool=Gold", "minecraft:needs_stone_tool=Stone", "minecraft:needs_iron_tool=Iron", "minecraft:needs_diamond_tool=Diamond", "forge:needs_netherite_tool=Netherite"]
-
+#true means shows harvestability with vanilla style icons
+harvestStyleVanilla = true

@@ -1,0 +1,986 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: ""
+	id: "3DFD3C26419B7986"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "678645C952FCF8CC"
+			rewards: [{
+				id: "640417B41565F33D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "6229FC0F3B6B7FEB"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4868A27F76C700DC"]
+			id: "5AE38D7F1ACE1065"
+			rewards: [{
+				count: 4
+				id: "503DFE79BD3EBECC"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "2F804A4ECC3A2C43"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["678645C952FCF8CC"]
+			id: "4868A27F76C700DC"
+			rewards: [{
+				count: 4
+				id: "4BC2DF069D6B9A21"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "75DF81BBE5C1C966"
+				item: { }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["78FEF9A7E20E7C06"]
+			id: "55468A5FB8BA4A1F"
+			rewards: [{
+				id: "7D781F7BA9F92F83"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D62D84218A87462"
+				item: { }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5AE38D7F1ACE1065"]
+			id: "78FEF9A7E20E7C06"
+			rewards: [
+				{
+					count: 8
+					id: "08773E400E876C5D"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "079B81FC968546F6"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69460C0E7671938B"
+				item: { }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["55468A5FB8BA4A1F"]
+			id: "542DD76032B66B50"
+			rewards: [{
+				count: 16
+				id: "15340382B523FCE6"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "60223C44756C56A7"
+				item: { }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["55468A5FB8BA4A1F"]
+			id: "754F5D734147F8BA"
+			rewards: [{
+				count: 16
+				id: "50AEF9D866B8C370"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "31DF1E159C3C5D80"
+				item: { }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["542DD76032B66B50"]
+			id: "60760C5B4FB95DEA"
+			rewards: [{
+				id: "1EE6F67CFF83677E"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54D1339C33C0E984"
+				item: { }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["754F5D734147F8BA"]
+			id: "2D9DC78C66027DF2"
+			rewards: [{
+				id: "0B06029C6295F6E4"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62B971105574EE6F"
+				item: { }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2D9DC78C66027DF2"]
+			id: "0027048889049815"
+			rewards: [{
+				id: "1623F6FAC4F68BEC"
+				type: "item"
+			}]
+			tasks: [{
+				id: "360F923B08F14B43"
+				item: { }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["78FEF9A7E20E7C06"]
+			id: "1EACB6765A8C7988"
+			rewards: [{
+				count: 32
+				id: "17DD66C15A68A42F"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11F49929C3E1FC8B"
+				item: { }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0059F4044C719D7D"]
+			id: "7000D800442BDB20"
+			rewards: [{
+				id: "2D6294602EF56440"
+				type: "item"
+			}]
+			tasks: [{
+				id: "158A7BBA4DD68B06"
+				item: { }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["754F5D734147F8BA"]
+			id: "168B204949452C03"
+			rewards: [{
+				id: "55E3B134D15AC5D1"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:mana_tablet"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "130E0AF36EDB2466"
+				item: { components: { "ftbquests:missing_item": "botania:mana_tablet" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0027048889049815"]
+			id: "0059F4044C719D7D"
+			rewards: [{
+				id: "02C7AB0156A2E058"
+				only_one: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "17D0E0C6E1EFFB2A"
+				item: { }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["6D698E9864D3C153"]
+			id: "2AC4427434E9FBCB"
+			rewards: [{
+				count: 32
+				id: "451B9CB67EEFD338"
+				type: "item"
+			}]
+			tasks: [{
+				id: "642F203B1E817A2D"
+				item: { }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["0027048889049815"]
+			id: "6D698E9864D3C153"
+			rewards: [{
+				id: "2EC2514C87BCA9E6"
+				type: "item"
+			}]
+			tasks: [{
+				id: "366C2FCC8A9E42B3"
+				item: { }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["60760C5B4FB95DEA"]
+			id: "4C1249721C8EBFBB"
+			rewards: [{
+				id: "178FFDF36A35D3B1"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AC859C018BFBC16"
+				item: { }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2D9DC78C66027DF2"]
+			id: "11E7D116CDEC9D03"
+			rewards: [{
+				id: "54E22725F529476B"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65D7BD840229C6E7"
+				item: { }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["03B2EDF78A084226"]
+			id: "71476487357E662F"
+			shape: "gear"
+			tasks: [{
+				id: "1DCA88F73FDBB2C2"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5AE38D7F1ACE1065"]
+			id: "03B2EDF78A084226"
+			rewards: [{
+				count: 2
+				id: "21D1BDBC64C895D3"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "7A558014AE36C7A3"
+				item: { }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2D9DC78C66027DF2"]
+			id: "4EBF5AB892CDCB14"
+			rewards: [{
+				id: "60971AAD50350AC7"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D42BA16910114E1"
+				item: { }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4EBF5AB892CDCB14"]
+			id: "79F82A7D2D7D1280"
+			rewards: [{
+				count: 8
+				id: "71D9562CE35FE676"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CA9CC07CA95D6E4"
+				item: { components: { "ftbquests:missing_item": "botania:manasteel_pick" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["754F5D734147F8BA"]
+			id: "0A865D877C969C7B"
+			rewards: [{
+				count: 32
+				id: "29A83DEA30E50888"
+				type: "item"
+			}]
+			tasks: [{
+				id: "253193C40E67D396"
+				item: { }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4EBF5AB892CDCB14"]
+			id: "21FE58A9CB80B99B"
+			rewards: [{
+				id: "409A7C2BB7D9634F"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D235D7907805211"
+				item: { components: { "ftbquests:missing_item": "botania:monocle" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4EBF5AB892CDCB14"]
+			id: "586D540A5DE160AB"
+			rewards: [{
+				id: "07BDC055C530849F"
+				item: {
+					count: 1
+					id: "farmersdelight:skillet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CBE4E9E4EC1E74A"
+				item: { components: { "ftbquests:missing_item": "botania:lens_normal" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["586D540A5DE160AB"]
+			id: "305D8F543C830B44"
+			rewards: [{
+				id: "3B602ECA28819339"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21398F10D069890F"
+				item: { components: { "ftbquests:missing_item": "botania:lens_weight" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0027048889049815"]
+			id: "721AD3481887982A"
+			rewards: [{
+				id: "4EA30344B5C6C79E"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F379575A6F57427"
+				item: { }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["721AD3481887982A"]
+			id: "714B4429C2E1CF25"
+			rewards: [{
+				id: "644900A46B1A3FC3"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60C035FC00F26A45"
+				item: { }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["0027048889049815"]
+			id: "74CD206E24B85187"
+			rewards: [{
+				id: "2EE98889B47245D6"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54ABD30AFC694209"
+				item: { }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["74CD206E24B85187"]
+			id: "2C9103778A885567"
+			rewards: [{
+				id: "11711FA89504036C"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27BB2537D3FD1454"
+				item: { }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["542DD76032B66B50"]
+			id: "077E7E557DCB9576"
+			rewards: [{
+				count: 8
+				id: "4587E0D0A2129D73"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A15F801CF6E4DF6"
+				item: { components: { "ftbquests:missing_item": "botania:twig_wand" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0027048889049815"]
+			id: "6181C8F6420EB67C"
+			rewards: [{
+				id: "79E2412B8666C828"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04A29D3A7A8074DA"
+				item: { }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0027048889049815"]
+			id: "1D37B87AC7F4C995"
+			rewards: [{
+				id: "13CA6F5081CC9793"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:manasteel_shears"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EE06478A0F1193D"
+				item: { }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0027048889049815"]
+			id: "357FC93850CE6424"
+			rewards: [{
+				count: 4
+				id: "0E56B8ED96E6942E"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B3E894792BFDC3D"
+				item: { }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0027048889049815"]
+			id: "4EBDC9C39E00EE26"
+			rewards: [{
+				count: 16
+				id: "0BE824A783E78468"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B787B21E02E9C1E"
+				item: { }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0027048889049815"]
+			id: "22119C9F2244D41E"
+			rewards: [{
+				id: "61F1518229BCABE4"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F96C3F594371EB3"
+				item: { }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0027048889049815"]
+			id: "25E2B295763EE9C0"
+			rewards: [{
+				count: 4
+				id: "0C3793E189DFE51E"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:brew_vial"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EE876FCD2D3E8DB"
+				item: { }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["0027048889049815"]
+			id: "329580579F9DC034"
+			rewards: [{
+				count: 32
+				id: "1E01EC01F8A6628E"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B86CE745639B2BB"
+				item: { }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["0027048889049815"]
+			id: "2CB6399BF755E30C"
+			rewards: [{
+				count: 16
+				id: "7891EF6AFD5413AF"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72E3E72FD88C27CD"
+				item: { }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["0027048889049815"]
+			id: "4C1D7E27D15961A5"
+			rewards: [{
+				id: "7762409FF16928E2"
+				item: {
+					count: 1
+					id: "minecraft:splash_potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E5E2084A1017DA4"
+				item: { }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["0027048889049815"]
+			id: "1F90341E0DE3FF66"
+			rewards: [{
+				id: "64F8A399BFE57A57"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A7CDC0B5DBA3263"
+				item: { }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["0027048889049815"]
+			id: "477EDACF18125B64"
+			rewards: [{
+				id: "711356EA4892BD42"
+				type: "item"
+			}]
+			tasks: [{
+				id: "412D0A5AAD4E418D"
+				item: { }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["4EBF5AB892CDCB14"]
+			id: "36EDEBAB81D05AC6"
+			rewards: [{
+				id: "1059C2028691838A"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34BDC840FF63D290"
+				item: { }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["36EDEBAB81D05AC6"]
+			id: "0FD4CDCFF7C99324"
+			rewards: [{
+				id: "338C0750DF2AC2E1"
+				type: "item"
+			}]
+			tasks: [{
+				id: "194B4FD62B4FD263"
+				item: { }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["0027048889049815"]
+			id: "791E12B68D088464"
+			rewards: [{
+				id: "4C6C803B55C4D9B7"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:mana_bottle"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2208EB9A92FA5EBF"
+				item: { }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["79D64612AE5E8351"]
+			id: "68F57454D085D85A"
+			rewards: [{
+				count: 4
+				id: "3370C307E2D153AB"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "1B966640B6A601FD"
+				item: { }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["4EBF5AB892CDCB14"]
+			id: "79D64612AE5E8351"
+			rewards: [{
+				count: 4
+				id: "7C6D183F6A16EAC3"
+				type: "item"
+			}]
+			tasks: [{
+				id: "120E3AA28E1BA16B"
+				item: { }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["168B204949452C03"]
+			id: "2B13CF9D2DB9872C"
+			rewards: [{
+				count: 8
+				id: "273E887918EC925E"
+				type: "item"
+			}]
+			tasks: [{
+				id: "232E67875E801C03"
+				item: { components: { "ftbquests:missing_item": "botania:mana_ring" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["68F57454D085D85A"]
+			id: "4B124A350DE8DA02"
+			rewards: [{
+				id: "25AB59BFD9C03A61"
+				item: {
+					count: 1
+					id: "powder_power:hammer_alchemist"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AE19D8B9F871E97"
+				item: { components: { "ftbquests:missing_item": "botania:mana_ring_greater" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["791E12B68D088464"]
+			id: "3E218EE721C60CC2"
+			rewards: [{
+				count: 8
+				id: "08B07030A39042C4"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1148BFD2B3F385E1"
+				item: { components: { "ftbquests:missing_item": "botania:aura_ring" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["4EBF5AB892CDCB14"]
+			id: "009EE7310AA40B79"
+			rewards: [{
+				id: "54F04531E74F913D"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2054755BF64CD852"
+				item: { }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["68F57454D085D85A"]
+			id: "50F8CBBF03B6EB31"
+			rewards: [{
+				id: "1AAA99B41E3BC750"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B7C546B57EFC67A"
+				item: { }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["68F57454D085D85A"]
+			id: "4E8B7068FF27B4E5"
+			rewards: [{
+				count: 8
+				id: "466CC6B918F42935"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7772874A620FF425"
+				item: { }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"50F8CBBF03B6EB31"
+				"4E8B7068FF27B4E5"
+			]
+			id: "7B7C9A49B9F69991"
+			rewards: [{
+				count: 8
+				id: "4BD69C28B59E227B"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7651F196BDCE2FA1"
+				item: { components: { "ftbquests:missing_item": "botania:lexicon" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4EBF5AB892CDCB14"]
+			id: "0A6EF87E6DCD6D94"
+			rewards: [{
+				id: "0EC1AD36ADBE905A"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5823A8B3C3A983D8"
+				item: { components: { "ftbquests:missing_item": "botania:magnet_ring" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["009EE7310AA40B79"]
+			id: "6F152976BC2A0517"
+			rewards: [{
+				id: "2F15B4C8A7BD7AEA"
+				item: {
+					components: {
+						"ftbquests:missing_item": "botania:mana_tablet"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E6DDBCD63AC2D18"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["009EE7310AA40B79"]
+			id: "0E9F95234AB4F307"
+			rewards: [{
+				id: "70E8D38A4109CB6E"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6DE1740BCEC57AD6"
+				item: { }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["55468A5FB8BA4A1F"]
+			id: "4D86F0F513E5EEB8"
+			rewards: [{
+				id: "0520CBFD3C191210"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B1ECA5874D9399D"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4D86F0F513E5EEB8"]
+			id: "0DED09C3096C985D"
+			rewards: [{
+				id: "778BF0907B2CB04D"
+				item: {
+					count: 1
+					id: "minecraft:flint_and_steel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "250BFE7BAC888148"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+	]
+}

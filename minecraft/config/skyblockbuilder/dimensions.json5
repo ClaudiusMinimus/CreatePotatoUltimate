@@ -1,0 +1,52 @@
+{
+  "End": {
+  
+    // Should end use custom generation? [default: true]
+    "isCustom": true,
+    
+    // Should the main island be generated as normal? [default: true]
+    "keepMainIsland": true
+  },
+  
+  "Nether": {
+  
+    // A list of biomes for each island in a circle shape around the island.
+    // First entry will be first circle of that radius. Second entry will be the next ring and the radius will be added to the previous radius.
+    // Example:
+    //   [
+    //     {
+    //       "id": "minecraft:plains",
+    //       "radius": 64
+    //     },
+    //     {
+    //       "id": "minecraft:end_highlands",
+    //       "radius": 32
+    //     }
+    //   ]
+    "centeredBiomes": [],
+    
+    // Should nether use custom generation? [default: true]
+    "isCustom": true
+  },
+  
+  "Overworld": {
+  
+    // A list of biomes for each island in a circle shape around the island.
+    // First entry will be first circle of that radius. Second entry will be the next ring and the radius will be added to the previous radius.
+    // Example:
+    //   [
+    //     {
+    //       "id": "minecraft:plains",
+    //       "radius": 64
+    //     },
+    //     {
+    //       "id": "minecraft:end_highlands",
+    //       "radius": 32
+    //     }
+    //   ]
+    "centeredBiomes": [],
+    
+    // Should overworld use custom generation? [default: true]
+    "isCustom": true
+  }
+}

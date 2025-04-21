@@ -1,0 +1,897 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armortoolsweapons"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:missing_item": "create_sa:rose_quartz_sword"
+		}
+		id: "ftbquests:missing_item"
+	}
+	id: "0000000000000035"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"74BF4BAF8EBDEDEA"
+				"4F114D7856CE6FE3"
+				"546410869DD2EA05"
+				"3FD7CC98703018B1"
+				"033A920236D86E83"
+			]
+			id: "4D2B419D0946089C"
+			rewards: [
+				{
+					id: "63A33E7A063E11E0"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "255477BEDA8D6787"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6B020498A1BE3877"
+					item: { components: { "ftbquests:missing_item": "powder_power:armor_quadrilium_head" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "70F6871A76269635"
+					item: { components: { "ftbquests:missing_item": "powder_power:armor_quadrilium_body" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "25D37EC678F31B5B"
+					item: { count: 1, id: "powder_power:armor_quadrilium_leggings" }
+					type: "item"
+				}
+				{
+					id: "7E63D68525838E2B"
+					item: { count: 1, id: "powder_power:armor_quadrilium_boots" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"2B1A7B2C629CCD11"
+				"1C96DD7EE2D35B46"
+				"773875786F917064"
+				"48433F2F012472B0"
+				"2CA09EDE9BB020AC"
+			]
+			id: "14A6727FC3F98588"
+			rewards: [{
+				count: 4
+				id: "16E2EC1EA1032E98"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7C8D6692BFD2E059"
+					item: { components: { "ftbquests:missing_item": "powder_power:armor_gemium_head" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "1538259ECC852F7C"
+					item: { components: { "ftbquests:missing_item": "powder_power:armor_gemium_body" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "3D156E7847A0ECB2"
+					item: { count: 1, id: "powder_power:armor_gemium_leggings" }
+					type: "item"
+				}
+				{
+					id: "1A69E81A7EED617F"
+					item: { count: 1, id: "powder_power:armor_gemium_boots" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			id: "48433F2F012472B0"
+			rewards: [{
+				id: "5537C82187610DBA"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "743CCDBF21D9C915"
+				item: { count: 1, id: "powder_power:sword_gemium" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			id: "2CA09EDE9BB020AC"
+			rewards: [{
+				id: "696A743EE46124CC"
+				item: {
+					count: 1
+					id: "powder_power:paxel_gemium"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "595F4E856578CBDF"
+					item: { count: 1, id: "powder_power:pickaxe_gemium" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "11A46E01D73AAC6A"
+					item: { count: 1, id: "powder_power:axe_gemium" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3D8B06E5922DCD37"
+					item: { count: 1, id: "powder_power:shovel_gemium" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			id: "2B1A7B2C629CCD11"
+			rewards: [{
+				id: "46BFCB115BF93041"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "527268027D9FED67"
+				item: { count: 1, id: "powder_power:hammer_gemium" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			id: "1C96DD7EE2D35B46"
+			rewards: [
+				{
+					count: 8
+					id: "5C87F49C1EE2B9CD"
+					type: "item"
+				}
+				{
+					id: "79009D21A8AE5C3E"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5648C2E7B450A111"
+				item: { count: 1, id: "powder_power:excavator_gemium" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			id: "773875786F917064"
+			rewards: [
+				{
+					id: "1C0576B46BE39881"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "66731761F7BD83D5"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14C8BEF44A3D7D9F"
+				item: { count: 1, id: "powder_power:bow_gemium" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "74BF4BAF8EBDEDEA"
+			rewards: [
+				{
+					id: "5D7257476D649C7B"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "45A6EC9D7426C8E5"
+					item: {
+						components: {
+							"ftbquests:missing_item": "quark:ancient_tome"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "415421449CB6D2F2"
+				item: { count: 1, id: "powder_power:sword_quadrilium" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			id: "4F114D7856CE6FE3"
+			rewards: [{
+				id: "69ACA7BCF4C77FB4"
+				item: {
+					count: 1
+					id: "powder_power:paxel_quadrilium"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "3D47B6DB8AC6B2BB"
+					item: { count: 1, id: "powder_power:pickaxe_quadrilium" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "22B2A856389EE15E"
+					item: { count: 1, id: "powder_power:axe_quadrilium" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "43A3CBC0E6C101DF"
+					item: { count: 1, id: "powder_power:shovel_quadrilium" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			id: "546410869DD2EA05"
+			rewards: [{
+				id: "100999E157441C93"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B66FBDA00A9509B"
+				item: { count: 1, id: "powder_power:hammer_quadrilium" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			id: "3FD7CC98703018B1"
+			rewards: [{
+				id: "01DABF0B0DBC88AA"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "583D4C726D7A7393"
+				item: { count: 1, id: "powder_power:excavator_quadrilium" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -10.0d
+		}
+		{
+			id: "033A920236D86E83"
+			rewards: [
+				{
+					count: 32
+					id: "339DA56C74F0C982"
+					item: {
+						count: 1
+						id: "minecraft:tipped_arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "3820C2A3F726135E"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0583DE18294A25B6"
+				item: { count: 1, id: "powder_power:bow_quadrilium" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"4D2B419D0946089C"
+				"14A6727FC3F98588"
+			]
+			dependency_requirement: "one_completed"
+			id: "00B8AD2DF27E33A5"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "7A664823B6DEF2D4"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "51B7462955596B14"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			id: "000000000000007B"
+			rewards: [
+				{
+					count: 4
+					id: "000000000000063B"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0CF7B6D59A049843"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "000000000000007C"
+					item: { count: 1, id: "silentgear:pickaxe" }
+					type: "item"
+				}
+				{
+					id: "000000000000007F"
+					item: { count: 1, id: "silentgear:axe" }
+					type: "item"
+				}
+				{
+					id: "0000000000000080"
+					item: { count: 1, id: "silentgear:shovel" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["000000000000008F"]
+			id: "0000000000000086"
+			rewards: [{
+				count: 64
+				id: "00000000000000A7"
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000000000063A"
+				item: { count: 1, id: "silentgear:bow" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["000000000000008F"]
+			id: "0000000000000089"
+			rewards: [{
+				auto: "disabled"
+				id: "00000000000000A9"
+				item: {
+					count: 1
+					id: "silentgear:tip"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000000000008B"
+				item: { count: 1, id: "silentgear:hammer" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["000000000000008F"]
+			id: "000000000000008C"
+			rewards: [{
+				id: "00000000000000AA"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000000000008D"
+				item: { count: 1, id: "silentgear:excavator" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00000000000005D7"]
+			id: "000000000000008F"
+			rewards: [{
+				id: "00000000000000A0"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0000000000000090"
+					item: { count: 1, id: "silentgear:mattock" }
+					type: "item"
+				}
+				{
+					id: "0000000000000091"
+					item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["000000000000008F"]
+			id: "0000000000000092"
+			rewards: [
+				{
+					id: "00000000000000A3"
+					item: {
+						count: 1
+						id: "silentgear:tip"
+					}
+					type: "item"
+				}
+				{
+					id: "25A98B9E13C8B745"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0000000000000093"
+					item: { count: 1, id: "silentgear:pickaxe_head" }
+					type: "item"
+				}
+				{
+					id: "0000000000000632"
+					item: { count: 1, id: "silentgear:rod" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["000000000000007B"]
+			id: "00000000000004F9"
+			rewards: [{
+				id: "0000000000000501"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000004FA"
+				item: { }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["000000000000008F"]
+			id: "00000000000004FB"
+			rewards: [{
+				id: "0000000000000513"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "00000000000004FC"
+					item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "00000000000004FD"
+					item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "00000000000004FE"
+					item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "00000000000004FF"
+					item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["000000000000008F"]
+			id: "0000000000000522"
+			rewards: [{
+				id: "000000000000053B"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000631"
+				item: { count: 1, id: "silentgear:paxel" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["000000000000007B"]
+			dependency_requirement: "one_completed"
+			id: "00000000000005D7"
+			rewards: [{
+				count: 18
+				id: "00000000000005DB"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000005D8"
+				item: { }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["000000000000008F"]
+			id: "0000000000000633"
+			rewards: [{
+				count: 2
+				id: "0000000000000637"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000636"
+				item: { count: 1, id: "silentgear:shears" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["000000000000008F"]
+			id: "000000000000063D"
+			rewards: [{
+				count: 6
+				id: "0000000000000641"
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000000000063E"
+				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["000000000000008F"]
+			id: "000000000000063F"
+			rewards: [{
+				id: "000000000000064D"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000640"
+				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27EBAAEBA54CA0BB"]
+			id: "0000000000000642"
+			rewards: [{
+				count: 2
+				id: "000000000000064C"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000643"
+				item: { }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6D03E2482EF10830"]
+			id: "2D7B16A94B4813BD"
+			rewards: [
+				{
+					id: "31DB2BCC13F63316"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5A528DB74BA4524C"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "50354CA3DBA4FB4B"
+					item: { }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "517BACA3837D79D1"
+					item: { }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["30C98D8E57A61E0C"]
+			id: "6E6713FD61417E7B"
+			rewards: [
+				{
+					id: "6CF1C29B23F4CA5D"
+					type: "item"
+				}
+				{
+					id: "210370D5967D2EC4"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "15C3D21DAD7DD3B8"
+					item: { }
+					type: "item"
+				}
+				{
+					id: "791276F409D65200"
+					item: { count: 1, id: "silentgear:custom_gem" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["00000000000004FB"]
+			id: "66EF9A948397E447"
+			rewards: [{
+				id: "14CE80BAD45B8713"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11A962D43961E1B7"
+				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66EF9A948397E447"]
+			id: "09FD66439056FDB3"
+			rewards: [{
+				id: "2554B95B83A3E3AA"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C4532E49AD19C6D"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["000000000000007B"]
+			id: "6B282262128F673B"
+			rewards: [{
+				id: "04D947196164FB62"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C77C4D94E61206A"
+				item: { }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0000000000000086"]
+			id: "6838EAC969336720"
+			rewards: [{
+				id: "7B885531F55FCA5D"
+				item: {
+					count: 1
+					id: "silentgear:crude_repair_kit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F5027DB042686B5"
+				item: { count: 1, id: "silentgear:arrow" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["27EBAAEBA54CA0BB"]
+			id: "4183161C2214D855"
+			rewards: [{
+				count: 16
+				id: "7EC2E59990FCECAD"
+				type: "item"
+			}]
+			tasks: [{
+				id: "511EEB3DF458E6AD"
+				item: { }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["21D01A55B8CAB4FC"]
+			id: "6D03E2482EF10830"
+			rewards: [{
+				id: "295FBABE074A37FD"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B5E68E5DA690A58"
+				item: { }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["21D01A55B8CAB4FC"]
+			id: "30C98D8E57A61E0C"
+			rewards: [{
+				id: "5C0ACDCD8C0E3D0C"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59B5458E6421AC1A"
+				item: { }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["21D01A55B8CAB4FC"]
+			id: "27EBAAEBA54CA0BB"
+			rewards: [{
+				count: 4
+				id: "7AAFA433FA6010A4"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47955F6AC1F016C3"
+				item: { }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["000000000000007B"]
+			id: "21D01A55B8CAB4FC"
+			rewards: [{
+				id: "11266C525F093834"
+				item: {
+					count: 1
+					id: "silentgear:blueprint_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "778660B5815047F6"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+	]
+}

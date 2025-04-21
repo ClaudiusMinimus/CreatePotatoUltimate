@@ -1,0 +1,330 @@
+
+#Prismarine Tool Material
+[prismarine_tool_material]
+	#Prismarine Tool Durability [1-3000, default: 725]
+	#Range: 1 ~ 3000
+	prismarineToolDurability = 725
+	#Prismarine Tool efficiency [1.0-7.0, default: 3.0]
+	#Range: 0.0 ~ 7.0
+	prismarineToolEfficiency = 3.0
+	#Prismarine attack damage [1-40, default: 1.0]
+	#Range: 0.0 ~ 40.0
+	prismarineAttackDamage = 1.0
+	#Prismarine tool enchantability [1-30, default: 8]
+	#Range: 1 ~ 30
+	prismarineEnchantability = 8
+
+#Obsidian Tool Material
+[obsidian_tool_material]
+	#Obsidian Tool Durability [1-3000, default: 825]
+	#Range: 1 ~ 3000
+	obsidianToolDurability = 825
+	#Obsidian Tool efficiency [1.0-7.0, default: 3.0]
+	#Range: 0.0 ~ 7.0
+	obsidianToolEfficiency = 3.0
+	#Obsidian attack damage [1-40, default: 1.0]
+	#Range: 0.0 ~ 40.0
+	obsidianAttackDamage = 1.0
+	#Obsidian tool enchantability [1-30, default: 8]
+	#Range: 1 ~ 30
+	obsidianEnchantability = 8
+
+#Redium Tool Material
+[redium_tool_material]
+	#Redium Tool Durability [1-3000, default: 1800]
+	#Range: 1 ~ 3000
+	rediumToolDurability = 1800
+	#Redium Tool efficiency [1.0-10.0, default: 8.0]
+	#Range: 0.0 ~ 10.0
+	rediumToolEfficiency = 8.0
+	#Redium attack damage [1-40, default: 1.0]
+	#Range: 0.0 ~ 40.0
+	rediumAttackDamage = 1.0
+	#Redium tool enchantability [1-30, default: 15]
+	#Range: 1 ~ 30
+	rediumEnchantability = 15
+
+#Lapium Tool Material
+[lapium_tool_material]
+	#Lapium Tool Durability [1-3000, default: 1800]
+	#Range: 1 ~ 3000
+	lapiumToolDurability = 1800
+	#Lapium Tool efficiency [1.0-10.0, default: 8.0]
+	#Range: 0.0 ~ 10.0
+	lapiumToolEfficiency = 8.0
+	#Lapium attack damage [1-40, default: 1.0]
+	#Range: 0.0 ~ 40.0
+	lapiumAttackDamage = 1.0
+	#Lapium tool enchantability [1-30, default: 15]
+	#Range: 1 ~ 30
+	lapiumEnchantability = 15
+
+#Gemium Tool Material
+[gemium_tool_material]
+	#Gemium Tool Durability [1-3000, default: 2200]
+	#Range: 1 ~ 3000
+	gemiumToolDurability = 2200
+	#Gemium Tool efficiency [1.0-10.0, default: 9.0]
+	#Range: 0.0 ~ 10.0
+	gemiumToolEfficiency = 9.0
+	#Gemium attack damage [1-40, default: 1.0]
+	#Range: 0.0 ~ 40.0
+	gemiumAttackDamage = 1.0
+	#Gemium tool enchantability [1-30, default: 20]
+	#Range: 1 ~ 30
+	gemiumEnchantability = 20
+
+#Trilium Tool Material
+[trilium_tool_material]
+	#Trilium Tool Durability [1-5000, default: 3600]
+	#Range: 1 ~ 5000
+	triliumToolDurability = 3600
+	#Trilium Tool efficiency [1.0-10.0, default: 9.0]
+	#Range: 0.0 ~ 10.0
+	triliumToolEfficiency = 9.0
+	#Trilium attack damage [1-40, default: 1.0]
+	#Range: 0.0 ~ 40.0
+	triliumAttackDamage = 1.0
+	#Trilium tool enchantability [1-30, default: 20]
+	#Range: 1 ~ 30
+	triliumEnchantability = 20
+
+#Quadrilium Tool Material
+[quadrilium_tool_material]
+	#Quadrilium Tool Durability [1-5000, default: 4200]
+	#Range: 1 ~ 5000
+	quadriliumToolDurability = 4200
+	#Quadrilium Tool efficiency [1.0-10.0, default: 9.0]
+	#Range: 0.0 ~ 10.0
+	quadriliumToolEfficiency = 9.0
+	#Quadrilium attack damage [1-40, default: 1.0]
+	#Range: 0.0 ~ 40.0
+	quadriliumAttackDamage = 1.0
+	#Quadrilium tool enchantability [1-30, default: 25]
+	#Range: 1 ~ 30
+	quadriliumEnchantability = 25
+
+#Redium Armor Material
+[redium_armor_material]
+	#Redium armor durability multiplier [1-50, default: 38]
+	#Range: 1 ~ 50
+	rediumArmorDurabilityMultiplier = 38
+	#Redium armor enchantability [1-31, default: 15]
+	#Range: 1 ~ 31
+	rediumArmorEnchantability = 15
+	#Redium armor toughness [0.0-4.0, default: 2.0]
+	#Range: 0.0 ~ 4.0
+	rediumArmorToughness = 2.0
+	#Redium armor knockback resistance [0.0-4.0, default: 0.0]
+	#Range: 0.0 ~ 4.0
+	rediumArmorKnockbackResistance = 0.0
+	#Redium armor protection head [1-50, default: 3]
+	#Range: 1 ~ 50
+	rediumArmorProtectionHead = 3
+	#Redium armor protection body [1-50, default: 8]
+	#Range: 1 ~ 50
+	rediumArmorProtectionBody = 8
+	#Redium armor protection leggings [1-50, default: 6]
+	#Range: 1 ~ 50
+	rediumArmorProtectionLeggings = 6
+	#Redium armor protection feet [1-50, default: 3]
+	#Range: 1 ~ 50
+	rediumArmorProtectionFeet = 3
+
+#Redium Armor Effects
+[redium_armor_effects]
+	#Enable redium armor wither protection [true/false]
+	rediumArmorEnableWitherProtect = false
+	#Enable redium armor fire protection [true/false]
+	rediumArmorEnableFireProtect = true
+	#Enable redium armor health regen [true/false]
+	rediumArmorEnableHealthRegen = false
+
+#Lapium Armor Material
+[lapium_armor_material]
+	#Lapium armor durability multiplier [1-50, default: 38]
+	#Range: 1 ~ 50
+	lapiumArmorDurabilityMultiplier = 38
+	#Lapium armor enchantability [1-31, default: 15]
+	#Range: 1 ~ 31
+	lapiumArmorEnchantability = 15
+	#Lapium armor toughness [0.0-4.0, default: 2.0]
+	#Range: 0.0 ~ 4.0
+	lapiumArmorToughness = 2.0
+	#Lapium armor knockback resistance [0.0-4.0, default: 0.0]
+	#Range: 0.0 ~ 4.0
+	lapiumArmorKnockbackResistance = 0.0
+	#Lapium armor protection head [1-50, default: 3]
+	#Range: 1 ~ 50
+	lapiumArmorProtectionHead = 3
+	#Redium armor protection body [1-50, default: 8]
+	#Range: 1 ~ 50
+	lapiumArmorProtectionBody = 8
+	#Redium armor protection leggings [1-50, default: 6]
+	#Range: 1 ~ 50
+	lapiumArmorProtectionLeggings = 6
+	#Redium armor protection feet [1-50, default: 3]
+	#Range: 1 ~ 50
+	lapiumArmorProtectionFeet = 3
+
+#Lapium Armor Effects
+[lapium_armor_effects]
+	#Enable lapium armor poison protection [true/false]
+	lapiumArmorEnablePoisonProtect = false
+	#Enable lapium armor water breathing [true/false]
+	lapiumArmorEnableWaterBreathing = true
+	#Enable lapium armor health regen [true/false]
+	lapiumArmorEnableHealthRegen = false
+
+#Gemium Armor Material
+[gemium_armor_material]
+	#Gemium armor durability multiplier [1-50, default: 47]
+	#Range: 1 ~ 50
+	gemiumArmorDurabilityMultiplier = 47
+	#Gemium armor enchantability [1-31, default: 20]
+	#Range: 1 ~ 31
+	gemiumArmorEnchantability = 20
+	#Gemium armor toughness [0.0-4.0, default: 2.25]
+	#Range: 0.0 ~ 4.0
+	gemiumArmorToughness = 2.25
+	#Gemium armor knockback resistance [0.0-4.0, default: 0.0]
+	#Range: 0.0 ~ 4.0
+	gemiumArmorKnockbackResistance = 0.0
+	#Gemium armor protection head [1-50, default: 4]
+	#Range: 1 ~ 50
+	gemiumArmorProtectionHead = 4
+	#Gemium armor protection body [1-50, default: 9]
+	#Range: 1 ~ 50
+	gemiumArmorProtectionBody = 9
+	#Gemium armor protection leggings [1-50, default: 7]
+	#Range: 1 ~ 50
+	gemiumArmorProtectionLeggings = 7
+	#Gemium armor protection feet [1-50, default: 4]
+	#Range: 1 ~ 50
+	gemiumArmorProtectionFeet = 4
+
+#Gemium Armor Effects
+[gemium_armor_effects]
+	#Enable gemium armor wither protection [true/false]
+	gemiumArmorEnableWitherProtect = false
+	#Enable gemium armor fire protection [true/false]
+	gemiumArmorEnableFireProtect = true
+	#Enable gemium armor poison protection [true/false]
+	gemiumArmorEnablePoisonProtect = false
+	#Enable gemium armor water breathing [true/false]
+	gemiumArmorEnableWaterBreathing = true
+	#Enable gemium armor health regen [true/false]
+	gemiumArmorEnableHealthRegen = false
+	#Enable gemium armor no fall damage [true/false]
+	gemiumArmorEnableNoFallDamage = false
+
+#Trilium Armor Material
+[trilium_armor_material]
+	#Trilium armor durability multiplier [1-75, default: 56]
+	#Range: 1 ~ 75
+	triliumArmorDurabilityMultiplier = 56
+	#Trilium armor enchantability [1-31, default: 25]
+	#Range: 1 ~ 31
+	triliumArmorEnchantability = 25
+	#Trilium armor toughness [0.0-4.0, default: 3.0]
+	#Range: 0.0 ~ 4.0
+	triliumArmorToughness = 3.0
+	#Trilium armor knockback resistance [0.0-4.0, default: 0.1]
+	#Range: 0.0 ~ 4.0
+	triliumArmorKnockbackResistance = 0.1
+	#Trilium armor protection head [1-50, default: 5]
+	#Range: 1 ~ 50
+	triliumArmorProtectionHead = 5
+	#Trilium armor protection body [1-50, default: 10]
+	#Range: 1 ~ 50
+	triliumArmorProtectionBody = 10
+	#Trilium armor protection leggings [1-50, default: 8]
+	#Range: 1 ~ 50
+	triliumArmorProtectionLeggings = 8
+	#Trilium armor protection feet [1-50, default: 5]
+	#Range: 1 ~ 50
+	triliumArmorProtectionFeet = 5
+
+#Trilium Armor Effects
+[trilium_armor_effects]
+	#Enable trilium armor wither protection [true/false]
+	triliumArmorEnableWitherProtect = false
+	#Enable trilium armor fire protection [true/false]
+	triliumArmorEnableFireProtect = true
+	#Enable trilium armor poison protection [true/false]
+	triliumArmorEnablePoisonProtect = false
+	#Enable trilium armor water breathing [true/false]
+	triliumArmorEnableWaterBreathing = true
+	#Enable trilium armor health regen [true/false]
+	triliumArmorEnableHealthRegen = false
+	#Enable trilium armor no fall damage [true/false]
+	triliumArmorEnableNoFallDamage = true
+	#Enable trilium armor dolphins grace [true/false]
+	triliumArmorEnableDolphin = false
+
+#Quadrilium Armor Material
+[quadrilium_armor_material]
+	#Quadrilium armor durability multiplier [1-75, default: 64]
+	#Range: 1 ~ 75
+	quadriliumArmorDurabilityMultiplier = 64
+	#Quadrilium armor enchantability [1-31, default: 30]
+	#Range: 1 ~ 31
+	quadriliumArmorEnchantability = 30
+	#Quadrilium armor toughness [0.0-4.0, default: 4.0]
+	#Range: 0.0 ~ 4.0
+	quadriliumArmorToughness = 4.0
+	#Quadrilium armor knockback resistance [0.0-4.0, default: 0.2]
+	#Range: 0.0 ~ 4.0
+	quadriliumArmorKnockbackResistance = 0.2
+	#Quadrilium armor protection head [1-50, default: 6]
+	#Range: 1 ~ 50
+	quadriliumArmorProtectionHead = 6
+	#Quadrilium armor protection body [1-50, default: 11]
+	#Range: 1 ~ 50
+	quadriliumArmorProtectionBody = 11
+	#Quadrilium armor protection leggings [1-50, default: 9]
+	#Range: 1 ~ 50
+	quadriliumArmorProtectionLeggings = 9
+	#Quadrilium armor protection feet [1-50, default: 6]
+	#Range: 1 ~ 50
+	quadriliumArmorProtectionFeet = 6
+
+#Quadrilium Armor Effects
+[quadrilium_armor_effects]
+	#Enable quadrilium armor wither protection [true/false]
+	quadriliumArmorEnableWitherProtect = false
+	#Enable quadrilium armor fire protection [true/false]
+	quadriliumArmorEnableFireProtect = true
+	#Enable quadrilium armor poison protection [true/false]
+	quadriliumArmorEnablePoisonProtect = false
+	#Enable quadrilium armor water breathing [true/false]
+	quadriliumArmorEnableWaterBreathing = true
+	#Enable quadrilium armor health regen [true/false]
+	quadriliumArmorEnableHealthRegen = false
+	#Enable quadrilium armor no fall damage [true/false]
+	quadriliumArmorEnableNoFallDamage = true
+	#Enable quadrilium armor dolphins grace [true/false]
+	quadriliumArmorEnableDolphin = true
+
+#Token Settings
+[token_settings]
+
+	[token_settings.token_settings]
+		#Experience Token value for mining ores
+		#Range: 0 ~ 100
+		exp_token_mining_value = 7
+		#Experience Token value for killing mobs
+		#Range: 0 ~ 100
+		exp_token_killing_value = 4
+
+#Bow Zoom Value
+[bow_zoom]
+	#Bow zoom valuee [0.0-1.0, default: .45]
+	#Range: 0.1 ~ 0.9
+	bow_zoom_value = 0.45
+
+#Hammer/Excavator Full Damage
+[full_damage]
+	#Hammer/Excavator Full Damage [true/false, default: true]
+	full_damage = false
+

@@ -1,0 +1,98 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tips_and_tricks"
+	group: ""
+	id: "394307726599DAF0"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "28FFDB5148D382BD"
+			tasks: [{
+				id: "14ED3DE448E9D579"
+				item: { }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			id: "0E74F04C1A0AD62E"
+			tasks: [{
+				id: "05D5DE09311CCE60"
+				item: { }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			id: "7B5304E68F814FEC"
+			tasks: [{
+				id: "4B65AB148F3D69E1"
+				item: { }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			id: "7D8DE8F888570C41"
+			tasks: [{
+				id: "46F97DDC9B810959"
+				item: { }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			id: "6F946B0BBD3702B7"
+			tasks: [{
+				id: "2436C1B5D2B49148"
+				item: { }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			id: "621A194C80FC673F"
+			tasks: [
+				{
+					id: "49CD0D827258D35C"
+					item: { components: { "ftbquests:missing_item": "constructionwand:stone_wand" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "6649174D226056BC"
+					item: { components: { "ftbquests:missing_item": "constructionwand:iron_wand" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "5BBC56ADB42F832D"
+					item: { components: { "ftbquests:missing_item": "constructionwand:diamond_wand" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "205C88A68F23A014"
+					item: { components: { "ftbquests:missing_item": "constructionwand:infinity_wand" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "4BE94F32FFD14892"
+			tasks: [{
+				id: "05B9B9090ED69678"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+	]
+}

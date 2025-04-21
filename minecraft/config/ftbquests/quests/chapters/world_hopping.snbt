@@ -4,11 +4,7 @@
 	filename: "world_hopping"
 	group: ""
 	icon: {
-		Count: 1b
 		id: "ftbquests:custom_icon"
-		tag: {
-			Icon: "minecraft:textures/block/nether_portal.png"
-		}
 	}
 	id: "5C3449C5F42C2A48"
 	order_index: 8
@@ -19,13 +15,15 @@
 			id: "015BC3FCB168998F"
 			rewards: [{
 				id: "6521B7082683CC34"
-				item: "powder_power:token_strength"
+				item: {
+					count: 1
+					id: "powder_power:token_strength"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "7E969B91EB428FB5"
-				title: "Visiting the Finale, The End"
 				type: "dimension"
 			}]
 			x: 2.0d
@@ -36,13 +34,15 @@
 			id: "4C8D1E0AFF2310A9"
 			rewards: [{
 				id: "72B4570505C7C0E6"
-				item: "minecraft:sculk_sensor"
+				item: {
+					count: 1
+					id: "minecraft:sculk_sensor"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "51544E360D6B39F0"
-				title: "Visiting the Serene Nether"
 				type: "dimension"
 			}]
 			x: -2.0d
@@ -50,12 +50,14 @@
 		}
 		{
 			dependencies: ["0DED09C3096C985D"]
-			description: ["You only need 10 obsidian blocks to make a portal."]
 			id: "7A5F94720CCC4836"
 			rewards: [{
 				count: 4
 				id: "26606352B5F6774A"
-				item: "minecraft:obsidian"
+				item: {
+					count: 1
+					id: "minecraft:obsidian"
+				}
 				type: "item"
 			}]
 			shape: "diamond"
@@ -63,7 +65,7 @@
 			tasks: [{
 				count: 10L
 				id: "529DE2DD7DEDA43E"
-				item: "minecraft:obsidian"
+				item: { count: 1, id: "minecraft:obsidian" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -74,12 +76,15 @@
 			id: "3E8A431098F5FCEA"
 			rewards: [{
 				id: "661F7882379A67BD"
-				item: "powder_power:token_haste"
+				item: {
+					count: 1
+					id: "powder_power:token_haste"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "337B68E87718AC2C"
-				item: "minecraft:quartz"
+				item: { count: 1, id: "minecraft:quartz" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -91,13 +96,16 @@
 			rewards: [{
 				count: 8
 				id: "792E1FBBA5E9193E"
-				item: "minecraft:verdant_froglight"
+				item: {
+					count: 1
+					id: "minecraft:verdant_froglight"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 16L
 				id: "7368C6803D3C8AAA"
-				item: "minecraft:soul_sand"
+				item: { count: 1, id: "minecraft:soul_sand" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -105,12 +113,14 @@
 		}
 		{
 			dependencies: ["4C8D1E0AFF2310A9"]
-			icon: "minecraft:end_portal_frame"
 			id: "6D632AEDF9E98BAE"
 			rewards: [{
 				count: 3
 				id: "1F4AF090C1EF7959"
-				item: "minecraft:ender_eye"
+				item: {
+					count: 1
+					id: "minecraft:ender_eye"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -118,10 +128,8 @@
 				structure: "betterstrongholds:stronghold"
 				type: "structure"
 			}]
-			title: "Find the Stronghold"
 			x: 0.0d
 			y: 1.0d
 		}
 	]
-	title: "World Hopping"
 }

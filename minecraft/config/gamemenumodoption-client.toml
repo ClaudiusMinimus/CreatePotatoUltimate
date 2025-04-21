@@ -2,5 +2,5 @@
 [General]
 	"Show notification mod update" = false
 	"Render mod list background" = true
-	"Slide up game menu buttons" = true
+	"ModMenu style" = false
 

@@ -3,23 +3,24 @@
 	default_quest_shape: ""
 	filename: "farmer"
 	group: ""
-	icon: "minecraft:carved_pumpkin"
 	id: "00000000000000AF"
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Breaking grass is always fun. Now get to it! Break some grass. Get some seeds. Grow some wheat!"]
 			id: "00000000000000B0"
 			rewards: [{
 				count: 32
 				id: "00000000000005E8"
-				item: "minecraft:bone_meal"
+				item: {
+					count: 1
+					id: "minecraft:bone_meal"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "00000000000000B1"
-				item: "minecraft:golden_carrot"
+				item: { count: 1, id: "minecraft:golden_carrot" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -29,12 +30,15 @@
 			id: "000000000000031B"
 			rewards: [{
 				id: "73CD633610987E51"
-				item: "minecraft:red_mushroom"
+				item: {
+					count: 1
+					id: "minecraft:red_mushroom"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "000000000000031C"
-				item: "minecraft:brown_mushroom"
+				item: { count: 1, id: "minecraft:brown_mushroom" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -44,12 +48,15 @@
 			id: "000000000000031D"
 			rewards: [{
 				id: "17479BCEE5C0D3AB"
-				item: "powder_power:token_no_fall"
+				item: {
+					count: 1
+					id: "powder_power:token_no_fall"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "000000000000031E"
-				item: "minecraft:chorus_fruit"
+				item: { count: 1, id: "minecraft:chorus_fruit" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -61,18 +68,24 @@
 				{
 					count: 2
 					id: "37F238BDBE85A2D5"
-					item: "minecraft:rabbit_spawn_egg"
+					item: {
+						count: 1
+						id: "minecraft:rabbit_spawn_egg"
+					}
 					type: "item"
 				}
 				{
 					id: "1904824B2B9CE856"
-					item: "solcarrot:food_book"
+					item: {
+						count: 1
+						id: "solcarrot:food_book"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "0000000000000320"
-				item: "minecraft:carrot"
+				item: { count: 1, id: "minecraft:carrot" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -83,12 +96,15 @@
 			rewards: [{
 				count: 4
 				id: "749D2308BC7402C9"
-				item: "minecraft:baked_potato"
+				item: {
+					count: 1
+					id: "minecraft:baked_potato"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0000000000000324"
-				item: "minecraft:potato"
+				item: { count: 1, id: "minecraft:potato" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -98,12 +114,15 @@
 			id: "000000000000032D"
 			rewards: [{
 				id: "35EF612361C52236"
-				item: "minecraft:tadpole_bucket"
+				item: {
+					count: 1
+					id: "minecraft:tadpole_bucket"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "000000000000032E"
-				item: "minecraft:cocoa_beans"
+				item: { count: 1, id: "minecraft:cocoa_beans" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -113,12 +132,18 @@
 			id: "000000000000033F"
 			rewards: [{
 				id: "5C35101DF8B8054D"
-				item: "createaddition:seed_oil_bucket"
+				item: {
+					components: {
+						"ftbquests:missing_item": "createaddition:seed_oil_bucket"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0000000000000340"
-				item: "minecraft:beetroot"
+				item: { count: 1, id: "minecraft:beetroot" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -129,12 +154,15 @@
 			rewards: [{
 				count: 4
 				id: "39E8CF4B945B0E18"
-				item: "minecraft:pumpkin_seeds"
+				item: {
+					count: 1
+					id: "minecraft:pumpkin_seeds"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0000000000000342"
-				item: "minecraft:melon_slice"
+				item: { count: 1, id: "minecraft:melon_slice" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -145,12 +173,15 @@
 			rewards: [{
 				count: 2
 				id: "18377F99891870BA"
-				item: "minecraft:glow_squid_spawn_egg"
+				item: {
+					count: 1
+					id: "minecraft:glow_squid_spawn_egg"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "000000000000034E"
-				item: "minecraft:glow_berries"
+				item: { count: 1, id: "minecraft:glow_berries" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -160,12 +191,15 @@
 			id: "0000000000000353"
 			rewards: [{
 				id: "5B07EE0ED6E771FD"
-				item: "createaddition:bioethanol_bucket"
+				item: {
+					count: 1
+					id: "create:zinc_block"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0000000000000354"
-				item: "minecraft:sugar_cane"
+				item: { count: 1, id: "minecraft:sugar_cane" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -176,12 +210,15 @@
 			rewards: [{
 				count: 4
 				id: "4898A1F3E56866A2"
-				item: "create:builders_tea"
+				item: {
+					count: 1
+					id: "create:builders_tea"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0000000000000356"
-				item: "minecraft:kelp"
+				item: { count: 1, id: "minecraft:kelp" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -191,12 +228,15 @@
 			id: "000000000000035B"
 			rewards: [{
 				id: "105F7AA2634A7595"
-				item: "minecraft:jack_o_lantern"
+				item: {
+					count: 1
+					id: "minecraft:jack_o_lantern"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "000000000000035C"
-				item: "minecraft:pumpkin"
+				item: { count: 1, id: "minecraft:pumpkin" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -207,12 +247,15 @@
 			rewards: [{
 				count: 4
 				id: "66024CA7F62D2916"
-				item: "create:chocolate_glazed_berries"
+				item: {
+					count: 1
+					id: "create:chocolate_glazed_berries"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0000000000000360"
-				item: "minecraft:sweet_berries"
+				item: { count: 1, id: "minecraft:sweet_berries" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -223,12 +266,15 @@
 			rewards: [{
 				count: 4
 				id: "64F3F936299A3700"
-				item: "minecraft:bread"
+				item: {
+					count: 1
+					id: "minecraft:bread"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0000000000000368"
-				item: "minecraft:wheat"
+				item: { count: 1, id: "minecraft:wheat" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -238,12 +284,15 @@
 			id: "000000000000036B"
 			rewards: [{
 				id: "7674B07B26D4347C"
-				item: "minecraft:brown_mushroom"
+				item: {
+					count: 1
+					id: "minecraft:brown_mushroom"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "000000000000036C"
-				item: "minecraft:red_mushroom"
+				item: { count: 1, id: "minecraft:red_mushroom" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -288,14 +337,16 @@
 			rewards: [{
 				count: 4
 				id: "000000000000069C"
-				item: "create:blaze_burner"
+				item: {
+					count: 1
+					id: "create:blaze_burner"
+				}
 				type: "item"
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				id: "000000000000069D"
-				title: "All Your Veggies"
 				type: "checkmark"
 			}]
 			x: 10.0d
@@ -305,13 +356,16 @@
 			id: "64B1570BF4B1C93E"
 			rewards: [{
 				id: "4EE4DA3944C419B7"
-				item: "farmersdelight:onion_crate"
+				item: {
+					count: 1
+					id: "farmersdelight:onion_crate"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 8L
 				id: "20596815191CC678"
-				item: "farmersdelight:onion"
+				item: { count: 1, id: "farmersdelight:onion" }
 				type: "item"
 			}]
 			x: 14.0d
@@ -321,12 +375,15 @@
 			id: "18F1628D98E05794"
 			rewards: [{
 				id: "783F275AA9775A57"
-				item: "farmersdelight:bone_broth"
+				item: {
+					count: 1
+					id: "farmersdelight:bone_broth"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "78EBB526730D0CD4"
-				item: "farmersdelight:red_mushroom_colony"
+				item: { count: 1, id: "farmersdelight:red_mushroom_colony" }
 				type: "item"
 			}]
 			x: 14.0d
@@ -336,12 +393,15 @@
 			id: "7851D205E46AF0DC"
 			rewards: [{
 				id: "6A300E1D67FB8E87"
-				item: "minecraft:spider_eye"
+				item: {
+					count: 1
+					id: "minecraft:spider_eye"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "2FC270FB5836E91C"
-				item: "farmersdelight:brown_mushroom_colony"
+				item: { count: 1, id: "farmersdelight:brown_mushroom_colony" }
 				type: "item"
 			}]
 			x: 14.0d
@@ -351,13 +411,16 @@
 			id: "41EDB4B80F71DAC1"
 			rewards: [{
 				id: "1625D6DF6D93AEE5"
-				item: "farmersdelight:tomato_crate"
+				item: {
+					count: 1
+					id: "farmersdelight:tomato_crate"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 8L
 				id: "17B87821E4192A3E"
-				item: "farmersdelight:tomato"
+				item: { count: 1, id: "farmersdelight:tomato" }
 				type: "item"
 			}]
 			x: 15.0d
@@ -367,13 +430,16 @@
 			id: "176FEA5C3469DD70"
 			rewards: [{
 				id: "2D149010313077B2"
-				item: "farmersdelight:cabbage_crate"
+				item: {
+					count: 1
+					id: "farmersdelight:cabbage_crate"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 8L
 				id: "7185804AB1E2069D"
-				item: "farmersdelight:cabbage"
+				item: { count: 1, id: "farmersdelight:cabbage" }
 				type: "item"
 			}]
 			x: 15.0d
@@ -384,13 +450,16 @@
 			rewards: [{
 				count: 8
 				id: "20F3B9199219C99A"
-				item: "farmersdelight:rich_soil"
+				item: {
+					count: 1
+					id: "farmersdelight:rich_soil"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 8L
 				id: "5ABC0691E805A744"
-				item: "farmersdelight:rich_soil"
+				item: { count: 1, id: "farmersdelight:rich_soil" }
 				type: "item"
 			}]
 			x: 15.0d
@@ -401,13 +470,16 @@
 			rewards: [{
 				count: 8
 				id: "29835FD22198FF9E"
-				item: "farmersdelight:organic_compost"
+				item: {
+					count: 1
+					id: "farmersdelight:organic_compost"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 8L
 				id: "6245125F6CC3588D"
-				item: "farmersdelight:organic_compost"
+				item: { count: 1, id: "farmersdelight:organic_compost" }
 				type: "item"
 			}]
 			x: 14.0d
@@ -418,12 +490,15 @@
 			rewards: [{
 				count: 4
 				id: "4F9DDE35F0305C20"
-				item: "farmersdelight:dumplings"
+				item: {
+					count: 1
+					id: "farmersdelight:dumplings"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3A3ADC949FBD7FC5"
-				item: "farmersdelight:stove"
+				item: { count: 1, id: "farmersdelight:stove" }
 				type: "item"
 			}]
 			x: 14.0d
@@ -434,24 +509,24 @@
 			rewards: [
 				{
 					id: "50ECBF8B4B2E5A19"
-					item: "farmersdelight:canvas"
+					item: {
+						count: 1
+						id: "farmersdelight:canvas"
+					}
 					type: "item"
 				}
 				{
 					id: "35B6121D4515D673"
 					item: {
-						Count: 1b
+						count: 1
 						id: "farmersdelight:flint_knife"
-						tag: {
-							Damage: 0
-						}
 					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "31CF5394B6A58BCC"
-				item: "farmersdelight:cutting_board"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
 				type: "item"
 			}]
 			x: 15.0d
@@ -462,40 +537,51 @@
 			rewards: [{
 				count: 4
 				id: "3F169B07DE9ADC7C"
-				item: "farmersdelight:chicken_soup"
+				item: {
+					count: 1
+					id: "farmersdelight:chicken_soup"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "54098067570825D7"
-				item: "farmersdelight:cooking_pot"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
 				type: "item"
 			}]
 			x: 15.0d
 			y: 3.5d
 		}
 		{
-			description: ["Items you can now craft!"]
 			id: "14709ACBF461088E"
 			rewards: [
 				{
 					id: "0424DBF969963E96"
-					item: "silentgear:fluffy_feather"
+					item: {
+						count: 1
+						id: "silentgear:fluffy_feather"
+					}
 					type: "item"
 				}
 				{
 					id: "22CA2E6B9E2D5F1C"
-					item: "silentgear:fluffy_string"
+					item: {
+						count: 1
+						id: "silentgear:fluffy_string"
+					}
 					type: "item"
 				}
 				{
 					id: "6CE26FB3BF79B6FB"
-					item: "silentgear:fluffy_fabric"
+					item: {
+						count: 1
+						id: "silentgear:fluffy_fabric"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "63AABE37ADE29A9B"
-				item: "silentgear:fluffy_puff"
+				item: { count: 1, id: "silentgear:fluffy_puff" }
 				type: "item"
 			}]
 			x: 16.0d
@@ -505,12 +591,15 @@
 			id: "7E675FAAD105C4B4"
 			rewards: [{
 				id: "65E2B13ECAB3882C"
-				item: "silentgear:flax_string"
+				item: {
+					count: 1
+					id: "silentgear:flax_string"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0B45C849DF372032"
-				item: "silentgear:flax_fiber"
+				item: { count: 1, id: "silentgear:flax_fiber" }
 				type: "item"
 			}]
 			x: 16.0d
@@ -521,26 +610,14 @@
 			rewards: [{
 				id: "7A2348631A273A35"
 				item: {
-					Count: 1b
+					count: 1
 					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "farmersdelight:backstabbing"
-							lvl: 3s
-						}]
-					}
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "23B12E1EDD7624DB"
-				item: {
-					Count: 1b
-					id: "farmersdelight:netherite_knife"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { count: 1, id: "farmersdelight:netherite_knife" }
 				type: "item"
 			}]
 			x: 16.0d
@@ -551,19 +628,18 @@
 			rewards: [{
 				count: 4
 				id: "48B4E42C5979208F"
-				item: "refinedstorage:basic_processor"
+				item: {
+					components: {
+						"ftbquests:missing_item": "refinedstorage:basic_processor"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "48F8C7213DDC26FC"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "farmersdelight:cabinets"
-					}
-				}
-				title: "Any #farmersdelight:cabinets"
+				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 16.0d
@@ -573,13 +649,16 @@
 			id: "323EB0C6DA70DE9C"
 			rewards: [{
 				id: "1974BF576908065A"
-				item: "farmersdelight:rice_bale"
+				item: {
+					count: 1
+					id: "farmersdelight:rice_bale"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 8L
 				id: "2550C29E75131686"
-				item: "farmersdelight:rice_panicle"
+				item: { count: 1, id: "farmersdelight:rice_panicle" }
 				type: "item"
 			}]
 			x: 16.0d
@@ -591,12 +670,15 @@
 			rewards: [{
 				count: 3
 				id: "382E7F331B821492"
-				item: "minecraft:bookshelf"
+				item: {
+					count: 1
+					id: "minecraft:bookshelf"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "35C1115E51246A2F"
-				item: "sliceanddice:slicer"
+				item: { components: { "ftbquests:missing_item": "sliceanddice:slicer" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 11.0d
@@ -607,17 +689,22 @@
 			id: "655CF89B7D59F2B9"
 			rewards: [{
 				id: "2F68CAF09C9980D7"
-				item: "sliceanddice:fertilizer_bucket"
+				item: {
+					components: {
+						"ftbquests:missing_item": "sliceanddice:fertilizer_bucket"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0C07132F6EEEA612"
-				item: "sliceanddice:sprinkler"
+				item: { components: { "ftbquests:missing_item": "sliceanddice:sprinkler" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 9.0d
 			y: 5.5d
 		}
 	]
-	title: "Farming and Cooking"
 }

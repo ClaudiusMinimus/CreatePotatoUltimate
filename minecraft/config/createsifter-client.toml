@@ -1,0 +1,10 @@
+	#.
+	#Mechanical Sifter Configs
+	[mechanicalSifterClient.v1]
+		#.
+		#.
+		#Render sifted block.
+		renderSiftedBlock = true
+		#.
+		#Render moving mesh.
+		renderMovingMesh = true

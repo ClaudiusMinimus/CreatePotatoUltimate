@@ -1,0 +1,21 @@
+{
+	# When enabled, light sources near spawners will be broken to allow for mob spawning.
+	# Default: false
+	break_light_sources_near_spawners: false
+	
+	# When enabled, the light level around spawners will be ignored for mob spawning.
+	# Default: false
+	ignore_light_level_for_spawners: false
+	
+	# Sparse structures configuration. See https://github.com/MCTeamPotato/SparseStructuresReforged/tree/1201 for more information.
+	sparse_structures: {
+		# Whether sparse structures are enabled.
+		enabled: false
+		
+		# The global spread factor for all structures when no custom spread factor is defined.
+		global_spread_factor: 2.0d
+		
+		# Custom spread factors for specific structures.
+		custom_spread_factors: [ ]
+	}
+}

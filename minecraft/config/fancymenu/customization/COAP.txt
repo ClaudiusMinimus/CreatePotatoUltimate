@@ -1,0 +1,158 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = drippy_loading_overlay
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1736385269071
+  is_enabled = false
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:8673b93b-5756-4297-b53d-0a73da14f415-1736385269071] = [groups:][instances:]
+}
+
+menu_background {
+  image_path = [source:local]config/fancymenu/assets/background.png
+  slide = false
+  repeat_texture = false
+  background_type = image
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  button_element_executable_block_identifier = 9a6cc212-e37a-48bc-ba26-492f473f42e1-1736385269071
+  [executable_action_instance:40b3e45a-2f13-4843-8917-0e51b18e5224-1736385269071][action_type:openlink] = https://mangomeowie.carrd.co/
+  [executable_block:9a6cc212-e37a-48bc-ba26-492f473f42e1-1736385269071][type:generic] = [executables:40b3e45a-2f13-4843-8917-0e51b18e5224-1736385269071;]
+  backgroundnormal = [source:local]config/fancymenu/assets/cm_avatar_transparent_200x200.png
+  backgroundhovered = [source:local]config/fancymenu/assets/cm_avatar_transparent_200x200.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  description = I love the character artwork%n%mangomeowie created for me.%n%If you need character art,%n%including full illustrations, please%n%visit https://mangomeowie.carrd.co/
+  label = 
+  navigatable = true
+  widget_active_state_requirement_container_identifier = c5e1d92e-9c6a-4c3f-870e-e6036972886f-1736385269071
+  [loading_requirement_container_meta:c5e1d92e-9c6a-4c3f-870e-e6036972886f-1736385269071] = [groups:][instances:]
+  element_type = custom_button
+  instance_identifier = 66ef0c63-dd73-44bd-8c88-11210072404c1675393112182
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = bottom-left
+  x = 2
+  y = -78
+  width = 101
+  height = 99
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 4c8681b1-ca9a-4d5d-aae2-b8b37871f0e5-1736385269071
+  [loading_requirement_container_meta:4c8681b1-ca9a-4d5d-aae2-b8b37871f0e5-1736385269071] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 1450580a-9be4-4417-a718-5c60ec3aa45c-1736385269071
+  [executable_block:1450580a-9be4-4417-a718-5c60ec3aa45c-1736385269071][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 08e6df7a-011e-4068-b039-acfe4ae3a01a-1736385269071
+  [loading_requirement_container_meta:08e6df7a-011e-4068-b039-acfe4ae3a01a-1736385269071] = [groups:][instances:]
+  element_type = vanilla_button
+  instance_identifier = mojang_logo
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = b4068368-318a-44ab-bfbf-9eaa9dd8e709-1736385269071
+  [loading_requirement_container_meta:b4068368-318a-44ab-bfbf-9eaa9dd8e709-1736385269071] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = bbed8568-49ac-4e2a-ace3-e1c544d69285-1736385269071
+  [executable_block:bbed8568-49ac-4e2a-ace3-e1c544d69285-1736385269071][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 38bfd0a3-65c9-4b2a-b852-362330547073-1736385269071
+  [loading_requirement_container_meta:38bfd0a3-65c9-4b2a-b852-362330547073-1736385269071] = [groups:][instances:]
+  element_type = vanilla_button
+  instance_identifier = progress_bar
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 09e2be01-e263-4ae4-9671-6d6626b8b866-1736385269071
+  [loading_requirement_container_meta:09e2be01-e263-4ae4-9671-6d6626b8b866-1736385269071] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+

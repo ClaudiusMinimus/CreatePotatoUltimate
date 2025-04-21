@@ -1,26 +1,59 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = net.minecraft.client.gui.screens.worldselection.SelectWorldScreen
-  randomgroup = 1
-  renderorder = foreground
+layout-meta {
+  identifier = select_world_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1736385269110
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:57f6f8a0-0c2f-44a9-a0ba-6877fdc1bc48-1736385269110] = [groups:][instances:]
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  path = config/fancymenu/assets/cpulogo.png
-  orientation = top-right
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  source = [source:local]config/fancymenu/assets/cpulogo.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = d1f4e943-0718-4f65-9036-6f9105d75be11680133376133
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 0
+  auto_sizing_base_screen_height = 0
+  sticky_anchor = false
+  anchor_point = top-right
   x = -111
-  width = 108
-  action = addtexture
-  actionid = d1f4e943-0718-4f65-9036-6f9105d75be11680133376133
   y = 3
+  width = 108
   height = 40
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 898f05b3-1a1e-43cd-824a-08349354f8c5-1736385269110
+  [loading_requirement_container_meta:898f05b3-1a1e-43cd-824a-08349354f8c5-1736385269110] = [groups:][instances:]
 }
 
