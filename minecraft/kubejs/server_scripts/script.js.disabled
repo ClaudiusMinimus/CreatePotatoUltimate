@@ -65,14 +65,14 @@ ServerEvents.recipes(event => {
 	})
 
 	// Spawner recipe
-	event.shaped('minecraft:spawner', [
-		'BBB',
-		'BSB',
-		'BBB'
-	], {
-		B: 'createdeco:netherite_bars',
-		S: 'minecraft:nether_star'
-	})
+	// event.shaped('minecraft:spawner', [
+	// 	'BBB',
+	// 	'BSB',
+	// 	'BBB'
+	// ], {
+	// 	B: 'createdeco:netherite_bars',
+	// 	S: 'minecraft:nether_star'
+	// })
 
 	// Pillager spawn egg recipe
 	event.shaped('minecraft:pillager_spawn_egg', [
