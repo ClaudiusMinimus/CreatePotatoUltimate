@@ -20,6 +20,7 @@ minecraft/fancymenu_setups/*
 minecraft/kubejs/exported/*
 minecraft/local/*
 minecraft/logs/*
+minecraft/mods/*
 minecraft/moddata/*
 minecraft/ModTranslations/*
 minecraft/saves/*
