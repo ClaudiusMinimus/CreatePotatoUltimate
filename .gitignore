@@ -10,6 +10,7 @@ minecraft/.bobby/*
 minecraft/.fabric/*
 minecraft/.mixin.out/*
 minecraft/backup/*
+minecraft/config/*
 minecraft/coremods/*
 minecraft/craftpresence/*
 minecraft/crash-reports/*
