@@ -41,6 +41,7 @@ server/kubejs
 server/patchouli_books
 
 # Ignore these files
+*.bak
 *.code-workspace
 *.log
 .packignore
