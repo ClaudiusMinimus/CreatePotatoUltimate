@@ -10,7 +10,14 @@ minecraft/.bobby/*
 minecraft/.fabric/*
 minecraft/.mixin.out/*
 minecraft/backup/*
+
+# IMPORTANT 
+# This config folder must be ignored
+# Only add necessary folders as needed
+# in section [Stop ignoring these folders]
+# below
 minecraft/config/*
+
 minecraft/coremods/*
 minecraft/craftpresence/*
 minecraft/crash-reports/*
@@ -78,7 +85,7 @@ minecraft/usercache.json
 minecraft/usernamecache.json
 server/*.zip
 
-# Stop ignoring these folders
+# [Stop ignoring these folders]
 !minecraft/config/defaultoptions/
 !minecraft/config/defaultworldtype
 !minecraft/config/drippyloadingscreen/
