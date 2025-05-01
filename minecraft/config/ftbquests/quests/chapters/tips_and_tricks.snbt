@@ -9,9 +9,17 @@
 	quests: [
 		{
 			id: "28FFDB5148D382BD"
+			rewards: [{
+				id: "2722E1400E9D19DD"
+				item: {
+					count: 1
+					id: "createaddition:chocolate_cake"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "14ED3DE448E9D579"
-				item: { components: { "ftbquests:missing_item": "dummmmmmy:target_dummy" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "dummmmmmy:target_dummy" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -29,29 +37,27 @@
 		}
 		{
 			id: "7B5304E68F814FEC"
+			rewards: [{
+				id: "45532F861BFCB157"
+				item: {
+					count: 1
+					id: "minecraft:slime_block"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B65AB148F3D69E1"
-				item: { components: { "ftbquests:missing_item": "cardboardbox:crate" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "cardboardboxes:cardboardbox" }
 				type: "item"
 			}]
 			x: -5.0d
 			y: -3.5d
 		}
 		{
-			id: "7D8DE8F888570C41"
-			tasks: [{
-				id: "46F97DDC9B810959"
-				item: { components: { "ftbquests:missing_item": "jecalculation:item_calculator_craft" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: -2.0d
-		}
-		{
 			id: "6F946B0BBD3702B7"
 			tasks: [{
 				id: "2436C1B5D2B49148"
-				item: { components: { "ftbquests:missing_item": "tempad:tempad" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "tempad:tempad" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -59,28 +65,11 @@
 		}
 		{
 			id: "621A194C80FC673F"
-			tasks: [
-				{
-					id: "49CD0D827258D35C"
-					item: { components: { "ftbquests:missing_item": "constructionwand:stone_wand" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "6649174D226056BC"
-					item: { components: { "ftbquests:missing_item": "constructionwand:iron_wand" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "5BBC56ADB42F832D"
-					item: { components: { "ftbquests:missing_item": "constructionwand:diamond_wand" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-				{
-					id: "205C88A68F23A014"
-					item: { components: { "ftbquests:missing_item": "constructionwand:infinity_wand" }, count: 1, id: "ftbquests:missing_item" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5BBC56ADB42F832D"
+				item: { count: 1, id: "wands:stone_wand" }
+				type: "item"
+			}]
 			x: -3.0d
 			y: -2.0d
 		}
@@ -92,7 +81,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -0.5d
+			y: -2.0d
 		}
 	]
 }

@@ -64,12 +64,9 @@
 	]
 	quest.000000000000008F.title: "My My Mattock"
 	quest.0000000000000092.quest_desc: [
-		"Make a pickaxe head using three Iron Ingots and an Iron Tool Rod"
+		"Make a pickaxe head using three Iron Ingots and a Bone for a tool rod"
 		""
 		"Your reward is a Redstone Tip Upgrade. While hovering the tip, press the Ctrl key to see the stat changes."
-		""
-		"&4&lIMPORTANT&r"
-		"&rIn order to complete the Iron Tool Rod you must use a Tool Rod Blueprint or Tool Rod Template. If you simply craft two iron ingots to make a Iron Rod, the quest will fail."
 	]
 	quest.00000000000000B0.quest_desc: ["Breaking grass is always fun. Now get to it! Break some grass. Get some seeds. Grow some wheat!"]
 	quest.00000000000000B6.title: "String"
@@ -81,6 +78,7 @@
 		""
 		"Gather 64 Cobblestone and we'll give ya your first bridge made from... well, cobblestone!"
 	]
+	quest.00000000000004FB.title: "Armor Blueprints"
 	quest.0000000000000522.quest_desc: ["This is your basic all in one tool."]
 	quest.00000000000005D7.quest_desc: [
 		"Using these blueprint/template craft a Dagger Blade and a Rough Rod and place them in a crafting grid to make a Crude Dagger. Then craft a Stone Anvil."
@@ -181,7 +179,7 @@
 	quest.077E7E557DCB9576.title: "Wand of the Forest"
 	quest.07D9EBE35C2DDCBE.quest_subtitle: "Nixie Tubes can display a redstone signal strength and can be used for making custom signs"
 	quest.09FD66439056FDB3.quest_desc: ["Using Coatings to change the stats of a tool, weapon, or armor"]
-	quest.09FD66439056FDB3.title: "Coating Blueprint/Template"
+	quest.09FD66439056FDB3.title: "Coating Blueprint"
 	quest.0A6EF87E6DCD6D94.quest_desc: [
 		"When worn in the Trinkets Ring slot, any items in a 13x13 area around the player will be pulled towards them if they are not sneaking. Up to 200 items can be pulled at once."
 		""
@@ -371,6 +369,7 @@
 	quest.5DBFF42322BE1A6C.quest_subtitle: "Used with Display Boards"
 	quest.60760C5B4FB95DEA.quest_desc: ["The Mana Spreader is the single most important tool a botanist needs to manipulate Mana."]
 	quest.6181C8F6420EB67C.quest_desc: ["Rune of Spring is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
+	quest.621A194C80FC673F.quest_desc: ["[ \"To many features to list. Check the \", { \"text\": \"guide book\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3BC70DC86FB889E6\" } }, \" for for more info.\" ]"]
 	quest.621A194C80FC673F.title: "Contruction Wands"
 	quest.63E0177EA97D97D0.quest_desc: ["Gantry Shafts form the basis of a Gantry setup. An attached Carriage will move along them."]
 	quest.66EF9A948397E447.quest_desc: ["Using Linings to add traits to your armor"]
@@ -382,27 +381,15 @@
 	]
 	quest.678645C952FCF8CC.quest_subtitle: "Start Here"
 	quest.678645C952FCF8CC.title: "Starting Botania"
-	quest.6838EAC969336720.quest_desc: [
-		"A renewable arrow, when filled, is equivalent to 256 Iron Tipped Bone Arrows."
-		""
-		"The tip is Iron"
-		"The shaft is Bone"
-		"The fletching is Feather"
-		""
-		"You will need to make Blueprint/Template for the Arrow and Fletching"
-		""
-		"Your reward. A Crude Repair Kit filled with Iron!"
-	]
 	quest.68F57454D085D85A.quest_desc: ["Armor, tools, and weapons made out of Terrasteel, much like its Manasteel-based counterpart, can use Mana from the inventory to heal damage.However, its durabilities are comparable more to Diamond armor than to Iron."]
 	quest.6920E14D5A39D522.quest_desc: [
-		"The Stockpile Switch is one of the most important blocks for automation, but also for optimizing the stress units. The block emits a redstone signal that if set up properly can automatically turn off machines not in use."
+		"The Threshold Switch is one of the most important blocks for automation, but also for optimizing the stress units. The block emits a redstone signal that if set up properly can automatically turn off machines not in use."
 		""
 		"The benefits of this block cannot be understated! Learn about it and use often!"
 	]
 	quest.6920E14D5A39D522.quest_subtitle: "This is a MUST have!"
 	quest.6B13CAC5E656A56E.quest_desc: ["Place under a Basin for many recipes, but you are not quite done yet. It's off to the Nether!"]
 	quest.6D632AEDF9E98BAE.title: "Find the Stronghold"
-	quest.6D65B3F4C48BC8E9.quest_desc: ["Add this upgraded jetpack to your back slot in Curios, so you can still wear chest armor, and most important provides flight over the void. You can also toggle hover mode, which makes for softer landings!"]
 	quest.6D698E9864D3C153.quest_desc: ["Rune of Earth is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
 	quest.6F152976BC2A0517.quest_desc: ["Enchanting with Mana is a powerful way to enchant items without consuming the enchantment books. To learn in-depth instruction open your Lexica Botania and search on: Enchanting with Mana"]
 	quest.6F946B0BBD3702B7.quest_desc: ["Great way to save locations to teleport to"]
@@ -444,6 +431,7 @@
 	quest.79D64612AE5E8351.quest_desc: ["Terrasteel is a complex and useful magical alloy, infused with ridiculous amounts of Mana. Synthesizing it proves to be no small task. For starters, its creation requires a Terrestrial Agglomeration Plate placed over a checkerboard pattern of Lapis Lazuli Blocks and Livingrock (or Shimmerrock). This block then needs to be provided with Mana, with Sparks being the most efficient mode of transfer."]
 	quest.79F82A7D2D7D1280.quest_desc: ["Some Manasteel tools perform special actions when right-clicked: the Pickaxe will place a torch from the user's inventory, and the Axe will do the same with a sapling.Do note that Shears made of mana-based materials will trigger tripwires, unlike iron ones."]
 	quest.7A5F94720CCC4836.quest_desc: ["You only need 10 obsidian blocks to make a portal."]
+	quest.7B5304E68F814FEC.quest_desc: ["Have you ever wanted to move an inventory? Sneak-Right-Click to place and sneak-right-click to pick up. The contents will pick up as well. Right click to place at the new location."]
 	quest.7B7C9A49B9F69991.quest_desc: [
 		"The Lexica Botania does not initially contain all of its information when it is first collected or crafted:"
 		""
@@ -483,7 +471,6 @@
 	task.06FF08567F126EDA.title: "Torch"
 	task.1DCA88F73FDBB2C2.title: "Start a Tree Farm"
 	task.2822CA570EE5EF85.title: "Roughly Enough Items (REI)"
-	task.2C4532E49AD19C6D.title: "Any #silentgear:blueprints/coating"
 	task.2C6A2CB6DF046D00.title: "Basic Commands"
 	task.2F804A4ECC3A2C43.title: "Any Botania Mystical Flowers"
 	task.344CE56B34765342.title: "Open Potato Guidebook"

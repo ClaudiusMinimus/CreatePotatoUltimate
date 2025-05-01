@@ -673,10 +673,11 @@
 			dependencies: ["0000000000000799"]
 			id: "00000000000008C9"
 			rewards: [{
+				count: 8
 				id: "00000000000008CD"
 				item: {
 					count: 1
-					id: "minecraft:enchanted_book"
+					id: "farmersdelight:bacon_sandwich"
 				}
 				type: "item"
 			}]
@@ -1533,17 +1534,18 @@
 			dependencies: ["03108B7D1A7458B3"]
 			id: "184DE56CE9F46B88"
 			rewards: [{
+				count: 32
 				id: "15219734F7A0A92B"
 				item: {
 					count: 1
-					id: "create:chute"
+					id: "minecraft:sand"
 				}
 				type: "item"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "5866E2A3FF104E08"
-				item: { count: 1, id: "createsifter:zinc_mesh" }
+				item: { count: 1, id: "createsifter:brass_mesh" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -1557,13 +1559,13 @@
 				id: "6A874ABDDFDDDBA8"
 				item: {
 					count: 1
-					id: "minecraft:sand"
+					id: "createsifter:dust"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7A01FF8F81D013E9"
-				item: { count: 1, id: "createsifter:brass_mesh" }
+				item: { count: 1, id: "createsifter:advanced_brass_mesh" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -1613,6 +1615,13 @@
 			rewards: [{
 				id: "06010E87AB020FE9"
 				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"create_sa:above_the_clouds": 1
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
@@ -1625,25 +1634,6 @@
 			}]
 			x: 8.5d
 			y: 12.5d
-		}
-		{
-			dependencies: ["3B92E29596B40569"]
-			id: "6D65B3F4C48BC8E9"
-			rewards: [{
-				id: "0F53701AE26F2036"
-				item: {
-					count: 1
-					id: "minecraft:enchanted_book"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "13334EA51AA6A0B6"
-				item: { components: { "ftbquests:missing_item": "create_jetpack:jetpack" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -3.5d
 		}
 		{
 			dependencies: ["0000000000000799"]
@@ -1685,46 +1675,6 @@
 			}]
 			x: -3.5d
 			y: -2.5d
-		}
-		{
-			dependencies: ["03CC0E98A0C9900A"]
-			id: "596465D176B0A1A3"
-			rewards: [{
-				count: 16
-				id: "1BAFF92A2D226953"
-				item: {
-					count: 1
-					id: "minecraft:red_sand"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "121DB565D9C067DE"
-				item: { components: { "ftbquests:missing_item": "kubejs:amethyst_mesh" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["03CC0E98A0C9900A"]
-			id: "3E7E0406872820C4"
-			rewards: [{
-				count: 16
-				id: "1DC9C49C5E08E29E"
-				item: {
-					count: 1
-					id: "minecraft:soul_sand"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "7C7A03B9589DC6A6"
-				item: { components: { "ftbquests:missing_item": "kubejs:quartz_mesh" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: -0.5d
 		}
 		{
 			dependencies: ["21DE6418AF3C338D"]
@@ -1888,6 +1838,15 @@
 		{
 			dependencies: ["0000000000000799"]
 			id: "43CADB3EE8D1312A"
+			rewards: [{
+				count: 4
+				id: "24FE85AB33A93A6E"
+				item: {
+					count: 1
+					id: "minecraft:frogspawn"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2A9D7CDCEEE95C76"
 				item: { count: 1, id: "create:sticky_mechanical_piston" }
@@ -2170,6 +2129,13 @@
 			rewards: [{
 				id: "12211A4B34804148"
 				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:swift_sneak": 3
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
@@ -2189,6 +2155,13 @@
 			rewards: [{
 				id: "66A9F417E0C1597D"
 				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:protection": 4
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
@@ -2209,10 +2182,10 @@
 				id: "7DCE377D63867723"
 				item: {
 					components: {
-						"ftbquests:missing_item": "quark:ancient_tome"
+						"create:banktank_air": 900
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "create:netherite_backtank"
 				}
 				type: "item"
 			}]
@@ -2243,6 +2216,13 @@
 				{
 					id: "7237FC78784E0013"
 					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"create:capacity": 3
+								}
+							}
+						}
 						count: 1
 						id: "minecraft:enchanted_book"
 					}
@@ -2335,17 +2315,6 @@
 			}]
 			x: -11.5d
 			y: 6.0d
-		}
-		{
-			dependencies: ["4A168E908986C7D2"]
-			id: "36F05D5CCC1F3D6E"
-			tasks: [{
-				id: "156E547FE3E582CF"
-				item: { components: { "ftbquests:missing_item": "create_jetpack:netherite_jetpack" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: -4.5d
 		}
 	]
 }
