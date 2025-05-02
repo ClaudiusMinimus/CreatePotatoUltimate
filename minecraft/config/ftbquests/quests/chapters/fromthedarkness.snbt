@@ -239,7 +239,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 64L
+				count: 16L
 				id: "00000000000000C8"
 				item: { count: 1, id: "minecraft:cobblestone" }
 				type: "item"

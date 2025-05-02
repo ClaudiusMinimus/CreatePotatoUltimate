@@ -2036,17 +2036,14 @@
 				count: 4
 				id: "555828E14197E3CB"
 				item: {
-					components: {
-						"ftbquests:missing_item": "createaddition:gold_spool"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "createaddition:gold_spool"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "6C824C831DD3F20F"
-				item: { components: { "ftbquests:missing_item": "createaddition:electric_motor" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "createaddition:electric_motor" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -2058,17 +2055,14 @@
 			rewards: [{
 				id: "003B05AAEB04F9FF"
 				item: {
-					components: {
-						"ftbquests:missing_item": "createaddition:modular_accumulator"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "createaddition:modular_accumulator"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "08D45A3A1B0DFAC5"
-				item: { components: { "ftbquests:missing_item": "createaddition:alternator" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "createaddition:alternator" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -2087,7 +2081,7 @@
 			}]
 			tasks: [{
 				id: "388D454C2E41D10A"
-				item: { components: { "ftbquests:missing_item": "createaddition:tesla_coil" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "createaddition:tesla_coil" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -2237,7 +2231,6 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["0D77CE91690DFD0F"]
 			id: "3D66EBF3A215F354"
 			rewards: [{
 				id: "737DF23F3AA20171"
@@ -2249,11 +2242,11 @@
 			}]
 			tasks: [{
 				id: "488EC7DB015BD671"
-				item: { components: { "ftbquests:missing_item": "create_enchantment_industry:enchanting_guide" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 16.0d
+			x: -9.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["000000000000078F"]
@@ -2279,7 +2272,7 @@
 			id: "485280315689B86E"
 			tasks: [{
 				id: "6583BC3A0245CAE3"
-				item: { components: { "ftbquests:missing_item": "createaddition:biomass" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "createaddition:biomass_pellet" }
 				type: "item"
 			}]
 			x: -10.0d
@@ -2310,7 +2303,7 @@
 			}]
 			tasks: [{
 				id: "4DBF50346D6A4BCB"
-				item: { components: { "ftbquests:missing_item": "createaddition:bioethanol_bucket" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "createaddition:bioethanol_bucket" }
 				type: "item"
 			}]
 			x: -11.5d
