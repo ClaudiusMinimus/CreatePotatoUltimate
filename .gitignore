@@ -119,3 +119,8 @@ minecraft/downloads/log.json
 /minecraft/xaero
 minecraft/TrashSlotSaveState.json
 minecraft/command_history.txt
+minecraft/config/squatgrow-common.yaml
+minecraft/config/theoneprobe-client.toml
+minecraft/config/theoneprobe-common.toml
+minecraft/config/vtweaks-common.toml
+minecraft/config/xaeroworldmap.txt
