@@ -18,8 +18,6 @@ ServerEvents.recipes(event => {
 		'ae2:dense_energy_cell',
 		'ae2:energy_cell',
 		'ae2:cell_workbench',
-		'ae2:creative_item_cell',
-		'ae2:creative_fluid_cell',
 		'ae2:item_storage_cell_1k',
 		'ae2:item_storage_cell_4k',
 		'ae2:item_storage_cell_16k',
@@ -128,15 +126,18 @@ ServerEvents.recipes(event => {
 	//adds meteorite compass recipe
 	event.custom({
 		type: "createaddition:charging",
-		input: {
-			item: "minecraft:compass",
+		ingredient: {  // <-- Correct key name
+		  item: "minecraft:compass"
 		},
 		result: {
-			item: "ae2:meteorite_compass",
+		  item: "ae2:meteorite_compass",
+		  id: "ae2:meteorite_compass"  // Retain ID if required
 		},
-		energy: 32000,
-	});
-
+		energy: 32000
+	  });
+	  
+	  
+/* 
 	event.recipes.createSequencedAssembly([
 		Item.of('ae2:printed_engineering_processor').withChance(0.5),
 		Item.of('minecraft:diamond').withChance(0.5)
@@ -196,5 +197,5 @@ ServerEvents.recipes(event => {
 		event.recipes.createDeploying(I, [I, 'ae2:printed_logic_processor']),
 		event.recipes.createDeploying(I, [I, 'ae2:printed_silicon'])
 	]).transitionalItem(I).loops(1)
-
+ */
 });
