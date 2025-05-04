@@ -35,6 +35,7 @@ server/config/*
 server/logs/*
 server/mods/*
 server/world/*
+flame
 
 # ignore these symbolic linked folders
 server/kubejs
