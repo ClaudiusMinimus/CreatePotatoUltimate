@@ -378,11 +378,8 @@
 			rewards: [{
 				id: "0000000000000217"
 				item: {
-					components: {
-						"ftbquests:missing_item": "toms_storage:ts.adv_wireless_terminal"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "toms_storage:adv_wireless_terminal"
 				}
 				type: "item"
 			}]

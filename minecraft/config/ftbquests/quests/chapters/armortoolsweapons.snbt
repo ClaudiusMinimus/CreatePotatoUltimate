@@ -21,16 +21,32 @@
 			id: "4D2B419D0946089C"
 			rewards: [
 				{
+					count: 2
 					id: "63A33E7A063E11E0"
 					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:protection": 4
+								}
+							}
+						}
 						count: 1
 						id: "minecraft:enchanted_book"
 					}
 					type: "item"
 				}
 				{
+					count: 2
 					id: "255477BEDA8D6787"
 					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:mending": 1
+								}
+							}
+						}
 						count: 1
 						id: "minecraft:enchanted_book"
 					}
@@ -42,12 +58,12 @@
 			tasks: [
 				{
 					id: "6B020498A1BE3877"
-					item: { components: { "ftbquests:missing_item": "powder_power:armor_quadrilium_head" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "powder_power:armor_quadrilium_helmet" }
 					type: "item"
 				}
 				{
 					id: "70F6871A76269635"
-					item: { components: { "ftbquests:missing_item": "powder_power:armor_quadrilium_body" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "powder_power:armor_quadrilium_chestplate" }
 					type: "item"
 				}
 				{
@@ -77,6 +93,13 @@
 				count: 4
 				id: "16E2EC1EA1032E98"
 				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:mending": 1
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
@@ -87,12 +110,12 @@
 			tasks: [
 				{
 					id: "7C8D6692BFD2E059"
-					item: { components: { "ftbquests:missing_item": "powder_power:armor_gemium_head" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "powder_power:armor_gemium_helmet" }
 					type: "item"
 				}
 				{
 					id: "1538259ECC852F7C"
-					item: { components: { "ftbquests:missing_item": "powder_power:armor_gemium_body" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "powder_power:armor_gemium_chestplate" }
 					type: "item"
 				}
 				{
@@ -114,6 +137,13 @@
 			rewards: [{
 				id: "5537C82187610DBA"
 				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:looting": 3
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
@@ -165,6 +195,13 @@
 			rewards: [{
 				id: "46BFCB115BF93041"
 				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:fortune": 3
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
@@ -193,6 +230,13 @@
 				{
 					id: "79009D21A8AE5C3E"
 					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:efficiency": 5
+								}
+							}
+						}
 						count: 1
 						id: "minecraft:enchanted_book"
 					}
@@ -213,6 +257,13 @@
 				{
 					id: "1C0576B46BE39881"
 					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:flame": 1
+								}
+							}
+						}
 						count: 1
 						id: "minecraft:enchanted_book"
 					}
@@ -221,6 +272,13 @@
 				{
 					id: "66731761F7BD83D5"
 					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:mending": 1
+								}
+							}
+						}
 						count: 1
 						id: "minecraft:enchanted_book"
 					}
@@ -241,6 +299,13 @@
 				{
 					id: "5D7257476D649C7B"
 					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:sweeping_edge": 3
+								}
+							}
+						}
 						count: 1
 						id: "minecraft:enchanted_book"
 					}
@@ -250,10 +315,14 @@
 					id: "45A6EC9D7426C8E5"
 					item: {
 						components: {
-							"ftbquests:missing_item": "quark:ancient_tome"
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:sharpness": 5
+								}
+							}
 						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "minecraft:enchanted_book"
 					}
 					type: "item"
 				}
@@ -271,6 +340,16 @@
 			rewards: [{
 				id: "69ACA7BCF4C77FB4"
 				item: {
+					components: {
+						"minecraft:enchantments": {
+							levels: {
+								"minecraft:efficiency": 5
+								"minecraft:fortune": 3
+								"minecraft:mending": 1
+							}
+						}
+						"minecraft:repair_cost": 7
+					}
 					count: 1
 					id: "powder_power:paxel_quadrilium"
 				}
@@ -304,6 +383,13 @@
 			rewards: [{
 				id: "100999E157441C93"
 				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:fortune": 3
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
@@ -322,6 +408,13 @@
 			rewards: [{
 				id: "01DABF0B0DBC88AA"
 				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:efficiency": 3
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
@@ -339,17 +432,30 @@
 			id: "033A920236D86E83"
 			rewards: [
 				{
-					count: 32
 					id: "339DA56C74F0C982"
 					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:power": 5
+								}
+							}
+						}
 						count: 1
-						id: "minecraft:tipped_arrow"
+						id: "minecraft:enchanted_book"
 					}
 					type: "item"
 				}
 				{
 					id: "3820C2A3F726135E"
 					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:infinity": 1
+								}
+							}
+						}
 						count: 1
 						id: "minecraft:enchanted_book"
 					}
@@ -461,7 +567,7 @@
 				id: "00000000000000A9"
 				item: {
 					count: 1
-					id: "silentgear:tip"
+					id: "silentgear:ring_blueprint"
 				}
 				type: "item"
 			}]
@@ -479,6 +585,13 @@
 			rewards: [{
 				id: "00000000000000AA"
 				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:efficiency": 4
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
@@ -498,6 +611,13 @@
 			rewards: [{
 				id: "00000000000000A0"
 				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:efficiency": 2
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
@@ -518,6 +638,15 @@
 				{
 					id: "00000000000000A3"
 					item: {
+						components: {
+							"silentgear:material_list": [{
+								item: {
+									count: 1
+									id: "minecraft:redstone"
+								}
+								material: "silentgear:redstone"
+							}]
+						}
 						count: 1
 						id: "silentgear:tip"
 					}
@@ -526,6 +655,13 @@
 				{
 					id: "25A98B9E13C8B745"
 					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:efficiency": 2
+								}
+							}
+						}
 						count: 1
 						id: "minecraft:enchanted_book"
 					}
@@ -535,12 +671,12 @@
 			tasks: [
 				{
 					id: "0000000000000093"
-					item: { count: 1, id: "silentgear:pickaxe_head" }
+					item: { components: { "silentgear:material_list": [ { item: { count: 1, id: "minecraft:iron_ingot" }, material: "silentgear:iron" }, { item: { count: 1, id: "minecraft:iron_ingot" }, material: "silentgear:iron" }, { item: { count: 1, id: "minecraft:iron_ingot" }, material: "silentgear:iron" } ] }, count: 1, id: "silentgear:pickaxe_head" }
 					type: "item"
 				}
 				{
 					id: "0000000000000632"
-					item: { count: 1, id: "silentgear:rod" }
+					item: { count: 1, id: "minecraft:bone" }
 					type: "item"
 				}
 			]
@@ -570,32 +706,33 @@
 			dependencies: ["000000000000008F"]
 			id: "00000000000004FB"
 			rewards: [{
+				count: 4
 				id: "0000000000000513"
 				item: {
 					count: 1
-					id: "minecraft:enchanted_book"
+					id: "minecraft:lapis_block"
 				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "00000000000004FC"
-					item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "silentgear:helmet_blueprint" }
 					type: "item"
 				}
 				{
 					id: "00000000000004FD"
-					item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "silentgear:chestplate_blueprint" }
 					type: "item"
 				}
 				{
 					id: "00000000000004FE"
-					item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "silentgear:leggings_blueprint" }
 					type: "item"
 				}
 				{
 					id: "00000000000004FF"
-					item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "silentgear:boots_blueprint" }
 					type: "item"
 				}
 			]
@@ -608,6 +745,13 @@
 			rewards: [{
 				id: "000000000000053B"
 				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:fortune": 2
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
@@ -683,7 +827,7 @@
 			}]
 			tasks: [{
 				id: "000000000000063E"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "silentgear:grip_blueprint" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -702,7 +846,7 @@
 			}]
 			tasks: [{
 				id: "0000000000000640"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "silentgear:tip_blueprint" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -753,7 +897,7 @@
 			tasks: [
 				{
 					id: "50354CA3DBA4FB4B"
-					item: { components: { "ftbquests:missing_item": "silentgear:metal_alloyer" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "silentgear:alloy_forge" }
 					type: "item"
 				}
 				{
@@ -787,18 +931,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "15C3D21DAD7DD3B8"
-					item: { count: 1, id: "silentgear:recrystallizer" }
-					type: "item"
-				}
-				{
-					id: "791276F409D65200"
-					item: { count: 1, id: "silentgear:custom_gem" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "15C3D21DAD7DD3B8"
+				item: { count: 1, id: "silentgear:recrystallizer" }
+				type: "item"
+			}]
 			x: -4.5d
 			y: -9.0d
 		}
@@ -815,7 +952,7 @@
 			}]
 			tasks: [{
 				id: "11A962D43961E1B7"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "silentgear:lining_blueprint" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -834,7 +971,7 @@
 			}]
 			tasks: [{
 				id: "2C4532E49AD19C6D"
-				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "silentgear:coating_blueprint" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -846,6 +983,13 @@
 			rewards: [{
 				id: "04D947196164FB62"
 				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:sweeping_edge": 3
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
@@ -858,25 +1002,6 @@
 			}]
 			x: 0.5d
 			y: -5.0d
-		}
-		{
-			dependencies: ["0000000000000086"]
-			id: "6838EAC969336720"
-			rewards: [{
-				id: "7B885531F55FCA5D"
-				item: {
-					count: 1
-					id: "silentgear:crude_repair_kit"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "1F5027DB042686B5"
-				item: { count: 1, id: "silentgear:arrow" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -3.5d
 		}
 		{
 			dependencies: ["27EBAAEBA54CA0BB"]

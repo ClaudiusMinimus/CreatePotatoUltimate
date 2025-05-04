@@ -113,10 +113,11 @@
 		{
 			id: "000000000000032D"
 			rewards: [{
+				count: 4
 				id: "35EF612361C52236"
 				item: {
 					count: 1
-					id: "minecraft:tadpole_bucket"
+					id: "minecraft:mangrove_propagule"
 				}
 				type: "item"
 			}]

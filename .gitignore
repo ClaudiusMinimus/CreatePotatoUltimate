@@ -10,6 +10,14 @@ minecraft/.bobby/*
 minecraft/.fabric/*
 minecraft/.mixin.out/*
 minecraft/backup/*
+
+# IMPORTANT 
+# This config folder must be ignored
+# Only add necessary folders as needed
+# in section [Stop ignoring these folders]
+# below
+minecraft/config/*
+
 minecraft/coremods/*
 minecraft/craftpresence/*
 minecraft/crash-reports/*
@@ -20,7 +28,9 @@ minecraft/fancymenu_setups/*
 minecraft/kubejs/exported/*
 minecraft/local/*
 minecraft/logs/*
+minecraft/minemenu/*
 minecraft/mods/*
+minecraft/mods*/*
 minecraft/moddata/*
 minecraft/ModTranslations/*
 minecraft/saves/*
@@ -42,8 +52,10 @@ server/kubejs
 server/patchouli_books
 
 # Ignore these files
+*.bak
 *.code-workspace
 *.log
+*.toml.bak
 .packignore
 instance.cfg
 mmc-pack.json
@@ -74,7 +86,7 @@ minecraft/usercache.json
 minecraft/usernamecache.json
 server/*.zip
 
-# Stop ignoring these folders
+# [Stop ignoring these folders]
 !minecraft/config/defaultoptions/
 !minecraft/config/defaultworldtype
 !minecraft/config/drippyloadingscreen/
@@ -107,3 +119,9 @@ curseforge_create-on-a-potato.png
 minecraft/downloads/log.json
 /minecraft/xaero
 minecraft/TrashSlotSaveState.json
+minecraft/command_history.txt
+minecraft/config/squatgrow-common.yaml
+minecraft/config/theoneprobe-client.toml
+minecraft/config/theoneprobe-common.toml
+minecraft/config/vtweaks-common.toml
+minecraft/config/xaeroworldmap.txt

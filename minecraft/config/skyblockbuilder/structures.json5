@@ -21,7 +21,8 @@
     "allow_list": true,
     "elements": [
       "minecraft:fortress",
-      "betterstrongholds:better_strongholds"
+      "betterstrongholds:better_strongholds",
+      "betteroceanmonuments:better_ocean_monuments"
     ]
   }
 }
