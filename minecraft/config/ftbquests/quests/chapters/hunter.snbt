@@ -304,10 +304,16 @@
 				id: "000000000000023D"
 				item: {
 					components: {
-						"ftbquests:missing_item": "powder_power:armor_quadrilium_body"
+						"minecraft:enchantments": {
+							levels: {
+								"minecraft:mending": 1
+								"minecraft:protection": 4
+								"minecraft:unbreaking": 4
+							}
+						}
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "powder_power:armor_quadrilium_chestplate"
 				}
 				type: "item"
 			}]
@@ -728,10 +734,16 @@
 				id: "3470EA5C011CE0BC"
 				item: {
 					components: {
-						"ftbquests:missing_item": "powder_power:armor_quadrilium_head"
+						"minecraft:enchantments": {
+							levels: {
+								"minecraft:blast_protection": 4
+								"minecraft:mending": 1
+								"minecraft:unbreaking": 4
+							}
+						}
 					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "powder_power:armor_quadrilium_helmet"
 				}
 				type: "item"
 			}]
