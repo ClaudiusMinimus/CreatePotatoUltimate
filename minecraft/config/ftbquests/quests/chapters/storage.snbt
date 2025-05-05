@@ -493,6 +493,30 @@
 				{
 					id: "0506D21B80C4A377"
 					item: {
+						components: {
+							"sophisticatedbackpacks:columns_taken": 2
+							"sophisticatedcore:number_of_inventory_slots": 81
+							"sophisticatedcore:number_of_upgrade_slots": 3
+							"sophisticatedcore:render_info_tag": {
+								battery: {
+									chargeRatio: 1.0f
+								}
+								upgradeItems: [
+									{
+										count: 1
+										id: "sophisticatedbackpacks:battery_upgrade"
+									}
+									{ }
+									{ }
+								]
+							}
+							"sophisticatedcore:storage_uuid": [I;
+								1350220197
+								1918914004
+								-1772737088
+								-2103618607
+							]
+						}
 						count: 1
 						id: "sophisticatedbackpacks:gold_backpack"
 					}
@@ -716,11 +740,8 @@
 				count: 2
 				id: "50D1B5D465D65320"
 				item: {
-					components: {
-						"ftbquests:missing_item": "createaddition:modular_accumulator"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "createaddition:modular_accumulator"
 				}
 				type: "item"
 			}]
@@ -978,6 +999,9 @@
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
+				icon: {
+					id: "ae2:mysterious_cube"
+				}
 				id: "4A70D9D36AAE4D91"
 				structure: "ae2:meteorite"
 				type: "structure"

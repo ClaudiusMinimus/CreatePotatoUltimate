@@ -3,11 +3,23 @@
 	default_quest_shape: ""
 	filename: "create"
 	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "create:textures/gui/logo.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "0000000000000623"
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "create:textures/gui/logo.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "000000000000062C"
 			rewards: [{
 				count: 8
@@ -142,6 +154,7 @@
 				}
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				count: 4L
 				id: "000000000000079A"
@@ -428,8 +441,8 @@
 				item: { count: 1, id: "create:millstone" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: -1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["00000000000007A3"]
@@ -536,8 +549,8 @@
 				item: { count: 1, id: "create:spout" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 10.5d
+			x: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["00000000000007A1"]
@@ -587,7 +600,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["00000000000007BD"]
@@ -686,8 +699,8 @@
 				item: { count: 1, id: "create:mechanical_bearing" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.0d
+			x: 1.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["000000000000078F"]
@@ -974,7 +987,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["00000000000007A1"]
@@ -1009,6 +1022,13 @@
 			rewards: [{
 				id: "3073DBD47D347721"
 				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:unbreaking": 3
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
@@ -1060,7 +1080,7 @@
 				item: { count: 1, id: "create:blaze_burner" }
 				type: "item"
 			}]
-			x: -8.5d
+			x: -9.0d
 			y: 7.0d
 		}
 		{
@@ -1079,7 +1099,7 @@
 				item: { count: 1, id: "create:blaze_cake_base" }
 				type: "item"
 			}]
-			x: -8.5d
+			x: -9.0d
 			y: 5.5d
 		}
 		{
@@ -1099,7 +1119,7 @@
 				item: { count: 1, id: "create:blaze_cake" }
 				type: "item"
 			}]
-			x: -8.5d
+			x: -9.0d
 			y: 4.0d
 		}
 		{
@@ -1177,8 +1197,8 @@
 				item: { count: 1, id: "create:andesite_tunnel" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.0d
+			x: -1.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["00000000000008D1"]
@@ -1187,6 +1207,13 @@
 				{
 					id: "462C861464D608FA"
 					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:sharpness": 5
+								}
+							}
+						}
 						count: 1
 						id: "minecraft:enchanted_book"
 					}
@@ -1217,7 +1244,7 @@
 				id: "3EFDD0FFE080BE6C"
 				item: {
 					count: 1
-					id: "create:red_sand_paper"
+					id: "createaddition:diamond_grit_sandpaper"
 				}
 				type: "item"
 			}]
@@ -1448,6 +1475,13 @@
 			rewards: [{
 				id: "35502B756B837E0E"
 				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:mending": 1
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
@@ -1577,44 +1611,6 @@
 			rewards: [{
 				id: "2CF057ECD70E61E3"
 				item: {
-					count: 1
-					id: "minecraft:enchanted_book"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "5B848E32F14497FA"
-				item: { count: 1, id: "create_sa:brass_jetpack_chestplate" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 14.5d
-		}
-		{
-			dependencies: ["00000000000008D1"]
-			id: "7DC3C9C543BFAE8E"
-			rewards: [{
-				id: "022B6D3DC955AE29"
-				item: {
-					count: 1
-					id: "minecraft:enchanted_book"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "0743AEE69F601F0B"
-				item: { count: 1, id: "create_sa:andesite_jetpack_chestplate" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 14.0d
-		}
-		{
-			dependencies: ["00000000000007C7"]
-			id: "285AF2D75FD9809C"
-			rewards: [{
-				id: "06010E87AB020FE9"
-				item: {
 					components: {
 						"minecraft:stored_enchantments": {
 							levels: {
@@ -1628,12 +1624,64 @@
 				type: "item"
 			}]
 			tasks: [{
+				id: "5B848E32F14497FA"
+				item: { count: 1, id: "create_sa:brass_jetpack_chestplate" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["00000000000008D1"]
+			id: "7DC3C9C543BFAE8E"
+			rewards: [{
+				id: "022B6D3DC955AE29"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"create:capacity": 1
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0743AEE69F601F0B"
+				item: { count: 1, id: "create_sa:andesite_jetpack_chestplate" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["00000000000007C7"]
+			id: "285AF2D75FD9809C"
+			rewards: [{
+				id: "06010E87AB020FE9"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"create:capacity": 1
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
 				id: "571AB8723B5BA2B7"
 				item: { count: 1, id: "create_sa:copper_jetpack_chestplate" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 12.5d
+			x: 8.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["0000000000000799"]
@@ -1653,8 +1701,8 @@
 				item: { count: 1, id: "create_mechanical_extruder:mechanical_extruder" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["03108B7D1A7458B3"]
@@ -1852,8 +1900,8 @@
 				item: { count: 1, id: "create:sticky_mechanical_piston" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 6.0d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["51FE487A5586AF80"]
@@ -2231,6 +2279,7 @@
 			y: -5.5d
 		}
 		{
+			dependencies: ["5AF43A02E87E4DF8"]
 			id: "3D66EBF3A215F354"
 			rewards: [{
 				id: "737DF23F3AA20171"
@@ -2245,7 +2294,7 @@
 				item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -9.0d
 			y: 8.5d
 		}
 		{
@@ -2272,10 +2321,10 @@
 			id: "485280315689B86E"
 			tasks: [{
 				id: "6583BC3A0245CAE3"
-				item: { count: 1, id: "createaddition:biomass_pellet" }
+				item: { count: 1, id: "createaddition:biomass" }
 				type: "item"
 			}]
-			x: -10.0d
+			x: -12.0d
 			y: 7.0d
 		}
 		{
@@ -2283,14 +2332,14 @@
 			id: "1AB29695173FFFA1"
 			tasks: [{
 				id: "58EF8F6CD11FD754"
-				item: { components: { "ftbquests:missing_item": "createaddition:biomass_pellet" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "createaddition:biomass_pellet" }
 				type: "item"
 			}]
-			x: -11.5d
-			y: 8.0d
+			x: -13.5d
+			y: 7.0d
 		}
 		{
-			dependencies: ["485280315689B86E"]
+			dependencies: ["5AF43A02E87E4DF8"]
 			id: "22DC6FB53C9268C6"
 			rewards: [{
 				count: 32
@@ -2306,8 +2355,8 @@
 				item: { count: 1, id: "createaddition:bioethanol_bucket" }
 				type: "item"
 			}]
-			x: -11.5d
-			y: 6.0d
+			x: -10.5d
+			y: 7.0d
 		}
 	]
 }

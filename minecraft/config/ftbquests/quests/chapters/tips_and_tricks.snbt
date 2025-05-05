@@ -3,6 +3,12 @@
 	default_quest_shape: ""
 	filename: "tips_and_tricks"
 	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "ftbfiltersystem:textures/gui/sprites/info.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
 	id: "394307726599DAF0"
 	order_index: 1
 	quest_links: [ ]

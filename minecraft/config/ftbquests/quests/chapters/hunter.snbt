@@ -57,6 +57,17 @@
 			rewards: [{
 				id: "0000000000000047"
 				item: {
+					components: {
+						"minecraft:enchantments": {
+							levels: {
+								"minecraft:flame": 1
+								"minecraft:infinity": 1
+								"minecraft:power": 6
+								"minecraft:punch": 2
+								"minecraft:unbreaking": 3
+							}
+						}
+					}
 					count: 1
 					id: "powder_power:bow_quadrilium"
 				}
@@ -97,6 +108,13 @@
 			rewards: [{
 				id: "0000000000000054"
 				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:thorns": 3
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
@@ -117,6 +135,16 @@
 			rewards: [{
 				id: "0000000000000055"
 				item: {
+					components: {
+						"minecraft:enchantments": {
+							levels: {
+								"minecraft:mending": 1
+								"minecraft:protection": 4
+								"minecraft:unbreaking": 4
+							}
+						}
+						"minecraft:repair_cost": 1
+					}
 					count: 1
 					id: "powder_power:armor_quadrilium_leggings"
 				}
@@ -157,6 +185,13 @@
 			rewards: [{
 				id: "000000000000064F"
 				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:silk_touch": 1
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
@@ -178,6 +213,19 @@
 				{
 					id: "0000000000000060"
 					item: {
+						components: {
+							"minecraft:custom_name": "\"Orcrist\""
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:knockback": 2
+									"minecraft:looting": 3
+									"minecraft:mending": 1
+									"minecraft:sharpness": 5
+									"minecraft:sweeping_edge": 3
+								}
+							}
+							"minecraft:repair_cost": 15
+						}
 						count: 1
 						id: "powder_power:sword_quadrilium"
 					}
@@ -228,6 +276,13 @@
 			rewards: [{
 				id: "000000000000023C"
 				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:blast_protection": 4
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
@@ -330,6 +385,13 @@
 			rewards: [{
 				id: "000000000000056C"
 				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:looting": 2
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
@@ -398,6 +460,13 @@
 			rewards: [{
 				id: "0000000000000221"
 				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:fortune": 3
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
@@ -418,6 +487,17 @@
 			rewards: [{
 				id: "000000000000023B"
 				item: {
+					components: {
+						"minecraft:enchantments": {
+							levels: {
+								"minecraft:depth_strider": 2
+								"minecraft:feather_falling": 5
+								"minecraft:mending": 1
+								"minecraft:protection": 4
+								"minecraft:unbreaking": 4
+							}
+						}
+					}
 					count: 1
 					id: "powder_power:armor_quadrilium_boots"
 				}
@@ -478,11 +558,8 @@
 			rewards: [{
 				id: "000000000000046D"
 				item: {
-					components: {
-						"ftbquests:missing_item": "createaddition:creative_energy"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "createaddition:creative_energy"
 				}
 				type: "item"
 			}]

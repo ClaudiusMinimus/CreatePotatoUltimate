@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "fromthedarkness"
 	group: ""
+	icon: {
+		id: "minecraft:baked_potato"
+	}
 	id: "0000000000000004"
 	order_index: 0
 	quest_links: [ ]
@@ -260,7 +263,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 64L
+				count: 16L
 				id: "00000000000000CA"
 				item: { count: 1, id: "minecraft:stone" }
 				type: "item"
@@ -280,7 +283,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 64L
+				count: 16L
 				id: "00000000000000CC"
 				item: { count: 1, id: "minecraft:smooth_stone" }
 				type: "item"
@@ -290,6 +293,12 @@
 		}
 		{
 			dependencies: ["3E046FB9DDB11119"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/map"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "6F94CFF9E4013396"
 			rewards: [{
 				id: "7694CC56CD10814B"
@@ -305,6 +314,12 @@
 		}
 		{
 			dependencies: ["3E046FB9DDB11119"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/command_block_back"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "03F55170BAB80CD2"
 			rewards: [{
 				id: "271EE954A8D05977"
@@ -319,6 +334,12 @@
 			y: 2.0d
 		}
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/info"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "3E046FB9DDB11119"
 			rewards: [{
 				id: "1DD1FE2C8C0F4E41"
@@ -336,6 +357,12 @@
 		}
 		{
 			dependencies: ["3E046FB9DDB11119"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/bookshelf"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "5AF39FF6AB1C6098"
 			rewards: [{
 				id: "59D3F3644923777E"
@@ -469,7 +496,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 16L
+				count: 8L
 				id: "06127A83513CBD7C"
 				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
@@ -528,6 +555,9 @@
 		{
 			can_repeat: true
 			dependencies: ["3E046FB9DDB11119"]
+			icon: {
+				id: "theoneprobe:probenote"
+			}
 			id: "0E4D24AAB4F4DC58"
 			rewards: [{
 				id: "7432D03495AC18F0"

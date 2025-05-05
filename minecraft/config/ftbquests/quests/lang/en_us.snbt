@@ -76,7 +76,7 @@
 	quest.00000000000000C7.quest_desc: [
 		"Cobblestone can be much more useful than dirt."
 		""
-		"Gather 64 Cobblestone and we'll give ya your first bridge made from... well, cobblestone!"
+		"Gather 16 Cobblestone and we'll give ya your first bridge made from... well, cobblestone!"
 	]
 	quest.00000000000004FB.title: "Armor Blueprints"
 	quest.0000000000000522.quest_desc: ["This is your basic all in one tool."]
@@ -189,7 +189,7 @@
 	quest.0D77CE91690DFD0F.quest_desc: ["After placing the Train Station, open the GUI to Assemble a train. Place this block on the blue highlight on the tracks and voila, you have started building your first train!"]
 	quest.0D77CE91690DFD0F.quest_subtitle: "Every train needs one"
 	quest.0DED09C3096C985D.quest_desc: ["Place a Pure Daisy next to a Blaze Mesh and you get Obsidian, but be careful where you place it because you might not be able to move it once it transforms. Think: Nether Portal"]
-	quest.0E4D24AAB4F4DC58.quest_desc: ["Check to get The One Probe Read Me"]
+	quest.0E4D24AAB4F4DC58.quest_desc: ["Check to get The One Probe Read Me, which is used to configure TOP HUD."]
 	quest.0E4D24AAB4F4DC58.title: "The One Probe Read Me"
 	quest.0E9F95234AB4F307.quest_desc: ["The Ritual of Gaia is a trial often undertaken by elves. It yields Gaia Spirits, which are coveted as fragments of the power of the Goddess of Gaia herself.This ritual requires an Active Beacon with Gaia Pylons surrounding it (functioning as an altar), as well as a single Terrasteel Ingot (as a sacrifice)."]
 	quest.0F212D61E278C98E.title: "Apprentice Witch Hunter"
@@ -249,7 +249,7 @@
 	quest.2613E24F95C84B21.quest_subtitle: "You're Fired!"
 	quest.285AF2D75FD9809C.quest_desc: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
 	quest.28D15A9B43C825CE.quest_desc: ["The Rope Pulley allows you to make easy-to-craft early game elevators."]
-	quest.29B69483965D4F12.quest_desc: ["Craft a stack of torches and get a handy dandy Torch Sling!"]
+	quest.29B69483965D4F12.quest_desc: ["Craft some torches and get a handy dandy Torch Sling!"]
 	quest.2AA453BF3617F5BF.quest_desc: ["Gantry Carriages can mount to and slide along a Gantry Shaft."]
 	quest.2AC4427434E9FBCB.quest_desc: ["Right-click with this rod will place Dirt for some mana cost."]
 	quest.2B13CF9D2DB9872C.quest_desc: ["When worn, it is able to store Mana like the Mana Tablet. "]

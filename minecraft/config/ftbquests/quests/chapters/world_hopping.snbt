@@ -4,6 +4,9 @@
 	filename: "world_hopping"
 	group: ""
 	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:block/nether_portal"
+		}
 		id: "ftbquests:custom_icon"
 	}
 	id: "5C3449C5F42C2A48"
@@ -23,6 +26,12 @@
 			}]
 			tasks: [{
 				dimension: "minecraft:the_end"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/entity/end_portal.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
 				id: "7E969B91EB428FB5"
 				type: "dimension"
 			}]
@@ -124,6 +133,9 @@
 				type: "item"
 			}]
 			tasks: [{
+				icon: {
+					id: "minecraft:stone_bricks"
+				}
 				id: "3403FDACF06DC43B"
 				structure: "betterstrongholds:stronghold"
 				type: "structure"
