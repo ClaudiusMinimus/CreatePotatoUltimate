@@ -134,11 +134,8 @@
 			rewards: [{
 				id: "5C35101DF8B8054D"
 				item: {
-					components: {
-						"ftbquests:missing_item": "createaddition:seed_oil_bucket"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "createaddition:seed_oil_bucket"
 				}
 				type: "item"
 			}]
@@ -611,6 +608,13 @@
 			rewards: [{
 				id: "7A2348631A273A35"
 				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"farmersdelight:backstabbing": 3
+							}
+						}
+					}
 					count: 1
 					id: "minecraft:enchanted_book"
 				}
@@ -630,17 +634,14 @@
 				count: 4
 				id: "48B4E42C5979208F"
 				item: {
-					components: {
-						"ftbquests:missing_item": "refinedstorage:basic_processor"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "ae2:logic_processor"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "48F8C7213DDC26FC"
-				item: { components: { "ftbquests:missing_item": "itemfilters:tag" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(farmersdelight:cabinets)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 16.0d

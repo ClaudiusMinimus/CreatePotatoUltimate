@@ -20,7 +20,7 @@
 			}]
 			tasks: [{
 				id: "140F8526F4532B59"
-				item: { components: { "ftbquests:missing_item": "toms_storage:ts.inventory_connector" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "toms_storage:inventory_connector" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -78,7 +78,7 @@
 			}]
 			tasks: [{
 				id: "31722823CCD5E4EF"
-				item: { components: { "ftbquests:missing_item": "toms_storage:ts.wireless_terminal" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "toms_storage:wireless_terminal" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -97,7 +97,7 @@
 			}]
 			tasks: [{
 				id: "2E7F23E0BC4C2792"
-				item: { components: { "ftbquests:missing_item": "toms_storage:ts.adv_wireless_terminal" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "toms_storage:adv_wireless_terminal" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -109,18 +109,15 @@
 			rewards: [{
 				id: "03290C09332099FD"
 				item: {
-					components: {
-						"ftbquests:missing_item": "toms_storage:ts.inventory_cable_framed"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "toms_storage:inventory_cable_framed"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 6L
 				id: "41D8672F7F12A79C"
-				item: { components: { "ftbquests:missing_item": "toms_storage:ts.inventory_cable" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "toms_storage:inventory_cable" }
 				type: "item"
 			}]
 			x: -4.5d
@@ -132,17 +129,14 @@
 			rewards: [{
 				id: "0FECAAA678334F39"
 				item: {
-					components: {
-						"ftbquests:missing_item": "toms_storage:ts.inventory_cable_connector_framed"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "toms_storage:inventory_cable_connector_framed"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "52DB6C060601CA15"
-				item: { components: { "ftbquests:missing_item": "toms_storage:ts.inventory_cable_connector" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "toms_storage:inventory_cable_connector" }
 				type: "item"
 			}]
 			x: -4.5d
@@ -161,7 +155,7 @@
 			}]
 			tasks: [{
 				id: "47357EE4D508C0C8"
-				item: { components: { "ftbquests:missing_item": "toms_storage:ts.inventory_hopper_basic" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "toms_storage:basic_inventory_hopper" }
 				type: "item"
 			}]
 			x: -4.5d
@@ -493,6 +487,30 @@
 				{
 					id: "0506D21B80C4A377"
 					item: {
+						components: {
+							"sophisticatedbackpacks:columns_taken": 2
+							"sophisticatedcore:number_of_inventory_slots": 81
+							"sophisticatedcore:number_of_upgrade_slots": 3
+							"sophisticatedcore:render_info_tag": {
+								battery: {
+									chargeRatio: 1.0f
+								}
+								upgradeItems: [
+									{
+										count: 1
+										id: "sophisticatedbackpacks:battery_upgrade"
+									}
+									{ }
+									{ }
+								]
+							}
+							"sophisticatedcore:storage_uuid": [I;
+								1350220197
+								1918914004
+								-1772737088
+								-2103618607
+							]
+						}
 						count: 1
 						id: "sophisticatedbackpacks:gold_backpack"
 					}
@@ -716,11 +734,8 @@
 				count: 2
 				id: "50D1B5D465D65320"
 				item: {
-					components: {
-						"ftbquests:missing_item": "createaddition:modular_accumulator"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "createaddition:modular_accumulator"
 				}
 				type: "item"
 			}]
@@ -978,6 +993,9 @@
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
+				icon: {
+					id: "ae2:mysterious_cube"
+				}
 				id: "4A70D9D36AAE4D91"
 				structure: "ae2:meteorite"
 				type: "structure"
