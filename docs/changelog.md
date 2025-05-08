@@ -186,6 +186,9 @@ _These mods were disabled due to instability or they have not been ported to 1.2
 
 ### Other Changes
 
+- Minecraft 1.21.1
+- NeoForge 21.1.145
+
 ## Create on a Potato Ultimate 1.21.1-0.0.2 ALPHA
 
 Apr. 09, 2025
@@ -204,3 +207,69 @@ Apr. 09, 2025
 
 - None
 
+## Create on a Potato Ultimate 1.21.1-0.0.3 ALPHA
+
+Apr. 26, 2025
+
+### Mods Added v. 0.0.3 ALPHA
+
+- Collective [8\.3] (collective\-1\.21\.1\-8\.3\.jar) _New dependancy_
+- Cucumber Library [8\.0\.11] (Cucumber\-1\.21\.1\-8\.0\.11\.jar) _New dependancy_
+- Create Contraption Terminals [NONE] (createcontraptionterminals\-1\.21\-1\.2\.0\.jar) _Compatibility for Tom's Simple Storage_
+- Create: Dragons Plus [1\.3\.5] (create\-dragons\-plus\-1\.3\.5\.jar) _New dependancy_
+- Inventory HUD\+ [3\.4\.28] (inventoryhud\.neoforged\.1\.21\.1\-3\.4\.28\.jar) _Replaces Quark feature_
+- Iris [1\.8\.8\+mc1\.21\.1] (iris\-neoforge\-1\.8\.8\+mc1\.21\.1\.jar) _Replaces Oculus_
+- Iron Jetpacks [8\.0\.7] (IronJetpacks\-1\.21\.1\-8\.0\.7\.jar) _Will likely remove_
+- Simple Inventory Sorter [24\.0\.20] (inventorysorter\-1\.21\-24\.0\.20\.jar) _Replaces Quark feature_
+- Tempad [3\.0\.1] (tempad\-1\.21\.1\-3\.0\.1\-all\.jar) _Was removed, now ported_
+
+### Mods Updated v. 0.0.3 ALPHA
+
+- AE2WTLib [19\.2\.3] (ae2wtlib\-19\.2\.3\.jar)
+- Applied Energistics 2 [19\.2\.9] (appliedenergistics2\-19\.2\.9\.jar)
+- Balm [21\.0\.41] (balm\-neoforge\-1\.21\.1\-21\.0\.41\.jar)
+- Bookshelf [21\.1\.59] (bookshelf\-neoforge\-1\.21\.1\-21\.1\.59\.jar)
+- Client Tweaks [21\.1\.4] (clienttweaks\-neoforge\-1\.21\.1\-21\.1\.4\.jar)
+- Create Crafts & Additions (createaddition\-1\.4\.2\.jar) _Updated and removed from disabled_
+- Create: Enchantment Industry [2\.0\.12] (create\-enchantment\-industry\-2\.0\.12\.jar) _Updated and removed from disabled_- Create: Jetpack Curios [1\.2\.0] (create\_jetpack\_curios\-1\.2\.0\-neoforge\-1\.21\.1\.jar\.disabled) _Hoping Create Jetpack will be ported_
+- Create: Mechanical spawner [1\.1\.2\-6\.0\.4] (create\_mechanical\_spawner\-1\.21\.1\-1\.1\.2\-6\.0\.4\.jar)
+- Create Stuff & Additions [2\.0\.9] (create\-stuff\-additions1\.21\.1\_v2\.1\.0e\.jar) _Updated and removed from disabled_
+- Create Sifter [1\.21\.1\-2\.0\.5\-6\.0\.4] (createsifter\-1\.21\.1\-2\.0\.7\-6\.0\.4\.jar)
+- Curios API [9\.4\.2\+1\.21\.1] (curios\-neoforge\-9\.4\.2\+1\.21\.1\.jar)
+- Drippy Loading Screen [3\.0\.12] (drippyloadingscreen\_neoforge\_3\.0\.12\_MC\_1\.21\.1\.jar)
+- FancyMenu [3\.5\.0] (fancymenu\_neoforge\_3\.5\.0\_MC\_1\.21\.1\.jar)
+- FTB Library [2101\.1\.13] (ftb\-library\-neoforge\-2101\.1\.13\.jar)
+- FTB Quests [2101\.1\.9] (ftb\-quests\-neoforge\-2101\.1\.9\.jar)
+- FTB Ranks [2101\.1\.3] (ftb\-ranks\-neoforge\-2101\.1\.3\.jar)
+- Hide Experimental Warning [1\.2] (hideexperimentalwarning\-1\.21\.1\-1\.2\.jar)
+- Iceberg [1\.3\.2] (Iceberg\-1\.21\.1\-neoforge\-1\.3\.2\.jar)
+- Just Enough Resources [1\.6\.0\.14]
+- MaFgLib [0\.3\.2\-mc1\.21\.1] (MaFgLib\-0\.3\.2\-mc1\.21\.1\.jar)
+- ME Requester [1\.21\.1\-1\.2\.0] (merequester\-neoforge\-1\.21\.1\-1\.2\.0\.jar)
+- Placebo [9\.8\.1] (Placebo\-1\.21\.1\-9\.8\.1\.jar)
+- Polymorph [1\.0\.10\+1\.21\.1] (polymorph\-neoforge\-1\.0\.10\+1\.21\.1\.jar)
+- Silent Gear [4\.0\.20] (silent\-gear\-1\.21\.1\-neoforge\-4\.0\.20\.jar)
+- Sky GUIs [21\.1\.4] (SkyGUIs\-21\.1\.4\.jar)
+- Skyblock Builder [21\.1\.13] (SkyblockBuilder\-21\.1\.13\.jar)
+- Sophisticated Backpacks [3\.24\.9] (sophisticatedbackpacks\-1\.21\.1\-3\.24\.9\.1231\.jar)
+- Sophisticated Core [1\.3\.32] (sophisticatedcore\-1\.21\.1\-1\.3\.32\.961\.jar)
+- The One Probe [1\.21\_neo\-12\.0\.6] (theoneprobe\-1\.21\_neo\-12\.0\.6\.jar)
+- Tom's Simple Storage Mod [2\.1\.3] (toms\_storage\-1\.21\-2\.1\.3\.jar)
+- Tweakerge [0\.3\.1\-mc1\.21\.1] (Tweakerge\-0\.3\.1\-mc1\.21\.1\.jar)
+- UniLib [1\.0\.6] (UniLib\-1\.0\.6\+1\.21\.1\-neoforge\.jar)
+- Waystones [21\.1\.17] (waystones\-neoforge\-1\.21\.1\-21\.1\.17\.jar)
+- Wither Skeleton Tweaks [10\.1\.0] (WitherSkeletonTweaks\-1\.21\.1\-10\.1\.0\.jar)
+
+### Mods Removed v. 0.0.3 ALPHA
+
+- Oculus [1\.2\.8] (OCD1\.19\.2\-0\.1\_alpha\.jar\.disabled) _Not compatible_
+- CC: Tweaked [1\.113\.1] (cc\-tweaked\-1\.21\.1\-forge\-1\.113\.1\.jar\.disabled) _Not compatible_
+
+### Mods Disabled v. 0.0.3 ALPHA
+
+- CraftPresence [2\.5\.4] (CraftPresence\-2\.5\.4\+1\.21\.1\-neoforge\.jar\.disabled) _Will reenable once I update the bot_
+- EnchantmentDescriptions [21\.1\.7] (enchdesc\-neoforge\-1\.21\.1\-21\.1\.7\.jar\.disabled) _May have been causing crashes_
+
+### Other Changes v. 0.0.3 ALPHA
+
+- NeoForge 21.1.141 _Needed to downgrade_
