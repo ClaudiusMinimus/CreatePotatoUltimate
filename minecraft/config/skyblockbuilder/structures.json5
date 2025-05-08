@@ -17,9 +17,9 @@
   structuresToGenerate: {
     allow_list: true,
     elements: [
-      "betterstrongholds:strongholds",
-      "betteroceanmonuments:ocean_monuments",
       "ae2:meteorite",
+      "betteroceanmonuments:ocean_monuments",
+      "betterstrongholds:strongholds",
       "skyvillages:skyvillage",
     ],
   },
