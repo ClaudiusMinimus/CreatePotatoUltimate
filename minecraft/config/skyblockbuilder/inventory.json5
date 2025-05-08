@@ -4,5 +4,11 @@
   "clearInitialInventory": false,
   
   // Should players' items be dropped when leaving a team? [default: true]
-  "dropItems": true
+  "dropItems": true,
+  
+  // When should players receive their starting inventory?
+  //   SPAWN - when joining world first time
+  //   TEAM  - when joining a team for the first time
+  // Allowed values: spawn, team
+  "initialInventoryType": "team"
 }
