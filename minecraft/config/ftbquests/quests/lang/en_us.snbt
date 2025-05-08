@@ -156,9 +156,9 @@
 	quest.03B81A645C9AA3F7.quest_desc: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
 	quest.03F55170BAB80CD2.quest_desc: [
 		"Initiate Commands by pressing the slash key '/' from within the world. Basic commands include:"
-		"\"/sethome [name]\" will set a waypoint for your home. Example: \"/sethome CM'sHome\" or \"/sethome\" will set the default \"Home\""
-		"\"/home [name]\" teleports you to the home you set"
-		"\"/delhome [name]\" delete the home specified or \"/delhome\" deletes the default \"Home\""
+		"\"/sethome [optional name]\" will set a waypoint for your home. Example: \"/sethome CM'sHome\" or \"/sethome\" will set the default \"Home\""
+		"\"/home [optional name]\" teleports you to the home you set"
+		"\"/delhome [optional name]\" delete the home specified or \"/delhome\" deletes the default \"Home\""
 		"\"/tpaccept\" allows you to request a teleport to another player. The player on the other end must accept your request to complete the teleport."
 		"\"/tpahere <player in-game-name>\" Teleport another player to your location."
 		"\"/tpdeny\" Rejects a teleport request from another player."
