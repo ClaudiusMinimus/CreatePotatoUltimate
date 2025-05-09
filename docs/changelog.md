@@ -273,3 +273,72 @@ Apr. 26, 2025
 ### Other Changes v. 0.0.3 ALPHA
 
 - NeoForge 21.1.141 _Needed to downgrade_
+
+## Create on a Potato Ultimate 1.21.1-0.0.4 ALPHA
+
+May. 08, 2025
+
+### Mods Added v. 0.0.4 ALPHA
+
+- Build Guide [0\.4\.4] (BuildGuide\-1\.21\-0\.4\.4\.jar) _Because I love it!_
+- Immersive Aircraft [1\.2\.4\+1\.21\.1] (immersive\_aircraft\-1\.2\.4\+1\.21\.1\-neoforge\.jar)
+- Kotlin for Forge [6497906] (kotlinforforge\-5\.8\.0\-all\.jar)
+- Man of Many Planes [0\.2\.1\+1\.21\.1] (man\_of\_many\_planes\-0\.2\.1\+1\.21\.1\-neoforge\.jar)
+- Mechanicals Lib [1\.0\.5] (mechanicals\-1\.21\.1\-1\.0\.5\.jar)
+- MineMenu [1\.14\.2] (MineMenu\-neoforge\-1\.21\-1\.14\.2\.jar) _Adds radial dial menu to free up keybindings_
+- Sky Villages [1\.0\.6] (SkyVillages\-1\.0\.6\-1\.21\.x\-neoforge\-release\.jar) _Thought it might be fun for sky block and maybe other worlds_
+  
+### Mods Updated v. 0.0.4 ALPHA
+
+- AEInfinityBooster [1\.21\.1\-1\.0\.0\.52] (aeinfinitybooster\-neoforge\-1\.21\.1\-1\.0\.0\.52\.jar)
+- Applied Energistics 2 [19\.2\.10] (appliedenergistics2\-19\.2\.10\.jar)
+- Balm [21\.0\.42] (balm\-neoforge\-1\.21\.1\-21\.0\.42\.jar)
+- Bookshelf [21\.1\.62] (bookshelf\-neoforge\-1\.21\.1\-21\.1\.62\.jar)
+- Client Tweaks [21\.1\.6] (clienttweaks\-neoforge\-1\.21\.1\-21\.1\.6\.jar)
+- Cucumber Library [8\.0\.12] (Cucumber\-1\.21\.1\-8\.0\.12\.jar)
+- Create: Dragons Plus [1\.4\.2] (create\-dragons\-plus\-1\.4\.2\.jar)
+- Create: Enchantment Industry [2\.1\.1] (create\-enchantment\-industry\-2\.1\.1\.jar)
+- Create Mechanical Extruder [1\.21\.1\-2\.1\.0\-6\.0\.4] (create\_mechanical\_extruder\-1\.21\.1\-2\.1\.0\-6\.0\.4\.jar)
+- Create Sifter [1\.21\.1\-2\.1\.0] (createsifter\-1\.21\.1\-2\.1\.1\.jar)
+- Create: Mechanical Spawner [1\.2\.0\-6\.0\.4] (create\_mechanical\_spawner\-1\.21\.1\-1\.2\.0\-6\.0\.4\.jar)
+- EnchantmentDescriptions [21\.1\.7] (enchdesc\-neoforge\-1\.21\.1\-21\.1\.7\.jar)
+- FTB Chunks [2101\.1\.9] (ftb\-chunks\-neoforge\-2101\.1\.9\.jar)
+- GuideME [21\.1\.9] (guideme\-21\.1\.9\.jar)
+- Just Enough Resources [1\.6\.0\.17] (JustEnoughResources\-NeoForge\-1\.21\.1\-1\.6\.0\.17\.jar)
+- Resourceful Lib [3\.0\.12] (resourcefullib\-neoforge\-1\.21\-3\.0\.12\.jar)
+- Skyblock Builder [21\.1\.14] (SkyblockBuilder\-21\.1\.14\.jar)
+- Sophisticated Backpacks [3\.24\.10] (sophisticatedbackpacks\-1\.21\.1\-3\.24\.10\.1232\.jar)
+- Sophisticated Core [1\.3\.35] (sophisticatedcore\-1\.21\.1\-1\.3\.35\.968\.jar)
+- Tempad [3\.0\.3] (tempad\-1\.21\.1\-3\.0\.3\-all\.jar)
+- UniLib [1\.1\.0] (UniLib\-1\.1\.0\+1\.21\.1\-neoforge\.jar)
+- YUNG's Better Ocean Monuments [1\.21\.1\-NeoForge\-4\.1\.2] (YungsBetterOceanMonuments\-1\.21\.1\-NeoForge\-4\.1\.2\.jar)
+- YUNG's Better Ocean Monuments [1\.21\.1\-NeoForge\-4\.1\.2] (YungsBetterOceanMonuments\-1\.21\.1\-NeoForge\-4\.1\.2\.jar)
+- YUNG's Better Strongholds [1\.21\.1\-NeoForge\-5\.1\.3] (YungsBetterStrongholds\-1\.21\.1\-NeoForge\-5\.1\.3\.jar)
+- \[SBM\] Cardboard Boxes [1\.21\.1\-0\.1\.2] (cardboardboxes\-1\.21\.1\-0\.1\.2\.jar)
+
+### Mods Removed v. 0.0.4 ALPHA
+
+\* Temporarily removing disabled mod until they are ported
+
+- Advancement Plaques [1\.6\.8] (AdvancementPlaques\-1\.21\.1\-neoforge\-1\.6\.8\.jar)
+- Botania [1\.20\.1\-446\-FORGE] (Botania\-1\.20\.1\-446\-FORGE\.jar\.disabled)*
+- CraftPresence [2\.5\.4] (CraftPresence\-2\.5\.4\+1\.21\.1\-neoforge\.jar\.disabled)*
+- Create Deco [2\.0\.2\-1\.20\.1\-forge] (createdeco\-2\.0\.2\-1\.20\.1\-forge\.jar\.disabled)*
+- Create Jetpack [4\.3\.2] (create\_jetpack\-forge\-4\.3\.2\.jar\.disabled)*
+- Create: Jetpack Curios [1\.2\.0] (create\_jetpack\_curios\-1\.2\.0\-neoforge\-1\.21\.1\.jar\.disabled)*
+- Create Slice & Dice [3\.3\.0] (sliceanddice\-forge\-3\.3\.0\.jar\.disabled)*
+- Create: Steam 'n' Rails [1\.6\.7\+forge\-mc1\.20\.1] (Steam\_Rails\-1\.6\.7\+forge\-mc1\.20\.1\.jar\.disabled)*
+- Freecam [1\.3\.0\+mc1\.21] (freecam\-neoforge\-1\.3\.0\+mc1\.21\.jar)
+- FTBQuestsOptimizer [3\.0\.0\-1\.21\.1] (FTBQuestsOptimizer\-neoforge\-3\.0\.0\-1\.21\.1\.jar) _Causing quest completion delay_
+- Iron Jetpacks [8\.0\.7] (IronJetpacks\-1\.21\.1\-8\.0\.7\.jar) _Replaced with Immersive Aircraft_
+- KubeJS Create [2001\.2\.5\-build\.2] (kubejs\-create\-forge\-2001\.2\.5\-build\.2\.jar\.disabled) _No longer needed_
+- ME Requester [1\.21\.1\-1\.2\.0] (merequester\-neoforge\-1\.21\.1\-1\.2\.0\.jar)
+- Quark [4\.0\-460] (Quark\-4\.0\-460\.jar\.disabled)
+- ShulkerBoxTooltip [5\.1\.3\+1\.21\.1] (shulkerboxtooltip\-neoforge\-5\.1\.3\+1\.21\.1\.jar)
+- TrashSlot [21\.1\.4] (trashslot\-neoforge\-1\.21\.1\-21\.1\.4\.jar\.disabled) _FTB has a trashcan and so does Powder Power_
+
+### Other Changes v. 0.0.4 ALPHA
+
+- NeoForge 21.1.169
+- Lots of quests fixed (thanks to Tipsy)
+- Lots of Recipes fixed
