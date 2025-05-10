@@ -1,5 +1,14 @@
 # Create on a Potato PC: Ultimate Change Log
 
+## Create on a Potato Ultimate 1.21.1-0.0.5 ALPHA
+
+May. 09, 2025
+
+### Other Changes v. 0.0.5 ALPHA
+
+- Added MelanX's structures.json5
+- Changed world.json5 to allow ocean biomes to generate in skyblock
+
 ## Create on a Potato Ultimate 1.21.1-0.0.4 ALPHA
 
 May. 08, 2025
