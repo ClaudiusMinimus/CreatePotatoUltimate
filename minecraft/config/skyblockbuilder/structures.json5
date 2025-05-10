@@ -5,22 +5,26 @@
   // WARNING: Some features like trees need special surface!
   // WARNING: This only works for vanilla dimensions (Overworld, Nether, End), or ones that were created using the Skyblock Builder structure
   // This is a resource list. See https://moddingx.org/libx/org/moddingx/libx/util/data/ResourceList.html#use_resource_lists_in_configs
-  featuresToGenerate: {
-    allow_list: true,
-    elements: ["minecraft:end_spike", "minecraft:end_gateway_return"],
+  "featuresToGenerate": {
+    "allow_list": true,
+    "elements": [
+      "minecraft:end_spike",
+      "minecraft:end_gateway_return"
+    ]
   },
-
+  
   // All the structures that should be generated.
   // A list with all possible structures can be found in config/skyblockbuilder/data/structures.txt
   // WARNING: This only works for vanilla dimensions (Overworld, Nether, End), or ones that were created using the Skyblock Builder structure
   // This is a resource list. See https://moddingx.org/libx/org/moddingx/libx/util/data/ResourceList.html#use_resource_lists_in_configs
-  structuresToGenerate: {
-    allow_list: true,
-    elements: [
+  "structuresToGenerate": {
+    "allow_list": true,
+    "elements": [
+      "minecraft:fortress",
+      "betterstrongholds:stronghold",
+      "betteroceanmonuments:ocean_monument",
       "ae2:meteorite",
-      "betteroceanmonuments:ocean_monuments",
-      "betterstrongholds:strongholds",
-      "skyvillages:skyvillage",
-    ],
-  },
+      "skyvillages:skyvillage"
+    ]
+  }
 }
