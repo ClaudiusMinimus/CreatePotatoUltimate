@@ -1,0 +1,73 @@
+Quest Title,Description,Task (Item & Quantity),Reward(s),Dependencies,Notes
+Andesite Alloy Acquisition,Andesite Alloy is the backbone of Create machinery. Gather some to get started!,"Andesite Alloy x8","Zinc Block x1",,Beginner
+Shaft Crafter,Shafts transmit rotational force between machines.,"Shaft x8","Cogwheel x4",Andesite Alloy Acquisition,Beginner
+Cogwheel Constructor,Cogwheels are essential for gearing and speed control.,"Cogwheel x4","Large Cogwheel x2",Shaft Crafter,Beginner
+Large Cogwheel Maker,Large cogwheels help change speed and direction.,"Large Cogwheel x2","Shaft x4",Cogwheel Constructor,Beginner
+Casing Creation,Casings are used to build more advanced machines.,"Andesite Casing x4","Belt Connector x8",Large Cogwheel Maker,Beginner
+Hand Crank Helper,Hand cranks are useful for manual power.,"Hand Crank x1","Andesite Alloy x2",Casing Creation,Beginner
+Mechanical Bearing Basics,Mechanical bearings rotate entire structures.,"Mechanical Bearing x1","Bacon Sandwich x1",Casing Creation,Beginner
+Clockwork Bearing Basics,Clockwork bearings rotate contraptions on a timer.,"Clockwork Bearing x1","Redstone Dust x8",Mechanical Bearing Basics,Beginner
+Radial Chassis Builder,Radial chassis are key for rotating contraptions.,"Radial Chassis x1","Super Glue x1",Mechanical Bearing Basics,Beginner
+Linear Chassis Builder,Linear chassis are used for moving contraptions.,"Linear Chassis x3","Super Glue x1",Mechanical Bearing Basics,Beginner
+Super Glue Specialist,Super Glue sticks your contraptions together.,"Super Glue x1","Linear Chassis x2",Mechanical Bearing Basics,Beginner
+Cart Assembler,Assemble carts for moving contraptions on rails.,"Cart Assembler x1","Rail x16",Mechanical Bearing Basics,Beginner
+Rope Pulley Basics,Rope pulleys are used for vertical movement.,"Rope Pulley x1","String x16",Mechanical Bearing Basics,Beginner
+Pressing Forward,Use the Mechanical Press to make sheets for advanced components.,"Mechanical Press x1","Raw Zinc x8",Casing Creation,Intermediate
+Sheet Metalwork,Iron and copper sheets are required for many machines.,"Iron Sheet x4, Copper Sheet x1","Iron Sheet x4, Fermented Spider Eye x2",Pressing Forward,Intermediate
+Brass Sheet Work,Brass sheets are vital for advanced machines.,"Brass Sheet x1","Brass Block x1",Pressing Forward,Intermediate
+Golden Sheet Work,Golden sheets are used for special recipes.,"Golden Sheet x1","Heart of the Sea x1",Pressing Forward,Intermediate
+Fluid Fundamentals,Start moving fluids with pipes and pumps.,"Fluid Pipe x8, Mechanical Pump x1","Cuckoo Clock x1, Slime Ball x4",Sheet Metalwork,Intermediate
+Fluid Valve Control,Control fluid flow with valves.,"Fluid Valve x1","Green Valve Handle x1, Red Valve Handle x1",Fluid Fundamentals,Intermediate
+Smart Fluid Piping,Smart pipes sort fluids automatically.,"Smart Fluid Pipe x1","Fluid Pipe x4",Fluid Fundamentals,Intermediate
+Fluid Tank Storage,Store large amounts of fluid.,"Fluid Tank x4","Fluid Pipe x4",Fluid Fundamentals,Intermediate
+Spout Setup,Spouts are used for filling items with fluids.,"Spout x1","Item Drain x1",Fluid Fundamentals,Intermediate
+Hose Pulley Helper,Hose pulleys are great for moving fluids vertically.,"Hose Pulley x1","Hand Crank x1",Fluid Fundamentals,Intermediate
+Mixing Mastery,Mix and process materials for alloys.,"Mechanical Mixer x1, Basin x1","Chocolate Bucket x1",Sheet Metalwork,Intermediate
+Automated Crafting,Automate crafting with Deployers and Mechanical Crafters.,"Deployer x1, Mechanical Crafter x3","Mechanical Crafter x1",Mixing Mastery,Intermediate
+Mechanical Crafter Array,Build a full mechanical crafter array.,"Mechanical Crafter x18","Mechanical Crafter x3",Automated Crafting,Intermediate
+Harvester Helper,Automate your farms using harvesters.,"Mechanical Harvester x2","Mechanical Harvester x1",Automated Crafting,Intermediate
+Mechanical Saw Setup,Automate wood cutting with a mechanical saw.,"Mechanical Saw x1","Mechanical Saw x1",Automated Crafting,Intermediate
+Mechanical Drill Deployment,Automate mining with a mechanical drill.,"Mechanical Drill x1","Cogwheel x4, Sheep Spawn Egg x1",Automated Crafting,Intermediate
+Millstone Milling,Millstone grinds items automatically.,"Millstone x1","Diorite x32",Automated Crafting,Intermediate
+Encased Fan Fun,Use encased fans for washing and processing.,"Encased Fan x1","Honey Bucket x1",Automated Crafting,Intermediate
+Blaze Burner Setup,Blaze Burners are used for high-heat recipes.,"Empty Blaze Burner x1","Emerald x1",Mixing Mastery,Intermediate
+Funnels and Chutes,Move items efficiently with funnels and chutes.,"Andesite Funnel x1, Brass Funnel x1, Chute x4","Melon Seeds x8, Totem of Undying x1",Brass Sheet Work,Intermediate
+Gearbox Genius,Use gearboxes to redirect rotational force.,"Gearbox x1","Cogwheel x4",Brass Sheet Work,Intermediate
+Vertical Gearbox,Redirect power vertically with a vertical gearbox.,"Vertical Gearbox x1","Cogwheel x4",Gearbox Genius,Intermediate
+Portable Storage Interface,Transfer items between contraptions and the world.,"Portable Storage Interface x1","Quartz Block x4",Brass Sheet Work,Intermediate
+Sequenced Gearshift,Automate rotation sequences.,"Sequenced Gearshift x1","Ancient Debris x4",Brass Sheet Work,Intermediate
+Rotation Speed Controller,Control the speed of your machines.,"Rotation Speed Controller x1","Precision Mechanism x1",Brass Sheet Work,Intermediate
+Precision Mechanism Crafting,Precision Mechanisms are needed for advanced automation.,"Precision Mechanism x1","Precision Mechanism x1",Rotation Speed Controller,Intermediate
+Mechanical Arm Automation,Automate sorting and transporting with mechanical arms.,"Mechanical Arm x1","Golden Apple x1",Precision Mechanism Crafting,Intermediate
+Extendo Grip,Reach further with the Extendo Grip.,"Extendo Grip x1","Enchanted Book (Unbreaking III) x1",Brass Sheet Work,Intermediate
+Brass Tunnel,Brass Tunnels split and filter items on belts.,"Brass Tunnel x1","Brass Ingot x2",Brass Sheet Work,Intermediate
+Item Vault Storage,Store lots of items with vaults.,"Item Vault x1","Item Vault x1",Brass Sheet Work,Intermediate
+Package Logistics (v6),Use Packages to bundle and transport items efficiently.,"Package x2","Depot x1",Item Vault Storage,Advanced
+Redstone Link Network,Set up wireless redstone with Redstone Links.,"Redstone Link x2","Transmitter x1",Package Logistics (v6),Advanced
+Transmitter Network,Transmit signals wirelessly.,"Transmitter x2","Link Controller x1",Redstone Link Network,Advanced
+Display Link Display,Display Links show information from your machines.,"Display Link x1","Brass Sheet x2",Transmitter Network,Advanced
+Threshold Switch,Threshold Switches automate based on item/fluid counts.,"Threshold Switch x1","Redstone Torch x4",Transmitter Network,Advanced
+Contraption Controller,Controllers are the brains of moving contraptions.,"Contraption Controller x1","Redstone Block x1",Transmitter Network,Advanced
+Train Track Setup,Build tracks for Create trains.,"Track x16","Train Signal x2",Transmitter Network,Advanced
+Train Signal Setup,Train Signals control train traffic.,"Train Signal x1","Train Observer x1",Train Track Setup,Advanced
+Train Observer Setup,Observers detect trains for automation.,"Train Observer x1","Redstone Comparator x2",Train Signal Setup,Advanced
+Train Station Setup,Stations are where trains load and unload.,"Train Station x1","Train Schedule x1",Train Observer Setup,Advanced
+Train Schedule Automation,Automate item delivery using trains and new schedule instructions.,"Train Schedule x1","Brass Tunnel x2",Train Station Setup,Advanced
+Aesthetic Upgrades (v6),Decorate with new weathered iron blocks, windows, and sliding doors.,"Weathered Iron Block x1, Cherry Window x1, Sliding Door x1","Metal Ladder x1",Train Schedule Automation,Advanced
+Catwalk Construction (Create Deco),Build catwalks for industrial style.,"Catwalk x8","Catwalk Railing x8",Aesthetic Upgrades (v6),Decor
+Catwalk Railing (Create Deco),Add safety to your catwalks.,"Catwalk Railing x8","Catwalk Stairs x4",Catwalk Construction (Create Deco),Decor
+Catwalk Stairs (Create Deco),Stairs for your catwalks.,"Catwalk Stairs x4","Cage Lamp x1",Catwalk Railing (Create Deco),Decor
+Cage Lamp (Create Deco),Light up your builds with cage lamps.,"Cage Lamp x1","Chain Link Fence x4",Catwalk Stairs (Create Deco),Decor
+Sheet Metal Decor (Create Deco),Sheet metal for walls and floors.,"Sheet Metal x8","Support Block x4",Cage Lamp (Create Deco),Decor
+Support Block (Create Deco),Support blocks for structure and style.,"Support Block x8","Support Wedge x4",Sheet Metal Decor (Create Deco),Decor
+Support Wedge (Create Deco),Wedges for angled support.,"Support Wedge x4","Coin Stack x1",Support Block (Create Deco),Decor
+Chain Link Fence (Create Deco),Industrial fencing for your base.,"Chain Link Fence x8","Bars x4",Cage Lamp (Create Deco),Decor
+Bars (Create Deco),Metal bars for windows and cages.,"Bars x8","Opaque Paneled Bar x2",Chain Link Fence (Create Deco),Decor
+Opaque Paneled Bar (Create Deco),Solid metal panels for security.,"Opaque Paneled Bar x2","Coin Stack x1",Bars (Create Deco),Decor
+Coin Stack (Create Deco),Stack your coins for display.,"Coin Stack x1","Shipping Container x1",Opaque Paneled Bar (Create Deco),Decor
+Shipping Container (Create Deco),Store items in style.,"Shipping Container x1","Window x2",Coin Stack (Create Deco),Decor
+Window (Create Deco),Industrial windows for your factory.,"Window x2","Window Pane x4",Shipping Container (Create Deco),Decor
+Window Pane (Create Deco),Thin window panes for detail.,"Window Pane x4","Door x1",Window (Create Deco),Decor
+Door (Create Deco),Metal doors for security.,"Door x1","Ladder x2",Window Pane (Create Deco),Decor
+Ladder (Create Deco),Metal ladders for vertical access.,"Ladder x2","Decal x1",Door (Create Deco),Decor
+Decal (Create Deco),Mark hazards or areas with decals.,"Decal x1","Red Brick x

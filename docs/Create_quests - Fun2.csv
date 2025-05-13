@@ -1,0 +1,83 @@
+Quest Title,Description,Task (Item & Quantity),Reward(s),Dependencies,Notes
+Alloy Oop!,"Jumpstart your engineering adventure by grabbing some Andesite Alloy. It’s the glue that holds your wildest contraptions together-literally and figuratively!","Andesite Alloy x8","Zinc Block x1",,Beginner
+Shafted!,"Things are about to get a-rotational! Collect shafts and get ready to spin your wheels (and everything else).","Shaft x8","Cogwheel x4",Alloy Oop!,Beginner
+Cogito Ergo Sum,"I think, therefore I spin. Craft cogwheels and get your gears turning-philosophically and mechanically!","Cogwheel x4","Large Cogwheel x2",Shafted!,Beginner
+Mega Cog Mania,"Go big or go home! Large cogwheels mean large ambitions. Build some and watch your machines go from zero to hero.","Large Cogwheel x2","Shaft x4",Cogito Ergo Sum,Beginner
+Case Closed,"Wrap your builds in style with Andesite Casings. Because even machines deserve a makeover.","Andesite Casing x4","Belt Connector x8",Mega Cog Mania,Beginner
+Crank Yankers,"Hand cranks: for when you want to give your machines a little elbow grease. Get cranking!","Hand Crank x1","Andesite Alloy x2",Case Closed,Beginner
+Bearing Gifts,"Mechanical bearings: the gift that keeps on spinning. Use them to rotate entire contraptions (and impress your friends).","Mechanical Bearing x1","Bacon Sandwich x1",Case Closed,Beginner
+It’s About Time!,"Clockwork bearings: for the engineer who likes to keep things on schedule. Tick-tock, let’s rock!","Clockwork Bearing x1","Redstone Dust x8",Bearing Gifts,Beginner
+Chassis the Rainbow,"Radial chassis: for when your builds need to go full circle. Stick your blocks together and let the good times roll.","Radial Chassis x1","Super Glue x1",Bearing Gifts,Beginner
+Chassis Express,"Linear chassis: all aboard the automation station! Perfect for machines that like to move in straight lines.","Linear Chassis x3","Super Glue x1",Bearing Gifts,Beginner
+Stick With It,"Super Glue: the secret sauce for keeping your builds together. Warning: may cause excessive contraption creativity.","Super Glue x1","Linear Chassis x2",Bearing Gifts,Beginner
+Cart Blanche,"Cart Assemblers: your ticket to a world of moving machines. All aboard for automation!","Cart Assembler x1","Rail x16",Bearing Gifts,Beginner
+Pulley Wonka,"Rope pulleys: for lifting your builds (and your spirits) to new heights.","Rope Pulley x1","String x16",Bearing Gifts,Beginner
+Pressing Engagement,"Mechanical Press: flatten, smash, and impress your friends with shiny new sheets. It’s a real pressing matter.","Mechanical Press x1","Raw Zinc x8",Case Closed,Intermediate
+Sheet Happens,"Iron and copper sheets: for when you want your builds to shine. Sheet-tastic!","Iron Sheet x4, Copper Sheet x1","Iron Sheet x4, Fermented Spider Eye x2",Pressing Engagement,Intermediate
+Brass Kicker,"Brass sheets: because your machines deserve the golden treatment.","Brass Sheet x1","Brass Block x1",Pressing Engagement,Intermediate
+Gold Standard,"Gold sheets: for those who want their builds to be worth their weight in gold.","Golden Sheet x1","Heart of the Sea x1",Pressing Engagement,Intermediate
+Pipe Dream,"Start your fluid engineering journey-pipes and pumps and puddles, oh my!","Fluid Pipe x8, Mechanical Pump x1","Cuckoo Clock x1, Slime Ball x4",Sheet Happens,Intermediate
+Valve You Forever,"Fluid valves: because sometimes you just need to stop and control the flow.","Fluid Valve x1","Green Valve Handle x1, Red Valve Handle x1",Pipe Dream,Intermediate
+Pipe Down!,"Smart pipes: for when your fluids need a little direction (and smarts).","Smart Fluid Pipe x1","Fluid Pipe x4",Pipe Dream,Intermediate
+Tank You Kindly,"Fluid tanks: store all the juice your machines need. Hydration station!","Fluid Tank x4","Fluid Pipe x4",Pipe Dream,Intermediate
+Spout and About,"Spouts: fill up your buckets and bottles-no more running on empty!","Spout x1","Item Drain x1",Pipe Dream,Intermediate
+Hose Before Bros,"Hose pulleys: for moving fluids up, down, and all around. Splash zone ahead!","Hose Pulley x1","Hand Crank x1",Pipe Dream,Intermediate
+Mix Master,"Mechanical Mixer and Basin: stir up some fun and cook up crazy new recipes.","Mechanical Mixer x1, Basin x1","Chocolate Bucket x1",Sheet Happens,Intermediate
+Deploy Joy,"Deployers and Mechanical Crafters: automate everything and never craft by hand again!","Deployer x1, Mechanical Crafter x3","Mechanical Crafter x1",Mix Master,Intermediate
+Super Crafter Supreme,"Build a full crafting array and become a master of automation!","Mechanical Crafter x18","Mechanical Crafter x3",Deploy Joy,Intermediate
+Field of Streams,"Mechanical Harvesters: reap what you sow, and then some.","Mechanical Harvester x2","Mechanical Harvester x1",Deploy Joy,Intermediate
+Lumberjack Bot,"Mechanical Saws: chop wood like a lumberjack on Red Bull.","Mechanical Saw x1","Mechanical Saw x1",Deploy Joy,Intermediate
+Drill Sergeant,"Mechanical Drills: dig, mine, and tunnel like a pro. No pickaxe required!","Mechanical Drill x1","Cogwheel x4, Sheep Spawn Egg x1",Deploy Joy,Intermediate
+Stone Age DJ,"Millstones: grind your way to success (and flour for cookies).","Millstone x1","Diorite x32",Deploy Joy,Intermediate
+Fan-tastic,"Encased Fans: blow, wash, and process your way to cleaner resources.","Encased Fan x1","Honey Bucket x1",Deploy Joy,Intermediate
+Blaze of Glory,"Blaze Burners: for recipes that are too hot to handle!","Empty Blaze Burner x1","Emerald x1",Mix Master,Intermediate
+Funnel Vision,"Funnels and chutes: move items with style and efficiency. No more bottlenecks!","Andesite Funnel x1, Brass Funnel x1, Chute x4","Melon Seeds x8, Totem of Undying x1",Brass Kicker,Intermediate
+Gearbox Groove,"Gearboxes: redirect power and keep your machines in sync. Get in the groove!","Gearbox x1","Cogwheel x4",Brass Kicker,Intermediate
+Vertical Vibes,"Vertical gearboxes: power up, power down, power all around!","Vertical Gearbox x1","Cogwheel x4",Gearbox Groove,Intermediate
+Pocket Portal,"Portable Storage Interfaces: pass items between contraptions like magic!","Portable Storage Interface x1","Quartz Block x4",Brass Kicker,Intermediate
+Sequence Breaker,"Sequenced Gearshifts: automate complex moves and dance like a robot.","Sequenced Gearshift x1","Ancient Debris x4",Brass Kicker,Intermediate
+Speed Demon,"Rotation Speed Controllers: go fast, go slow, go pro!","Rotation Speed Controller x1","Precision Mechanism x1",Brass Kicker,Intermediate
+Precision Party,"Precision Mechanisms: the secret sauce for super-advanced machines.","Precision Mechanism x1","Precision Mechanism x1",Speed Demon,Intermediate
+Arm-y of One,"Mechanical Arms: sort, grab, and move items like a boss.","Mechanical Arm x1","Golden Apple x1",Precision Party,Intermediate
+Long Reach Larry,"Extendo Grip: reach for the stars (or just that faraway block).","Extendo Grip x1","Enchanted Book (Unbreaking III) x1",Brass Kicker,Intermediate
+Tunnel Vision,"Brass Tunnels: split and filter items on belts-no traffic jams here!","Brass Tunnel x1","Brass Ingot x2",Brass Kicker,Intermediate
+Vault Hunter,"Item Vaults: store all the loot your machines make!","Item Vault x1","Item Vault x1",Brass Kicker,Intermediate
+Package Deal,"Packages: bundle up and ship out your items with style!","Package x2","Depot x1",Vault Hunter,Advanced
+Wireless Wizard,"Redstone Links: send signals through the air like a techno-mage.","Redstone Link x2","Transmitter x1",Package Deal,Advanced
+Signal Superstar,"Transmitters: broadcast your redstone genius to the world.","Transmitter x2","Link Controller x1",Wireless Wizard,Advanced
+Show Off!,"Display Links: show off your machine stats and look smart doing it.","Display Link x1","Brass Sheet x2",Signal Superstar,Advanced
+Threshold Tactician,"Threshold Switches: automate with perfect timing and precision.","Threshold Switch x1","Redstone Torch x4",Signal Superstar,Advanced
+Brain in a Box,"Contraption Controllers: the brains behind every moving marvel.","Contraption Controller x1","Redstone Block x1",Signal Superstar,Advanced
+Track Star,"Train Tracks: lay the foundation for your railway empire!","Track x16","Train Signal x2",Signal Superstar,Advanced
+Signal Operator,"Train Signals: keep your trains on time and on track.","Train Signal x1","Train Observer x1",Track Star,Advanced
+Train Spotter,"Train Observers: detect trains and automate your railway like a pro.","Train Observer x1","Redstone Comparator x2",Signal Operator,Advanced
+Station Master,"Train Stations: where all great journeys begin (and end).","Train Station x1","Train Schedule x1",Train Spotter,Advanced
+Locomotion Commotion,"Train Schedules: automate deliveries and become a railway tycoon!","Train Schedule x1","Brass Tunnel x2",Station Master,Advanced
+Industrial Chic,"Weathered Iron, Cherry Windows, Sliding Doors: make your base the envy of every engineer.","Weathered Iron Block x1, Cherry Window x1, Sliding Door x1","Metal Ladder x1",Locomotion Commotion,Advanced
+Catwalk Superstar,"Catwalks: strut your stuff and stay safe above the factory floor.","Catwalk x8","Catwalk Railing x8",Industrial Chic,Decor
+Railing Royalty,"Catwalk Railings: don’t fall off your stylish walkways!","Catwalk Railing x8","Catwalk Stairs x4",Catwalk Superstar,Decor
+Step Up!,"Catwalk Stairs: climb to new heights in industrial fashion.","Catwalk Stairs x4","Cage Lamp x1",Railing Royalty,Decor
+Light Up the Night,"Cage Lamps: light up your world with industrial flair.","Cage Lamp x1","Chain Link Fence x4",Step Up!,Decor
+Metal Makeover,"Sheet Metal: walls, floors, and more-shine on!","Sheet Metal x8","Support Block x4",Light Up the Night,Decor
+Support Squad,"Support Blocks: keep your builds standing tall.","Support Block x8","Support Wedge x4",Metal Makeover,Decor
+Wedge Wonder,"Support Wedges: for angled, awesome architecture.","Support Wedge x4","Coin Stack x1",Support Squad,Decor
+Fenced In,"Chain Link Fences: keep things contained, look cool doing it.","Chain Link Fence x8","Bars x4",Light Up the Night,Decor
+Behind Bars,"Bars: for windows, cages, and that industrial vibe.","Bars x8","Opaque Paneled Bar x2",Fenced In,Decor
+Pane in the Glass,"Opaque Paneled Bars: solid, secure, and sleek.","Opaque Paneled Bar x2","Coin Stack x1",Behind Bars,Decor
+Coin Collector,"Coin Stacks: show off your riches!","Coin Stack x1","Shipping Container x1",Pane in the Glass,Decor
+Ship It!,"Shipping Containers: store your stuff in style.","Shipping Container x1","Window x2",Coin Collector,Decor
+Window Shopper,"Industrial Windows: let the light in, keep the style out.","Window x2","Window Pane x4",Ship It!,Decor
+Pane Perfection,"Window Panes: for all your factory’s fine details.","Window Pane x4","Door x1",Window Shopper,Decor
+Open Sesame!,"Metal Doors: security and style, all in one swing.","Door x1","Ladder x2",Pane Perfection,Decor
+Climb Time,"Metal Ladders: reach new heights with industrial flair.","Ladder x2","Decal x1",Open Sesame!,Decor
+Sticker Shock,"Decals: mark hazards, decorate, or just look awesome.","Decal x1","Red Brick x8",Climb Time,Decor
+Brick House (Red),"Red Bricks: classic color for classic builds.","Red Brick x8","Blue Brick x8",Sticker Shock,Decor
+Brick House (Blue),"Blue Bricks: cool color for cool builds.","Blue Brick x8","Scarlet Brick x8",Brick House (Red),Decor
+Brick House (Scarlet),"Scarlet Bricks: bold, bright, and beautiful.","Scarlet Brick x8","Umber Brick x8",Brick House (Blue),Decor
+Brick House (Umber),"Umber Bricks: earthy tones for grounded builds.","Umber Brick x8","Dean Brick x8",Brick House (Scarlet),Decor
+Brick House (Dean),"Dean Bricks: unique color for unique builders.","Dean Brick x8","Dusk Brick x8",Brick House (Umber),Decor
+Brick House (Dusk),"Dusk Bricks: moody, mysterious, and marvelous.","Dusk Brick x8","Verdant Brick x8",Brick House (Dean),Decor
+Brick House (Verdant),"Verdant Bricks: green up your factory!","Verdant Brick x8","Pearl Brick x8",Brick House (Dusk),Decor
+Brick House (Pearl),"Pearl Bricks: shine bright with pearly whites.","Pearl Brick x8","Red Brick x8",Brick House (Verdant),Decor
+Quality of Life Quest,"Wrench and Schematicannon: build smarter, not harder!","Wrench x1, Schematicannon x1","Potion Fluid Sample x1",Industrial Chic,Advanced
+Integration Nation,"Try Create’s compatibility with other mods-expand your engineering empire!","Engineering Blueprint x1","Map Token x1",Quality of Life Quest,Advanced
