@@ -6,9 +6,15 @@
   // These are resource lists. See https://moddingx.org/libx/org/moddingx/libx/util/data/ResourceList.html#use_resource_lists_in_configs
   "biomes": {
     "minecraft:overworld": {
-      "allow_list": true,
+      "allow_list": false,
       "elements": [
-        "minecraft:*ocean*"
+     //   "minecraft:*ocean*"
+          "minecraft:deep_frozen_ocean",
+          "minecraft:frozen_ocean",
+          "minecraft:frozen_peaks",
+          "minecraft:frozen_river",
+          "minecraft:cold_ocean",
+          "minecraft:deep_cold_ocean"
       ]
     },
     "minecraft:the_nether": {
