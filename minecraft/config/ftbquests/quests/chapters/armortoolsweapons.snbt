@@ -7,7 +7,7 @@
 		id: "create_sa:rose_quartz_sword"
 	}
 	id: "0000000000000035"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

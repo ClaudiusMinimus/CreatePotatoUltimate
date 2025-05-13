@@ -7,7 +7,7 @@
 		id: "minecraft:baked_potato"
 	}
 	id: "0000000000000004"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
