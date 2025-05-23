@@ -4,12 +4,14 @@
 	chapter.000000000000003C.title: "Hunter"
 	chapter.00000000000000AF.title: "Farming and Cooking"
 	chapter.0000000000000623.chapter_subtitle: ["Build amazing things with Create!"]
-	chapter.0000000000000623.title: "Create"
+	chapter.0000000000000623.title: "Gear Up and Get Going!"
 	chapter.1F3FAEEC631D879D.title: "Andesite Alloy Acquisition"
 	chapter.22C5B5C762C6CE6B.title: "Storage"
+	chapter.2B417BFD8A1BF430.title: "Full Steam Ahead!"
 	chapter.394307726599DAF0.title: "Tips and Tricks"
-	chapter.3DFD3C26419B7986.title: "Botania"
+	chapter.54923BF4093F367E.title: "Engineering Marvels Unleashed!"
 	chapter.5C3449C5F42C2A48.title: "World Hopping"
+	chapter_group.6F8E634575676A8E.title: "Create"
 	quest.0000000000000005.quest_desc: ["There be treasures hidden underground. Dig, dig, dig!"]
 	quest.0000000000000005.title: "Start Digging!"
 	quest.000000000000000D.quest_desc: ["Yes, you're in a survival game and we all know that usually means punching trees. But come on, that doesn't feel good, right? "]
@@ -97,17 +99,53 @@
 	quest.000000000000062C.quest_subtitle: "Start Here"
 	quest.0000000000000633.quest_desc: ["Make some super simple shears. Now say that fives times real fast!"]
 	quest.000000000000078F.quest_desc: ["Andesite Alloy is a primary ingredient for much of Create. Don't throw out your Andesite anymore!"]
+	quest.000000000000078F.quest_subtitle: "Andesite Alloy x8"
 	quest.000000000000078F.title: "No Trashy Andesite!"
-	quest.0000000000000791.quest_desc: ["You will need LOTS of these little guys!"]
-	quest.0000000000000797.quest_desc: ["The Mechanical Press is a workhorse that you will use a lot. Drop iron, brass, copper, or gold ingot(s) under the press or place them on a depot or belt to make a sheet."]
-	quest.0000000000000799.quest_desc: ["Casings are a primary building block for most things Create."]
+	quest.0000000000000791.quest_desc: [
+		"I think, therefore I spin. Craft cogwheels and get your gears turning-philosophically and mechanically!"
+		""
+		"You will need LOTS of these little guys!"
+	]
+	quest.0000000000000791.quest_subtitle: "Cogwheel x4"
+	quest.0000000000000791.title: "Cogito Ergo Sum"
+	quest.0000000000000793.quest_desc: ["Go big or go home! Large cogwheels mean large ambitions. Build some and watch your machines go from zero to hero."]
+	quest.0000000000000793.quest_subtitle: "Large Cogwheel x2"
+	quest.0000000000000793.title: "Mega Cog Mania"
+	quest.0000000000000795.quest_desc: ["Things are about to get a-rotational! Collect shafts and get ready to spin your wheels (and everything else)."]
+	quest.0000000000000795.quest_subtitle: "Shaft x8"
+	quest.0000000000000795.title: "Shafted!"
+	quest.0000000000000797.quest_desc: [
+		"Mechanical Press: flatten, smash, and impress your friends with shiny new sheets. It’s a real pressing matter."
+		""
+		"The Mechanical Press is a workhorse that you will use a lot. Drop iron, brass, copper, or gold ingot(s) under the press or place them on a depot or belt to make a sheet."
+	]
+	quest.0000000000000797.quest_subtitle: "Mechanical Press x1"
+	quest.0000000000000797.title: "Pressing Engagement"
+	quest.0000000000000799.quest_desc: [
+		"Wrap your builds in style with Andesite Casings. Because even machines deserve a makeover."
+		""
+		"Casings are a primary building block for most things Create."
+	]
+	quest.0000000000000799.quest_subtitle: "Andesite Casing x4"
+	quest.0000000000000799.title: "Case Closed"
 	quest.000000000000079F.quest_desc: [
 		"The wrench has several uses:"
 		"1. Rotate kinetic blocks when you right click them. If the block will not rotate, then try a different surface plane."
 		"2. Adjust many kinetic block settings when using the mouse wheel."
 		"3. Break kinetic blocks using shift + right-click."
 	]
-	quest.00000000000007A1.quest_desc: ["Iron Sheets are another common item needed for making machines. You will need lots of these."]
+	quest.00000000000007A1.quest_desc: ["Iron sheets: for when you want your builds to shine. Sheet-tastic!"]
+	quest.00000000000007A1.quest_subtitle: "Iron Sheet x4"
+	quest.00000000000007A1.title: "Sheet Happens"
+	quest.00000000000007A3.quest_desc: ["Well, what can I say?"]
+	quest.00000000000007A3.quest_subtitle: "Copper Sheet x1"
+	quest.00000000000007A3.title: "More Sheet Happens"
+	quest.00000000000007A5.quest_desc: ["Brass sheets: because your machines deserve the golden treatment."]
+	quest.00000000000007A5.quest_subtitle: "Brass Sheet x1"
+	quest.00000000000007A5.title: "Brass Kicker"
+	quest.00000000000007A7.quest_desc: ["Gold sheets: for those who want their builds to be worth their weight in gold."]
+	quest.00000000000007A7.quest_subtitle: "Golden Sheet x1"
+	quest.00000000000007A7.title: "Gold Standard"
 	quest.00000000000007AB.quest_desc: [
 		"A water wheel is great for early game Rotational Force."
 		""
@@ -117,32 +155,127 @@
 	]
 	quest.00000000000007B0.quest_desc: ["Attach a log to a Windmill Bearing and then attach the Sails to the log to create a functional windmill."]
 	quest.00000000000007B2.quest_desc: ["To turn on your windmill, attach either a Radial Chasis and wool blocks, or sails surrounding a log to the Windmill Bearing, then right-click on the Windmill Bearing to start the windmill rotating."]
-	quest.00000000000007B4.quest_desc: ["You need to put slime or Super Glue on at least one contact surface for connected blocks to rotate with the radial chassis. Double click the slime to attach to all four sides at once."]
+	quest.00000000000007B4.quest_desc: [
+		"Radial chassis: for when your builds need to go full circle. Stick your blocks together and let the good times roll."
+		""
+		"You need to put slime or Super Glue on at least one contact surface for connected blocks to rotate with the radial chassis. Double click the slime to attach to all four sides at once."
+	]
+	quest.00000000000007B4.quest_subtitle: "Radial Chassis x1"
+	quest.00000000000007B4.title: "Chassis the Rainbow"
 	quest.00000000000007B8.quest_desc: [
+		"Encased Fans: blow, wash, and process your way to cleaner resources."
+		""
 		"Encased Fans work great for Bulk Smelting, Try setting up an automated washing system using one or more of the following: "
 		""
-		"Gravel, Sand, Soul Sand, any Crushed ore, or anything listed in REI under Bulk Smelting, Smoking, or Washing. "
-		""
-		"Fans also are a great early game power source. Place a heat source underneath and activate with redstone."
+		"Gravel, Sand, Soul Sand, any Crushed ore, or anything listed in JEI under Bulk Smelting, Smoking, or Washing."
 	]
+	quest.00000000000007B8.quest_subtitle: "Encased Fan x1"
+	quest.00000000000007B8.title: "Fan-tastic"
 	quest.00000000000007BB.quest_desc: [
+		"Millstones: grind your way to success (and flour for cookies)."
+		""
 		"The Millstone is used for grinding all kinds of items. Be sure to check JEI for what it can do. You can even make a needed material for crafting slime balls."
 		""
 		"Making gravel as early as possible with speed your progress."
 		""
 		"Diorite will prove very valuable, so don't waste it!"
 	]
-	quest.00000000000007BD.quest_desc: ["The Fluid Pipe for all your liquid needs. Well, not exactly, you still need a pump to actally move any fluids."]
-	quest.00000000000007BF.quest_desc: ["The Mechanical Pump when connected to a fluid source and a pipe will transfer liquids. The pump is directional and requires Rotational Force to work."]
-	quest.00000000000007C1.quest_desc: ["The Fluid Value restricts the flow of liquids. It uses Rotational Force to open and close. Use your shift key while in your inventory or in JEI to learn more how to do this."]
-	quest.00000000000007C5.quest_desc: ["The Smart Fluid Pipe is well... smart! Think of it as a way to filter what fluids are transfered."]
-	quest.00000000000007C7.quest_desc: ["The Spout is for refilling your fluid items. Can also be automated."]
-	quest.00000000000007C9.quest_desc: ["The Mechanical Saw can be used for cutting trees or for stonecutter recipes. With the Saw in hand, press the Shift key for more information."]
-	quest.00000000000007CB.quest_desc: ["The Mechanical Drill can be used for mining, but in early game can be used as part of a stationary cobble generator."]
-	quest.00000000000007CD.quest_desc: ["The Fluid Tank can be a single block or a multi-block structure."]
-	quest.00000000000007CF.quest_desc: ["The Gearbox allows for changing direction horizontally."]
-	quest.00000000000007D1.quest_desc: ["The Vertical Gearbox allows for changing direction vertically."]
-	quest.00000000000008F2.quest_desc: ["Chutes are used to transport items to and from storage containers. Can interact with Funnels and Fans."]
+	quest.00000000000007BB.quest_subtitle: "Millstone x1"
+	quest.00000000000007BB.title: "Stone Age DJ"
+	quest.00000000000007BD.quest_desc: [
+		"Start your fluid engineering journey-pipes and pumps and puddles, oh my!"
+		""
+		"The Fluid Pipe for all your liquid needs. Well, not exactly, you still need a pump to actally move any fluids."
+	]
+	quest.00000000000007BD.quest_subtitle: "Fluid Pipe x8, Mechanical Pump x1"
+	quest.00000000000007BD.title: "Pipe Dream"
+	quest.00000000000007C1.quest_desc: [
+		"Fluid valves: because sometimes you just need to stop and control the flow."
+		""
+		"The Fluid Value restricts the flow of liquids. It uses Rotational Force to open and close. Use your shift key while in your inventory or in JEI to learn more how to do this."
+	]
+	quest.00000000000007C1.quest_subtitle: "Fluid Valve x1"
+	quest.00000000000007C1.title: "Valve You Forever"
+	quest.00000000000007C5.quest_desc: ["Smart pipes: for when your fluids need a little direction (and smarts). The Smart Fluid Pipe is well... smart! Think of it as a way to filter what fluids are transfered."]
+	quest.00000000000007C5.quest_subtitle: "Smart Fluid Pipe x1"
+	quest.00000000000007C5.title: "Pipe Down!"
+	quest.00000000000007C7.quest_desc: ["Spouts: fill up your buckets and bottles-no more running on empty! The Spout is for refilling your fluid items. Can also be automated."]
+	quest.00000000000007C7.quest_subtitle: "Spout x1"
+	quest.00000000000007C7.title: "Spout and About"
+	quest.00000000000007C9.quest_desc: [
+		"Mechanical Saws: chop wood like a lumberjack on a mission."
+		""
+		"The Mechanical Saw can be used for cutting trees or for stonecutter recipes. With the Saw in hand, press the Shift key for more information."
+	]
+	quest.00000000000007C9.quest_subtitle: "Mechanical Saw x1"
+	quest.00000000000007C9.title: "Lumberjack Bot"
+	quest.00000000000007CB.quest_desc: [
+		"Mechanical Drills: dig, mine, and tunnel like a pro. No pickaxe required! "
+		""
+		"The Mechanical Drill can be used in early game as part of a stationary cobble generator."
+	]
+	quest.00000000000007CB.quest_subtitle: "Mechanical Drill x1"
+	quest.00000000000007CB.title: "Drill Sergeant"
+	quest.00000000000007CD.quest_desc: [
+		"Fluid tanks: store all the juice your machines need. Hydration station! "
+		""
+		"The Fluid Tank can be a single block or a multi-block structure."
+	]
+	quest.00000000000007CD.quest_subtitle: "Fluid Tank x4"
+	quest.00000000000007CD.title: "Tank You Kindly"
+	quest.00000000000007CF.quest_desc: ["Gearboxes: redirect power and keep your machines in sync. Get in the groove! The Gearbox allows for changing direction horizontally."]
+	quest.00000000000007CF.quest_subtitle: "Gearbox x1"
+	quest.00000000000007CF.title: "Gearbox Groove"
+	quest.00000000000007D1.quest_desc: [
+		"Vertical gearboxes: power up, power down, power all around!"
+		""
+		"The Vertical Gearbox allows for changing direction vertically."
+	]
+	quest.00000000000007D1.quest_subtitle: "Vertical Gearbox x1"
+	quest.00000000000007D1.title: "Vertical Vibes"
+	quest.0000000000000855.quest_desc: ["Hose pulleys: for moving fluids up, down, and all around. Splash zone ahead!"]
+	quest.0000000000000855.quest_subtitle: "Hose Pulley x1"
+	quest.0000000000000855.title: "Hose Heroes"
+	quest.00000000000008C9.quest_desc: ["Mechanical bearings: the gift that keeps on spinning. Use them to rotate entire contraptions (and impress your friends)."]
+	quest.00000000000008C9.quest_subtitle: "Mechanical Bearing x1"
+	quest.00000000000008C9.title: "Bearing Gifts"
+	quest.00000000000008CB.quest_desc: ["Linear chassis: all aboard the automation station! Perfect for machines that like to move."]
+	quest.00000000000008CB.quest_subtitle: "Linear Chassis x3"
+	quest.00000000000008CB.title: "Chassis Express"
+	quest.00000000000008CF.quest_desc: ["Deployers: automate just about everything and never craft by hand again! Pair them with Mechanical Crafters and watch the magic begin."]
+	quest.00000000000008CF.quest_subtitle: "Deployer x1"
+	quest.00000000000008CF.title: "Deploy Joy"
+	quest.00000000000008D1.quest_desc: ["Build a full crafting array and become a master of automation! With 18 Mechanical Crafters, you can craft the biggest, baddest recipes Create has to offer. Let the auto-crafting shenanigans begin!"]
+	quest.00000000000008D1.quest_subtitle: "Mechanical Crafter x18"
+	quest.00000000000008D1.title: "Super Crafter Supreme"
+	quest.00000000000008D6.quest_desc: ["Mechanical Mixer and Basin: stir up some fun and cook up crazy new recipes."]
+	quest.00000000000008D6.quest_subtitle: "Mechanical Mixer x1, Basin x1"
+	quest.00000000000008D6.title: "Mix Master"
+	quest.00000000000008D9.quest_desc: ["Mechanical Harvesters: reap what you sow, and then some."]
+	quest.00000000000008D9.quest_subtitle: "Mechanical Harvester x2"
+	quest.00000000000008D9.title: "Field of Streams"
+	quest.00000000000008DF.quest_desc: ["Rotation Speed Controllers: go fast, go slow, go pro!"]
+	quest.00000000000008DF.quest_subtitle: "Rotation Speed Controller x1"
+	quest.00000000000008DF.title: "Speed Demon"
+	quest.00000000000008E1.quest_desc: ["Sequenced Gearshifts: automate complex moves and dance like a robot."]
+	quest.00000000000008E1.quest_subtitle: "Sequenced Gearshift x1"
+	quest.00000000000008E1.title: "Sequence Breaker"
+	quest.00000000000008E3.quest_desc: ["Mechanical Arms: sort, grab, and move items like a boss."]
+	quest.00000000000008E3.quest_subtitle: "Mechanical Arm x1"
+	quest.00000000000008E3.title: "Arm-y of One"
+	quest.00000000000008E8.quest_desc: ["Precision Mechanisms: the secret sauce for super-advanced machines."]
+	quest.00000000000008E8.quest_subtitle: "Precision Mechanism x1"
+	quest.00000000000008E8.title: "Precision Party"
+	quest.00000000000008EC.quest_desc: ["Portable Storage Interfaces: pass items between contraptions like magic!"]
+	quest.00000000000008EC.quest_subtitle: "Portable Storage Interface x1"
+	quest.00000000000008EC.title: "Pocket Portal"
+	quest.00000000000008F0.quest_desc: [
+		"Funnels and chutes: move items with style and efficiency. No more bottlenecks!"
+		""
+		"Chutes and Funnels are used to transport items to and from storage containers. Chutes can interact with Fans."
+	]
+	quest.00000000000008F0.quest_subtitle: "Andesite Funnel x1, Brass Funnel x1, Chute x4"
+	quest.00000000000008F0.title: "Funnel Vision"
 	quest.0027048889049815.quest_desc: [
 		"This crafting station can be used to create each of the 16 Runes. When it is placed, 2 cubes can be seen swirling around above it."
 		""
@@ -202,20 +335,38 @@
 		"There is one aspect to be aware of: If there is a saved recipe and you acquire missing ingredients for the recipe, then it will be crafted whether you want it or not. I only put this in my inventory when I expressly want to auto-craft otherwise I use the Assembly Halo."
 	]
 	quest.10135F5D1769BAD8.quest_desc: ["Equip your Backpack using the Curios slot - can also be accessed with a hotkey"]
+	quest.10720E13015182D0.quest_desc: ["Train Signals: keep your trains on time and on track."]
+	quest.10720E13015182D0.quest_subtitle: "Train Signal x2"
+	quest.10720E13015182D0.title: "Signal Operator"
 	quest.113A3EBEF62CB4E9.quest_desc: ["Can you feel the POWER!!! Half the speed but lots more stress units"]
 	quest.11E7D116CDEC9D03.quest_desc: ["Mana received from Mana Bursts will be split evenly into Mana Pools placed on adjacent sides."]
 	quest.14709ACBF461088E.quest_desc: ["Items you can now craft!"]
 	quest.14A6727FC3F98588.title: "Gemium Armor"
 	quest.168B204949452C03.quest_desc: ["The Mana Tablet is a portable item that can carry Mana within itself."]
 	quest.17CA4F1D56A901CC.quest_desc: [
-		"You would think the Cart Assembler was just for...well...minecarts. You could not be further from the truth. This is a very useful tool. You can not only make amazing trains, planes, and boats, but you can pick up and move many complex builds, and different storage blocks - anything you can make into a contraption. The Cart Assemblers can take a bit to learn to use, but when you have mastered this device, you will learn to love it."
+		"Cart Assemblers: your ticket to a world of moving machines. All aboard for automation! You would think the Cart Assembler was just for...well...minecarts. You could not be further from the truth. This is a very useful tool. You can not only make amazing trains, planes, and boats, but you can pick up and move many complex builds, and different storage blocks - anything you can make into a contraption. The Cart Assemblers can take a bit to learn to use, but when you have mastered this device, you will learn to love it."
 		""
 		"To use, you need to first put down a minecart rail. Then place the Cart Assembler over the rail, then whatever it is you want to assemble. Place a Minecart on the rail and a lever on the Cart Assembler, and activate it. You will notice the Cart Assembler will rise slightly and you are ready to make the magic begin. If you shift-right click with a Create Wrench on the minecart, you will pick up the assembly. To place, put down a rail and break the Minecart and you have moved your assembly. There is so much more to the Cart Assembler and I highly recommend watching some videos on how to set it up and use it."
 	]
+	quest.17CA4F1D56A901CC.quest_subtitle: "Cart Assembler x1"
+	quest.17CA4F1D56A901CC.title: "Cart Blanche"
 	quest.185E6E390C6AC8E3.quest_desc: ["Used to link your P2P tunnels"]
 	quest.18B860855F5B7616.quest_desc: ["I can't stop to refill... I have to keep going .... Well today it your lucky day, because we can provide you with an upgrade that will pull from your backpack."]
+	quest.19124BEFB537CF30.quest_desc: [
+		"Super Glue: the secret sauce for keeping your builds together. "
+		""
+		"&lWarning:&r may cause excessive contraption creativity."
+	]
+	quest.19124BEFB537CF30.quest_subtitle: "Super Glue x1"
+	quest.19124BEFB537CF30.title: "Super Glue Crew"
 	quest.1AB29695173FFFA1.quest_desc: ["These powerful pellets can smelt a half stack of items."]
-	quest.1BBEEF19114688A9.quest_desc: ["Have you ever needed a reach-assist? Just place in your off-hand and your main hand will reach further. Now ain't that cool!"]
+	quest.1BBEEF19114688A9.quest_desc: [
+		"Extendo Grip: reach for the stars (or just that faraway block)."
+		""
+		"Just place in your off-hand and your main hand will reach further. Now ain't that cool!"
+	]
+	quest.1BBEEF19114688A9.quest_subtitle: "Extendo Grip x1"
+	quest.1BBEEF19114688A9.title: "Long Reach Larry"
 	quest.1BE33D31F95871F6.quest_desc: ["Complete all three quests and you are rewarded with a Capacity III book and a Netherite ingot!"]
 	quest.1BE33D31F95871F6.title: "Complete all Three Reward"
 	quest.1D37B87AC7F4C995.quest_desc: ["Rune of Autumn is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
@@ -248,8 +399,16 @@
 	quest.25E2B295763EE9C0.quest_desc: ["Rune of Gluttony is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 	quest.2613E24F95C84B21.quest_desc: ["Kind of self explanitory - you light things on fire and have fun doing it!"]
 	quest.2613E24F95C84B21.quest_subtitle: "You're Fired!"
+	quest.281499F73D6E8A58.quest_desc: ["Clockwork bearings: for the engineer who likes to keep things on schedule. Tick-tock, let’s rock!"]
+	quest.281499F73D6E8A58.quest_subtitle: "Clockwork Bearing x1"
+	quest.281499F73D6E8A58.title: "It’s About Time!"
 	quest.285AF2D75FD9809C.quest_desc: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
-	quest.28D15A9B43C825CE.quest_desc: ["The Rope Pulley allows you to make easy-to-craft early game elevators."]
+	quest.289BBAD0770B36C1.quest_desc: ["Hand cranks: for when you want to give your machines a little elbow grease. Get cranking and power up your builds!"]
+	quest.289BBAD0770B36C1.quest_subtitle: "Hand Crank x1"
+	quest.289BBAD0770B36C1.title: "Crankin’ Good Time"
+	quest.28D15A9B43C825CE.quest_desc: ["Rope pulleys: for lifting your builds (and your spirits) to new heights."]
+	quest.28D15A9B43C825CE.quest_subtitle: "Rope Pulley x1"
+	quest.28D15A9B43C825CE.title: "Pulley Wonka"
 	quest.29B69483965D4F12.quest_desc: ["Craft some torches and get a handy dandy Torch Sling!"]
 	quest.2AA453BF3617F5BF.quest_desc: ["Gantry Carriages can mount to and slide along a Gantry Shaft."]
 	quest.2AC4427434E9FBCB.quest_desc: ["Right-click with this rod will place Dirt for some mana cost."]
@@ -284,10 +443,19 @@
 		""
 		"As long as the item is kept in-inventory, it'll remember its last recipe.Right-clicking an empty slot of the halo will save the last-used recipe to that slot, and right-clicking a slot with a recipe saved will attempt to craft it from available items. Sneak-punching a saved recipe will delete it."
 	]
+	quest.384C0BCA08A4B37F.quest_desc: ["Transmitters: broadcast your redstone genius to the world."]
+	quest.384C0BCA08A4B37F.quest_subtitle: "Transmitter x2"
+	quest.384C0BCA08A4B37F.title: "Signal Superstar"
 	quest.3A697184E6211B36.quest_desc: ["Walk on belts and in lava, though you may want to look at the new tank and helmet too."]
 	quest.3AD935C9BF2A1CC2.quest_desc: ["The Iron Backback not only gains substanial extra storage, but you also get an additional upgrade slot."]
 	quest.3BC70DC86FB889E6.quest_desc: ["If you just check this box and not open your guidebook, do not complain if you run out of ores playing skyblock! "]
+	quest.3CEF8F3E5283C280.quest_desc: ["Packages: bundle up and ship out your items with style!"]
+	quest.3CEF8F3E5283C280.quest_subtitle: "Packager x2"
+	quest.3CEF8F3E5283C280.title: "Package Deal"
 	quest.3D66EBF3A215F354.quest_desc: ["Did you know you can now enchant using Create mechanics? Be sure to use \"W\" Ponder to help you get started and look in the Create on a Potato PC guidebook for more information."]
+	quest.3D8B5722E7A2260F.quest_desc: ["Brass Tunnels: split and filter items on belts-no traffic jams here!"]
+	quest.3D8B5722E7A2260F.quest_subtitle: "Brass Tunnel x1"
+	quest.3D8B5722E7A2260F.title: "Tunnel Vision"
 	quest.3DF8FB9595975AC5.quest_desc: [
 		"This is a multiblock that can transmit your network wirelessly to another location like network transmitors and receivers from Refined Storage."
 		""
@@ -336,7 +504,12 @@
 	quest.50D197995B75DC37.quest_desc: ["To Craft a Controller you must first find Certus Quartz"]
 	quest.50D197995B75DC37.title: "Applied Energistics 2"
 	quest.50F8CBBF03B6EB31.quest_desc: ["The Natura Pylons are used to make the Portal to Alfheim multiblock portal structure."]
-	quest.50FD84433C69064C.quest_desc: ["If you put the Metal Girders (or any other block) in your off-hand, they will be placed under the tracks when needed. It takes practice laying rail tracks. Choo choo!"]
+	quest.50FD84433C69064C.quest_desc: [
+		"Train Tracks: lay the foundation for your railway empire!"
+		""
+		"If you put the Metal Girders (or any other block) in your off-hand, they will be placed under the tracks when needed. It takes practice laying rail tracks. Choo choo!"
+	]
+	quest.50FD84433C69064C.title: "Track Star"
 	quest.51FE487A5586AF80.quest_desc: ["As you progress, the Electron Tube is a very common component for crafting more advanced items."]
 	quest.51FE487A5586AF80.quest_subtitle: "Electrifying!"
 	quest.540E05434C2B259C.title: "Journeyman Witch Hunter"
@@ -345,6 +518,9 @@
 	quest.55468A5FB8BA4A1F.quest_desc: ["The Pure Daisy is used to make Livingwood and Livingrock. You will make the Pure Daisy in your Petal Apothecary. Do not forget to use a Wood Bowl to fill your Apothecary!"]
 	quest.55D0F4726A76ACFC.quest_desc: ["The base for all upgrade slot items."]
 	quest.586D540A5DE160AB.quest_desc: ["The Mana Lens by itself does nothing, but is used as the base for other lens."]
+	quest.59DE0D2B5D133849.quest_desc: ["Contraption Controllers: the brains behind every moving marvel."]
+	quest.59DE0D2B5D133849.quest_subtitle: "Contraption Controller x1"
+	quest.59DE0D2B5D133849.title: "Brain in a Box"
 	quest.5AE38D7F1ACE1065.quest_desc: ["For your first flowers, you need the following Mystical Flowers: White, Red, Brown, and Light Grey."]
 	quest.5AE38D7F1ACE1065.title: "Any Botania Mystical Flowers"
 	quest.5AF39FF6AB1C6098.quest_desc: [
@@ -365,9 +541,16 @@
 		"Be sure to add fuel!"
 	]
 	quest.5C6483EDD2B8F901.quest_desc: ["This can help with your OCD wanting blocks to be symmetrical!"]
-	quest.5C9B90AF57F6BB66.quest_desc: ["Vaults are a multiblock storage blocks. Using a Stockpile Switch can show you how full it is."]
+	quest.5C9B90AF57F6BB66.quest_desc: ["Item Vaults: store all the loot your machines make! Vaults are a multiblock storage blocks. Using a Stockpile Switch can show you how full it is."]
+	quest.5C9B90AF57F6BB66.quest_subtitle: "Item Vault x9"
+	quest.5C9B90AF57F6BB66.title: "Vault Hunter"
 	quest.5DB1980018B7A26A.quest_desc: ["Have you ever broken a block for it to fall into the void or lava? This upgrade can end those woes. However, you may want to look at the Botania magnet as it has some very nice features"]
-	quest.5DBFF42322BE1A6C.quest_subtitle: "Used with Display Boards"
+	quest.5DB57D93C13F0EA4.quest_desc: ["Redstone Links: send signals through the air like a techno-mage."]
+	quest.5DB57D93C13F0EA4.quest_subtitle: "Redstone Link x2"
+	quest.5DB57D93C13F0EA4.title: "Wireless Wizard"
+	quest.5DBFF42322BE1A6C.quest_desc: ["Display Links: show off your machine stats and look smart doing it."]
+	quest.5DBFF42322BE1A6C.quest_subtitle: "Display Link x1"
+	quest.5DBFF42322BE1A6C.title: "Show Off!"
 	quest.60760C5B4FB95DEA.quest_desc: ["The Mana Spreader is the single most important tool a botanist needs to manipulate Mana."]
 	quest.6181C8F6420EB67C.quest_desc: ["Rune of Spring is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
 	quest.621A194C80FC673F.quest_desc: ["[ \"To many features to list. Check the \", { \"text\": \"guide book\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3BC70DC86FB889E6\" } }, \" for for more info.\" ]"]
@@ -384,15 +567,31 @@
 	quest.678645C952FCF8CC.title: "Starting Botania"
 	quest.68F57454D085D85A.quest_desc: ["Armor, tools, and weapons made out of Terrasteel, much like its Manasteel-based counterpart, can use Mana from the inventory to heal damage.However, its durabilities are comparable more to Diamond armor than to Iron."]
 	quest.6920E14D5A39D522.quest_desc: [
+		"Threshold Switches: automate with perfect timing and precision."
+		""
 		"The Threshold Switch is one of the most important blocks for automation, but also for optimizing the stress units. The block emits a redstone signal that if set up properly can automatically turn off machines not in use."
 		""
 		"The benefits of this block cannot be understated! Learn about it and use often!"
 	]
-	quest.6920E14D5A39D522.quest_subtitle: "This is a MUST have!"
-	quest.6B13CAC5E656A56E.quest_desc: ["Place under a Basin for many recipes, but you are not quite done yet. It's off to the Nether!"]
+	quest.6920E14D5A39D522.quest_subtitle: "Threshold Switch x1"
+	quest.6920E14D5A39D522.title: "Threshold Tactician"
+	quest.6B13CAC5E656A56E.quest_desc: [
+		"Blaze Burners: for recipes that are too hot to handle!"
+		""
+		"Place under a Basin for many recipes, but you are not quite done yet. It's off to the Nether!"
+	]
+	quest.6B13CAC5E656A56E.quest_subtitle: "Empty Blaze Burner x1"
+	quest.6B13CAC5E656A56E.title: "Blaze of Glory"
 	quest.6D632AEDF9E98BAE.title: "Find the Stronghold"
 	quest.6D698E9864D3C153.quest_desc: ["Rune of Earth is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
 	quest.6F152976BC2A0517.quest_desc: ["Enchanting with Mana is a powerful way to enchant items without consuming the enchantment books. To learn in-depth instruction open your Lexica Botania and search on: Enchanting with Mana"]
+	quest.6F755BB2463320EA.quest_desc: [
+		"Train Stations: where all great journeys begin (and end)."
+		""
+		"Train Schedules: automate deliveries and become a railway tycoon!"
+	]
+	quest.6F755BB2463320EA.quest_subtitle: "Train Station x1"
+	quest.6F755BB2463320EA.title: "Station Master"
 	quest.6F946B0BBD3702B7.quest_desc: ["Great way to save locations to teleport to"]
 	quest.6F94CFF9E4013396.quest_desc: [
 		"I made a short YouTube video showing how to claim, un-claim, and force load chunks. You can view it by going to this address."
@@ -432,6 +631,9 @@
 	quest.79D64612AE5E8351.quest_desc: ["Terrasteel is a complex and useful magical alloy, infused with ridiculous amounts of Mana. Synthesizing it proves to be no small task. For starters, its creation requires a Terrestrial Agglomeration Plate placed over a checkerboard pattern of Lapis Lazuli Blocks and Livingrock (or Shimmerrock). This block then needs to be provided with Mana, with Sparks being the most efficient mode of transfer."]
 	quest.79F82A7D2D7D1280.quest_desc: ["Some Manasteel tools perform special actions when right-clicked: the Pickaxe will place a torch from the user's inventory, and the Axe will do the same with a sapling.Do note that Shears made of mana-based materials will trigger tripwires, unlike iron ones."]
 	quest.7A5F94720CCC4836.quest_desc: ["You only need 10 obsidian blocks to make a portal."]
+	quest.7B181D2BE4397F27.quest_desc: ["Train Observers: detect trains and automate your railway like a pro."]
+	quest.7B181D2BE4397F27.quest_subtitle: "Train Observer x2"
+	quest.7B181D2BE4397F27.title: "Train Spotter"
 	quest.7B5304E68F814FEC.quest_desc: ["Have you ever wanted to move an inventory? Sneak-Right-Click to place and sneak-right-click to pick up. The contents will pick up as well. Right click to place at the new location."]
 	quest.7B7C9A49B9F69991.quest_desc: [
 		"The Lexica Botania does not initially contain all of its information when it is first collected or crafted:"

@@ -1,0 +1,138 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "full_steam_ahead"
+	group: "6F8E634575676A8E"
+	icon: {
+		id: "create:steam_engine"
+	}
+	id: "2B417BFD8A1BF430"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["00000000000007A7"]
+			id: "124D8B7C8B0F9120"
+			rewards: [{
+				id: "0CB3E5340421DC3C"
+				item: {
+					count: 1
+					id: "create:steam_whistle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47334CC382A4D358"
+				item: { count: 1, id: "create:steam_engine" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00000000000007A7"]
+			id: "000000000000079D"
+			rewards: [{
+				count: 8
+				id: "000000000000086C"
+				item: {
+					count: 1
+					id: "minecraft:lime_dye"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000000000079E"
+				item: { count: 1, id: "create:goggles" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["00000000000007A7"]
+			id: "000000000000079F"
+			rewards: [{
+				count: 16
+				id: "000000000000086A"
+				item: {
+					count: 1
+					id: "minecraft:gunpowder"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000007A0"
+				item: { count: 1, id: "create:wrench" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0000000000000797"]
+			id: "00000000000007A7"
+			rewards: [{
+				id: "724478AF6B445447"
+				item: {
+					count: 1
+					id: "minecraft:heart_of_the_sea"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000007A8"
+				item: { count: 1, id: "create:golden_sheet" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000007A7"]
+			id: "70CC5D09206C01E6"
+			rewards: [{
+				count: 64
+				id: "2DB6EBB755146B3E"
+				item: {
+					count: 1
+					id: "minecraft:potato"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "76E6A417A54E29BF"
+				item: { count: 1, id: "create:weighted_ejector" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00000000000007A7"]
+			id: "5489879D11B3894A"
+			rewards: [{
+				id: "35502B756B837E0E"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:mending": 1
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1796B99CACF32B88"
+				item: { count: 1, id: "create:brown_toolbox" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+	]
+}

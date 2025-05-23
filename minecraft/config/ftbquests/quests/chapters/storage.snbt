@@ -4,7 +4,7 @@
 	filename: "storage"
 	group: ""
 	id: "22C5B5C762C6CE6B"
-	order_index: 7
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -221,39 +221,6 @@
 			}]
 			x: -2.5d
 			y: -1.5d
-		}
-		{
-			dependencies: [
-				"00000000000007A1"
-				"0A49C262F2AEAC73"
-			]
-			id: "5C9B90AF57F6BB66"
-			rewards: [
-				{
-					id: "424510D188193BAC"
-					item: {
-						count: 1
-						id: "minecraft:wither_rose"
-					}
-					type: "item"
-				}
-				{
-					id: "74A749AF4F163953"
-					item: {
-						count: 1
-						id: "create:stockpile_switch"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				count: 9L
-				id: "78F41ACE29E00C47"
-				item: { count: 1, id: "create:item_vault" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: 2.5d
 		}
 		{
 			dependencies: ["4240DD5A5E1AB2A4"]

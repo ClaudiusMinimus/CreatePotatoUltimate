@@ -10,7 +10,7 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "5C3449C5F42C2A48"
-	order_index: 9
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -58,7 +58,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["0DED09C3096C985D"]
 			id: "7A5F94720CCC4836"
 			rewards: [{
 				count: 4
