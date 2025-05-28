@@ -1,8 +1,8 @@
 7 possible world presets found:
-- "skyblockbuilder:skyblock"
 - "minecraft:single_biome_surface"
-- "minecraft:large_biomes"
 - "minecraft:flat"
-- "minecraft:debug_all_block_states"
-- "minecraft:normal"
 - "minecraft:amplified"
+- "minecraft:large_biomes"
+- "minecraft:debug_all_block_states"
+- "skyblockbuilder:skyblock"
+- "minecraft:normal"
