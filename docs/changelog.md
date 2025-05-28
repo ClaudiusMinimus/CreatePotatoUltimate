@@ -1,5 +1,23 @@
 # Create on a Potato PC: Ultimate Change Log
 
+## Create on a Potato Ultimate 1.21.1-0.0.6
+
+May. 27, 2025
+
+### Mods Added v. 0.06
+
+### Mods Updated v. 0.06
+
+### Mods Removed v. 0.06
+
+- AE2WTLib
+- AEInfinityBooster
+- Applied Energistics 2
+- TrashSlot
+  
+### Other Changes v. 0.06
+
+
 ## Create on a Potato Ultimate 1.21.1-0.0.5 ALPHA
 
 May. 09, 2025
