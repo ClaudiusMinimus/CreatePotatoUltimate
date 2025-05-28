@@ -1,6 +1,6 @@
 {
     "name": "Tom's Simple Storage",
-    "icon": "toms_storage:ts.inventory_connector",
+    "icon": "toms_storage:crafting_terminal",
     "category": "patchouli:wikis",
     "pages": [
         {

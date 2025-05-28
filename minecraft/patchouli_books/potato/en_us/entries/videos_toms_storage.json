@@ -1,6 +1,6 @@
 {
     "name": "Tom's Storage",
-    "icon": "toms_storage:ts.wireless_terminal",
+    "icon": "toms_storage:crafting_terminal",
     "category": "patchouli:videos",
     "pages": [
         {
