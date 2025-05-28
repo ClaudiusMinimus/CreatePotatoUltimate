@@ -3,13 +3,7 @@ type = customizablemenus
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
-com.bisecthosting.mods.bhmenu.BHMultiplayerScreen {
-}
-
 net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
-}
-
-net.minecraft.client.gui.screens.OptionsScreen {
 }
 
 net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen {
@@ -18,18 +12,12 @@ net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen {
 net.minecraft.client.gui.screens.packs.PackSelectionScreen {
 }
 
-de.melanx.skyblockbuilder.client.ScreenCustomizeSkyblock {
-}
-
 net.minecraft.client.gui.screens.CreateFlatWorldScreen {
 }
 
 net.minecraft.client.gui.screens.TitleScreen {
 }
 
-com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHMultiplayerScreen {
-}
-
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
@@ -67,9 +55,6 @@ de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
-}
-
-net.minecraftforge.client.gui.ModListScreen {
 }
 
 org.moddingx.libx.impl.config.gui.screen.ConfigSelectScreen {
@@ -94,5 +79,8 @@ net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
 }
 
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.melanx.skyblockbuilder.client.screens.CustomizeSkyblockScreen {
 }
 
