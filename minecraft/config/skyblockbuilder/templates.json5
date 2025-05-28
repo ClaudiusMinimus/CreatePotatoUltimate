@@ -65,7 +65,7 @@
   // The list of templates being available. The first entry is the default template.
   "templateList": [
     {
-      "name": "potato island",
+      "name": "Potato Island",
       "file": "potato island.snbt",
       "spawns": {
         "south": [],
@@ -77,7 +77,7 @@
       }
     },
     {
-      "name": "potato cave",
+      "name": "Potato Cave",
       "file": "potato cave.snbt",
       "spawns": {
         "south": [
