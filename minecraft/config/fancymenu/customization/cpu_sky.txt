@@ -9,7 +9,7 @@ layout-meta {
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  custom_menu_title = Create on a Potato PC: Ultimate 1.21.1 0.0.5 ALPHA
+  custom_menu_title = Create on a Potato PC: Ultimate 1.21.1 0.0.6 ALPHA
   [loading_requirement_container_meta:b995fe3e-9102-4e86-ac3a-1943977caeac-1744760053528] = [groups:][instances:]
 }
 
@@ -995,7 +995,7 @@ element {
 
 element {
   interactable = true
-  source = Create on a Potato PC: Ultimate 1.21.1 0.0.5 ALPHA
+  source = Create on a Potato PC: Ultimate 1.21.1 0.0.6 ALPHA
   source_mode = direct
   shadow = true
   scale = 1.0

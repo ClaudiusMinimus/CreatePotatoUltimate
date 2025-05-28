@@ -1,22 +1,62 @@
 # Create on a Potato PC: Ultimate Change Log
 
-## Create on a Potato Ultimate 1.21.1-0.0.6
+## Create on a Potato Ultimate 1.21.1-0.0.6 ALPHA
 
-May. 27, 2025
+May. 28, 2025
 
-### Mods Added v. 0.06
+### Mods Added v. 0.0.6 ALPHA
 
-### Mods Updated v. 0.06
+- Resourceful Tools [1\.8\.5]
 
-### Mods Removed v. 0.06
+### Mods Updated v. 0.0.6 ALPHA
 
-- AE2WTLib
-- AEInfinityBooster
-- Applied Energistics 2
-- TrashSlot
+- Balm [21\.0\.45]
+- Bookshelf [21\.1\.63]
+- Building Wands [2\.9]
+- Client Tweaks [21\.1\.7]
+- Comforts [9\.0\.4\+1\.21\.1]
+- Create Mechanical Extruder [1\.21\.1\-2\.1\.1\-6\.0\.4]
+- Create Sifter [1\.21\.1\-2\.1\.1]
+- Create: Dragons Plus [1\.5\.2]
+- Create: Enchantment Industry [2\.1\.5]
+- Create: Mechanical spawner [1\.2\.2\-6\.0\.4]
+- Curios API [9\.5\.1\+1\.21\.1]
+- Extreme Sound Muffler [3\.49\.2]
+- FTB Materials [21\.1\.0\-beta\.8]
+- Just Enough Items [19\.21\.1\.305]
+- MaFgLib [0\.3\.3\-mc1\.21\.1]
+- Mechanicals Lib [1\.0\.8]
+- PrickleMC [21\.1\.8]
+- Repurposed Structures [7\.5\.15\+1\.21\.1\-neoforge]
+- Silent Gear [4\.0\.22]
+- Silent Lib [10\.5\.1]
+- Sophisticated Backpacks [3\.24\.15]
+- Sophisticated Core [1\.3\.47]
+- Tempad [3\.0\.4]
+- Tom's Simple Storage Mod [2\.1\.4]
+- Tweakerge [0\.3\.2\-mc1\.21\.1]
+- Waystones [21\.1\.19]
+- Xaero's Minimap [25\.2\.6]
+- Xaero's World Map [1\.39\.9]
+
+### Mods Removed v. 0.0.6 ALPHA
+
+- AE2WTLib [19\.2\.3]
+- AEInfinityBooster [1\.21\.1\-1\.0\.0\.52]
+- Applied Energistics 2 [19\.2\.10]
+- Flashback [0\.32\.0]
+- Forgified Fabric API [0\.115\.6\+2\.1\.0\+1\.21\.1]
+- Sinytra Connector [6509753]
+- TrashSlot [21\.1\.4]
   
-### Other Changes v. 0.06
+### Other Changes v. 0.0.6
 
+- Lots of quests updates (more to come)
+- Fixed broken icons in guide book
+- Add Bee's Nest to Stone Cave
+- Added recipes for calcite, tuff, and veridium
+- Added defaults for MineMenu (radial menu)
+- Minor artwork updates
 
 ## Create on a Potato Ultimate 1.21.1-0.0.5 ALPHA
 
