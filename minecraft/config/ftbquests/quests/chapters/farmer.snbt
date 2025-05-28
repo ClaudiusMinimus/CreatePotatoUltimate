@@ -632,10 +632,10 @@
 			id: "54B3A3C29592C78B"
 			rewards: [{
 				count: 4
-				id: "48B4E42C5979208F"
+				id: "214C5894C35662A4"
 				item: {
 					count: 1
-					id: "ae2:logic_processor"
+					id: "minecraft:redstone_torch"
 				}
 				type: "item"
 			}]

@@ -302,7 +302,6 @@
 		"\"/spawn\" teleports you to spawn. Always use \"/setworldspawn\" for new worlds; otherwise, you may not like where \"/spawn\" sends you!"
 		"Names in brackets \"[name]\" are optional. Names in \"<name>\" are required. Do not use quotes \", brackets \"[]\" or \"<>\" in commands."
 	]
-	quest.0671E105BC30A4CB.quest_desc: ["To transmit your network wirelessly for you to access with wireless terminals"]
 	quest.077E7E557DCB9576.quest_desc: [
 		"A botanist's most important tool for manipulating flowers is the Wand of the Forest. This wand, crafted from a pair of Mystical Petals strapped to a few Livingwood Twigs, is a must-have for a huge number of botanical tasks."
 		""
@@ -350,7 +349,6 @@
 	]
 	quest.17CA4F1D56A901CC.quest_subtitle: "Cart Assembler x1"
 	quest.17CA4F1D56A901CC.title: "Cart Blanche"
-	quest.185E6E390C6AC8E3.quest_desc: ["Used to link your P2P tunnels"]
 	quest.18B860855F5B7616.quest_desc: ["I can't stop to refill... I have to keep going .... Well today it your lucky day, because we can provide you with an upgrade that will pull from your backpack."]
 	quest.19124BEFB537CF30.quest_desc: [
 		"Super Glue: the secret sauce for keeping your builds together. "
@@ -373,8 +371,6 @@
 	quest.1DD7212A8131CC9F.quest_desc: ["Have you ever made a mob farm and it seems it is all going to bats? Bats dread the Dread Lamp, because they and other passive mobs cannot spawn!"]
 	quest.1DD7212A8131CC9F.quest_subtitle: "Are you going batty?"
 	quest.1EACB6765A8C7988.quest_desc: [" The Orechid uses Mana to synthesize ores from nearby Stone blocks. The ores it generates are random, but rarer ores seem to be created less often."]
-	quest.1F77777D1FB387F1.quest_desc: ["This will be your main source of storage access because applied energistics storage capacity has been disabled. Instead hook up storage blocks such as &bItem Vaults&r and &bChests&r"]
-	quest.1F77777D1FB387F1.title: "External Storage"
 	quest.1F90341E0DE3FF66.quest_desc: ["Rune of Envy is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 	quest.20218A4E8B57D849.quest_desc: [
 		"For more information regarding obtaining more Lava"
@@ -434,7 +430,6 @@
 	quest.327A1EF2D2AD9DDD.quest_subtitle: "Feel the Power!"
 	quest.329580579F9DC034.quest_desc: ["Rune of Greed is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 	quest.357FC93850CE6424.quest_desc: ["Rune of Summer is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
-	quest.35FD1CAE4062F72B.title: "Apprentice Guardian of Gaia Hunter"
 	quest.36D5BE714A278495.quest_desc: ["The Diamond Backpack has 108 slots plus 5 upgrade slots!"]
 	quest.36EDEBAB81D05AC6.quest_desc: [
 		"Lugging around a Crafting Table is a generally troublesome task. The Assembly Halo, thus, is a portable Crafting Table, as well as a quick-start crafting option. Holding the item displays a \"halo\" of recipe slots around the holder, and right-clicking the displayed Crafting Table will open a crafting interface."
@@ -456,12 +451,6 @@
 	quest.3D8B5722E7A2260F.quest_desc: ["Brass Tunnels: split and filter items on belts-no traffic jams here!"]
 	quest.3D8B5722E7A2260F.quest_subtitle: "Brass Tunnel x1"
 	quest.3D8B5722E7A2260F.title: "Tunnel Vision"
-	quest.3DF8FB9595975AC5.quest_desc: [
-		"This is a multiblock that can transmit your network wirelessly to another location like network transmitors and receivers from Refined Storage."
-		""
-		"To link your Applied Energistic network you must use &bQuantum Link chambers&r with &bQuantum Entangled Singulartiys&r to link them."
-	]
-	quest.3DF8FB9595975AC5.title: "Quantum Linking"
 	quest.3E046FB9DDB11119.quest_desc: [
 		"Unlike my other packs, following the quests will prove vital to progress. Completing quests is the only way to obtain certain critical items."
 		""
@@ -476,7 +465,6 @@
 	quest.468DE93A9D225DA2.quest_desc: ["You are now the foreman with your offical clipboard. Keep notes and copy/paste filter settings."]
 	quest.46EB239376ACBF94.quest_desc: ["Did you know they let pigs operate trains? I thought is was scary when I learned pigs could fly. Well, every train needs one controller."]
 	quest.46EB239376ACBF94.quest_subtitle: "Every piggy needs one"
-	quest.46EFEFBA779BEA88.title: "Find a Meteorite"
 	quest.477EDACF18125B64.quest_desc: ["Rune of Pride is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 	quest.485280315689B86E.quest_desc: ["I am a huge fan of recycling and Biomass is a great way to gain a useful crafting resource. Check in JEI for all of the many things that can be recycled, from sticks, saplings, seeds, and so many other things you might throw away."]
 	quest.4868A27F76C700DC.quest_desc: ["Floral Fertilizer is used to spawn Botania mystical flowers."]
@@ -501,8 +489,6 @@
 	quest.4EBF5AB892CDCB14.quest_desc: ["Manasteel, like other metals, can be shaped into tools and armor alike.Tools or armor crafted from this material will share most of their qualities with Iron, albeit with superior enchantability and durability. Additionally, all Manasteel items can heal their durabilities with Mana from their user's inventory (e.g. in a Mana Tablet)."]
 	quest.4F0263313F0F1775.quest_desc: ["Are you in a hurry and don't have time to unload all of your stuff? This upgrade is very handy and also has an advanced upgrade option - check in JEI"]
 	quest.507E6FC07C05B784.title: "Novice Witch Hunter"
-	quest.50D197995B75DC37.quest_desc: ["To Craft a Controller you must first find Certus Quartz"]
-	quest.50D197995B75DC37.title: "Applied Energistics 2"
 	quest.50F8CBBF03B6EB31.quest_desc: ["The Natura Pylons are used to make the Portal to Alfheim multiblock portal structure."]
 	quest.50FD84433C69064C.quest_desc: [
 		"Train Tracks: lay the foundation for your railway empire!"
@@ -616,17 +602,14 @@
 		""
 		"A delay before the pick-up can be created by placing it on podzol (short delay) or mycelium (long delay). It can be made to filter which items it picks up by applying an item frame to the adjacent inventory, shift-right clicking with the Wand of the Forest allows the player to cycle through modes for interaction with the item frame. All items can go into an inventory with no item frame attached, but inventories with item frames are given priority. It can be disabled at will by applying a redstone signal."
 	]
-	quest.71B41112D99BBBEA.title: "Importing and Exporting"
 	quest.721199A4A9C1CA0A.quest_desc: ["This upgrade is kind of expensive, but worth it! Due to the great kindness of my heart, I will refund some of the cost."]
 	quest.721AD3481887982A.quest_desc: ["Rune of Air is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
 	quest.74CD206E24B85187.quest_desc: ["Rune of Fire is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
 	quest.754F5D734147F8BA.quest_desc: ["Important crafting ingredient for many recipes."]
-	quest.7737B3C6EACC04A9.quest_desc: ["Used to pass channels, items, redstone, fluids, power, etc through yout nework to another P2P Tunnel without storage"]
 	quest.78FEF9A7E20E7C06.quest_desc: [
 		"The Petal Apothecary is one of the main ways of creating items/flowers for Botania. It requires water, then the petals/items for the recipe, and most recipes are completed when you drop a wheat seed into the Apothecary."
 		""
 	]
-	quest.790CC57B80727383.title: "Journeyman Guardian of Gaia Hunter"
 	quest.791E12B68D088464.quest_desc: ["Rune of Mana is an item added by the Botania mod. One of 16 Runes, this is an important component in creating complex magical devices."]
 	quest.79D64612AE5E8351.quest_desc: ["Terrasteel is a complex and useful magical alloy, infused with ridiculous amounts of Mana. Synthesizing it proves to be no small task. For starters, its creation requires a Terrestrial Agglomeration Plate placed over a checkerboard pattern of Lapis Lazuli Blocks and Livingrock (or Shimmerrock). This block then needs to be provided with Mana, with Sparks being the most efficient mode of transfer."]
 	quest.79F82A7D2D7D1280.quest_desc: ["Some Manasteel tools perform special actions when right-clicked: the Pickaxe will place a torch from the user's inventory, and the Axe will do the same with a sapling.Do note that Shears made of mana-based materials will trigger tripwires, unlike iron ones."]
@@ -641,7 +624,6 @@
 		"- Elven Knowledge is added to the book after throwing it into the Portal to Alfheim. These entries have green titles."
 		"- Relic Knowledge is added to the book when the player opens it when holding a relic in their inventory. The book must contain Elven Knowledge already. These entries have golden names, and all of them can be found in the Alfhomancy section."
 	]
-	quest.7BE5142F4A70CA67.title: "Novice Guardian of Gaia Hunter"
 	quest.7DC3C9C543BFAE8E.quest_desc: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
 	task.0000000000000006.title: "Any #minecraft:dirt"
 	task.000000000000000E.title: "Any Logs"

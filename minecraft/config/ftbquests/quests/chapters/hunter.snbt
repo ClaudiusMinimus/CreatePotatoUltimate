@@ -634,14 +634,11 @@
 		{
 			id: "000000000000045E"
 			rewards: [{
-				count: 64
+				count: 4
 				id: "0E97BC791F10418F"
 				item: {
-					components: {
-						"ftbquests:missing_item": "witherproofed:withered_powder"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "minecraft:netherite_block"
 				}
 				type: "item"
 			}]
@@ -669,11 +666,8 @@
 				{
 					id: "5B6AF4DB05A31F61"
 					item: {
-						components: {
-							"ftbquests:missing_item": "create_jetpack:jetpack"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "man_of_many_planes:scarlet_biplane"
 					}
 					type: "item"
 				}
@@ -840,69 +834,6 @@
 				}
 			]
 			x: -1.5d
-			y: -10.0d
-		}
-		{
-			id: "7BE5142F4A70CA67"
-			rewards: [{
-				id: "0B2B25BA08CE1500"
-				item: {
-					components: {
-						"ftbquests:missing_item": "botania:creative_pool"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "botania:doppleganger"
-				id: "4B4EC2618AD27958"
-				type: "kill"
-				value: 3L
-			}]
-			x: 0.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["7BE5142F4A70CA67"]
-			id: "35FD1CAE4062F72B"
-			rewards: [{
-				id: "2EAF37489CB176E5"
-				item: {
-					count: 1
-					id: "ae2wtlib:wireless_universal_terminal"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "botania:doppleganger"
-				id: "5CC264EA94AF1BF9"
-				type: "kill"
-				value: 10L
-			}]
-			x: 0.0d
-			y: -8.5d
-		}
-		{
-			dependencies: ["35FD1CAE4062F72B"]
-			id: "790CC57B80727383"
-			rewards: [{
-				count: 2
-				id: "5A5D25C8BB8830CE"
-				item: {
-					count: 1
-					id: "ae2:quantum_entangled_singularity"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				entity: "botania:doppleganger"
-				id: "3EDCB6C0CFFDB32C"
-				type: "kill"
-				value: 20L
-			}]
-			x: 0.0d
 			y: -10.0d
 		}
 	]
