@@ -279,7 +279,7 @@
         {pos: [3, 1, 4], state: "minecraft:grass_block{snowy:false}"},
         {pos: [3, 1, 5], state: "minecraft:grass_block{snowy:false}"},
         {pos: [3, 1, 6], state: "minecraft:grass_block{snowy:false}"},
-        {pos: [3, 1, 7], state: "minecraft:grass_block{snowy:false}"},
+        {pos: [3, 1, 7], state: "minecraft:dirt"},
         {pos: [3, 1, 8], state: "minecraft:grass_block{snowy:false}"},
         {pos: [3, 1, 9], state: "minecraft:grass_block{snowy:false}"},
         {pos: [3, 1, 10], state: "minecraft:grass_block{snowy:false}"},
@@ -304,7 +304,7 @@
         {pos: [4, 1, 14], state: "minecraft:stone"},
         {pos: [5, 1, 0], state: "minecraft:stone"},
         {pos: [5, 1, 1], state: "minecraft:stone"},
-        {pos: [5, 1, 2], state: "minecraft:dirt"},
+        {pos: [5, 1, 2], state: "minecraft:grass_block{snowy:false}"},
         {pos: [5, 1, 3], state: "minecraft:grass_block{snowy:false}"},
         {pos: [5, 1, 4], state: "minecraft:grass_block{snowy:false}"},
         {pos: [5, 1, 5], state: "minecraft:grass_block{snowy:false}"},
@@ -369,7 +369,7 @@
         {pos: [9, 1, 4], state: "minecraft:grass_block{snowy:false}"},
         {pos: [9, 1, 5], state: "minecraft:grass_block{snowy:false}"},
         {pos: [9, 1, 6], state: "minecraft:grass_block{snowy:false}"},
-        {pos: [9, 1, 7], state: "minecraft:grass_block{snowy:false}"},
+        {pos: [9, 1, 7], state: "minecraft:dirt"},
         {pos: [9, 1, 8], state: "minecraft:grass_block{snowy:false}"},
         {pos: [9, 1, 9], state: "minecraft:grass_block{snowy:false}"},
         {pos: [9, 1, 10], state: "minecraft:farmland{moisture:7}"},
@@ -579,7 +579,7 @@
         {pos: [8, 2, 4], state: "minecraft:air"},
         {pos: [8, 2, 5], state: "minecraft:air"},
         {pos: [8, 2, 6], state: "minecraft:air"},
-        {pos: [8, 2, 7], state: "minecraft:air"},
+        {pos: [8, 2, 7], state: "minecraft:vine{east:false,north:false,south:false,up:false,west:true}"},
         {pos: [8, 2, 8], state: "minecraft:air"},
         {pos: [8, 2, 9], state: "minecraft:air"},
         {pos: [8, 2, 10], state: "minecraft:air"},
@@ -1268,7 +1268,7 @@
         {pos: [9, 5, 3], state: "minecraft:air"},
         {pos: [9, 5, 4], state: "minecraft:air"},
         {pos: [9, 5, 5], state: "minecraft:air"},
-        {pos: [9, 5, 6], state: "minecraft:air"},
+        {pos: [9, 5, 6], state: "minecraft:bee_nest{facing:north,honey_level:0}", nbt: {bees: [{entity_data: {AbsorptionAmount: 0.0f, Age: 0, AngerTime: 0, ForcedAge: 0, HasNectar: 0b, HasStung: 0b, Health: 10.0f, InLove: 0, Invulnerable: 0b, NeoForgeData: {}, PersistenceRequired: 0b, VoidTotemIsFallDamageImmune: 0b, VoidTotemLastSaveBlockPos: 824633675842L, attributes: [{base: 48.0d, id: "minecraft:generic.follow_range", modifiers: [{amount: -0.025139523673943415d, id: "minecraft:random_spawn_bonus", operation: "add_multiplied_base"}]}, {base: 0.30000001192092896d, id: "minecraft:generic.movement_speed"}, {base: 0.0d, id: "minecraft:generic.oxygen_bonus"}, {base: 0.1d, id: "caelus:fall_flying"}], id: "minecraft:bee", "neoforge:spawn_type": "SPAWN_EGG"}, min_ticks_in_hive: 600, ticks_in_hive: 1288}, {entity_data: {AbsorptionAmount: 0.0f, Age: 0, AngerTime: 0, ForcedAge: 0, HasNectar: 0b, HasStung: 0b, Health: 10.0f, InLove: 0, Invulnerable: 0b, NeoForgeData: {}, PersistenceRequired: 0b, VoidTotemIsFallDamageImmune: 0b, VoidTotemLastSaveBlockPos: 549755764802L, attributes: [{base: 48.0d, id: "minecraft:generic.follow_range", modifiers: [{amount: -9.181060369461124E-4d, id: "minecraft:random_spawn_bonus", operation: "add_multiplied_base"}]}, {base: 0.30000001192092896d, id: "minecraft:generic.movement_speed"}, {base: 0.0d, id: "minecraft:generic.oxygen_bonus"}, {base: 0.1d, id: "caelus:fall_flying"}], id: "minecraft:bee", "neoforge:spawn_type": "SPAWN_EGG"}, min_ticks_in_hive: 600, ticks_in_hive: 1270}], id: "minecraft:beehive", "neoforge:attachments": {"tempad:color": "#ff6a00"}}},
         {pos: [9, 5, 7], state: "minecraft:air"},
         {pos: [9, 5, 8], state: "minecraft:air"},
         {pos: [9, 5, 9], state: "minecraft:air"},
@@ -4954,7 +4954,7 @@
         {pos: [14, 21, 14], state: "minecraft:stone"}
     ],
     entities: [
-        {blockPos: [3, 2, 7], pos: [3.496231531990739d, 2.0d, 7.28897325324316d], nbt: {AbsorptionAmount: 0.0f, Age: 0, Air: 300s, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], ArmorItems: [{}, {}, {}, {}], Brain: {memories: {}}, CanPickUpLoot: 0b, Color: 0b, DeathTime: 0s, FallDistance: 0.0f, FallFlying: 0b, Fire: -1s, ForcedAge: 0, HandDropChances: [0.085f, 0.085f], HandItems: [{}, {}], Health: 8.0f, HurtByTimestamp: 0, HurtTime: 0s, InLove: 0, Invulnerable: 0b, LeftHanded: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], NeoForgeData: {}, OnGround: 1b, PersistenceRequired: 0b, PortalCooldown: 0, Pos: [-3.503768468009261d, 66.0d, -9.71102674675684d], Rotation: [359.4693f, 0.0f], Sheared: 0b, UUID: [I; -1195211627, -32946136, -1821833702, 244846276], VoidTotemIsFallDamageImmune: 0b, VoidTotemLastSaveBlockPos: -824633761726L, attributes: [{base: 0.0d, id: "minecraft:generic.oxygen_bonus"}, {base: 0.1d, id: "caelus:fall_flying"}, {base: 0.23000000417232513d, id: "minecraft:generic.movement_speed"}], id: "minecraft:sheep"}},
+        {blockPos: [9, 2, 7], pos: [9.216203532718698d, 2.0d, 7.618592051332424d], nbt: {AbsorptionAmount: 0.0f, Age: 0, Air: 300s, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], ArmorItems: [{}, {}, {}, {}], Brain: {memories: {}}, CanPickUpLoot: 0b, Color: 0b, DeathTime: 0s, FallDistance: 0.0f, FallFlying: 0b, Fire: -1s, ForcedAge: 0, HandDropChances: [0.085f, 0.085f], HandItems: [{}, {}], Health: 8.0f, HurtByTimestamp: 0, HurtTime: 0s, InLove: 0, Invulnerable: 0b, LeftHanded: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], NeoForgeData: {}, OnGround: 1b, PersistenceRequired: 0b, PortalCooldown: 0, Pos: [2.2162035327186977d, 66.0d, -9.381407948667576d], Rotation: [194.10664f, 0.0f], Sheared: 0b, UUID: [I; -1195211627, -32946136, -1821833702, 244846276], VoidTotemIsFallDamageImmune: 0b, VoidTotemLastSaveBlockPos: 824633679938L, attributes: [{base: 0.23000000417232513d, id: "minecraft:generic.movement_speed"}, {base: 0.0d, id: "minecraft:generic.oxygen_bonus"}, {base: 0.1d, id: "caelus:fall_flying"}], id: "minecraft:sheep"}},
         {blockPos: [7, 2, 12], pos: [7.5d, 2.5d, 12.96875d], nbt: {Air: 300s, Facing: 2b, FallDistance: 0.0f, Fire: -1s, Fixed: 0b, Invisible: 0b, Invulnerable: 0b, Item: {components: {"patchouli:book": "patchouli:potato"}, count: 1, id: "patchouli:guide_book"}, ItemDropChance: 1.0f, ItemRotation: 0b, Motion: [0.0d, 0.0d, 0.0d], OnGround: 0b, PortalCooldown: 0, Pos: [0.5d, 66.5d, -4.03125d], Rotation: [180.0f, 0.0f], TileX: 0, TileY: 66, TileZ: -5, UUID: [I; 1945550716, 2007191202, -1348543059, -1488112075], id: "minecraft:glow_item_frame"}}
     ],
     palette: [
@@ -4987,13 +4987,13 @@
         "minecraft:vine{east:true,north:false,south:false,up:false,west:false}",
         "minecraft:vine{east:false,north:false,south:true,up:false,west:false}",
         "minecraft:vine{east:false,north:true,south:false,up:false,west:false}",
+        "minecraft:vine{east:false,north:false,south:false,up:false,west:true}",
         "minecraft:potatoes{age:5}",
         "minecraft:potatoes{age:7}",
         "minecraft:wall_torch{facing:east}",
         "minecraft:tall_grass{half:upper}",
         "minecraft:wall_torch{facing:south}",
         "minecraft:wall_torch{facing:north}",
-        "minecraft:vine{east:false,north:false,south:false,up:false,west:true}",
         "minecraft:wall_torch{facing:west}",
         "minecraft:cobweb",
         "minecraft:pointed_dripstone{thickness:tip,vertical_direction:down,waterlogged:false}",
@@ -5001,6 +5001,7 @@
         "minecraft:pointed_dripstone{thickness:frustum,vertical_direction:down,waterlogged:false}",
         "minecraft:vine{east:true,north:false,south:false,up:true,west:false}",
         "minecraft:lava{level:0}",
-        "minecraft:dark_oak_wall_sign{facing:north,waterlogged:false}"
+        "minecraft:dark_oak_wall_sign{facing:north,waterlogged:false}",
+        "minecraft:bee_nest{facing:north,honey_level:0}"
     ]
 }
