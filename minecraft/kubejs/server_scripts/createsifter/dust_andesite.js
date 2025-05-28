@@ -1,7 +1,8 @@
+/*
 ServerEvents.recipes((event) => {
 
   // Sifting Dust with Andesite Mesh
-  event.custom({
+   event.custom({
     type: "createsifter:sifting",
     input: {
       item: "createsifter:dust",
@@ -16,3 +17,4 @@ ServerEvents.recipes((event) => {
     ],
   });
 });
+ */
