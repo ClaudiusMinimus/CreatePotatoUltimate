@@ -1,0 +1,16 @@
+{
+    "name": "About ClaudiusMinimus",
+    "icon": "potato:images/icons/cm_icon.png",
+    "category": "patchouli:support",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l:https://github.com/ClaudiusMinimus)ClaudiusMinimus$(/l) (aka: CM) is a Minecraft mod pack creator. He is a member of the $(l:https://www.curseforge.com/members/claudiusminimus)CurseForge community$(/l).$(br2)In the real world, CM is a member of the $(l:https://www.churchofjesuschrist.org)Church of Jesus Christ of Latter-day Saints$(/l), which is one of his primary passions. First God, then family, and church, which means each of you is a brother or sister."
+        },{
+            "type": "patchouli:image",
+            "images": ["potato:images/patchouli/cmprofileart.png"],
+            "text": "To learning more, please visit my YouTube Channel, $(l:https://www.youtube.com/@miraclesfromtheashes)Miracles from the Ashes$(/l)."
+        }
+    ]
+}
