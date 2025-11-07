@@ -455,8 +455,8 @@
 				item: { count: 1, id: "create:crushing_wheel" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.0d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["00000000000008D1"]
@@ -785,29 +785,10 @@
 			tasks: [{
 				count: 2L
 				id: "4BCD3FCD69DF9DED"
-				item: { count: 2, id: "create:track_observer" }
+				item: { count: 1, id: "create:track_observer" }
 				type: "item"
 			}]
 			x: 3.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["5C9B90AF57F6BB66"]
-			id: "3CEF8F3E5283C280"
-			rewards: [{
-				id: "72221C2373C51059"
-				item: {
-					count: 1
-					id: "create:depot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "6E9686B68C2C8351"
-				item: { count: 1, id: "create:packager" }
-				type: "item"
-			}]
-			x: -6.0d
 			y: 3.5d
 		}
 		{
@@ -824,7 +805,7 @@
 			tasks: [{
 				count: 2L
 				id: "5E50D9CD0388A8DD"
-				item: { count: 2, id: "create:transmitter" }
+				item: { count: 1, id: "create:transmitter" }
 				type: "item"
 			}]
 			x: -8.5d
@@ -864,7 +845,7 @@
 			tasks: [{
 				count: 2L
 				id: "0EDDDFDAE03810A4"
-				item: { count: 2, id: "create:redstone_link" }
+				item: { count: 1, id: "create:redstone_link" }
 				type: "item"
 			}]
 			x: -9.5d
@@ -888,6 +869,182 @@
 			}]
 			x: -9.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["00000000000008D1"]
+			id: "35E7EDDCFC06B9FB"
+			rewards: [{
+				id: "323A43AD6B73A1E6"
+				item: {
+					count: 1
+					id: "create_mechanical_spawner:spawn_fluid_random_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DA43A171063A186"
+				item: { count: 1, id: "create_mechanical_spawner:mechanical_spawner" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["35E7EDDCFC06B9FB"]
+			id: "4CB61F04BE21733C"
+			rewards: [{
+				count: 2
+				id: "25A570CB764B045E"
+				item: {
+					count: 1
+					id: "create_mechanical_spawner:spawn_fluid_pig_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "31920725BFD1AD7D"
+				item: { count: 1, id: "create_mechanical_spawner:spawn_fluid_random_bucket" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["35E7EDDCFC06B9FB"]
+			id: "294D6547EBAAF1BA"
+			rewards: [
+				{
+					count: 4
+					id: "1A046C3C8CF2271F"
+					item: {
+						count: 1
+						id: "create_mechanical_spawner:spawn_fluid_random_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2C378A477D83037D"
+					item: {
+						count: 1
+						id: "minecraft:cooked_porkchop"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "17C014D04D10C404"
+					item: { count: 1, id: "create_mechanical_spawner:spawn_fluid_skeleton_bucket" }
+					type: "item"
+				}
+				{
+					id: "0DE087869E8D5468"
+					item: { count: 1, id: "create_mechanical_spawner:spawn_fluid_pigling_bucket" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["35E7EDDCFC06B9FB"]
+			id: "4F231A4072E62E78"
+			rewards: [{
+				id: "11476B15D3275F2C"
+				item: {
+					count: 1
+					id: "minecraft:nether_star"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "06753D97134D452E"
+				item: { count: 1, id: "create_mechanical_spawner:spawn_fluid_wither_bucket" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["35E7EDDCFC06B9FB"]
+			id: "44FD8EBFD928C485"
+			rewards: [{
+				count: 2
+				id: "06A2F97897D019CA"
+				item: {
+					count: 1
+					id: "create_mechanical_spawner:spawn_fluid_random_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B0A746415B24376"
+				item: { count: 1, id: "create_mechanical_spawner:loot_collector" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["35E7EDDCFC06B9FB"]
+			id: "437887F4A34F9EC7"
+			rewards: [
+				{
+					count: 8
+					id: "0823AD19BBA8D72D"
+					item: {
+						count: 1
+						id: "create_mechanical_spawner:spawn_fluid_random_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7032E881464A6155"
+					item: {
+						count: 1
+						id: "create:experience_nugget"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "42685B200CF831A7"
+					item: { count: 1, id: "create_mechanical_spawner:mechanical_spawner" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2A3252BBFBED3C60"
+					item: { count: 1, id: "create_mechanical_spawner:loot_collector" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6F755BB2463320EA"]
+			id: "5CE588CC160E378E"
+			rewards: [{
+				id: "44509280FA07EAC8"
+				item: {
+					count: 1
+					id: "create:schedule"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "07918FA22B5B2868"
+				item: { count: 1, id: "create:schedule" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
 		}
 	]
 }

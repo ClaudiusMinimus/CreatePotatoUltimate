@@ -77,8 +77,8 @@
 				item: { count: 1, id: "create:cogwheel" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -0.5d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0000000000000795"]
@@ -98,8 +98,8 @@
 				item: { count: 1, id: "create:large_cogwheel" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.5d
+			x: 5.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["000000000000078F"]
@@ -191,8 +191,8 @@
 				item: { count: 1, id: "create:water_wheel" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.5d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["00000000000007B2"]
@@ -334,8 +334,8 @@
 				item: { count: 1, id: "create:gearbox" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -0.5d
+			x: 6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["00000000000007CF"]
@@ -354,8 +354,8 @@
 				item: { count: 1, id: "create:vertical_gearbox" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: -0.5d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0000000000000799"]
@@ -768,8 +768,8 @@
 				item: { count: 1, id: "create:large_water_wheel" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.0d
+			x: 5.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5285176B7732ABCA"]
@@ -922,6 +922,49 @@
 			}]
 			x: -4.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5C9B90AF57F6BB66"
+				"20CE7C58BC305C48"
+			]
+			id: "3CEF8F3E5283C280"
+			rewards: [{
+				id: "72221C2373C51059"
+				item: {
+					count: 1
+					id: "create:depot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E9686B68C2C8351"
+				item: { count: 1, id: "create:packager" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0000000000000793"]
+			id: "20CE7C58BC305C48"
+			rewards: [{
+				count: 8
+				id: "79FA0AC2BCD7800C"
+				item: {
+					count: 1
+					id: "minecraft:chain"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "3D39CEE83C1D0147"
+				item: { count: 1, id: "create:chain_conveyor" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
 		}
 	]
 }

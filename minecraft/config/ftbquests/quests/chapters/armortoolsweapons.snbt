@@ -781,7 +781,7 @@
 			tasks: [
 				{
 					id: "00000000000005D8"
-					item: { count: 1, id: "silentgear:dagger" }
+					item: { count: 1, id: "silentgear:crude_knife" }
 					type: "item"
 				}
 				{
