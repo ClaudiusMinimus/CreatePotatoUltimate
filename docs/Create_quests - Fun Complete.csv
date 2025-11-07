@@ -164,3 +164,17 @@ Quality of Life Quest,"Wrench and Schematicannon: build smarter, not harder!","W
 
 Integration Nation,"Try Create’s compatibility with other mods-expand your
 
+Quest Title,Description,Task (Item & Quantity),Item ID,Reward(s),Dependencies,Notes
+
+
+Mob Machine Marvel,"Build your first Mechanical Spawner! This block is the key to automating mob spawning—just add rotation and fluids to get started.","Mechanical Spawner x1","create_mechanical_spawner:spawner","Spawn Fluid Random x1",Deploy Joy or Super Crafter Supreme,Mechanical Spawner
+
+Splashy Spawning,"Power up your spawner with fluids! Different fluids can spawn different mobs—experiment and see what you can create.","Spawn Fluid Random x1","create_mechanical_spawner:spawn_fluid_random","Spawn Fluid Pigling x2",Mob Machine Marvel,Mechanical Spawner
+
+Tailor-Made Mobs,"Configure your spawner to summon specific mobs! Use special fluids to spawn pigs, skeletons, or other creatures.","Spawn Fluid Pigling x1","create_mechanical_spawner:spawn_fluid_pigling","Spawn Fluid Pigling x4, Porkchop x16",Splashy Spawning,Mechanical Spawner
+
+Treasure Trove,"Automate your loot collection! Set up a loot collector block to gather drops from your mechanical spawner.","Loot Collector x1","create_mechanical_spawner:loot_collector","Spawn Fluid Random x2",Tailor-Made Mobs,Mechanical Spawner
+
+Factory Farm Frenzy,"Build a full mob farm with multiple spawners and loot collectors! Automate your mob drops and experience orbs.","Mechanical Spawner x3, Loot Collector x3","create_mechanical_spawner:spawner,create_mechanical_spawner:loot_collector","Spawn Fluid Random x8, Experience Nugget x32",Treasure Trove,Mechanical Spawner
+
+Witherproof Wonder,"Unlock the ultimate challenge! Configure your spawner to summon a Wither and collect its rare drops.","Spawn Fluid Wither x1","create_mechanical_spawner:spawn_fluid_wither","Nether Star x1",Factory Farm Frenzy,Mechanical Spawner
