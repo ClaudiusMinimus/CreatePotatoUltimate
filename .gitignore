@@ -124,3 +124,4 @@ minecraft/config/theoneprobe-client.toml
 minecraft/config/theoneprobe-common.toml
 minecraft/config/vtweaks-common.toml
 minecraft/config/xaeroworldmap.txt
+minecraft/dynamic-resource-pack-cache/hash.txt
