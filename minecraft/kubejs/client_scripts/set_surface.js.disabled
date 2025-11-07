@@ -1,0 +1,46 @@
+// KubeJS 1.21.x+ | NeoForge | Safe string-based config edit
+
+global.setSurface = function(value) {
+    try {
+        let file = java.nio.file.Paths.get('config/skyblockbuilder/world.json5');
+        let Files = Java.loadClass('java.nio.file.Files');
+        let StandardOpenOption = Java.loadClass('java.nio.file.StandardOpenOption');
+
+        if (!Files.exists(file)) {
+            Client.player.tell('SkyblockBuilder config not found!');
+            return;
+        }
+
+        // Read file content as a string
+        let content = Files.readAllLines(file).toArray().join('\n');
+        // Replace the surface value using regex
+        let surfaceMatch = content.match(/("surface"\s*:\s*)(true|false)/);
+        if (!surfaceMatch) {
+            Client.player.tell('"surface" property not found!');
+            return;
+        }
+        let newContent = content.replace(/("surface"\s*:\s*)(true|false)/, `$1${value}`);
+
+        // Write the new content back to the file
+        Files.write(file, java.lang.String(newContent).getBytes(), StandardOpenOption.TRUNCATE_EXISTING);
+
+        let msg = value === 'true'
+            ? 'Config set for Stoneblock (surface: true).'
+            : 'Config set for Skyblock (surface: false).';
+        Client.player.tell(msg);
+    } catch (err) {
+        Client.player.tell('Error modifying surface: ' + err);
+    }
+}
+
+// Register chat commands for FancyMenu buttons
+ClientEvents.chatReceived(e => {
+    if (e.message.string.trim() === '/set_surface_true') {
+        global.setSurface('true');
+        e.cancel();
+    }
+    if (e.message.string.trim() === '/set_surface_false') {
+        global.setSurface('false');
+        e.cancel();
+    }
+});
