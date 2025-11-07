@@ -405,6 +405,9 @@
 	quest.28D15A9B43C825CE.quest_desc: ["Rope pulleys: for lifting your builds (and your spirits) to new heights."]
 	quest.28D15A9B43C825CE.quest_subtitle: "Rope Pulley x1"
 	quest.28D15A9B43C825CE.title: "Pulley Wonka"
+	quest.294D6547EBAAF1BA.quest_desc: ["Configure your spawner to summon specific mobs! Use special fluids to spawn pigs, skeletons, or other creatures."]
+	quest.294D6547EBAAF1BA.quest_subtitle: "Spawn Fluid Skeleton x1 \\& Pigling x1"
+	quest.294D6547EBAAF1BA.title: "Tailor-Made Mobs"
 	quest.29B69483965D4F12.quest_desc: ["Craft some torches and get a handy dandy Torch Sling!"]
 	quest.2AA453BF3617F5BF.quest_desc: ["Gantry Carriages can mount to and slide along a Gantry Shaft."]
 	quest.2AC4427434E9FBCB.quest_desc: ["Right-click with this rod will place Dirt for some mana cost."]
@@ -430,6 +433,9 @@
 	quest.327A1EF2D2AD9DDD.quest_subtitle: "Feel the Power!"
 	quest.329580579F9DC034.quest_desc: ["Rune of Greed is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 	quest.357FC93850CE6424.quest_desc: ["Rune of Summer is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
+	quest.35E7EDDCFC06B9FB.quest_desc: ["Build your first Mechanical Spawner! This block is the key to automating mob spawning—just add rotation and fluids to get started."]
+	quest.35E7EDDCFC06B9FB.quest_subtitle: "Mechanical Spawner x1"
+	quest.35E7EDDCFC06B9FB.title: "Mob Machine Marvel"
 	quest.36D5BE714A278495.quest_desc: ["The Diamond Backpack has 108 slots plus 5 upgrade slots!"]
 	quest.36EDEBAB81D05AC6.quest_desc: [
 		"Lugging around a Crafting Table is a generally troublesome task. The Assembly Halo, thus, is a portable Crafting Table, as well as a quick-start crafting option. Holding the item displays a \"halo\" of recipe slots around the holder, and right-clicking the displayed Crafting Table will open a crafting interface."
@@ -462,6 +468,12 @@
 	quest.3E218EE721C60CC2.quest_desc: ["When worn, it slowly generates Mana and stores it in a Mana Tablet in the player's inventory. It can be upgraded into the Greater Band of Aura, which generates Mana significantly faster."]
 	quest.415DC4075FB46595.quest_desc: ["Smart Chutes are vertical Chutes with additional controls. The animation when pressing the \"w\" key while hovering shows how to use this new block."]
 	quest.4240DD5A5E1AB2A4.quest_subtitle: "Start Here"
+	quest.437887F4A34F9EC7.quest_desc: ["Build a full mob farm with multiple spawners and loot collectors! Automate your mob drops and experience orbs."]
+	quest.437887F4A34F9EC7.quest_subtitle: "Mechanical Spawner x3, \\nLoot Collector x3"
+	quest.437887F4A34F9EC7.title: "Factory Farm Frenzy"
+	quest.44FD8EBFD928C485.quest_desc: ["Automate your loot collection! Set up a loot collector block to gather drops from your mechanical spawner."]
+	quest.44FD8EBFD928C485.quest_subtitle: "Loot Collector x1"
+	quest.44FD8EBFD928C485.title: "Treasure Trove"
 	quest.468DE93A9D225DA2.quest_desc: ["You are now the foreman with your offical clipboard. Keep notes and copy/paste filter settings."]
 	quest.46EB239376ACBF94.quest_desc: ["Did you know they let pigs operate trains? I thought is was scary when I learned pigs could fly. Well, every train needs one controller."]
 	quest.46EB239376ACBF94.quest_subtitle: "Every piggy needs one"
@@ -477,6 +489,9 @@
 	quest.4C1249721C8EBFBB.quest_desc: ["Sometimes complex devices like Droppers or Dispensers can't offer enough precision or speed. A simple solution: Make a crate, then punch a hole in its bottom. Yeah, it's that easy. The Open Crate accepts each item from a Hopper or other item outputter, and drops the item directly below it."]
 	quest.4C1D7E27D15961A5.quest_desc: ["Rune of Wrath is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 	quest.4C865A25446A2C87.quest_desc: ["You are not going to be able to mine copper. It is time to start working on the Create quests."]
+	quest.4CB61F04BE21733C.quest_desc: ["Power up your spawner with fluids! Different fluids can spawn different mobs—experiment and see what you can create."]
+	quest.4CB61F04BE21733C.quest_subtitle: "Spawn Fluid Random x2"
+	quest.4CB61F04BE21733C.title: "Splashy Spawning"
 	quest.4D2B419D0946089C.title: "Quadrilium Armor"
 	quest.4D60A6408E055989.quest_desc: [
 		"FEED ME! FEED ME! I am the hungry thing!"
@@ -488,6 +503,9 @@
 	quest.4EBDC9C39E00EE26.quest_desc: ["Rune of Winter is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
 	quest.4EBF5AB892CDCB14.quest_desc: ["Manasteel, like other metals, can be shaped into tools and armor alike.Tools or armor crafted from this material will share most of their qualities with Iron, albeit with superior enchantability and durability. Additionally, all Manasteel items can heal their durabilities with Mana from their user's inventory (e.g. in a Mana Tablet)."]
 	quest.4F0263313F0F1775.quest_desc: ["Are you in a hurry and don't have time to unload all of your stuff? This upgrade is very handy and also has an advanced upgrade option - check in JEI"]
+	quest.4F231A4072E62E78.quest_desc: ["Unlock the ultimate challenge! Configure your spawner to summon a Wither and collect its rare drops."]
+	quest.4F231A4072E62E78.quest_subtitle: "Spawn Fluid Wither x1"
+	quest.4F231A4072E62E78.title: "Witherproof Wonder"
 	quest.507E6FC07C05B784.title: "Novice Witch Hunter"
 	quest.50F8CBBF03B6EB31.quest_desc: ["The Natura Pylons are used to make the Portal to Alfheim multiblock portal structure."]
 	quest.50FD84433C69064C.quest_desc: [
@@ -530,6 +548,9 @@
 	quest.5C9B90AF57F6BB66.quest_desc: ["Item Vaults: store all the loot your machines make! Vaults are a multiblock storage blocks. Using a Stockpile Switch can show you how full it is."]
 	quest.5C9B90AF57F6BB66.quest_subtitle: "Item Vault x9"
 	quest.5C9B90AF57F6BB66.title: "Vault Hunter"
+	quest.5CE588CC160E378E.quest_desc: ["Train Stations: where all great journeys begin (and end)."]
+	quest.5CE588CC160E378E.quest_subtitle: "Train Schedule x1"
+	quest.5CE588CC160E378E.title: "Station Master"
 	quest.5DB1980018B7A26A.quest_desc: ["Have you ever broken a block for it to fall into the void or lava? This upgrade can end those woes. However, you may want to look at the Botania magnet as it has some very nice features"]
 	quest.5DB57D93C13F0EA4.quest_desc: ["Redstone Links: send signals through the air like a techno-mage."]
 	quest.5DB57D93C13F0EA4.quest_subtitle: "Redstone Link x2"
@@ -570,6 +591,8 @@
 	quest.6B13CAC5E656A56E.title: "Blaze of Glory"
 	quest.6D632AEDF9E98BAE.title: "Find the Stronghold"
 	quest.6D698E9864D3C153.quest_desc: ["Rune of Earth is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
+	quest.6F05C2D84C3BDCFF.quest_subtitle: "Schematicannon: build smarter, not harder!"
+	quest.6F05C2D84C3BDCFF.title: "Quality of Life Quest"
 	quest.6F152976BC2A0517.quest_desc: ["Enchanting with Mana is a powerful way to enchant items without consuming the enchantment books. To learn in-depth instruction open your Lexica Botania and search on: Enchanting with Mana"]
 	quest.6F755BB2463320EA.quest_desc: [
 		"Train Stations: where all great journeys begin (and end)."

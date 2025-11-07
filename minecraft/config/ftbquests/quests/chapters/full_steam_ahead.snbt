@@ -551,11 +551,8 @@
 				count: 4
 				id: "11D02A6DC6DDC42C"
 				item: {
-					components: {
-						"ftbquests:missing_item": "createaddition:zinc_sheet"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "createaddition:zinc_sheet"
 				}
 				type: "item"
 			}]
@@ -731,7 +728,7 @@
 				{
 					count: 4L
 					id: "55FDDFEA3EF2AA27"
-					item: { count: 4, id: "create:chute" }
+					item: { count: 1, id: "create:chute" }
 					type: "item"
 				}
 			]

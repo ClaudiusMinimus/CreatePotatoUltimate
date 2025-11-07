@@ -680,7 +680,7 @@
 			}]
 			tasks: [{
 				id: "35C1115E51246A2F"
-				item: { components: { "ftbquests:missing_item": "sliceanddice:slicer" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "sliceanddice:slicer" }
 				type: "item"
 			}]
 			x: 11.0d
@@ -692,17 +692,14 @@
 			rewards: [{
 				id: "2F68CAF09C9980D7"
 				item: {
-					components: {
-						"ftbquests:missing_item": "sliceanddice:fertilizer_bucket"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "sliceanddice:fertilizer_bucket"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0C07132F6EEEA612"
-				item: { components: { "ftbquests:missing_item": "sliceanddice:sprinkler" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "sliceanddice:sprinkler" }
 				type: "item"
 			}]
 			x: 9.0d

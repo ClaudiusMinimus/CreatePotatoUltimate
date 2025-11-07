@@ -14,14 +14,24 @@
 			dependencies: ["3BC70DC86FB889E6"]
 			dependency_requirement: "one_completed"
 			id: "0000000000000005"
-			rewards: [{
-				id: "45D48B489CC2CF64"
-				item: {
-					count: 1
-					id: "minecraft:sugar_cane"
+			rewards: [
+				{
+					id: "45D48B489CC2CF64"
+					item: {
+						count: 1
+						id: "minecraft:sugar_cane"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "46EC037D4DB53C4E"
+					item: {
+						count: 1
+						id: "waystones:waystone"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 10L
 				id: "0000000000000006"
@@ -114,6 +124,7 @@
 			dependencies: ["00000000000000C7"]
 			id: "000000000000001E"
 			rewards: [{
+				count: 2
 				id: "0000000000000020"
 				item: {
 					components: {
@@ -556,14 +567,20 @@
 			can_repeat: true
 			dependencies: ["3E046FB9DDB11119"]
 			icon: {
-				id: "theoneprobe:probenote"
+				components: {
+					"ftbquests:missing_item": "theoneprobe:probenote"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "0E4D24AAB4F4DC58"
 			rewards: [{
 				id: "7432D03495AC18F0"
 				item: {
+					components: {
+						"ftbquests:missing_item": "theoneprobe:probenote"
+					}
 					count: 1
-					id: "theoneprobe:probenote"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
