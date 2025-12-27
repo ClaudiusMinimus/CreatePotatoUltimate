@@ -555,14 +555,25 @@
 		{
 			dependencies: ["000000000000078F"]
 			id: "03108B7D1A7458B3"
-			rewards: [{
-				id: "565ABF8B7F05B44D"
-				item: {
-					count: 1
-					id: "create:chute"
+			rewards: [
+				{
+					id: "565ABF8B7F05B44D"
+					item: {
+						count: 1
+						id: "create:chute"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 16
+					id: "47A4CCBCC642CFE1"
+					item: {
+						count: 1
+						id: "minecraft:sand"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "145C96F95E54B21F"
@@ -965,6 +976,16 @@
 			}]
 			x: 7.0d
 			y: -1.0d
+		}
+		{
+			id: "0D2ACA90D21D29D0"
+			tasks: [{
+				id: "000135AFC23F6CB9"
+				item: { count: 1, id: "immersive_aircraft:quadrocopter" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
 		}
 	]
 }

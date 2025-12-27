@@ -320,8 +320,8 @@
 				id: "6CC071658A47F899"
 				type: "checkmark"
 			}]
-			x: -6.0d
-			y: -1.5d
+			x: -7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3E046FB9DDB11119"]
@@ -535,7 +535,6 @@
 			y: 5.0d
 		}
 		{
-			can_repeat: true
 			icon: {
 				components: {
 					"patchouli:book": "patchouli:potato"
@@ -564,32 +563,34 @@
 			y: 0.0d
 		}
 		{
-			can_repeat: true
-			dependencies: ["3E046FB9DDB11119"]
-			icon: {
-				components: {
-					"ftbquests:missing_item": "theoneprobe:probenote"
-				}
-				id: "ftbquests:missing_item"
-			}
-			id: "0E4D24AAB4F4DC58"
-			rewards: [{
-				id: "7432D03495AC18F0"
-				item: {
-					components: {
-						"ftbquests:missing_item": "theoneprobe:probenote"
+			dependencies: ["5687DBC582721D74"]
+			id: "04308BD815F59E9A"
+			rewards: [
+				{
+					id: "6F4B159477A37BC1"
+					item: {
+						count: 1
+						id: "immersive_aircraft:heavy_crossbow"
 					}
-					count: 1
-					id: "ftbquests:missing_item"
+					type: "item"
 				}
+				{
+					count: 64
+					id: "3D011EF7A01199D4"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64088DCCD0356D05"
+				item: { count: 1, id: "immersive_aircraft:gyrodyne" }
 				type: "item"
 			}]
-			tasks: [{
-				id: "35148C9FDCA111B8"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: -1.5d
+			x: -1.5d
+			y: 6.0d
 		}
 	]
 }

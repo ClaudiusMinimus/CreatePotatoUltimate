@@ -1,0 +1,45 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extra"
+	group: "2BF8438FEA027642"
+	icon: {
+		components: {
+			"ftbquests:icon": "ftblibrary:textures/quest_icons/miracles_icon.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "0A6DBF12B01FF226"
+	images: [{
+		click: "https://www.youtube.com/@miraclesfromtheashes"
+		height: 3.0d
+		hover: [
+			"For More Information,"
+			"Please Click Checkmark Below"
+		]
+		image: "ftblibrary:textures/quest_icons/miracles_icon.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "63D24C7FD07E0BAA"
+		rewards: [{
+			id: "353A115C12E15DE5"
+			item: {
+				count: 1
+				id: "minecraft:nether_star"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "3909AA12444EF3EF"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 2.5d
+	}]
+}

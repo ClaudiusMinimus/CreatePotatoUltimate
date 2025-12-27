@@ -46,7 +46,7 @@
 				item: { count: 1, id: "create:rose_quartz_lamp" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -6.5d
 			y: -3.0d
 		}
 		{
@@ -66,14 +66,11 @@
 				item: { count: 1, id: "create:brass_ingot" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -4.0d
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"00000000000008DB"
-				"51FE487A5586AF80"
-			]
+			dependencies: ["51FE487A5586AF80"]
 			id: "00000000000008EE"
 			rewards: [{
 				id: "73FB42BAB21F80B1"
@@ -88,11 +85,14 @@
 				item: { count: 1, id: "create:brass_funnel" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.0d
+			x: -5.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["00000000000007A1"]
+			dependencies: [
+				"00000000000007A1"
+				"00000000000008DB"
+			]
 			id: "51FE487A5586AF80"
 			rewards: [{
 				count: 8

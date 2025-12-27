@@ -1099,5 +1099,27 @@
 			x: -1.5d
 			y: -7.0d
 		}
+		{
+			id: "4C533BE1DF3D5622"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "4FFAF0830ACC4238"
+				item: { count: 1, id: "powder_power:hammer_alchemist" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			id: "1629F0F6488EF04E"
+			tasks: [{
+				id: "2EA6DC796000A3EE"
+				item: { count: 1, id: "powder_power:motar_pestle" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -4.5d
+		}
 	]
 }

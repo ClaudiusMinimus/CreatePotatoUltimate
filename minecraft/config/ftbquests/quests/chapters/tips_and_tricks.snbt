@@ -60,16 +60,6 @@
 			y: -3.5d
 		}
 		{
-			id: "6F946B0BBD3702B7"
-			tasks: [{
-				id: "2436C1B5D2B49148"
-				item: { count: 1, id: "tempad:tempad" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -3.5d
-		}
-		{
 			id: "621A194C80FC673F"
 			tasks: [{
 				id: "5BBC56ADB42F832D"

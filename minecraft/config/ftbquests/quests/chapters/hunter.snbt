@@ -34,11 +34,10 @@
 			dependencies: ["000000000000003D"]
 			id: "000000000000003F"
 			rewards: [{
-				count: 18
 				id: "0000000000000567"
 				item: {
 					count: 1
-					id: "minecraft:tipped_arrow"
+					id: "sophisticatedbackpacks:stack_upgrade_tier_1"
 				}
 				type: "item"
 			}]
@@ -111,7 +110,7 @@
 					components: {
 						"minecraft:stored_enchantments": {
 							levels: {
-								"minecraft:thorns": 3
+								"minecraft:mending": 1
 							}
 						}
 					}
