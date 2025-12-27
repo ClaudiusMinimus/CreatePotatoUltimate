@@ -5,12 +5,14 @@
 	chapter.00000000000000AF.title: "Farming and Cooking"
 	chapter.0000000000000623.chapter_subtitle: ["Build amazing things with Create!"]
 	chapter.0000000000000623.title: "Gear Up and Get Going!"
+	chapter.0A6DBF12B01FF226.title: "Faith \\& Hope"
 	chapter.1F3FAEEC631D879D.title: "Andesite Alloy Acquisition"
 	chapter.22C5B5C762C6CE6B.title: "Storage"
 	chapter.2B417BFD8A1BF430.title: "Full Steam Ahead!"
 	chapter.394307726599DAF0.title: "Tips and Tricks"
 	chapter.54923BF4093F367E.title: "Engineering Marvels Unleashed!"
 	chapter.5C3449C5F42C2A48.title: "World Hopping"
+	chapter_group.2BF8438FEA027642.title: "An Invitation"
 	chapter_group.6F8E634575676A8E.title: "Create"
 	quest.0000000000000005.quest_desc: ["There be treasures hidden underground. Dig, dig, dig!"]
 	quest.0000000000000005.title: "Start Digging!"
@@ -302,6 +304,8 @@
 		"\"/spawn\" teleports you to spawn. Always use \"/setworldspawn\" for new worlds; otherwise, you may not like where \"/spawn\" sends you!"
 		"Names in brackets \"[name]\" are optional. Names in \"<name>\" are required. Do not use quotes \", brackets \"[]\" or \"<>\" in commands."
 	]
+	quest.04308BD815F59E9A.quest_desc: ["Now you can explore your beautiful world. The crossbow must be opporated with an empty hand."]
+	quest.04308BD815F59E9A.title: "Up, Up, and Away"
 	quest.077E7E557DCB9576.quest_desc: [
 		"A botanist's most important tool for manipulating flowers is the Wand of the Forest. This wand, crafted from a pair of Mystical Petals strapped to a few Livingwood Twigs, is a must-have for a huge number of botanical tasks."
 		""
@@ -322,8 +326,6 @@
 	quest.0D77CE91690DFD0F.quest_desc: ["After placing the Train Station, open the GUI to Assemble a train. Place this block on the blue highlight on the tracks and voila, you have started building your first train!"]
 	quest.0D77CE91690DFD0F.quest_subtitle: "Every train needs one"
 	quest.0DED09C3096C985D.quest_desc: ["Place a Pure Daisy next to a Blaze Mesh and you get Obsidian, but be careful where you place it because you might not be able to move it once it transforms. Think: Nether Portal"]
-	quest.0E4D24AAB4F4DC58.quest_desc: ["Check to get The One Probe Read Me, which is used to configure TOP HUD."]
-	quest.0E4D24AAB4F4DC58.title: "The One Probe Read Me"
 	quest.0E9F95234AB4F307.quest_desc: ["The Ritual of Gaia is a trial often undertaken by elves. It yields Gaia Spirits, which are coveted as fragments of the power of the Goddess of Gaia herself.This ritual requires an Active Beacon with Gaia Pylons surrounding it (functioning as an altar), as well as a single Terrasteel Ingot (as a sacrifice)."]
 	quest.0F212D61E278C98E.title: "Apprentice Witch Hunter"
 	quest.0FD4CDCFF7C99324.quest_desc: [
@@ -562,6 +564,15 @@
 	quest.6181C8F6420EB67C.quest_desc: ["Rune of Spring is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
 	quest.621A194C80FC673F.quest_desc: ["[ \"To many features to list. Check the \", { \"text\": \"guide book\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3BC70DC86FB889E6\" } }, \" for for more info.\" ]"]
 	quest.621A194C80FC673F.title: "Contruction Wands"
+	quest.63D24C7FD07E0BAA.quest_desc: [
+		"As one striving to be a faithful member of The Church of Jesus Christ of Latter-day Saints, I invite those seeking Jesus Christ or struggling with faith to visit my YouTube channel, Miracles From the Ashes. "
+		""
+		"To visit my channel, close this window and click on the open book image above."
+		""
+		"Thank you, CM"
+	]
+	quest.63D24C7FD07E0BAA.quest_subtitle: "Believe In Miracles"
+	quest.63D24C7FD07E0BAA.title: "Faith \\& Encouragement"
 	quest.63E0177EA97D97D0.quest_desc: ["Gantry Shafts form the basis of a Gantry setup. An attached Carriage will move along them."]
 	quest.66EF9A948397E447.quest_desc: ["Using Linings to add traits to your armor"]
 	quest.66EF9A948397E447.title: "Lining Blueprint/Template"
@@ -601,7 +612,6 @@
 	]
 	quest.6F755BB2463320EA.quest_subtitle: "Train Station x1"
 	quest.6F755BB2463320EA.title: "Station Master"
-	quest.6F946B0BBD3702B7.quest_desc: ["Great way to save locations to teleport to"]
 	quest.6F94CFF9E4013396.quest_desc: [
 		"I made a short YouTube video showing how to claim, un-claim, and force load chunks. You can view it by going to this address."
 		""
@@ -682,6 +692,7 @@
 	task.2C6A2CB6DF046D00.title: "Basic Commands"
 	task.2F804A4ECC3A2C43.title: "Any Botania Mystical Flowers"
 	task.344CE56B34765342.title: "Open Potato Guidebook"
+	task.3909AA12444EF3EF.title: "sss"
 	task.3CBBA3D29984B05D.title: "Any #c:tools/saw"
 	task.48F8C7213DDC26FC.title: "Any #farmersdelight:cabinets"
 	task.51544E360D6B39F0.title: "Visiting the Serene Nether"

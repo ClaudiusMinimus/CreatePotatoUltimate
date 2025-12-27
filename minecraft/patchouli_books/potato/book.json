@@ -2,7 +2,7 @@
     "name": "Create on a Potato PC:",
     "subtitle": "Ultimate v. 1.21.1 0.0.7 ALPHA",
     "version": 0,
-    "landing_text": "Welcome $(playername)$(br)I'm not sure, you may have landed on Potato Island or in Potato Cave, as so they call it. Believe it or not, everything you need to progress to the Nether and End is here on this tiny island. Some resources are very precious-gollum, so don't be hasty. $(l)Be extremely careful$() with all of your precious resources. For more information see $(l)$(l:the_beginning)Getting Started$(/l)$()",
+    "landing_text": "Welcome $(playername)$(br)I'm not sure, but you may have landed on Potato Island or in Potato Cave, as so they call it. Believe it or not, everything you need to progress to the Nether and End is here on this tiny island. Some resources are very precious-gollum, so don't be hasty. $(l)Be extremely careful$() with all of your precious resources. For more information see $(l)$(l:the_beginning)Getting Started$(/l)$()",
     "model": "patchouli:book_blue",
     "book_texture": "patchouli:textures/gui/book_blue.png",
     "show_progress": false,
