@@ -11,13 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"74BF4BAF8EBDEDEA"
-				"4F114D7856CE6FE3"
-				"546410869DD2EA05"
-				"3FD7CC98703018B1"
-				"033A920236D86E83"
-			]
+			dependencies: ["3327F5C689BFA0A1"]
 			id: "4D2B419D0946089C"
 			rewards: [
 				{
@@ -52,9 +46,24 @@
 					}
 					type: "item"
 				}
+				{
+					id: "7F9696E0177492B2"
+					item: {
+						count: 1
+						id: "powder_power:token_supreme_health"
+					}
+					type: "item"
+				}
+				{
+					id: "4B4C12A8E2D08D65"
+					item: {
+						count: 1
+						id: "powder_power:token_supreme_resistance"
+					}
+					type: "item"
+				}
 			]
-			shape: "diamond"
-			size: 1.5d
+			size: 1.0d
 			tasks: [
 				{
 					id: "6B020498A1BE3877"
@@ -77,17 +86,11 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: -8.0d
+			x: 7.0d
+			y: 2.0d
 		}
 		{
-			dependencies: [
-				"2B1A7B2C629CCD11"
-				"1C96DD7EE2D35B46"
-				"773875786F917064"
-				"48433F2F012472B0"
-				"2CA09EDE9BB020AC"
-			]
+			dependencies: ["0F23A2C982043C0C"]
 			id: "14A6727FC3F98588"
 			rewards: [{
 				count: 4
@@ -105,8 +108,7 @@
 				}
 				type: "item"
 			}]
-			shape: "diamond"
-			size: 1.5d
+			size: 1.0d
 			tasks: [
 				{
 					id: "7C8D6692BFD2E059"
@@ -129,10 +131,11 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: -1.0d
+			x: 7.0d
+			y: -6.5d
 		}
 		{
+			dependencies: ["0F23A2C982043C0C"]
 			id: "48433F2F012472B0"
 			rewards: [{
 				id: "5537C82187610DBA"
@@ -154,10 +157,11 @@
 				item: { count: 1, id: "powder_power:sword_gemium" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -2.5d
+			x: 7.0d
+			y: -4.5d
 		}
 		{
+			dependencies: ["0F23A2C982043C0C"]
 			id: "2CA09EDE9BB020AC"
 			rewards: [{
 				id: "696A743EE46124CC"
@@ -169,28 +173,26 @@
 			}]
 			tasks: [
 				{
-					consume_items: true
 					id: "595F4E856578CBDF"
 					item: { count: 1, id: "powder_power:pickaxe_gemium" }
 					type: "item"
 				}
 				{
-					consume_items: true
 					id: "11A46E01D73AAC6A"
 					item: { count: 1, id: "powder_power:axe_gemium" }
 					type: "item"
 				}
 				{
-					consume_items: true
 					id: "3D8B06E5922DCD37"
 					item: { count: 1, id: "powder_power:shovel_gemium" }
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -2.5d
+			x: 4.0d
+			y: -6.5d
 		}
 		{
+			dependencies: ["0F23A2C982043C0C"]
 			id: "2B1A7B2C629CCD11"
 			rewards: [{
 				id: "46BFCB115BF93041"
@@ -212,10 +214,11 @@
 				item: { count: 1, id: "powder_power:hammer_gemium" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.0d
+			x: 7.0d
+			y: -2.5d
 		}
 		{
+			dependencies: ["0F23A2C982043C0C"]
 			id: "1C96DD7EE2D35B46"
 			rewards: [
 				{
@@ -248,10 +251,11 @@
 				item: { count: 1, id: "powder_power:excavator_gemium" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.0d
+			x: 4.0d
+			y: -2.5d
 		}
 		{
+			dependencies: ["0F23A2C982043C0C"]
 			id: "773875786F917064"
 			rewards: [
 				{
@@ -290,10 +294,11 @@
 				item: { count: 1, id: "powder_power:bow_gemium" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.0d
+			x: 4.0d
+			y: -4.5d
 		}
 		{
+			dependencies: ["3327F5C689BFA0A1"]
 			id: "74BF4BAF8EBDEDEA"
 			rewards: [
 				{
@@ -326,59 +331,54 @@
 					}
 					type: "item"
 				}
+				{
+					id: "7F770EEF6F2A892E"
+					item: {
+						count: 1
+						id: "powder_power:token_supreme_strength"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "415421449CB6D2F2"
 				item: { count: 1, id: "powder_power:sword_quadrilium" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -6.5d
+			x: 7.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["3327F5C689BFA0A1"]
 			id: "4F114D7856CE6FE3"
 			rewards: [{
-				id: "69ACA7BCF4C77FB4"
-				item: {
-					components: {
-						"minecraft:enchantments": {
-							levels: {
-								"minecraft:efficiency": 5
-								"minecraft:fortune": 3
-								"minecraft:mending": 1
-							}
-						}
-						"minecraft:repair_cost": 7
-					}
-					count: 1
-					id: "powder_power:paxel_quadrilium"
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				id: "113BE5CFC2E1C3DD"
+				table_id: 2912167290326495000L
+				type: "choice"
 			}]
 			tasks: [
 				{
-					consume_items: true
 					id: "3D47B6DB8AC6B2BB"
 					item: { count: 1, id: "powder_power:pickaxe_quadrilium" }
 					type: "item"
 				}
 				{
-					consume_items: true
 					id: "22B2A856389EE15E"
 					item: { count: 1, id: "powder_power:axe_quadrilium" }
 					type: "item"
 				}
 				{
-					consume_items: true
 					id: "43A3CBC0E6C101DF"
 					item: { count: 1, id: "powder_power:shovel_quadrilium" }
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: -6.5d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["3327F5C689BFA0A1"]
 			id: "546410869DD2EA05"
 			rewards: [{
 				id: "100999E157441C93"
@@ -400,10 +400,11 @@
 				item: { count: 1, id: "powder_power:hammer_quadrilium" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -8.0d
+			x: 7.0d
+			y: 6.0d
 		}
 		{
+			dependencies: ["3327F5C689BFA0A1"]
 			id: "3FD7CC98703018B1"
 			rewards: [{
 				id: "01DABF0B0DBC88AA"
@@ -425,10 +426,11 @@
 				item: { count: 1, id: "powder_power:excavator_quadrilium" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -10.0d
+			x: 4.0d
+			y: 6.0d
 		}
 		{
+			dependencies: ["3327F5C689BFA0A1"]
 			id: "033A920236D86E83"
 			rewards: [
 				{
@@ -467,35 +469,11 @@
 				item: { count: 1, id: "powder_power:bow_quadrilium" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -8.0d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
-			dependencies: [
-				"4D2B419D0946089C"
-				"14A6727FC3F98588"
-			]
-			dependency_requirement: "one_completed"
-			id: "00B8AD2DF27E33A5"
-			min_required_dependencies: 1
-			rewards: [{
-				id: "7A664823B6DEF2D4"
-				item: {
-					count: 1
-					id: "minecraft:netherite_block"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "51B7462955596B14"
-				type: "checkmark"
-			}]
-			x: 6.5d
-			y: -4.5d
-		}
-		{
+			dependencies: ["000000000000008F"]
 			id: "000000000000007B"
 			rewards: [
 				{
@@ -517,27 +495,26 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
-			size: 1.5d
+			size: 1.0d
 			tasks: [
 				{
 					id: "000000000000007C"
-					item: { count: 1, id: "silentgear:pickaxe" }
+					item: { count: 1, id: "powder_power:shovel_redium" }
 					type: "item"
 				}
 				{
 					id: "000000000000007F"
-					item: { count: 1, id: "silentgear:axe" }
+					item: { count: 1, id: "powder_power:axe_redium" }
 					type: "item"
 				}
 				{
 					id: "0000000000000080"
-					item: { count: 1, id: "silentgear:shovel" }
+					item: { count: 1, id: "powder_power:pickaxe_redium" }
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: -5.0d
+			x: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["000000000000008F"]
@@ -553,11 +530,11 @@
 			}]
 			tasks: [{
 				id: "000000000000063A"
-				item: { count: 1, id: "silentgear:bow" }
+				item: { count: 1, id: "powder_power:bow_redium" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: -7.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["000000000000008F"]
@@ -567,20 +544,20 @@
 				id: "00000000000000A9"
 				item: {
 					count: 1
-					id: "silentgear:ring_blueprint"
+					id: "powder_power:token_no_fall"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "000000000000008B"
-				item: { count: 1, id: "silentgear:hammer" }
+				item: { count: 1, id: "powder_power:hammer_redium" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.0d
+			x: -4.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["000000000000008F"]
+			dependencies: ["3D75E4AC73A72C1E"]
 			id: "000000000000008C"
 			rewards: [{
 				id: "00000000000000AA"
@@ -599,14 +576,14 @@
 			}]
 			tasks: [{
 				id: "000000000000008D"
-				item: { count: 1, id: "silentgear:excavator" }
+				item: { count: 1, id: "powder_power:hammer_lapium" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.5d
+			x: 1.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["00000000000005D7"]
+			dependencies: ["6E6713FD61417E7B"]
 			id: "000000000000008F"
 			rewards: [{
 				id: "00000000000000A0"
@@ -625,122 +602,14 @@
 			}]
 			tasks: [{
 				id: "0000000000000090"
-				item: { count: 1, id: "silentgear:mattock" }
+				item: { count: 1, id: "powder_power:ingot_redium" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.0d
+			x: -5.5d
+			y: -4.5d
 		}
 		{
-			dependencies: ["000000000000008F"]
-			id: "0000000000000092"
-			rewards: [
-				{
-					id: "00000000000000A3"
-					item: {
-						components: {
-							"silentgear:material_list": [{
-								item: {
-									count: 1
-									id: "minecraft:redstone"
-								}
-								material: "silentgear:redstone"
-							}]
-						}
-						count: 1
-						id: "silentgear:tip"
-					}
-					type: "item"
-				}
-				{
-					id: "25A98B9E13C8B745"
-					item: {
-						components: {
-							"minecraft:stored_enchantments": {
-								levels: {
-									"minecraft:efficiency": 2
-								}
-							}
-						}
-						count: 1
-						id: "minecraft:enchanted_book"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0000000000000093"
-					item: { components: { "silentgear:material_list": [ { item: { count: 1, id: "minecraft:iron_ingot" }, material: "silentgear:iron" }, { item: { count: 1, id: "minecraft:iron_ingot" }, material: "silentgear:iron" }, { item: { count: 1, id: "minecraft:iron_ingot" }, material: "silentgear:iron" } ] }, count: 1, id: "silentgear:pickaxe_head" }
-					type: "item"
-				}
-				{
-					id: "0000000000000632"
-					item: { count: 1, id: "minecraft:bone" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["000000000000007B"]
-			id: "00000000000004F9"
-			rewards: [{
-				id: "0000000000000501"
-				item: {
-					count: 1
-					id: "powder_power:token_sunshine"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "00000000000004FA"
-				item: { count: 1, id: "silentgear:salvager" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["000000000000008F"]
-			id: "00000000000004FB"
-			rewards: [{
-				count: 4
-				id: "0000000000000513"
-				item: {
-					count: 1
-					id: "minecraft:lapis_block"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "00000000000004FC"
-					item: { count: 1, id: "silentgear:helmet_blueprint" }
-					type: "item"
-				}
-				{
-					id: "00000000000004FD"
-					item: { count: 1, id: "silentgear:chestplate_blueprint" }
-					type: "item"
-				}
-				{
-					id: "00000000000004FE"
-					item: { count: 1, id: "silentgear:leggings_blueprint" }
-					type: "item"
-				}
-				{
-					id: "00000000000004FF"
-					item: { count: 1, id: "silentgear:boots_blueprint" }
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["000000000000008F"]
+			dependencies: ["3AAE7B42A4CB0D5C"]
 			id: "0000000000000522"
 			rewards: [{
 				id: "000000000000053B"
@@ -759,82 +628,14 @@
 			}]
 			tasks: [{
 				id: "0000000000000631"
-				item: { count: 1, id: "silentgear:paxel" }
+				item: { count: 1, id: "powder_power:pickaxe_obsidian" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -1.5d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["000000000000007B"]
-			dependency_requirement: "one_completed"
-			id: "00000000000005D7"
-			rewards: [{
-				count: 18
-				id: "00000000000005DB"
-				item: {
-					count: 1
-					id: "silentgear:template_board"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "00000000000005D8"
-					item: { count: 1, id: "silentgear:crude_knife" }
-					type: "item"
-				}
-				{
-					id: "2B43B3CD91CE8EEA"
-					item: { count: 1, id: "silentgear:stone_anvil" }
-					type: "item"
-				}
-			]
-			x: -1.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["000000000000008F"]
-			id: "0000000000000633"
-			rewards: [{
-				count: 2
-				id: "0000000000000637"
-				item: {
-					count: 1
-					id: "minecraft:white_wool"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "0000000000000636"
-				item: { count: 1, id: "silentgear:shears" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["000000000000008F"]
-			id: "000000000000063D"
-			rewards: [{
-				count: 6
-				id: "0000000000000641"
-				item: {
-					count: 1
-					id: "minecraft:leather"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "000000000000063E"
-				item: { count: 1, id: "silentgear:grip_blueprint" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["000000000000008F"]
+			dependencies: ["3AAE7B42A4CB0D5C"]
 			id: "000000000000063F"
 			rewards: [{
 				id: "000000000000064D"
@@ -846,14 +647,14 @@
 			}]
 			tasks: [{
 				id: "0000000000000640"
-				item: { count: 1, id: "silentgear:tip_blueprint" }
+				item: { count: 1, id: "powder_power:token_night_vision" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -0.5d
+			x: -1.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["27EBAAEBA54CA0BB"]
+			dependencies: ["3AAE7B42A4CB0D5C"]
 			id: "0000000000000642"
 			rewards: [{
 				count: 2
@@ -866,52 +667,14 @@
 			}]
 			tasks: [{
 				id: "0000000000000643"
-				item: { count: 1, id: "silentgear:material_grader" }
+				item: { count: 1, id: "powder_power:blend_lapium" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -10.0d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["6D03E2482EF10830"]
-			id: "2D7B16A94B4813BD"
-			rewards: [
-				{
-					id: "31DB2BCC13F63316"
-					item: {
-						count: 1
-						id: "minecraft:netherite_ingot"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "5A528DB74BA4524C"
-					item: {
-						count: 1
-						id: "minecraft:netherite_scrap"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "50354CA3DBA4FB4B"
-					item: { count: 1, id: "silentgear:alloy_forge" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "517BACA3837D79D1"
-					item: { count: 1, id: "silentgear:tyrian_steel_ingot" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["30C98D8E57A61E0C"]
+			dependencies: ["3AAE7B42A4CB0D5C"]
 			id: "6E6713FD61417E7B"
 			rewards: [
 				{
@@ -933,52 +696,14 @@
 			]
 			tasks: [{
 				id: "15C3D21DAD7DD3B8"
-				item: { count: 1, id: "silentgear:recrystallizer" }
+				item: { count: 1, id: "powder_power:blend_redium" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["00000000000004FB"]
-			id: "66EF9A948397E447"
-			rewards: [{
-				id: "14CE80BAD45B8713"
-				item: {
-					count: 1
-					id: "minecraft:white_wool"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "11A962D43961E1B7"
-				item: { count: 1, id: "silentgear:lining_blueprint" }
-				type: "item"
-			}]
-			x: 2.0d
+			x: -5.5d
 			y: -1.5d
 		}
 		{
-			dependencies: ["66EF9A948397E447"]
-			id: "09FD66439056FDB3"
-			rewards: [{
-				id: "2554B95B83A3E3AA"
-				item: {
-					count: 1
-					id: "silentgear:blaze_gold_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2C4532E49AD19C6D"
-				item: { count: 1, id: "silentgear:coating_blueprint" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["000000000000007B"]
+			dependencies: ["000000000000008F"]
 			id: "6B282262128F673B"
 			rewards: [{
 				id: "04D947196164FB62"
@@ -997,72 +722,14 @@
 			}]
 			tasks: [{
 				id: "0C77C4D94E61206A"
-				item: { count: 1, id: "silentgear:katana_blueprint" }
+				item: { count: 1, id: "powder_power:sword_redium" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -5.0d
+			x: -4.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["27EBAAEBA54CA0BB"]
-			id: "4183161C2214D855"
-			rewards: [{
-				count: 16
-				id: "7EC2E59990FCECAD"
-				item: {
-					count: 1
-					id: "silentgear:blaze_gold_dust"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "511EEB3DF458E6AD"
-				item: { count: 1, id: "silentgear:starlight_charger" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: -10.0d
-		}
-		{
-			dependencies: ["21D01A55B8CAB4FC"]
-			id: "6D03E2482EF10830"
-			rewards: [{
-				id: "295FBABE074A37FD"
-				item: {
-					count: 1
-					id: "silentgear:crimson_steel_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "4B5E68E5DA690A58"
-				item: { count: 1, id: "silentgear:crimson_steel_ingot" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -8.0d
-		}
-		{
-			dependencies: ["21D01A55B8CAB4FC"]
-			id: "30C98D8E57A61E0C"
-			rewards: [{
-				id: "5C0ACDCD8C0E3D0C"
-				item: {
-					count: 1
-					id: "silentgear:azure_electrum_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "59B5458E6421AC1A"
-				item: { count: 1, id: "silentgear:azure_electrum_ingot" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -8.0d
-		}
-		{
-			dependencies: ["21D01A55B8CAB4FC"]
+			dependencies: ["3AAE7B42A4CB0D5C"]
 			id: "27EBAAEBA54CA0BB"
 			rewards: [{
 				count: 4
@@ -1075,51 +742,448 @@
 			}]
 			tasks: [{
 				id: "47955F6AC1F016C3"
-				item: { count: 1, id: "silentgear:blaze_gold_ingot" }
+				item: { count: 1, id: "powder_power:blend_trilium" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -8.5d
+			x: -5.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["000000000000007B"]
-			id: "21D01A55B8CAB4FC"
+			dependencies: ["000000000000008F"]
+			id: "072E689FE036FB79"
 			rewards: [{
-				id: "11266C525F093834"
+				count: 2
+				id: "191AEFD763B244C1"
 				item: {
 					count: 1
-					id: "silentgear:blueprint_book"
+					id: "minecraft:mooshroom_spawn_egg"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				id: "778660B5815047F6"
-				type: "checkmark"
+				id: "6BD145D06B98AB3A"
+				item: { count: 1, id: "powder_power:excavator_redium" }
+				type: "item"
 			}]
-			x: -1.5d
-			y: -7.0d
+			x: -7.0d
+			y: -2.5d
 		}
 		{
-			id: "4C533BE1DF3D5622"
-			shape: "diamond"
+			id: "3AAE7B42A4CB0D5C"
+			rewards: [{
+				id: "786A87B5078EF092"
+				item: {
+					count: 1
+					id: "powder_power:motar_pestle"
+				}
+				type: "item"
+			}]
+			shape: "square"
 			size: 1.5d
 			tasks: [{
-				id: "4FFAF0830ACC4238"
+				id: "71C553A0603523D8"
 				item: { count: 1, id: "powder_power:hammer_alchemist" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000642"]
+			id: "3D75E4AC73A72C1E"
+			rewards: [{
+				id: "7DED4B42CA4E9F94"
+				item: {
+					count: 1
+					id: "powder_power:wand_alchemist"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0663B92F04BAEF28"
+				item: { count: 1, id: "powder_power:ingot_lapium" }
+				type: "item"
+			}]
+			x: 0.0d
 			y: -4.5d
 		}
 		{
-			id: "1629F0F6488EF04E"
+			dependencies: ["3D75E4AC73A72C1E"]
+			id: "223663E64B416D3B"
 			tasks: [{
-				id: "2EA6DC796000A3EE"
-				item: { count: 1, id: "powder_power:motar_pestle" }
+				id: "31B32CBB60035F0F"
+				item: { count: 1, id: "powder_power:bow_lapium" }
 				type: "item"
 			}]
-			x: 13.5d
+			x: -1.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["3D75E4AC73A72C1E"]
+			id: "36AA0A02567EFFE0"
+			rewards: [{
+				id: "188E91E701E3044F"
+				item: {
+					count: 1
+					id: "powder_power:token_haste"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "576A7587819A47CB"
+					item: { count: 1, id: "powder_power:pickaxe_lapium" }
+					type: "item"
+				}
+				{
+					id: "3B177DD290EDE3E9"
+					item: { count: 1, id: "powder_power:axe_lapium" }
+					type: "item"
+				}
+				{
+					id: "1A52FD863FC9A67C"
+					item: { count: 1, id: "powder_power:shovel_lapium" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3D75E4AC73A72C1E"]
+			id: "2D06CE38E4E72ED4"
+			tasks: [{
+				id: "77429899A6392443"
+				item: { count: 1, id: "powder_power:sword_lapium" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3D75E4AC73A72C1E"]
+			id: "43DC5D7F12140267"
+			tasks: [{
+				id: "35AD4DB3FB6EFF2C"
+				item: { count: 1, id: "powder_power:excavator_lapium" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CA61B9823FB0FEB"]
+			id: "0F23A2C982043C0C"
+			tasks: [{
+				id: "44195F2B1676672A"
+				item: { count: 1, id: "powder_power:gem_gemium" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["000000000000008F"]
+			id: "288998397B40CB2D"
+			rewards: [{
+				count: 2
+				id: "7C9486DB8B161FB9"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:protection": 2
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "24DF93BB9C5D9721"
+					item: { count: 1, id: "powder_power:armor_redium_helmet" }
+					type: "item"
+				}
+				{
+					id: "08B3DA95CE58200B"
+					item: { count: 1, id: "powder_power:armor_redium_chestplate" }
+					type: "item"
+				}
+				{
+					id: "50F6C5F03D6F6B80"
+					item: { count: 1, id: "powder_power:armor_redium_leggings" }
+					type: "item"
+				}
+				{
+					id: "32EBE9ECA1B282F0"
+					item: { count: 1, id: "powder_power:armor_redium_boots" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3D75E4AC73A72C1E"]
+			id: "2E13D1B883010E2C"
+			rewards: [
+				{
+					id: "6B705891E5FF5DB3"
+					item: {
+						count: 1
+						id: "powder_power:token_fire_resistance"
+					}
+					type: "item"
+				}
+				{
+					id: "207B702B2F8EEA64"
+					item: {
+						count: 1
+						id: "powder_power:token_dolphin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "62E3419DDEBEB69A"
+					item: { count: 1, id: "powder_power:armor_lapium_helmet" }
+					type: "item"
+				}
+				{
+					id: "6543289F4FBD00F3"
+					item: { count: 1, id: "powder_power:armor_lapium_chestplate" }
+					type: "item"
+				}
+				{
+					id: "7208CB6DB5366EB8"
+					item: { count: 1, id: "powder_power:armor_lapium_leggings" }
+					type: "item"
+				}
+				{
+					id: "2C8D1D61AFA58351"
+					item: { count: 1, id: "powder_power:armor_lapium_boots" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5BE84614B0F0D39A"]
+			id: "3327F5C689BFA0A1"
+			tasks: [{
+				id: "5DF8453A787D50FA"
+				item: { count: 1, id: "powder_power:ingot_quadrilium" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27EBAAEBA54CA0BB"]
+			id: "26457ED2C085DC0E"
+			tasks: [{
+				id: "69DEF64F7E93BE1E"
+				item: { count: 1, id: "powder_power:ingot_trilium" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["26457ED2C085DC0E"]
+			id: "4D8ED6D69FF20C88"
+			rewards: [{
+				id: "37C40964DD4198B4"
+				item: {
+					count: 1
+					id: "powder_power:token_greater_resistance"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2A107A928EC554D0"
+					item: { count: 1, id: "powder_power:armor_trilium_helmet" }
+					type: "item"
+				}
+				{
+					id: "7E8443D1082DEC8D"
+					item: { count: 1, id: "powder_power:armor_trilium_chestplate" }
+					type: "item"
+				}
+				{
+					id: "105F88A384B618F6"
+					item: { count: 1, id: "powder_power:armor_trilium_leggings" }
+					type: "item"
+				}
+				{
+					id: "3B3F6E9E5BE47D4E"
+					item: { count: 1, id: "powder_power:armor_trilium_boots" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26457ED2C085DC0E"]
+			id: "017345CD9D3CC30C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DA8CC5EE0327D49"
+				table_id: 5417283511455216676L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "3282D96067E7C67D"
+					item: { count: 1, id: "powder_power:pickaxe_trilium" }
+					type: "item"
+				}
+				{
+					id: "0B327EEA6A91E365"
+					item: { count: 1, id: "powder_power:axe_trilium" }
+					type: "item"
+				}
+				{
+					id: "5C19CC711FF377A9"
+					item: { count: 1, id: "powder_power:shovel_trilium" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26457ED2C085DC0E"]
+			id: "6B8982F371C9DEA9"
+			tasks: [{
+				id: "2D36DE2D2DA1C98C"
+				item: { count: 1, id: "powder_power:sword_trilium" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["26457ED2C085DC0E"]
+			id: "595386116886BA7C"
+			tasks: [{
+				id: "6C86745F4910C54D"
+				item: { count: 1, id: "powder_power:bow_trilium" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["26457ED2C085DC0E"]
+			id: "759BB784D98F0877"
+			tasks: [{
+				id: "6117D77EE7D50D9C"
+				item: { count: 1, id: "powder_power:hammer_trilium" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["26457ED2C085DC0E"]
+			id: "365FDD8ADE2F96BF"
+			tasks: [{
+				id: "35845A5F6CCFEDBB"
+				item: { count: 1, id: "powder_power:excavator_trilium" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["26457ED2C085DC0E"]
+			id: "0481C4EC202FE6A8"
+			tasks: [{
+				id: "72CF9319BBE15B16"
+				item: { count: 1, id: "powder_power:tree_axe_trilium" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3327F5C689BFA0A1"]
+			id: "31D971E8523F5F87"
+			tasks: [{
+				id: "20F83E946126C7B2"
+				item: { count: 1, id: "powder_power:tree_axe_quadrilium" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3AAE7B42A4CB0D5C"]
+			id: "4CA61B9823FB0FEB"
+			tasks: [{
+				id: "559B2094B374C850"
+				item: { count: 1, id: "powder_power:blend_gemium" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3AAE7B42A4CB0D5C"]
+			id: "5BE84614B0F0D39A"
+			tasks: [{
+				id: "458BDD3BC1531C66"
+				item: { count: 1, id: "powder_power:blend_quadrilium" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3AAE7B42A4CB0D5C"]
+			id: "7EE5CD3ABE7D15F8"
+			rewards: [{
+				id: "47B157DB11B7913B"
+				item: {
+					count: 1
+					id: "powder_power:token_healing"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "651A58C9A6F97701"
+				item: { count: 1, id: "powder_power:hatchet_obsidian" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3AAE7B42A4CB0D5C"]
+			id: "43D6D54FD38A7ACE"
+			rewards: [{
+				id: "49CB8AB4E0D6E015"
+				item: {
+					count: 1
+					id: "powder_power:token_no_fall"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AA5901A710B8E0E"
+				item: { count: 1, id: "powder_power:shovel_obsidian" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
 		}
 	]
 }

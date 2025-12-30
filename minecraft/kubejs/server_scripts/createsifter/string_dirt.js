@@ -12,8 +12,6 @@ ServerEvents.recipes((event) => {
     },
     processingTime: 500,
     results: [
-      { id: "silentgear:fluffy_seeds", chance: 0.05 },
-      { id: "silentgear:flax_seeds", chance: 0.05 },
       { id: "farmersdelight:cabbage_seeds", chance: 0.05 },
       { id: "farmersdelight:rice", chance: 0.05 },
       { id: "farmersdelight:tomato_seeds", chance: 0.05 },

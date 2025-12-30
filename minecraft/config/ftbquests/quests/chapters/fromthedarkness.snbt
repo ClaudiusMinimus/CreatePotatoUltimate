@@ -75,7 +75,7 @@
 			}]
 			tasks: [{
 				id: "0000000000000011"
-				item: { count: 1, id: "craftingstation:crafting_station" }
+				item: { count: 1, id: "minecraft:crafting_table" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -124,25 +124,11 @@
 			dependencies: ["00000000000000C7"]
 			id: "000000000000001E"
 			rewards: [{
-				count: 2
+				count: 8
 				id: "0000000000000020"
 				item: {
-					components: {
-						"silentgear:material": {
-							item: {
-								components: {
-									"silentgear:material": {
-										material: "silentgear:high_carbon_steel"
-									}
-								}
-								count: 1
-								id: "silentgear:custom_ingot"
-							}
-							material: "silentgear:high_carbon_steel"
-						}
-					}
 					count: 1
-					id: "silentgear:custom_ingot"
+					id: "minecraft:raw_iron"
 				}
 				type: "item"
 			}]
@@ -470,32 +456,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["4C865A25446A2C87"]
-			id: "31A1F7CA6B75AE3C"
-			rewards: [{
-				id: "0773BC90C56E2467"
-				item: {
-					components: {
-						"minecraft:stored_enchantments": {
-							levels: {
-								"minecraft:unbreaking": 2
-							}
-						}
-					}
-					count: 1
-					id: "minecraft:enchanted_book"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "3CBBA3D29984B05D"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/saw)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 3.5d
-		}
-		{
 			dependencies: ["000000000000001E"]
 			id: "5687DBC582721D74"
 			rewards: [{
@@ -586,7 +546,7 @@
 			]
 			tasks: [{
 				id: "64088DCCD0356D05"
-				item: { count: 1, id: "immersive_aircraft:gyrodyne" }
+				item: { count: 1, id: "immersive_aircraft:quadrocopter" }
 				type: "item"
 			}]
 			x: -1.5d

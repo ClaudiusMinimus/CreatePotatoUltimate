@@ -1,0 +1,9 @@
+{
+	id: "4B2E0EA6D3DE7424"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "114A74F2150628B3", item: { components: { "minecraft:enchantments": { levels: { "minecraft:efficiency": 3, "minecraft:fortune": 2, "minecraft:mending": 1 } }, "minecraft:repair_cost": 7 }, count: 1, id: "powder_power:paxel_trilium" } }
+		{ id: "083223825479AF5A", item: { components: { "minecraft:enchantments": { levels: { "minecraft:efficiency": 4, "minecraft:mending": 1, "minecraft:silk_touch": 1 } }, "minecraft:repair_cost": 7 }, count: 1, id: "powder_power:paxel_trilium" } }
+	]
+}

@@ -55,10 +55,6 @@ ServerEvents.recipes((event) => {
 //   });
 });
 
-ServerEvents.compostableRecipes((event) => {
-  event.add("silentgear:fluffy_seeds", 0.3);
-  event.add("silentgear:flax_seeds", 0.3);
-});
 
 // Break Bee Nest
 BlockEvents.rightClicked("minecraft:bee_nest", (event) => {

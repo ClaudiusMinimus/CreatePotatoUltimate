@@ -452,42 +452,35 @@
 			id: "0DB7ED93072A7A14"
 			rewards: [
 				{
-					id: "0506D21B80C4A377"
+					id: "752319DF9FFDD64E"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:stack_upgrade_tier_1"
+					}
+					type: "item"
+				}
+				{
+					id: "04E04FB03F1F5AB4"
 					item: {
 						components: {
-							"sophisticatedbackpacks:columns_taken": 2
 							"sophisticatedcore:number_of_inventory_slots": 81
 							"sophisticatedcore:number_of_upgrade_slots": 3
 							"sophisticatedcore:render_info_tag": {
-								battery: {
-									chargeRatio: 1.0f
-								}
 								upgradeItems: [
-									{
-										count: 1
-										id: "sophisticatedbackpacks:battery_upgrade"
-									}
+									{ }
 									{ }
 									{ }
 								]
 							}
 							"sophisticatedcore:storage_uuid": [I;
-								1350220197
-								1918914004
-								-1772737088
-								-2103618607
+								-1686527293
+								1367884678
+								-1558497692
+								-2143588154
 							]
 						}
 						count: 1
 						id: "sophisticatedbackpacks:gold_backpack"
-					}
-					type: "item"
-				}
-				{
-					id: "752319DF9FFDD64E"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:stack_upgrade_tier_1"
 					}
 					type: "item"
 				}

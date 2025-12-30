@@ -321,11 +321,9 @@
 				"176FEA5C3469DD70"
 				"2771AF26805142AD"
 				"330BE97B4FC6ACC2"
-				"14709ACBF461088E"
 				"64B1570BF4B1C93E"
 				"70837A17BCF2FFDE"
 				"06F1D817DB31926B"
-				"7E675FAAD105C4B4"
 				"54B3A3C29592C78B"
 				"323EB0C6DA70DE9C"
 				"655CF89B7D59F2B9"
@@ -550,60 +548,6 @@
 			y: 3.5d
 		}
 		{
-			id: "14709ACBF461088E"
-			rewards: [
-				{
-					id: "0424DBF969963E96"
-					item: {
-						count: 1
-						id: "silentgear:fluffy_feather"
-					}
-					type: "item"
-				}
-				{
-					id: "22CA2E6B9E2D5F1C"
-					item: {
-						count: 1
-						id: "silentgear:fluffy_string"
-					}
-					type: "item"
-				}
-				{
-					id: "6CE26FB3BF79B6FB"
-					item: {
-						count: 1
-						id: "silentgear:fluffy_fabric"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "63AABE37ADE29A9B"
-				item: { count: 1, id: "silentgear:fluffy_puff" }
-				type: "item"
-			}]
-			x: 16.0d
-			y: 4.5d
-		}
-		{
-			id: "7E675FAAD105C4B4"
-			rewards: [{
-				id: "65E2B13ECAB3882C"
-				item: {
-					count: 1
-					id: "silentgear:flax_string"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "0B45C849DF372032"
-				item: { count: 1, id: "silentgear:flax_fiber" }
-				type: "item"
-			}]
-			x: 16.0d
-			y: 2.5d
-		}
-		{
 			id: "70837A17BCF2FFDE"
 			rewards: [{
 				id: "7A2348631A273A35"
@@ -683,8 +627,8 @@
 				item: { count: 1, id: "sliceanddice:slicer" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: 5.5d
+			x: 16.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["00000000000007BD"]
@@ -702,8 +646,8 @@
 				item: { count: 1, id: "sliceanddice:sprinkler" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 5.5d
+			x: 16.0d
+			y: 2.5d
 		}
 	]
 }

@@ -19,11 +19,9 @@
 	quest.000000000000000D.quest_desc: ["Yes, you're in a survival game and we all know that usually means punching trees. But come on, that doesn't feel good, right? "]
 	quest.000000000000000D.title: "Don't Punch Trees..."
 	quest.0000000000000010.quest_desc: [
-		"Make your life easier by creating a Crafting Station. "
+		"Make your life easier by creating a Portable Crafting Station. "
 		""
-		"Craft with it just like you would with the Crafting Table, but it'll also hold your recipe/ingredients in place."
-		""
-		"Nice, right?"
+		"Craft with it just like you would with the Crafting Table. Nice, right?"
 	]
 	quest.0000000000000014.quest_desc: [
 		"You won't make it far in this land without getting some proper rest from time to time. "
@@ -68,11 +66,6 @@
 		"Wooden patterns are a one-time use item."
 	]
 	quest.000000000000008F.title: "My My Mattock"
-	quest.0000000000000092.quest_desc: [
-		"Make a pickaxe head using three Iron Ingots and a Bone for a tool rod"
-		""
-		"Your reward is a Redstone Tip Upgrade. While hovering the tip, press the Ctrl key to see the stat changes."
-	]
 	quest.00000000000000B0.quest_desc: ["Breaking grass is always fun. Now get to it! Break some grass. Get some seeds. Grow some wheat!"]
 	quest.00000000000000B6.title: "String"
 	quest.00000000000000B8.title: "Wooly Wooly"
@@ -83,14 +76,7 @@
 		""
 		"Gather 16 Cobblestone and we'll give ya your first bridge made from... well, cobblestone!"
 	]
-	quest.00000000000004FB.title: "Armor Blueprints"
 	quest.0000000000000522.quest_desc: ["This is your basic all in one tool."]
-	quest.00000000000005D7.quest_desc: [
-		"Using these blueprint/template craft a Dagger Blade and a Rough Rod and place them in a crafting grid to make a Crude Dagger. Then craft a Stone Anvil."
-		""
-		"The Dagger and Stone Anvil will let you craft Template Boards, which will allow you to craft one time use tool templates."
-	]
-	quest.00000000000005D7.title: "Dagger \\& Stone Anvil"
 	quest.000000000000062C.quest_desc: [
 		"Create is your primary way to automate just about anything. You can also build just about whatever you can imagine. However, in this pack, Create is how you obtain most items and blocks."
 		""
@@ -99,7 +85,6 @@
 		"Hold the \"w\" key while hovering over a kinetic block in your inventory-or using JEI-will show detailed information. In other items, the shift key will reveal information."
 	]
 	quest.000000000000062C.quest_subtitle: "Start Here"
-	quest.0000000000000633.quest_desc: ["Make some super simple shears. Now say that fives times real fast!"]
 	quest.000000000000078F.quest_desc: ["Andesite Alloy is a primary ingredient for much of Create. Don't throw out your Andesite anymore!"]
 	quest.000000000000078F.quest_subtitle: "Andesite Alloy x8"
 	quest.000000000000078F.title: "No Trashy Andesite!"
@@ -286,7 +271,6 @@
 		""
 	]
 	quest.0059F4044C719D7D.quest_desc: ["Rune of Water is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
-	quest.00B8AD2DF27E33A5.title: "Complete one of the sets"
 	quest.03108B7D1A7458B3.quest_desc: ["This is your primary tool used for obtaining ores and other items."]
 	quest.03B2EDF78A084226.quest_desc: ["The Endoflame is a very rudimentary generating flower; it'll absorb any combustible items or blocks dropped on the nearby vicinity, one at a time, and burn through them to generate Mana."]
 	quest.03B81A645C9AA3F7.quest_desc: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
@@ -315,8 +299,6 @@
 	]
 	quest.077E7E557DCB9576.title: "Wand of the Forest"
 	quest.07D9EBE35C2DDCBE.quest_subtitle: "Nixie Tubes can display a redstone signal strength and can be used for making custom signs"
-	quest.09FD66439056FDB3.quest_desc: ["Using Coatings to change the stats of a tool, weapon, or armor"]
-	quest.09FD66439056FDB3.title: "Coating Blueprint"
 	quest.0A6EF87E6DCD6D94.quest_desc: [
 		"When worn in the Trinkets Ring slot, any items in a 13x13 area around the player will be pulled towards them if they are not sneaking. Up to 200 items can be pulled at once."
 		""
@@ -341,7 +323,6 @@
 	quest.10720E13015182D0.title: "Signal Operator"
 	quest.113A3EBEF62CB4E9.quest_desc: ["Can you feel the POWER!!! Half the speed but lots more stress units"]
 	quest.11E7D116CDEC9D03.quest_desc: ["Mana received from Mana Bursts will be split evenly into Mana Pools placed on adjacent sides."]
-	quest.14709ACBF461088E.quest_desc: ["Items you can now craft!"]
 	quest.14A6727FC3F98588.title: "Gemium Armor"
 	quest.168B204949452C03.quest_desc: ["The Mana Tablet is a portable item that can carry Mana within itself."]
 	quest.17CA4F1D56A901CC.quest_desc: [
@@ -380,7 +361,6 @@
 		"2. Go to either \"Getting Started\" > \"Early Game\" or \"Videos\" > \"Useful Farms\" "
 		"3. Open the page \"Dripstone, Lava and More...\""
 	]
-	quest.21D01A55B8CAB4FC.quest_desc: ["Now would be a good time to check your Potato guidebook and go to the Silent Gear wiki or video pages."]
 	quest.21DE6418AF3C338D.quest_desc: [
 		"Very useful block for rolling ingots into wires, plates, rods, and straws. "
 		""
@@ -574,8 +554,6 @@
 	quest.63D24C7FD07E0BAA.quest_subtitle: "Believe In Miracles"
 	quest.63D24C7FD07E0BAA.title: "Faith \\& Encouragement"
 	quest.63E0177EA97D97D0.quest_desc: ["Gantry Shafts form the basis of a Gantry setup. An attached Carriage will move along them."]
-	quest.66EF9A948397E447.quest_desc: ["Using Linings to add traits to your armor"]
-	quest.66EF9A948397E447.title: "Lining Blueprint/Template"
 	quest.678645C952FCF8CC.quest_desc: [
 		"You Lexica Botania is an invaluable wealth of information - use it often!"
 		""
@@ -658,6 +636,12 @@
 		"- Relic Knowledge is added to the book when the player opens it when holding a relic in their inventory. The book must contain Elven Knowledge already. These entries have golden names, and all of them can be found in the Alfhomancy section."
 	]
 	quest.7DC3C9C543BFAE8E.quest_desc: ["This jetpack has some limitations. First, it cannot fly over the void. Second, the landings can be hard, and you might take damage!"]
+	reward.083223825479AF5A.title: "Trilium Silk Touch Paxel"
+	reward.114A74F2150628B3.title: "Trilium Fortune II Paxel"
+	reward.3A1BAC481E01AD4B.title: "Quadrilium Silk Touch Paxel"
+	reward.58B14361A27C128F.title: "Quadrilium Fortune III Paxel"
+	reward_table.286A18B8A26C2F18.title: "Quadrilium Paxel"
+	reward_table.4B2E0EA6D3DE7424.title: "Trilium Paxel"
 	task.0000000000000006.title: "Any #minecraft:dirt"
 	task.000000000000000E.title: "Any Logs"
 	task.0000000000000015.title: "Any minecraft:beds"
