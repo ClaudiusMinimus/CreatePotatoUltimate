@@ -2,5 +2,8 @@
   "allowAprilFools": true,
   
   // Should the experimental warning pop up on every new world creation? No, I don't think so, but you can re-enable it.
-  "disableExperimentalWarning": true
+  "disableExperimentalWarning": true,
+  
+  // This disables the "Customize" buttton if Sky GUIs is loaded
+  "removeCustomizeButton": true
 }
