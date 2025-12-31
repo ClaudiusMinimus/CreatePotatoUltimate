@@ -1,5 +1,17 @@
 # Create on a Potato PC: Ultimate Change Log
 
+## Create on a Potato Ultimate 1.21.1-0.0.8 BETA
+
+Dec. 30, 2025
+
+### Mods Added v. 0.0.8 BETA
+
+### Mods Updated v. 0.0.8 BETA
+
+### Mods Removed v. 0.0.8 BETA
+
+### Other Changes v. 0.0.8 BETA
+
 ## Create on a Potato Ultimate 1.21.1-0.0.7
 
 Nov. 07, 2025
