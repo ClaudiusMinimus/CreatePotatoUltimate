@@ -62,8 +62,8 @@
 				item: { count: 1, id: "toms_storage:crafting_terminal" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -3.0d
+			x: -4.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2660A472837E54BE"]
@@ -81,8 +81,8 @@
 				item: { count: 1, id: "toms_storage:wireless_terminal" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -4.5d
+			x: -4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["00B0CDC31037C246"]
@@ -98,64 +98,6 @@
 			tasks: [{
 				id: "2E7F23E0BC4C2792"
 				item: { count: 1, id: "toms_storage:adv_wireless_terminal" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["4689BFF22315E724"]
-			id: "6EB9B4E0AF9DC643"
-			rewards: [{
-				id: "03290C09332099FD"
-				item: {
-					count: 1
-					id: "toms_storage:inventory_cable_framed"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				count: 6L
-				id: "41D8672F7F12A79C"
-				item: { count: 1, id: "toms_storage:inventory_cable" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["6EB9B4E0AF9DC643"]
-			id: "7740C0ED2155F768"
-			rewards: [{
-				id: "0FECAAA678334F39"
-				item: {
-					count: 1
-					id: "toms_storage:inventory_cable_connector_framed"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "52DB6C060601CA15"
-				item: { count: 1, id: "toms_storage:inventory_cable_connector" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["7740C0ED2155F768"]
-			id: "2AD835D0EA570CFF"
-			rewards: [{
-				id: "390217D64E54BDA9"
-				item: {
-					count: 1
-					id: "minecraft:spawner"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "47357EE4D508C0C8"
-				item: { count: 1, id: "toms_storage:basic_inventory_hopper" }
 				type: "item"
 			}]
 			x: -4.5d
