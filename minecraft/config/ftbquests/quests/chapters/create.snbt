@@ -977,15 +977,5 @@
 			x: 7.0d
 			y: -1.0d
 		}
-		{
-			id: "0D2ACA90D21D29D0"
-			tasks: [{
-				id: "000135AFC23F6CB9"
-				item: { count: 1, id: "immersive_aircraft:quadrocopter" }
-				type: "item"
-			}]
-			x: 11.0d
-			y: 0.5d
-		}
 	]
 }
