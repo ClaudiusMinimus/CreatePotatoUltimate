@@ -1,6 +1,6 @@
 // priority: 0
 
-console.info("Remove recipes");
+// console.info("Remove recipes");
 
 ServerEvents.recipes((event) => {
   // Craft shaped end portal frame
@@ -31,28 +31,6 @@ ServerEvents.recipes((event) => {
     H: "minecraft:hanging_roots",
     D: "minecraft:dirt",
   });
-
-  // Spawner recipe
-  // event.shaped('minecraft:spawner', [
-  // 	'BBB',
-  // 	'BSB',
-  // 	'BBB'
-  // ], {
-  // 	B: 'createdeco:netherite_bars',
-  // 	S: 'minecraft:nether_star'
-  // })
-
-//   // Pillager spawn egg recipe
-//   event.shaped("minecraft:pillager_spawn_egg", ["W", "A"], {
-//     W: "minecraft:witch_spawn_egg",
-//     A: "minecraft:crossbow",
-//   });
-
-//   // Evoker spawn egg recipe
-//   event.shaped("minecraft:evoker_spawn_egg", ["W", "A"], {
-//     W: "minecraft:pillager_spawn_egg",
-//     A: "minecraft:iron_axe",
-//   });
 });
 
 
