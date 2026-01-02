@@ -75,7 +75,7 @@
 			}]
 			tasks: [{
 				id: "0000000000000011"
-				item: { count: 1, id: "minecraft:crafting_table" }
+				item: { count: 1, id: "craftingslots:portable_crafting" }
 				type: "item"
 			}]
 			x: 3.0d
