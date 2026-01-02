@@ -1,16 +1,110 @@
 # Create on a Potato PC: Ultimate Change Log
 
-## Create on a Potato Ultimate 1.21.1-0.0.8 BETA
+## Miscreant Society 1.21.1-1.0.0
 
-Dec. 30, 2025
+Jan. 01, 2026
 
-### Mods Added v. 0.0.8 BETA
+### Mods Added v. 1.21.1-1.0.0
 
-### Mods Updated v. 0.0.8 BETA
+- [Create Compression](https://www.curseforge.com/projects/945214) [1\.8\.3] (CreateCompression\-1\.21\.1\-2\.0\.0\.jar)
+- [Create: Copycats\+](https://www.curseforge.com/projects/968398) [3\.0\.4\+mc\.1\.21\.1\-neoforge] (copycats\-3\.0\.4\+mc\.1\.21\.1\-neoforge\.jar)
+- [Create Slice & Dice](https://www.curseforge.com/projects/659674) [4\.2\.2] (sliceanddice\-forge\-4\.2\.2\.jar)
+- [Jade](https://www.curseforge.com/projects/324717) [15\.10\.3\+neoforge] (Jade\-1\.21\.1\-NeoForge\-15\.10\.3\.jar)
+- [MaFgLib](https://www.curseforge.com/projects/910766) [0\.4\.2\+mc1\.21\.1] (mafglib\-0\.4\.2\+mc1\.21\.1\.jar)
 
-### Mods Removed v. 0.0.8 BETA
+### Mods Updated v. 1.21.1-1.0.0
 
-### Other Changes v. 0.0.8 BETA
+- [AppleSkin](https://www.curseforge.com/projects/248787) [3\.0\.7\+mc1\.21] (appleskin\-neoforge\-mc1\.21\-3\.0\.7\.jar)
+- [BHMenu](https://www.curseforge.com/projects/1084468) [2\.4\.4] (BHMenu\-NeoForge\-1\.21\-2\.4\.4\.jar)
+- [Balm](https://www.curseforge.com/projects/531761) [21\.0\.55] (balm\-neoforge\-1\.21\.1\-21\.0\.55\.jar)
+- [Better Compatibility Checker](https://www.curseforge.com/projects/551894) [21\.1\.7] (bcc\-21\.1\.7\+mc1\.21\.1\.jar)
+- [Bookshelf](https://www.curseforge.com/projects/228525) [21\.1\.80] (bookshelf\-neoforge\-1\.21\.1\-21\.1\.80\.jar)
+- [Build Guide](https://www.curseforge.com/projects/465690) [0\.4\.7] (BuildGuide\-1\.21\-0\.4\.7\.jar)
+- [Carry On](https://www.curseforge.com/projects/274259) [2\.2\.4] (carryon\-neoforge\-1\.21\.1\-2\.2\.4\.4\.jar)
+- [Client Tweaks](https://www.curseforge.com/projects/251407) [21\.1\.9] (clienttweaks\-neoforge\-1\.21\.1\-21\.1\.9\.jar)
+- [Collective](https://www.curseforge.com/projects/342584) [8\.13] (collective\-1\.21\.1\-8\.13\.jar)
+- [Configured](https://www.curseforge.com/projects/457570) [2\.6\.3] (configured\-neoforge\-1\.21\.1\-2\.6\.3\.jar)
+- [Corpse](https://www.curseforge.com/projects/316582) [1\.21\.1\-1\.1\.13] (corpse\-neoforge\-1\.21\.1\-1\.1\.13\.jar)
+- [Crafting Tweaks](https://www.curseforge.com/projects/233071) [21\.1\.6] (craftingtweaks\-neoforge\-1\.21\.1\-21\.1\.6\.jar)
+- [CraftingStation](https://www.curseforge.com/projects/318551) [5] (craftingstation\-neoforge\-1\.21\.1\-5\.jar)
+- [Create](https://www.curseforge.com/projects/328085) [6\.0\.8] (create\-1\.21\.1\-6\.0\.8\.jar)
+- [Create Crafts & Additions](https://www.curseforge.com/projects/439890) [1\.5\.9] (createaddition\-1\.5\.9\.jar)
+- [Create Mechanical Extruder](https://www.curseforge.com/projects/686100) [1\.21\.1\-2\.2\.0\-6\.0\.8] (create\_mechanical\_extruder\-1\.21\.1\-2\.2\.0\-6\.0\.8\.jar)
+- [Create Sifter](https://www.curseforge.com/projects/661938) [1\.21\.1\-2\.2\.0] (createsifter\-1\.21\.1\-2\.2\.1\.jar)
+- [Create: Dragons Plus](https://www.curseforge.com/projects/1216624) [1\.8\.5] (create\-dragons\-plus\-1\.8\.5\.jar)
+- [Create: Enchantment Industry](https://www.curseforge.com/projects/688768) [2\.2\.5b] (create\-enchantment\-industry\-2\.2\.5b\.jar)
+- [Create: Mechanical spawner](https://www.curseforge.com/projects/821828) [1\.3\.0\-6\.0\.8] (create\_mechanical\_spawner\-1\.21\.1\-1\.3\.0\-6\.0\.8\.jar)
+- [Cucumber Library](https://www.curseforge.com/projects/272335) [8\.0\.15] (Cucumber\-1\.21\.1\-8\.0\.15\.jar)
+- [Default Options](https://www.curseforge.com/projects/232131) [21\.1\.5] (defaultoptions\-neoforge\-1\.21\.1\-21\.1\.5\.jar)
+- [Default World Type](https://www.curseforge.com/projects/373014) [1\.21\-5\.0\.4] (DefaultWorldType\-1\.21\-5\.0\.4\.jar)
+- [Drippy Loading Screen](https://www.curseforge.com/projects/511770) [3\.1\.0] (drippyloadingscreen\_neoforge\_3\.1\.0\_MC\_1\.21\.1\.jar)
+- [EnchantmentDescriptions](https://www.curseforge.com/projects/250419) [21\.1\.9] (enchdesc\-neoforge\-1\.21\.1\-21\.1\.9\.jar)
+- [Extreme Sound Muffler](https://www.curseforge.com/projects/363363) [3\.52] (ExtremeSoundMuffler\-3\.52\_NeoForge\-1\.21\.jar)
+- [FTB Chunks](https://www.curseforge.com/projects/314906) [2101\.1\.13] (ftb\-chunks\-neoforge\-2101\.1\.13\.jar)
+- [FTB Essentials](https://www.curseforge.com/projects/410811) [2101\.1\.8] (ftb\-essentials\-neoforge\-2101\.1\.8\.jar)
+- [FTB Filter System](https://www.curseforge.com/projects/943925) [21\.1\.3] (ftb\-filter\-system\-neoforge\-21\.1\.3\.jar)
+- [FTB Library](https://www.curseforge.com/projects/404465) [2101\.1\.29] (ftb\-library\-neoforge\-2101\.1\.29\.jar)
+- [FTB Pack Companion](https://www.curseforge.com/projects/693963) [21\.1\.15] (ftb\-pack\-companion\-21\.1\.15\.jar)
+- [FTB Quests](https://www.curseforge.com/projects/289412) [2101\.1\.20] (ftb\-quests\-neoforge\-2101\.1\.20\.jar)
+- [FTB Teams](https://www.curseforge.com/projects/404468) [2101\.1\.9] (ftb\-teams\-neoforge\-2101\.1\.9\.jar)
+- [FTB XMod Compat](https://www.curseforge.com/projects/889915) [21\.1\.6] (ftb\-xmod\-compat\-neoforge\-21\.1\.6\.jar)
+- [FancyMenu](https://www.curseforge.com/projects/367706) [3\.8\.1] (fancymenu\_neoforge\_3\.8\.1\_MC\_1\.21\.1\.jar)
+- [Farmer's Delight](https://www.curseforge.com/projects/398521) [1\.2\.9] (FarmersDelight\-1\.21\.1\-1\.2\.9\.jar)
+- [Fast Workbench](https://www.curseforge.com/projects/288885) [9\.1\.3] (FastWorkbench\-1\.21\.1\-9\.1\.3\.jar)
+- [FastFurnace](https://www.curseforge.com/projects/299540) [9\.0\.1] (FastFurnace\-1\.21\.1\-9\.0\.1\.jar)
+- [FastLeafDecay](https://www.curseforge.com/projects/230976) [35] (fastleafdecay\-35\.jar)
+- [Ferrite Core](https://www.curseforge.com/projects/429235) [7\.0\.2] (ferritecore\-7\.0\.2\-neoforge\.jar)
+- [GuideME](https://www.curseforge.com/projects/1173950) [21\.1\.15] (guideme\-21\.1\.15\.jar)
+- [Immersive Aircraft](https://www.curseforge.com/projects/666014) [1\.4\.1\+1\.21\.1] (immersive\_aircraft\-1\.4\.1\+1\.21\.1\-neoforge\.jar)
+- [Iris](https://www.curseforge.com/projects/455508) [1\.8\.12\-snapshot\+mc1\.21\.1\-local] (iris\-neoforge\-1\.8\.12\+mc1\.21\.1\.jar)
+- [Just Enough Items](https://www.curseforge.com/projects/238222) [19\.27\.0\.336] (jei\-1\.21\.1\-neoforge\-19\.27\.0\.336\.jar)
+- [Just Enough Resources](https://www.curseforge.com/projects/240630) [1\.6\.0\.17] (JustEnoughResources\-NeoForge\-1\.21\.1\-1\.6\.0\.17\.jar)
+- [Kotlin for Forge](https://www.curseforge.com/projects/351264) [6994056] (kotlinforforge\-5\.10\.0\-all\.jar)
+- [KubeJS](https://www.curseforge.com/projects/238086) [2101\.7\.2\-build\.348] (kubejs\-neoforge\-2101\.7\.2\-build\.348\.jar)
+- [LibX](https://www.curseforge.com/projects/412525) [1\.21\.1\-6\.0\.6] (LibX\-1\.21\.1\-6\.0\.6\.jar)
+- [Lootr](https://www.curseforge.com/projects/361276) [1\.21\.1\-1\.11\.36\.107] (lootr\-neoforge\-1\.21\.1\-1\.11\.36\.107\.jar)
+- [Macaw's Windows](https://www.curseforge.com/projects/363569) [2\.4\.2] (mcw\-mcwwindows\-2\.4\.2\-mc1\.21\.1neoforge\.jar)
+- [Mechanicals Lib](https://www.curseforge.com/projects/1253573) [1\.1\.0] (mechanicals\-1\.21\.1\-1\.1\.0\.jar)
+- [MmmMmmMmmMmm](https://www.curseforge.com/projects/225738) [1\.21\-2\.0\.11] (dummmmmmy\-1\.21\-2\.0\.11\-neoforge\.jar)
+- [Moonlight Lib](https://www.curseforge.com/projects/499980) [1\.21\-2\.29\.4] (moonlight\-1\.21\-2\.29\.4\-neoforge\.jar)
+- [Patchouli](https://www.curseforge.com/projects/306770) [1\.21\.1\-92\-NEOFORGE] (Patchouli\-1\.21\.1\-92\-NEOFORGE\.jar)
+- [Placebo](https://www.curseforge.com/projects/283644) [9\.9\.1] (Placebo\-1\.21\.1\-9\.9\.1\.jar)
+- [PolyLib](https://www.curseforge.com/projects/576589) [2100\.1\.0\-build\.183] (polylib\-2100\.1\.0\-build\.183\-neoforge\.jar)
+- [Polymorph](https://www.curseforge.com/projects/388800) [1\.1\.0\+1\.21\.1] (polymorph\-neoforge\-1\.1\.0\+1\.21\.1\.jar)
+- [PrickleMC](https://www.curseforge.com/projects/1023259) [21\.1\.11] (prickle\-neoforge\-1\.21\.1\-21\.1\.11\.jar)
+- [Repurposed Structures](https://www.curseforge.com/projects/368293) [7\.5\.17\+1\.21\.1\-neoforge] (repurposed\_structures\-7\.5\.17\+1\.21\.1\-neoforge\.jar)
+- [Rhino](https://www.curseforge.com/projects/416294) [2101\.2\.7\-build\.81] (rhino\-2101\.2\.7\-build\.81\.jar)
+- [Simple Inventory Sorter](https://www.curseforge.com/projects/240633) [24\.0\.24] (inventorysorter\-1\.21\.1\-24\.0\.24\.jar)
+- [Sky GUIs](https://www.curseforge.com/projects/557696) [21\.1\.8] (SkyGUIs\-21\.1\.8\.jar)
+- [Skyblock Builder](https://www.curseforge.com/projects/446691) [21\.1\.23] (SkyblockBuilder\-21\.1\.23\.jar)
+- [Sophisticated Backpacks](https://www.curseforge.com/projects/422301) [3\.25\.21] (sophisticatedbackpacks\-1\.21\.1\-3\.25\.21\.1475\.jar)
+- [Sophisticated Core](https://www.curseforge.com/projects/618298) [1\.3\.99] (sophisticatedcore\-1\.21\.1\-1\.3\.99\.1340\.jar)
+- [Spice of Life: Carrot Edition](https://www.curseforge.com/projects/277616) [1\.16\.6] (solcarrot\-1\.21\.1\-1\.16\.6\.jar)
+- [Squat Grow](https://www.curseforge.com/projects/515698) [21\.1\.2\+mc1\.21\.1] (squatgrow\-neoforge\-21\.1\.2\+mc1\.21\.1\.jar)
+- [SuperMartijn642's Config Library](https://www.curseforge.com/projects/438332) [1\.1\.8] (supermartijn642configlib\-1\.1\.8\-neoforge\-mc1\.21\.jar)
+- [SuperMartijn642's Core Lib](https://www.curseforge.com/projects/454372) [1\.1\.18\+b] (supermartijn642corelib\-1\.1\.18b\-neoforge\-mc1\.21\.jar)
+- [Tom's Simple Storage Mod](https://www.curseforge.com/projects/378609) [2\.2\.3] (toms\_storage\-1\.21\-2\.2\.3\.jar)
+- [Torchmaster](https://www.curseforge.com/projects/254268) [21\.1\.9] (torchmaster\-neoforge\-1\.21\.1\-21\.1\.9\.jar)
+- [Tweakerge](https://www.curseforge.com/projects/915857) [0\.4\.1\+mc1\.21\.1] (tweakerge\-0\.4\.1\+mc1\.21\.1\.jar)
+- [UniLib](https://www.curseforge.com/projects/1056812) [1\.2\.0] (UniLib\-1\.2\.0\+1\.21\.1\-neoforge\.jar)
+- [V\-Tweaks](https://www.curseforge.com/projects/238048) [4\.0\.23] (VTweaks\-1\.21\.1\-4\.0\.23\-4\.0\.23\.jar)
+- [Waystones](https://www.curseforge.com/projects/245755) [21\.1\.25] (waystones\-neoforge\-1\.21\.1\-21\.1\.25\.jar)
+- [Wither Skeleton Tweaks](https://www.curseforge.com/projects/255902) [10\.1\.1] (WitherSkeletonTweaks\-1\.21\.1\-10\.1\.1\.jar)
+- [Xaero's Minimap](https://www.curseforge.com/projects/263420) [25\.2\.10] (Xaeros\_Minimap\_25\.2\.10\_NeoForge\_1\.21\.jar)
+- [Xaero's World Map](https://www.curseforge.com/projects/317780) [1\.39\.12] (XaerosWorldMap\_1\.39\.12\_NeoForge\_1\.21\.jar)
+- [YUNG's API](https://www.curseforge.com/projects/1015100) [1\.21\.1\-NeoForge\-5\.1\.6] (YungsApi\-1\.21\.1\-NeoForge\-5\.1\.6\.jar)
+
+### Mods Removed v. 1.21.1-1.0.0
+
+- [Resourceful Tools](https://www.curseforge.com/projects/346036) [1\.8\.5] (ResourcefulTools\-NeoForge\-1\.21\.1\-1\.8\.5\.jar)
+- [Silent Gear](https://www.curseforge.com/projects/297039) [4\.0\.29] (silent\-gear\-1\.21\.1\-neoforge\-4\.0\.29\.jar)
+- [Silent Lib](https://www.curseforge.com/projects/242998) [10\.5\.1] (silent\-lib\-1\.21\.1\-neoforge\-10\.5\.1\.jar)
+- tempad-1.21.1-3.0.4-all.jar
+- Updated a lot of quests
+
+### Other Changes v. 1.21.1-1.0.0
+
+- Upgrade NeoForge: 21.1.217
 
 ## Create on a Potato Ultimate 1.21.1-0.0.7
 
