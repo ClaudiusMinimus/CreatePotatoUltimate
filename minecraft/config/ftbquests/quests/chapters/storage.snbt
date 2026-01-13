@@ -506,5 +506,16 @@
 			x: -4.5d
 			y: 2.5d
 		}
+		{
+			dependencies: ["5C9B90AF57F6BB66"]
+			id: "529F58A53070F086"
+			tasks: [{
+				id: "4AC506E50BC4B01A"
+				item: { count: 1, id: "create:item_hatch" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
 	]
 }

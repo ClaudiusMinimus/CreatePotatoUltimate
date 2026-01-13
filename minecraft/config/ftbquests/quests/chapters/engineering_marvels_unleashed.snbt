@@ -631,7 +631,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["00000000000008CF"]
@@ -708,8 +708,8 @@
 				item: { count: 1, id: "create:mechanical_arm" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0D77CE91690DFD0F"]
@@ -790,85 +790,6 @@
 			}]
 			x: 3.5d
 			y: 3.5d
-		}
-		{
-			dependencies: ["00000000000007A3"]
-			id: "384C0BCA08A4B37F"
-			rewards: [{
-				id: "3C55F2BFF7DAB1EA"
-				item: {
-					count: 1
-					id: "create:linked_controller"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				count: 2L
-				id: "5E50D9CD0388A8DD"
-				item: { count: 1, id: "create:transmitter" }
-				type: "item"
-			}]
-			x: -8.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["384C0BCA08A4B37F"]
-			id: "5DBFF42322BE1A6C"
-			rewards: [{
-				count: 4
-				id: "2625A48853931B40"
-				item: {
-					count: 1
-					id: "create:display_board"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "36C561548D15493C"
-				item: { count: 1, id: "create:display_link" }
-				type: "item"
-			}]
-			x: -7.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["384C0BCA08A4B37F"]
-			id: "5DB57D93C13F0EA4"
-			rewards: [{
-				id: "181C3FB86F85C915"
-				item: {
-					count: 1
-					id: "create:transmitter"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				count: 2L
-				id: "0EDDDFDAE03810A4"
-				item: { count: 1, id: "create:redstone_link" }
-				type: "item"
-			}]
-			x: -9.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["5DB57D93C13F0EA4"]
-			id: "56481651F25FCCC9"
-			rewards: [{
-				id: "6CF8636C42CBDBC0"
-				item: {
-					count: 1
-					id: "create:peculiar_bell"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "418C2E137DB9DA41"
-				item: { count: 1, id: "create:linked_controller" }
-				type: "item"
-			}]
-			x: -9.5d
-			y: 2.5d
 		}
 		{
 			dependencies: ["00000000000008D1"]
@@ -1044,6 +965,17 @@
 				type: "item"
 			}]
 			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["50FD84433C69064C"]
+			id: "6BBAD6E5224BC8FD"
+			tasks: [{
+				id: "6578B07E19159A43"
+				item: { count: 1, id: "create:white_postbox" }
+				type: "item"
+			}]
+			x: 0.5d
 			y: 3.5d
 		}
 	]

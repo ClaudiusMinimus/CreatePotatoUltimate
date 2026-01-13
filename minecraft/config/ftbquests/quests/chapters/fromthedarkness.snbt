@@ -390,8 +390,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/copper)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.5d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["000000000000001E"]
@@ -527,19 +527,19 @@
 			id: "04308BD815F59E9A"
 			rewards: [
 				{
-					id: "6F4B159477A37BC1"
+					id: "5DF17609407A0017"
 					item: {
 						count: 1
-						id: "immersive_aircraft:heavy_crossbow"
+						id: "immersive_aircraft:rotary_cannon"
 					}
 					type: "item"
 				}
 				{
-					count: 64
-					id: "3D011EF7A01199D4"
+					count: 32
+					id: "0F06BB33A9C65E90"
 					item: {
 						count: 1
-						id: "minecraft:arrow"
+						id: "minecraft:gunpowder"
 					}
 					type: "item"
 				}
@@ -551,6 +551,26 @@
 			}]
 			x: -1.5d
 			y: 6.0d
+		}
+		{
+			dependencies: ["00000000000000C7"]
+			id: "6D06E076B1EF062D"
+			rewards: [{
+				count: 8
+				id: "757C7AA1E2CE6C1C"
+				item: {
+					count: 1
+					id: "farmersdelight:rope"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DDA7E26F16E2C2E"
+				item: { count: 1, id: "wands:stone_wand" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
 		}
 	]
 }

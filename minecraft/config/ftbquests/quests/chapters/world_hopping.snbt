@@ -39,7 +39,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["7A5F94720CCC4836"]
 			id: "4C8D1E0AFF2310A9"
 			rewards: [{
 				id: "72B4570505C7C0E6"
@@ -55,28 +54,6 @@
 				type: "dimension"
 			}]
 			x: -2.0d
-			y: 1.0d
-		}
-		{
-			id: "7A5F94720CCC4836"
-			rewards: [{
-				count: 4
-				id: "26606352B5F6774A"
-				item: {
-					count: 1
-					id: "minecraft:obsidian"
-				}
-				type: "item"
-			}]
-			shape: "diamond"
-			size: 1.5d
-			tasks: [{
-				count: 10L
-				id: "529DE2DD7DEDA43E"
-				item: { count: 1, id: "minecraft:obsidian" }
-				type: "item"
-			}]
-			x: -4.0d
 			y: 1.0d
 		}
 		{

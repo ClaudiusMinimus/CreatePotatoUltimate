@@ -786,5 +786,84 @@
 			x: 22.5d
 			y: 1.5d
 		}
+		{
+			dependencies: ["384C0BCA08A4B37F"]
+			id: "5DB57D93C13F0EA4"
+			rewards: [{
+				id: "181C3FB86F85C915"
+				item: {
+					count: 1
+					id: "create:transmitter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "0EDDDFDAE03810A4"
+				item: { count: 1, id: "create:redstone_link" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DB57D93C13F0EA4"]
+			id: "56481651F25FCCC9"
+			rewards: [{
+				id: "6CF8636C42CBDBC0"
+				item: {
+					count: 1
+					id: "create:peculiar_bell"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "418C2E137DB9DA41"
+				item: { count: 1, id: "create:linked_controller" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["00000000000007A3"]
+			id: "384C0BCA08A4B37F"
+			rewards: [{
+				id: "3C55F2BFF7DAB1EA"
+				item: {
+					count: 1
+					id: "create:linked_controller"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "5E50D9CD0388A8DD"
+				item: { count: 1, id: "create:transmitter" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["384C0BCA08A4B37F"]
+			id: "5DBFF42322BE1A6C"
+			rewards: [{
+				count: 4
+				id: "2625A48853931B40"
+				item: {
+					count: 1
+					id: "create:display_board"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "36C561548D15493C"
+				item: { count: 1, id: "create:display_link" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: -1.5d
+		}
 	]
 }

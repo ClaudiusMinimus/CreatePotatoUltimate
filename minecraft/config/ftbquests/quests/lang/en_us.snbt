@@ -288,7 +288,7 @@
 		"\"/spawn\" teleports you to spawn. Always use \"/setworldspawn\" for new worlds; otherwise, you may not like where \"/spawn\" sends you!"
 		"Names in brackets \"[name]\" are optional. Names in \"<name>\" are required. Do not use quotes \", brackets \"[]\" or \"<>\" in commands."
 	]
-	quest.04308BD815F59E9A.quest_desc: ["Now you can explore your beautiful world. The crossbow must be opporated with an empty hand."]
+	quest.04308BD815F59E9A.quest_desc: ["Now you can explore your beautiful world. The Rotary Cannon must be operated with an empty hand."]
 	quest.04308BD815F59E9A.title: "Up, Up, and Away"
 	quest.077E7E557DCB9576.quest_desc: [
 		"A botanist's most important tool for manipulating flowers is the Wand of the Forest. This wand, crafted from a pair of Mystical Petals strapped to a few Livingwood Twigs, is a must-have for a huge number of botanical tasks."
@@ -305,6 +305,7 @@
 		"Items dropped by a player wearing this ring will not be pulled towards them for 5 seconds after dropping."
 	]
 	quest.0A865D877C969C7B.quest_desc: ["When the Alchemy Catalyst is placed under a Mana Pool the Mana Pool will output different recipes. Check REI for what the Alchemy Catalyst can do."]
+	quest.0AC25E42FE36BE47.quest_desc: ["Is it time to take on the Ender Dragon?"]
 	quest.0D77CE91690DFD0F.quest_desc: ["After placing the Train Station, open the GUI to Assemble a train. Place this block on the blue highlight on the tracks and voila, you have started building your first train!"]
 	quest.0D77CE91690DFD0F.quest_subtitle: "Every train needs one"
 	quest.0DED09C3096C985D.quest_desc: ["Place a Pure Daisy next to a Blaze Mesh and you get Obsidian, but be careful where you place it because you might not be able to move it once it transforms. Think: Nether Portal"]
@@ -323,7 +324,10 @@
 	quest.10720E13015182D0.title: "Signal Operator"
 	quest.113A3EBEF62CB4E9.quest_desc: ["Can you feel the POWER!!! Half the speed but lots more stress units"]
 	quest.11E7D116CDEC9D03.quest_desc: ["Mana received from Mana Bursts will be split evenly into Mana Pools placed on adjacent sides."]
+	quest.124D8B7C8B0F9120.quest_subtitle: "Chuga Chuga Choo Choo"
 	quest.14A6727FC3F98588.title: "Gemium Armor"
+	quest.15BC28C6077BB4F8.quest_desc: ["Have you ever wanted an invisible light source? Well, now you can have two for the price of one."]
+	quest.15BC28C6077BB4F8.quest_subtitle: "Invisible Lights"
 	quest.168B204949452C03.quest_desc: ["The Mana Tablet is a portable item that can carry Mana within itself."]
 	quest.17CA4F1D56A901CC.quest_desc: [
 		"Cart Assemblers: your ticket to a world of moving machines. All aboard for automation! You would think the Cart Assembler was just for...well...minecarts. You could not be further from the truth. This is a very useful tool. You can not only make amazing trains, planes, and boats, but you can pick up and move many complex builds, and different storage blocks - anything you can make into a contraption. The Cart Assemblers can take a bit to learn to use, but when you have mastered this device, you will learn to love it."
@@ -361,6 +365,13 @@
 		"2. Go to either \"Getting Started\" > \"Early Game\" or \"Videos\" > \"Useful Farms\" "
 		"3. Open the page \"Dripstone, Lava and More...\""
 	]
+	quest.20CE7C58BC305C48.quest_desc: [
+		"Get your items moving in style! The Chain Conveyor ensures your packages glide smoothly through the factory—because even ores deserve the VIP treatment."
+		""
+		"Introduces advanced transport components."
+	]
+	quest.20CE7C58BC305C48.quest_subtitle: "Craft 2 x Chain Conveyors"
+	quest.20CE7C58BC305C48.title: "Chain Reaction "
 	quest.21DE6418AF3C338D.quest_desc: [
 		"Very useful block for rolling ingots into wires, plates, rods, and straws. "
 		""
@@ -373,6 +384,9 @@
 	quest.22119C9F2244D41E.quest_desc: ["Rune of Lust is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 	quest.22DC6FB53C9268C6.quest_desc: ["Bioethenol superheats Blaze Burners. However, you must upgrade your Blaze Burner first with a Straw - can also be piped in."]
 	quest.22E3CA39FF24696F.title: "Guardians of the Sea"
+	quest.24BDACA8361C2299.quest_desc: ["Time to give your workshop some polish! The Andesite Table Cover adds rustic charm to your builds—perfect for an industrious feast."]
+	quest.24BDACA8361C2299.quest_subtitle: "Craft 1 Andesite Table Cover"
+	quest.24BDACA8361C2299.title: "Table Manners"
 	quest.254ECE4E2FC2BA12.quest_desc: ["Did you know you can stack the Stack Upgrades (one per upgrade slot)"]
 	quest.25E2B295763EE9C0.quest_desc: ["Rune of Gluttony is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 	quest.2613E24F95C84B21.quest_desc: ["Kind of self explanitory - you light things on fire and have fun doing it!"]
@@ -431,10 +445,29 @@
 	quest.384C0BCA08A4B37F.title: "Signal Superstar"
 	quest.3A697184E6211B36.quest_desc: ["Walk on belts and in lava, though you may want to look at the new tank and helmet too."]
 	quest.3AD935C9BF2A1CC2.quest_desc: ["The Iron Backback not only gains substanial extra storage, but you also get an additional upgrade slot."]
-	quest.3BC70DC86FB889E6.quest_desc: ["If you just check this box and not open your guidebook, do not complain if you run out of ores playing skyblock! "]
-	quest.3CEF8F3E5283C280.quest_desc: ["Packages: bundle up and ship out your items with style!"]
+	quest.3B9271826577C7B2.quest_desc: [
+		"Leap into next-gen logistics! Frogports send packages hopping from place to place—your base will never croak under inefficiency again."
+		""
+		"Teleports packages, playful name matches Create’s whimsical tone."
+	]
+	quest.3B9271826577C7B2.quest_subtitle: "Craft 1 Package Frogport"
+	quest.3B9271826577C7B2.title: "Frog and Away!"
+	quest.3BC70DC86FB889E6.quest_desc: [
+		"If you just check this box and not open your guidebook, do not complain if you run out of ores playing skyblock! "
+		""
+		""
+		"TIP: Your guidebook is always with you. Press \"R\" > \"Manuals \\& Guides\" > \"Open Potato Guidebook\""
+	]
+	quest.3CEF8F3E5283C280.quest_desc: ["Wrap it up and ship it out with style! Packagers bundle your items into tidy parcels, ready for distribution or storage."]
 	quest.3CEF8F3E5283C280.quest_subtitle: "Packager x2"
 	quest.3CEF8F3E5283C280.title: "Package Deal"
+	quest.3D01FF2AF0819B56.quest_desc: [
+		"Keep tabs on your factory’s performance—it’s all about the numbers! The Factory Gauge lets you monitor inventory flow and production stats like a true logistics legend."
+		""
+		"Introduces production monitoring and data visualization."
+	]
+	quest.3D01FF2AF0819B56.quest_subtitle: "Craft 1 Factory Gauge"
+	quest.3D01FF2AF0819B56.title: "Under Pressure"
 	quest.3D66EBF3A215F354.quest_desc: ["Did you know you can now enchant using Create mechanics? Be sure to use \"W\" Ponder to help you get started and look in the Create on a Potato PC guidebook for more information."]
 	quest.3D8B5722E7A2260F.quest_desc: ["Brass Tunnels: split and filter items on belts-no traffic jams here!"]
 	quest.3D8B5722E7A2260F.quest_subtitle: "Brass Tunnel x1"
@@ -456,10 +489,24 @@
 	quest.44FD8EBFD928C485.quest_desc: ["Automate your loot collection! Set up a loot collector block to gather drops from your mechanical spawner."]
 	quest.44FD8EBFD928C485.quest_subtitle: "Loot Collector x1"
 	quest.44FD8EBFD928C485.title: "Treasure Trove"
+	quest.45C84781692167B9.quest_desc: [
+		"Monitor your inventories like a true investor! Use Stock Links and Stock Tickers to always know your item flow. The factory market’s looking bullish!"
+		""
+		"Introduces monitoring, counting, and signaling systems."
+	]
+	quest.45C84781692167B9.quest_subtitle: "Craft 1 Stock Link \\& 1 Stock Ticker"
+	quest.45C84781692167B9.title: "Stock to the Future"
 	quest.468DE93A9D225DA2.quest_desc: ["You are now the foreman with your offical clipboard. Keep notes and copy/paste filter settings."]
 	quest.46EB239376ACBF94.quest_desc: ["Did you know they let pigs operate trains? I thought is was scary when I learned pigs could fly. Well, every train needs one controller."]
 	quest.46EB239376ACBF94.quest_subtitle: "Every piggy needs one"
 	quest.477EDACF18125B64.quest_desc: ["Rune of Pride is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
+	quest.47CD93FFAE644CFE.quest_desc: [
+		"Your redstone dreams on demand! Automatically request what you need and watch your factory deliver—no paperwork required."
+		""
+		"Expands redstone integration and automation."
+	]
+	quest.47CD93FFAE644CFE.quest_subtitle: "Craft 1 Redstone Requestor"
+	quest.47CD93FFAE644CFE.title: "Redstone Receptionist"
 	quest.485280315689B86E.quest_desc: ["I am a huge fan of recycling and Biomass is a great way to gain a useful crafting resource. Check in JEI for all of the many things that can be recycled, from sticks, saplings, seeds, and so many other things you might throw away."]
 	quest.4868A27F76C700DC.quest_desc: ["Floral Fertilizer is used to spawn Botania mystical flowers."]
 	quest.4868A27F76C700DC.quest_subtitle: "Use Living Root Sparingly!"
@@ -498,6 +545,8 @@
 	quest.50FD84433C69064C.title: "Track Star"
 	quest.51FE487A5586AF80.quest_desc: ["As you progress, the Electron Tube is a very common component for crafting more advanced items."]
 	quest.51FE487A5586AF80.quest_subtitle: "Electrifying!"
+	quest.529F58A53070F086.quest_desc: ["The Item Hatch allows you to quickly dump items from your hand or entire inventory. It can also be filtered. This is a one way street, you will need some other means to take items out of your vault."]
+	quest.529F58A53070F086.quest_subtitle: "A One Way Street"
 	quest.540E05434C2B259C.title: "Journeyman Witch Hunter"
 	quest.542DD76032B66B50.quest_desc: ["Important crafting ingredient for many recipes."]
 	quest.5489879D11B3894A.quest_desc: ["To learn more about the Toolbox, open your Create on a Potato PC book to Videos > Create > 0.3.2f update"]
@@ -526,6 +575,9 @@
 		""
 		"Be sure to add fuel!"
 	]
+	quest.5B24A3CDCEF32003.quest_desc: ["Dress your tables to impress! The Red Table Cloth brings vibrant color to your factory mess hall."]
+	quest.5B24A3CDCEF32003.quest_subtitle: "Craft 1 Red Table Cloth"
+	quest.5B24A3CDCEF32003.title: "Cloth Classy"
 	quest.5C6483EDD2B8F901.quest_desc: ["This can help with your OCD wanting blocks to be symmetrical!"]
 	quest.5C9B90AF57F6BB66.quest_desc: ["Item Vaults: store all the loot your machines make! Vaults are a multiblock storage blocks. Using a Stockpile Switch can show you how full it is."]
 	quest.5C9B90AF57F6BB66.quest_subtitle: "Item Vault x9"
@@ -542,7 +594,11 @@
 	quest.5DBFF42322BE1A6C.title: "Show Off!"
 	quest.60760C5B4FB95DEA.quest_desc: ["The Mana Spreader is the single most important tool a botanist needs to manipulate Mana."]
 	quest.6181C8F6420EB67C.quest_desc: ["Rune of Spring is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
-	quest.621A194C80FC673F.quest_desc: ["[ \"To many features to list. Check the \", { \"text\": \"guide book\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3BC70DC86FB889E6\" } }, \" for for more info.\" ]"]
+	quest.621A194C80FC673F.quest_desc: [
+		"A building wand can be your best friend, especially when you need to extend your reach. The pack default Building Wand key is F6. There are lots of options that will help you build your dream base."
+		""
+		"[ \"To many features to list. Check the \", { \"text\": \"guide book\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3BC70DC86FB889E6\" } }, \" for for more info.\" ]"
+	]
 	quest.621A194C80FC673F.title: "Contruction Wands"
 	quest.63D24C7FD07E0BAA.quest_desc: [
 		"As one striving to be a faithful member of The Church of Jesus Christ of Latter-day Saints, I invite those seeking Jesus Christ or struggling with faith to visit my YouTube channel, Miracles From the Ashes. "
@@ -554,6 +610,13 @@
 	quest.63D24C7FD07E0BAA.quest_subtitle: "Believe In Miracles"
 	quest.63D24C7FD07E0BAA.title: "Faith \\& Encouragement"
 	quest.63E0177EA97D97D0.quest_desc: ["Gantry Shafts form the basis of a Gantry setup. An attached Carriage will move along them."]
+	quest.63F295AA9DAEBE2B.quest_desc: [
+		"Oops, wrong address? Repackage and resend without breaking a sweat. The RePackager fixes factory mishaps faster than you can say ‘misdelivery!’"
+		""
+		"Reinforces packaging automation themes."
+	]
+	quest.63F295AA9DAEBE2B.quest_subtitle: "Craft 1 RePackager"
+	quest.63F295AA9DAEBE2B.title: "Return to Sender"
 	quest.678645C952FCF8CC.quest_desc: [
 		"You Lexica Botania is an invaluable wealth of information - use it often!"
 		""
@@ -578,6 +641,11 @@
 	]
 	quest.6B13CAC5E656A56E.quest_subtitle: "Empty Blaze Burner x1"
 	quest.6B13CAC5E656A56E.title: "Blaze of Glory"
+	quest.6BBAD6E5224BC8FD.quest_desc: ["Put the ‘post’ in automation! The White Postbox lets you send items far and wide—style meets function for your mailroom."]
+	quest.6BBAD6E5224BC8FD.quest_subtitle: "Craft 1 White Postbox"
+	quest.6BBAD6E5224BC8FD.title: "Signed, Sealed, Delivered"
+	quest.6D06E076B1EF062D.quest_desc: ["A building wand can be your best friend, especially when you need to extend your reach. The pack default Building Wand key is F6. There are lots of options that will help you build your dream base."]
+	quest.6D06E076B1EF062D.title: "Abra Cadabra"
 	quest.6D632AEDF9E98BAE.title: "Find the Stronghold"
 	quest.6D698E9864D3C153.quest_desc: ["Rune of Earth is one of the Elemental Runes which is the first tier of Botania Runes. This is an important component in creating complex magical devices."]
 	quest.6F05C2D84C3BDCFF.quest_subtitle: "Schematicannon: build smarter, not harder!"
@@ -625,7 +693,6 @@
 	quest.797DA8F8F935D7AC.quest_desc: ["You need one of these for off world"]
 	quest.79D64612AE5E8351.quest_desc: ["Terrasteel is a complex and useful magical alloy, infused with ridiculous amounts of Mana. Synthesizing it proves to be no small task. For starters, its creation requires a Terrestrial Agglomeration Plate placed over a checkerboard pattern of Lapis Lazuli Blocks and Livingrock (or Shimmerrock). This block then needs to be provided with Mana, with Sparks being the most efficient mode of transfer."]
 	quest.79F82A7D2D7D1280.quest_desc: ["Some Manasteel tools perform special actions when right-clicked: the Pickaxe will place a torch from the user's inventory, and the Axe will do the same with a sapling.Do note that Shears made of mana-based materials will trigger tripwires, unlike iron ones."]
-	quest.7A5F94720CCC4836.quest_desc: ["You only need 10 obsidian blocks to make a portal."]
 	quest.7B181D2BE4397F27.quest_desc: ["Train Observers: detect trains and automate your railway like a pro."]
 	quest.7B181D2BE4397F27.quest_subtitle: "Train Observer x2"
 	quest.7B181D2BE4397F27.title: "Train Spotter"

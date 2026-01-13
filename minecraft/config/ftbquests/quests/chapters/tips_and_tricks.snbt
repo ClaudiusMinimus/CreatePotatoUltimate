@@ -71,6 +71,14 @@
 		}
 		{
 			id: "4BE94F32FFD14892"
+			rewards: [{
+				id: "18D03816B083638E"
+				item: {
+					count: 1
+					id: "minecraft:clock"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "05B9B9090ED69678"
 				item: { count: 1, id: "naturescompass:naturescompass" }
@@ -78,6 +86,24 @@
 			}]
 			x: -5.0d
 			y: -2.0d
+		}
+		{
+			id: "15BC28C6077BB4F8"
+			rewards: [{
+				id: "1B259B810C04E11D"
+				item: {
+					count: 1
+					id: "torchmaster:feral_flare_lantern"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FD71095887BBE6A"
+				item: { count: 1, id: "torchmaster:feral_flare_lantern" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
 		}
 	]
 }

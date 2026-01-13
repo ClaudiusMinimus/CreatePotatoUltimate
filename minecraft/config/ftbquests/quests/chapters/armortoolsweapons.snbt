@@ -810,6 +810,21 @@
 		{
 			dependencies: ["3D75E4AC73A72C1E"]
 			id: "223663E64B416D3B"
+			rewards: [{
+				id: "5A0B40B9B5CC661E"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:power": 3
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "31B32CBB60035F0F"
 				item: { count: 1, id: "powder_power:bow_lapium" }
@@ -852,6 +867,21 @@
 		{
 			dependencies: ["3D75E4AC73A72C1E"]
 			id: "2D06CE38E4E72ED4"
+			rewards: [{
+				id: "5AF829DE89DE811B"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:sweeping_edge": 2
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "77429899A6392443"
 				item: { count: 1, id: "powder_power:sword_lapium" }
@@ -863,6 +893,15 @@
 		{
 			dependencies: ["3D75E4AC73A72C1E"]
 			id: "43DC5D7F12140267"
+			rewards: [{
+				count: 4
+				id: "1459624E64F2CD5F"
+				item: {
+					count: 1
+					id: "minecraft:nautilus_shell"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "35AD4DB3FB6EFF2C"
 				item: { count: 1, id: "powder_power:excavator_lapium" }

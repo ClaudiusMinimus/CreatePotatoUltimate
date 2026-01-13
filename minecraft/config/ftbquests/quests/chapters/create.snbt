@@ -953,7 +953,7 @@
 				item: { count: 1, id: "create:packager" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: -1.0d
 		}
 		{
@@ -976,6 +976,188 @@
 			}]
 			x: 7.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["3CEF8F3E5283C280"]
+			id: "45C84781692167B9"
+			rewards: [{
+				id: "6E638DA04BC91757"
+				item: {
+					count: 1
+					id: "create:rotation_speed_controller"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "775E2148DF90E2EF"
+					item: { count: 1, id: "create:stock_ticker" }
+					type: "item"
+				}
+				{
+					id: "737445561B47D923"
+					item: { count: 1, id: "create:stock_link" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["45C84781692167B9"]
+			id: "3D01FF2AF0819B56"
+			rewards: [{
+				id: "3E4B30B83AC97D9A"
+				item: {
+					count: 1
+					id: "create:precision_mechanism"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "7D8ED29DFD1D2656"
+				item: { count: 1, id: "create:factory_gauge" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45C84781692167B9"]
+			id: "47CD93FFAE644CFE"
+			rewards: [
+				{
+					count: 8
+					id: "46A274AAE75C3C63"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "0CEAB69731CF66A7"
+					item: {
+						count: 1
+						id: "create:brass_casing"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69DAA45FEA2EDFE8"
+				item: { count: 1, id: "create:redstone_requester" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3CEF8F3E5283C280"]
+			id: "63F295AA9DAEBE2B"
+			rewards: [{
+				id: "7069E00CFE78C925"
+				item: {
+					count: 1
+					id: "create:brass_tunnel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "565F53BDD90460E2"
+				item: { count: 1, id: "create:repackager" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CEF8F3E5283C280"]
+			id: "3B9271826577C7B2"
+			rewards: [{
+				id: "046B3480EFCB5F12"
+				item: {
+					count: 1
+					id: "create:redstone_link"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AED6D1990700B10"
+				item: { count: 1, id: "create:package_frogport" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["45C84781692167B9"]
+			id: "24BDACA8361C2299"
+			rewards: [
+				{
+					id: "0A18D9DB36650B43"
+					item: {
+						count: 1
+						id: "create:andesite_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "3CAEDCBB65992FDA"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6F67A8A7326784FE"
+				item: { count: 1, id: "create:andesite_table_cloth" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["45C84781692167B9"]
+			id: "5B24A3CDCEF32003"
+			rewards: [{
+				count: 4
+				id: "6EB57747FE1BF58F"
+				item: {
+					count: 1
+					id: "minecraft:candle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A3763E79294325D"
+				item: { count: 1, id: "create:red_table_cloth" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["03CC0E98A0C9900A"]
+			id: "0D181813C4BFFA07"
+			rewards: [{
+				id: "22CDF1AD12EBB26F"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B67BC75AEDE4863"
+				item: { count: 1, id: "kubejs:amethyst_mesh" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
 		}
 	]
 }
