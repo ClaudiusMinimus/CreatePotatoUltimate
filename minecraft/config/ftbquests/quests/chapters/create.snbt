@@ -113,6 +113,7 @@
 				}
 				type: "item"
 			}]
+			shape: "square"
 			tasks: [{
 				count: 8L
 				id: "0000000000000796"
