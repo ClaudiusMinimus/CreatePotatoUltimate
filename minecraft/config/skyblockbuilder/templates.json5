@@ -16,6 +16,17 @@
   // }
   "mainSpawnIsland": null,
   
+  // A list of spreads to place around the nether portal on a team's first nether visit.
+  // Requires to_nether.[s]nbt to be configured.
+  // Uses the same format as a direct spreads definition (a JSON array of spread entries).
+  // Example: 
+  // {
+  //     "file": "nether_island.nbt",
+  //     "offset": [ 0, 8, 0 ],
+  //     "origin": "center"
+  // }
+  "netherSpreads": [],
+  
   // A list of possible spawn points.
   // You may also directly use these in the template config, or use a reference created here.
   "spawnPointReferences": {

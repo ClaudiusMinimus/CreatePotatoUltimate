@@ -54,7 +54,7 @@
   "seaHeight": 63,
   
   // Should a surface be generated in the dimensions? [default: false]
-  "surface": false,
+  "surface": true,
   
   // The block settings for generating the different dimensions surfaces.
   // Same format as flat world generation settings (blocks only)
@@ -73,5 +73,22 @@
     ],
     "minecraft:the_nether": [],
     "minecraft:the_end": []
+  },
+  
+  "DimensionPerTeam": {
+  
+    // EXPERIMENTAL - needs proper testing!
+    // Each team will get its own dimension for its island. Requires Infiniverse to be installed
+    // - https://www.curseforge.com/minecraft/mc-mods/infiniverse
+    // - https://modrinth.com/mod/infiniverse
+    "enabled": false,
+    
+    // Should each team get its own nether? If disabled, the vanilla nether is shared with everyone.
+    // Always enabled if the spawn dimension is minecraft:the_nether.
+    "nether": true,
+    
+    // Should each team get its own overworld? If disabled, the vanilla overworld is shared with everyone.
+    // Always enabled if the spawn dimension is minecraft:overworld.
+    "overworld": true
   }
 }
