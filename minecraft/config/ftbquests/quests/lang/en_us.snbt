@@ -14,6 +14,7 @@
 	chapter.5C3449C5F42C2A48.title: "World Hopping"
 	chapter_group.2BF8438FEA027642.title: "An Invitation"
 	chapter_group.6F8E634575676A8E.title: "Create"
+	image.58C907A88ED7BB4A.title: "For More Information,\\nPlease Click Checkmark Below"
 	quest.0000000000000005.quest_desc: ["There be treasures hidden underground. Dig, dig, dig!"]
 	quest.0000000000000005.title: "Start Digging!"
 	quest.000000000000000D.quest_desc: ["Yes, you're in a survival game and we all know that usually means punching trees. But come on, that doesn't feel good, right? "]
@@ -414,18 +415,14 @@
 	quest.2D9DC78C66027DF2.quest_desc: ["Used for storing mana."]
 	quest.2F34516FAB3D00F1.quest_subtitle: "Bringing out the spidey in you!"
 	quest.2FC7139EC54C63DD.quest_desc: [
-		"Can't figure out how to charge your wireless device? Tesla to the recue!"
+		"The ultimate bug zapper!"
 		""
 		"Remember, ponder is your friend."
 	]
 	quest.2FC7139EC54C63DD.quest_subtitle: "All Charged Up!"
 	quest.305D8F543C830B44.quest_desc: ["The Weight Lens places a strong downward force within a Mana Burst, making any block hit by it (as long as it has space below) fall like Sand and Gravel do."]
 	quest.30BAB098393FE53E.quest_desc: ["Hey Ma, I can see under lava! Needs full set to not be burned toast!"]
-	quest.327A1EF2D2AD9DDD.quest_desc: [
-		"You will need several of these to power your Refined Storage system. The bigger the system, the more Alternators you will need."
-		""
-		"We will start you out with one Accumulator. These stack to be a multiblock and can be very nice to have in emergencies!"
-	]
+	quest.327A1EF2D2AD9DDD.quest_desc: ["We will start you out with one Accumulator. These stack to be a multiblock and can be very nice to have in emergencies!"]
 	quest.327A1EF2D2AD9DDD.quest_subtitle: "Feel the Power!"
 	quest.329580579F9DC034.quest_desc: ["Rune of Greed is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. This is an important component in creating complex magical devices."]
 	quest.357FC93850CE6424.quest_desc: ["Rune of Summer is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
@@ -603,7 +600,7 @@
 	quest.63D24C7FD07E0BAA.quest_desc: [
 		"As one striving to be a faithful member of The Church of Jesus Christ of Latter-day Saints, I invite those seeking Jesus Christ or struggling with faith to visit my YouTube channel, Miracles From the Ashes. "
 		""
-		"To visit my channel, close this window and click on the open book image above."
+		"To visit my channel, close this window and click on the open book image above. &oIf your browser does not open, click \"Copy to Clipboard\" and then paste the link into your browser.&r"
 		""
 		"Thank you, CM"
 	]

@@ -11,12 +11,9 @@
 	}
 	id: "0A6DBF12B01FF226"
 	images: [{
-		click: "https://www.youtube.com/@miraclesfromtheashes"
+		click_action: "open_uri:https://www.youtube.com/@miraclesfromtheashes"
 		height: 3.0d
-		hover: [
-			"For More Information,"
-			"Please Click Checkmark Below"
-		]
+		id: "58C907A88ED7BB4A"
 		image: "ftblibrary:textures/quest_icons/miracles_icon.png"
 		rotation: 0.0d
 		width: 3.0d

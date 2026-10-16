@@ -4,6 +4,7 @@
 	filename: "farmer"
 	group: ""
 	id: "00000000000000AF"
+	images: [ ]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -633,14 +634,24 @@
 		{
 			dependencies: ["00000000000007BD"]
 			id: "655CF89B7D59F2B9"
-			rewards: [{
-				id: "2F68CAF09C9980D7"
-				item: {
-					count: 1
-					id: "sliceanddice:fertilizer_bucket"
+			rewards: [
+				{
+					id: "2F68CAF09C9980D7"
+					item: {
+						count: 1
+						id: "sliceanddice:fertilizer_bucket"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "152133D3498A9A2F"
+					item: {
+						count: 1
+						id: "sliceanddice:floor_sprinkler"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0C07132F6EEEA612"
 				item: { count: 1, id: "sliceanddice:sprinkler" }

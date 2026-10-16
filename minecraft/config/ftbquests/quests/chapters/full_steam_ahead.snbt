@@ -7,6 +7,7 @@
 		id: "create:steam_engine"
 	}
 	id: "2B417BFD8A1BF430"
+	images: [ ]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

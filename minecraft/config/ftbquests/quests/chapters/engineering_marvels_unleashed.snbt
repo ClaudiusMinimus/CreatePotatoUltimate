@@ -7,6 +7,7 @@
 		id: "create:mechanical_arm"
 	}
 	id: "54923BF4093F367E"
+	images: [ ]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -176,11 +177,8 @@
 			rewards: [{
 				id: "37093C354C239E8F"
 				item: {
-					components: {
-						"ftbquests:missing_item": "createaddition:redstone_relay"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "createaddition:redstone_relay"
 				}
 				type: "item"
 			}]
@@ -862,7 +860,7 @@
 				}
 				{
 					id: "0DE087869E8D5468"
-					item: { count: 1, id: "create_mechanical_spawner:spawn_fluid_pigling_bucket" }
+					item: { count: 1, id: "create_mechanical_spawner:spawn_fluid_piglin_bucket" }
 					type: "item"
 				}
 			]
@@ -970,6 +968,15 @@
 		{
 			dependencies: ["50FD84433C69064C"]
 			id: "6BBAD6E5224BC8FD"
+			rewards: [{
+				count: 10
+				id: "1B5AF5E65E1AF135"
+				item: {
+					count: 1
+					id: "create:cardboard_block"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6578B07E19159A43"
 				item: { count: 1, id: "create:white_postbox" }

@@ -10,6 +10,7 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "0000000000000623"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -432,7 +433,7 @@
 			}]
 			tasks: [{
 				id: "059407E2D71AF845"
-				item: { count: 1, id: "create:andesite_tunnel" }
+				item: { count: 1, id: "create:andesite_funnel" }
 				type: "item"
 			}]
 			x: -6.0d
