@@ -21,9 +21,30 @@
     "allow_list": true,
     "elements": [
       "minecraft:fortress",
+      "minecraft:trial_chambers",
       "betterstrongholds:stronghold",
       "betteroceanmonuments:ocean_monument",
-      "skyvillages:skyvillage"
+      "betterdungeons:skeleton_dungeon",
+      "betterdungeons:small_dungeon",
+      "betterdungeons:small_nether_dungeon",
+      "betterdungeons:spider_dungeon",
+      "betterdungeons:zombie_dungeon",
+      "bettermineshafts:mineshaft_acacia",
+      "bettermineshafts:mineshaft_desert",
+      "bettermineshafts:mineshaft_dripstone",
+      "bettermineshafts:mineshaft_ice",
+      "bettermineshafts:mineshaft_jungle",
+      "bettermineshafts:mineshaft_lush",
+      "bettermineshafts:mineshaft_mesa",
+      "bettermineshafts:mineshaft_mushroom",
+      "bettermineshafts:mineshaft_oak",
+      "bettermineshafts:mineshaft_overgrown",
+      "bettermineshafts:mineshaft_red_desert",
+      "bettermineshafts:mineshaft_spruce",
+      "skyvillages:skyvillage",
+      "bettermineshafts:mineshaft_spruce_snowy",
+      "repurposed_structures:bastion_underground",
+      "underground_villages:underground_village"
     ]
   }
 }
