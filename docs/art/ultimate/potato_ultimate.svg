@@ -2864,15 +2864,15 @@
      inkscape:pagecheckerboard="true"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="0.55226645"
-     inkscape:cx="586.67333"
-     inkscape:cy="720.66663"
+     inkscape:zoom="0.7810227"
+     inkscape:cx="688.84041"
+     inkscape:cy="766.94313"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g32782"
+     inkscape:current-layer="layer9"
      showguides="false"
      inkscape:lockguides="false"><sodipodi:guide
        position="1567.183,1222.1254"
@@ -8306,15 +8306,15 @@
            y="0"><tspan
              x="1828.4079"
              y="298.25844"
-             id="tspan19766"><tspan
+             id="tspan43723"><tspan
                style="font-weight:bold;font-family:Gretaros;-inkscape-font-specification:'Gretaros Bold';text-align:center;text-anchor:middle"
-               id="tspan19764">Stone
+               id="tspan43721">Stone
 </tspan></tspan><tspan
              x="1815.9571"
              y="375.20613"
-             id="tspan19770"><tspan
+             id="tspan43727"><tspan
                style="font-weight:bold;font-family:Gretaros;-inkscape-font-specification:'Gretaros Bold';text-align:center;text-anchor:middle"
-               id="tspan19768">World</tspan></tspan></text></g><rect
+               id="tspan43725">World</tspan></tspan></text></g><rect
          style="display:inline;fill:none;fill-opacity:1;stroke:#1f2946;stroke-width:16.4572;stroke-dasharray:none;stroke-opacity:1"
          id="rect56203"
          width="3084.1929"
@@ -10098,11 +10098,11 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:61.3333px;font-family:Gretaros;-inkscape-font-specification:'Gretaros Bold';text-align:center;white-space:pre;shape-inside:url(#rect4664);display:inline;fill:#e3ba62;stroke:#2d2d2d;stroke-width:2;stroke-linejoin:round;stroke-opacity:0.666667"><tspan
              x="1965.4741"
              y="840.74886"
-             id="tspan19772">Sky
+             id="tspan43729">Sky
 </tspan><tspan
              x="1908.7101"
              y="917.41549"
-             id="tspan19774">World</tspan></text></g><rect
+             id="tspan43731">World</tspan></text></g><rect
          style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#1f2946;stroke-width:13.7143;stroke-dasharray:none;stroke-opacity:1"
          id="rect331548"
          width="2570.1606"
@@ -11572,7 +11572,7 @@
      inkscape:groupmode="layer"
      id="layer14"
      inkscape:label="cm"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true"><image
        width="282.63724"
        height="170.02397"
@@ -11871,7 +11871,7 @@
      inkscape:groupmode="layer"
      id="g145233"
      inkscape:label="buttons shadow"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true"><rect
        style="display:inline;opacity:1;mix-blend-mode:normal;fill:#e8be67;fill-opacity:1;stroke:none;stroke-width:0.600945;stroke-dasharray:none;stroke-opacity:0.952941;filter:url(#filter127338)"
        id="rect145215"
@@ -11945,8 +11945,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="buttons"
-     style="display:none"
-     sodipodi:insensitive="true"><image
+     style="display:inline"><image
        width="263.67999"
        height="75.519997"
        preserveAspectRatio="none"
@@ -12169,7 +12168,7 @@
      inkscape:groupmode="layer"
      id="layer11"
      inkscape:label="blank buttons"
-     style="display:none"><g
+     style="display:inline"><g
        id="g170911"
        style="display:inline"
        transform="translate(0.37532864,59.414452)"><rect
@@ -12211,7 +12210,7 @@
      inkscape:groupmode="layer"
      id="layer12"
      inkscape:label="social"
-     style="display:none"><g
+     style="display:inline"><g
        id="g174937"
        transform="translate(-6.4139824)"
        style="display:inline"><image
@@ -12251,10 +12250,10 @@
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"><tspan
          x="521.19141"
-         y="1294.5469"
-         id="tspan19778"><tspan
+         y="1297.4123"
+         id="tspan43735"><tspan
            style="font-family:'Facile Sans';-inkscape-font-specification:'Facile Sans, Normal'"
-           id="tspan19776">WIKI</tspan></tspan></text></g><g
+           id="tspan43733">WIKI</tspan></tspan></text></g><g
      inkscape:groupmode="layer"
      id="layer13"
      inkscape:label="social hover"
@@ -12299,10 +12298,10 @@
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"><tspan
          x="521.19141"
-         y="1294.5469"
-         id="tspan19782"><tspan
+         y="1297.4123"
+         id="tspan43739"><tspan
            style="font-family:'Facile Sans';-inkscape-font-specification:'Facile Sans, Normal'"
-           id="tspan19780">WIKI</tspan></tspan></text></g><g
+           id="tspan43737">WIKI</tspan></tspan></text></g><g
      id="g118394"
      style="display:none"
      inkscape:label="g118394"><g
