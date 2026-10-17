@@ -35,7 +35,7 @@
 	# Range: 0 ~ 100
 	suppressedVolume = 20
 	#Enable HUD.
-	hudEnabled = false
+	hudEnabled = true
 	#Reference position of HUD.
 	# Default: 3
 	# Range: 1 ~ 8
@@ -51,7 +51,7 @@
 	#HUD information (1:FPS/CPU(long), 2:FPS/CPU(short), 3:FPS/CPU(2lines), 4:FPS only, 5:CPU only, 6:Simple)
 	# Default: 4
 	# Range: 0 ~ 6
-	hudInfo = 1
+	hudInfo = 6
 	#Profile (0:custom, 1:modest-eco, 2:eco, 3:cooling-low, 4:cooling-high)
 	# Default: 1
 	# Range: 0 ~ 4
